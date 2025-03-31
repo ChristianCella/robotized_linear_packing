@@ -1,0 +1,1 @@
+This folder contains the scripts to obtain the mean and standard deviations for time and manipulability
