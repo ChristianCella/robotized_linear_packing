@@ -1,0 +1,1001 @@
+Upper and lower bounds for the problem
+Iteration: 0; Base position: -256.1068607530601 mm; Feasibility: YES!; Manipulability: 0.19396 
+Iteration 1; Base position: 1285.3469735153412 mm; Feasibility: NO! 
+Iteration 2; Base position: 763.5700877788931 mm; Feasibility: NO! 
+Iteration 3; Base position: 774.9021210700853 mm; Feasibility: NO! 
+Iteration: 4; Base position: 57.73195185853797 mm; Feasibility: YES!; Manipulability: 0.204 
+Iteration 5; Base position: 682.0204613634296 mm; Feasibility: NO! 
+Iteration: 6; Base position: -197.1606880086781 mm; Feasibility: YES!; Manipulability: 0.20003 
+Iteration: 7; Base position: 83.86744089016292 mm; Feasibility: YES!; Manipulability: 0.20275 
+Iteration: 8; Base position: 267.1043998320097 mm; Feasibility: YES!; Manipulability: 0.18105 
+Iteration: 9; Base position: -10.698789624621668 mm; Feasibility: YES!; Manipulability: 0.20576 
+Iteration: 10; Base position: -140.40297781024015 mm; Feasibility: YES!; Manipulability: 0.20359 
+Iteration 11; Base position: 922.7128682720281 mm; Feasibility: NO! 
+Iteration 12; Base position: 969.8510193969278 mm; Feasibility: NO! 
+Iteration 13; Base position: 1244.4389366384466 mm; Feasibility: NO! 
+Iteration 14; Base position: 1403.834256872024 mm; Feasibility: NO! 
+Iteration: 15; Base position: -79.25126409267887 mm; Feasibility: YES!; Manipulability: 0.20553 
+Iteration 16; Base position: 669.688743800084 mm; Feasibility: NO! 
+Iteration 17; Base position: 1293.5266170023974 mm; Feasibility: NO! 
+Iteration 18; Base position: 803.6024137676245 mm; Feasibility: NO! 
+Iteration 19; Base position: 1437.2718339108956 mm; Feasibility: NO! 
+Iteration 20; Base position: 1247.495852581143 mm; Feasibility: NO! 
+Iteration 21; Base position: 544.1528813725579 mm; Feasibility: NO! 
+Iteration: 22; Base position: -189.2926849145465 mm; Feasibility: YES!; Manipulability: 0.20066 
+Iteration: 23; Base position: 37.05613955445915 mm; Feasibility: YES!; Manipulability: 0.20474 
+Iteration: 24; Base position: -9.452160444512174 mm; Feasibility: YES!; Manipulability: 0.20575 
+Iteration: 25; Base position: -392.4423450412876 mm; Feasibility: YES!; Manipulability: 0.16482 
+Iteration 26; Base position: 994.4751016946261 mm; Feasibility: NO! 
+Iteration 27; Base position: 1067.591457878431 mm; Feasibility: NO! 
+Iteration: 28; Base position: -317.93993262614936 mm; Feasibility: YES!; Manipulability: 0.18514 
+Iteration 29; Base position: 692.4433638281344 mm; Feasibility: NO! 
+Iteration 30; Base position: 464.95718814138786 mm; Feasibility: NO! 
+Iteration: 31; Base position: -406.348169607797 mm; Feasibility: YES!; Manipulability: 0.1584 
+Iteration 32; Base position: 1192.9465001720669 mm; Feasibility: NO! 
+Iteration 33; Base position: -1416.4802941648795 mm; Feasibility: NO! 
+Iteration: 34; Base position: -427.5838454129778 mm; Feasibility: YES!; Manipulability: 0.14545 
+Iteration: 35; Base position: 378.7095927885207 mm; Feasibility: YES!; Manipulability: 0.11038 
+Iteration 36; Base position: -621.925896906427 mm; Feasibility: NO! 
+Iteration 37; Base position: -1351.4874448471596 mm; Feasibility: NO! 
+Iteration 38; Base position: 922.8511568678782 mm; Feasibility: NO! 
+Iteration: 39; Base position: 260.9868549588041 mm; Feasibility: YES!; Manipulability: 0.18264 
+Iteration 40; Base position: 845.4955768728973 mm; Feasibility: NO! 
+Iteration: 41; Base position: 168.09641411714256 mm; Feasibility: YES!; Manipulability: 0.19692 
+Iteration 42; Base position: -1394.134494171745 mm; Feasibility: NO! 
+Iteration 43; Base position: -1139.3583687744162 mm; Feasibility: NO! 
+Iteration: 44; Base position: -234.61768166617708 mm; Feasibility: YES!; Manipulability: 0.19655 
+Iteration 45; Base position: 1390.3961921409555 mm; Feasibility: NO! 
+Iteration: 46; Base position: 260.42983991227834 mm; Feasibility: YES!; Manipulability: 0.18264 
+Iteration: 47; Base position: -379.54024501360686 mm; Feasibility: YES!; Manipulability: 0.16972 
+Iteration: 48; Base position: 354.7501326772717 mm; Feasibility: YES!; Manipulability: 0.12654 
+Iteration 49; Base position: 405.71659070235523 mm; Feasibility: NO! 
+Iteration 50; Base position: 836.1667368165813 mm; Feasibility: NO! 
+Iteration: 51; Base position: -51.96582434993911 mm; Feasibility: YES!; Manipulability: 0.20587 
+Iteration: 52; Base position: -26.846889661368095 mm; Feasibility: YES!; Manipulability: 0.20588 
+Iteration 53; Base position: -703.4312571200024 mm; Feasibility: NO! 
+Iteration: 54; Base position: 285.9957400382075 mm; Feasibility: YES!; Manipulability: 0.17793 
+Iteration: 55; Base position: -373.47201237601917 mm; Feasibility: YES!; Manipulability: 0.17171 
+Iteration: 56; Base position: -23.430567770666812 mm; Feasibility: YES!; Manipulability: 0.20587 
+Iteration 57; Base position: 1182.7290212017774 mm; Feasibility: NO! 
+Iteration 58; Base position: -683.1709332347876 mm; Feasibility: NO! 
+Iteration: 59; Base position: 90.91900312361872 mm; Feasibility: YES!; Manipulability: 0.20235 
+Iteration: 60; Base position: -423.0192511502023 mm; Feasibility: YES!; Manipulability: 0.14743 
+Iteration 61; Base position: 793.9775034939653 mm; Feasibility: NO! 
+Iteration 62; Base position: -477.5880115773814 mm; Feasibility: NO! 
+Iteration 63; Base position: -539.8913797090507 mm; Feasibility: NO! 
+Iteration 64; Base position: -1335.7286179989328 mm; Feasibility: NO! 
+Iteration: 65; Base position: -407.48423450247105 mm; Feasibility: YES!; Manipulability: 0.15787 
+Iteration: 66; Base position: 276.39555835893066 mm; Feasibility: YES!; Manipulability: 0.17893 
+Iteration: 67; Base position: -25.317202648851207 mm; Feasibility: YES!; Manipulability: 0.20588 
+Iteration: 68; Base position: 174.2975920455956 mm; Feasibility: YES!; Manipulability: 0.19626 
+Iteration 69; Base position: -579.661765032848 mm; Feasibility: NO! 
+Iteration: 70; Base position: 128.52435129079595 mm; Feasibility: YES!; Manipulability: 0.19972 
+Iteration 71; Base position: 852.7318993628769 mm; Feasibility: NO! 
+Iteration 72; Base position: -765.3314958199957 mm; Feasibility: NO! 
+Iteration: 73; Base position: 127.39054651224274 mm; Feasibility: YES!; Manipulability: 0.1998 
+Iteration: 74; Base position: 61.60646771952588 mm; Feasibility: YES!; Manipulability: 0.20383 
+Iteration 75; Base position: 1103.514182744992 mm; Feasibility: NO! 
+Iteration 76; Base position: 395.9915055442809 mm; Feasibility: NO! 
+Iteration: 77; Base position: -43.24954189638379 mm; Feasibility: YES!; Manipulability: 0.2059 
+Iteration 78; Base position: -1308.977218604019 mm; Feasibility: NO! 
+Iteration: 79; Base position: -147.2488411367458 mm; Feasibility: YES!; Manipulability: 0.20326 
+Iteration 80; Base position: -1365.5578800686337 mm; Feasibility: NO! 
+Iteration 81; Base position: -1148.2661098683927 mm; Feasibility: NO! 
+Iteration 82; Base position: -1425.4057844133686 mm; Feasibility: NO! 
+Iteration 83; Base position: -921.0847070435506 mm; Feasibility: NO! 
+Iteration 84; Base position: 822.3366196122506 mm; Feasibility: NO! 
+Iteration 85; Base position: 1122.4475645066095 mm; Feasibility: NO! 
+Iteration: 86; Base position: -440.2497434914801 mm; Feasibility: YES!; Manipulability: 0.15643 
+Iteration 87; Base position: 1238.5386593661433 mm; Feasibility: NO! 
+Iteration: 88; Base position: 357.3784094001985 mm; Feasibility: YES!; Manipulability: 0.12495 
+Iteration 89; Base position: -816.9984275037527 mm; Feasibility: NO! 
+Iteration 90; Base position: -1396.23051915329 mm; Feasibility: NO! 
+Iteration 91; Base position: 1129.6670354335165 mm; Feasibility: NO! 
+Iteration: 92; Base position: -99.3519245324951 mm; Feasibility: YES!; Manipulability: 0.20508 
+Iteration 93; Base position: -1211.6442346311057 mm; Feasibility: NO! 
+Iteration: 94; Base position: 104.30020198336456 mm; Feasibility: YES!; Manipulability: 0.20148 
+Iteration 95; Base position: 449.33874755093666 mm; Feasibility: NO! 
+Iteration 96; Base position: 457.39963778212314 mm; Feasibility: NO! 
+Iteration 97; Base position: 1349.595051175278 mm; Feasibility: NO! 
+Iteration 98; Base position: -637.7867942680072 mm; Feasibility: NO! 
+Iteration 99; Base position: -1121.15678226782 mm; Feasibility: NO! 
+Iteration 100; Base position: -673.866018548049 mm; Feasibility: NO! 
+Iteration 101; Base position: -638.6674711757107 mm; Feasibility: NO! 
+Iteration 102; Base position: 848.4168850500118 mm; Feasibility: NO! 
+Iteration: 103; Base position: 296.9528655090776 mm; Feasibility: YES!; Manipulability: 0.17518 
+Iteration 104; Base position: -1425.1372805914043 mm; Feasibility: NO! 
+Iteration 105; Base position: 610.936033882334 mm; Feasibility: NO! 
+Iteration 106; Base position: 822.6944767583518 mm; Feasibility: NO! 
+Iteration: 107; Base position: 60.93633918609726 mm; Feasibility: YES!; Manipulability: 0.20387 
+Iteration 108; Base position: 974.5122905754051 mm; Feasibility: NO! 
+Iteration: 109; Base position: 201.58321331488742 mm; Feasibility: YES!; Manipulability: 0.19292 
+Iteration 110; Base position: 671.2574317920462 mm; Feasibility: NO! 
+Iteration 111; Base position: -1224.155840807673 mm; Feasibility: NO! 
+Iteration 112; Base position: -1082.9311109877672 mm; Feasibility: NO! 
+Iteration 113; Base position: 696.0411788417896 mm; Feasibility: NO! 
+Iteration 114; Base position: 797.1062032226891 mm; Feasibility: NO! 
+Iteration: 115; Base position: -435.0120516968502 mm; Feasibility: YES!; Manipulability: 0.13616 
+Iteration 116; Base position: 954.6193031988478 mm; Feasibility: NO! 
+Iteration: 117; Base position: -56.40718109722275 mm; Feasibility: YES!; Manipulability: 0.20583 
+Iteration 118; Base position: -1288.1517054128883 mm; Feasibility: NO! 
+Iteration 119; Base position: -919.7333713963566 mm; Feasibility: NO! 
+Iteration: 120; Base position: -378.9151677494426 mm; Feasibility: YES!; Manipulability: 0.17006 
+Iteration: 121; Base position: 143.85107428670335 mm; Feasibility: YES!; Manipulability: 0.19937 
+Iteration 122; Base position: 1167.3044105698268 mm; Feasibility: NO! 
+Iteration: 123; Base position: -313.1530753442996 mm; Feasibility: YES!; Manipulability: 0.18593 
+Iteration: 124; Base position: 243.69634783918332 mm; Feasibility: YES!; Manipulability: 0.18615 
+Iteration 125; Base position: -627.8521639986297 mm; Feasibility: NO! 
+Iteration 126; Base position: 673.7477391851444 mm; Feasibility: NO! 
+Iteration 127; Base position: -1181.5091246901309 mm; Feasibility: NO! 
+Iteration 128; Base position: -1437.7433052106023 mm; Feasibility: NO! 
+Iteration: 129; Base position: -38.50340545640552 mm; Feasibility: YES!; Manipulability: 0.20591 
+Iteration 130; Base position: 625.9887274189136 mm; Feasibility: NO! 
+Iteration 131; Base position: 610.977838915875 mm; Feasibility: NO! 
+Iteration: 132; Base position: 310.2528867479625 mm; Feasibility: YES!; Manipulability: 0.17125 
+Iteration: 133; Base position: 4.142546519898815 mm; Feasibility: YES!; Manipulability: 0.20556 
+Iteration 134; Base position: 761.608711045857 mm; Feasibility: NO! 
+Iteration 135; Base position: -464.757686844928 mm; Feasibility: NO! 
+Iteration 136; Base position: -997.5371089524131 mm; Feasibility: NO! 
+Iteration 137; Base position: 869.7322278301658 mm; Feasibility: NO! 
+Iteration: 138; Base position: 11.227325065996638 mm; Feasibility: YES!; Manipulability: 0.20542 
+Iteration 139; Base position: 1313.0999913784535 mm; Feasibility: NO! 
+Iteration 140; Base position: 708.0711491419834 mm; Feasibility: NO! 
+Iteration 141; Base position: 456.4814076345342 mm; Feasibility: NO! 
+Iteration 142; Base position: 1452.903380971838 mm; Feasibility: NO! 
+Iteration 143; Base position: -1139.922887176201 mm; Feasibility: NO! 
+Iteration 144; Base position: 1311.803387790712 mm; Feasibility: NO! 
+Iteration 145; Base position: 1407.0439153503899 mm; Feasibility: NO! 
+Iteration: 146; Base position: 222.22759744242217 mm; Feasibility: YES!; Manipulability: 0.18983 
+Iteration 147; Base position: 698.914486317919 mm; Feasibility: NO! 
+Iteration 148; Base position: 707.6889596259302 mm; Feasibility: NO! 
+Iteration 149; Base position: 984.2774534529362 mm; Feasibility: NO! 
+Iteration 150; Base position: 986.3355622382146 mm; Feasibility: NO! 
+Iteration 151; Base position: -933.299708964296 mm; Feasibility: NO! 
+Iteration 152; Base position: -1083.0954034551498 mm; Feasibility: NO! 
+Iteration 153; Base position: 887.5715644245875 mm; Feasibility: NO! 
+Iteration 154; Base position: 391.45168245244827 mm; Feasibility: NO! 
+Iteration: 155; Base position: -220.83230831002243 mm; Feasibility: YES!; Manipulability: 0.19798 
+Iteration 156; Base position: 589.6462719195911 mm; Feasibility: NO! 
+Iteration 157; Base position: -869.3358228048746 mm; Feasibility: NO! 
+Iteration 158; Base position: -1478.4568042250091 mm; Feasibility: NO! 
+Iteration 159; Base position: -1221.0013971423778 mm; Feasibility: NO! 
+Iteration: 160; Base position: 53.43643188915121 mm; Feasibility: YES!; Manipulability: 0.20416 
+Iteration 161; Base position: 513.1887975752659 mm; Feasibility: NO! 
+Iteration 162; Base position: -468.4020810065108 mm; Feasibility: NO! 
+Iteration 163; Base position: 1387.1767721232504 mm; Feasibility: NO! 
+Iteration 164; Base position: -1330.7186072026143 mm; Feasibility: NO! 
+Iteration 165; Base position: -1019.8408126120748 mm; Feasibility: NO! 
+Iteration 166; Base position: -1308.9777827324417 mm; Feasibility: NO! 
+Iteration 167; Base position: -1374.1582795988556 mm; Feasibility: NO! 
+Iteration: 168; Base position: 134.07267386460444 mm; Feasibility: YES!; Manipulability: 0.19923 
+Iteration 169; Base position: -743.6980209528836 mm; Feasibility: NO! 
+Iteration 170; Base position: -1227.0639469346015 mm; Feasibility: NO! 
+Iteration 171; Base position: 1145.5073712608214 mm; Feasibility: NO! 
+Iteration: 172; Base position: 327.8922607451166 mm; Feasibility: YES!; Manipulability: 0.16555 
+Iteration: 173; Base position: -415.4568976780272 mm; Feasibility: YES!; Manipulability: 0.15321 
+Iteration 174; Base position: 400.91556764795587 mm; Feasibility: NO! 
+Iteration 175; Base position: -1435.8877562691912 mm; Feasibility: NO! 
+Iteration 176; Base position: -801.1769892708132 mm; Feasibility: NO! 
+Iteration: 177; Base position: 161.20597485579378 mm; Feasibility: YES!; Manipulability: 0.19765 
+Iteration 178; Base position: -1214.8225583662324 mm; Feasibility: NO! 
+Iteration 179; Base position: 431.6810980771445 mm; Feasibility: NO! 
+Iteration 180; Base position: -632.7058323501708 mm; Feasibility: NO! 
+Iteration 181; Base position: -955.9645733224954 mm; Feasibility: NO! 
+Iteration 182; Base position: 885.7890758972044 mm; Feasibility: NO! 
+Iteration 183; Base position: 1150.8578751358896 mm; Feasibility: NO! 
+Iteration: 184; Base position: 243.3219039966143 mm; Feasibility: YES!; Manipulability: 0.18615 
+Iteration: 185; Base position: 185.05112151777848 mm; Feasibility: YES!; Manipulability: 0.19498 
+Iteration 186; Base position: 1434.7010072728422 mm; Feasibility: NO! 
+Iteration 187; Base position: -823.3412386808938 mm; Feasibility: NO! 
+Iteration 188; Base position: 712.6235182431765 mm; Feasibility: NO! 
+Iteration 189; Base position: 1308.9198090885943 mm; Feasibility: NO! 
+Iteration 190; Base position: 1470.4865003340196 mm; Feasibility: NO! 
+Iteration 191; Base position: 703.1086488658461 mm; Feasibility: NO! 
+Iteration 192; Base position: -788.4498252046899 mm; Feasibility: NO! 
+Iteration 193; Base position: 1008.8249182208224 mm; Feasibility: NO! 
+Iteration 194; Base position: 1072.7979710565996 mm; Feasibility: NO! 
+Iteration 195; Base position: 863.1647942048189 mm; Feasibility: NO! 
+Iteration: 196; Base position: -422.1496647746451 mm; Feasibility: YES!; Manipulability: 0.14823 
+Iteration 197; Base position: 1019.576094145028 mm; Feasibility: NO! 
+Iteration: 198; Base position: 283.10051406347 mm; Feasibility: YES!; Manipulability: 0.17842 
+Iteration 199; Base position: -1009.6304181055195 mm; Feasibility: NO! 
+Iteration 200; Base position: 1380.9692051866232 mm; Feasibility: NO! 
+Iteration 201; Base position: 442.71490824749094 mm; Feasibility: NO! 
+Iteration: 202; Base position: 160.48727731883037 mm; Feasibility: YES!; Manipulability: 0.19776 
+Iteration 203; Base position: 568.8396772660922 mm; Feasibility: NO! 
+Iteration 204; Base position: -1457.9741578385583 mm; Feasibility: NO! 
+Iteration 205; Base position: -501.9706852745835 mm; Feasibility: NO! 
+Iteration 206; Base position: 613.0313036262387 mm; Feasibility: NO! 
+Iteration 207; Base position: -875.5670663015318 mm; Feasibility: NO! 
+Iteration: 208; Base position: -78.24437834534433 mm; Feasibility: YES!; Manipulability: 0.20555 
+Iteration 209; Base position: 528.5398313875551 mm; Feasibility: NO! 
+Iteration 210; Base position: -527.2553959806671 mm; Feasibility: NO! 
+Iteration 211; Base position: -1050.01550540161 mm; Feasibility: NO! 
+Iteration 212; Base position: 1305.0081549813476 mm; Feasibility: NO! 
+Iteration 213; Base position: 1458.9606447542415 mm; Feasibility: NO! 
+Iteration 214; Base position: 1235.813189863396 mm; Feasibility: NO! 
+Iteration 215; Base position: 1469.5154652298743 mm; Feasibility: NO! 
+Iteration 216; Base position: 1151.4806460485725 mm; Feasibility: NO! 
+Iteration: 217; Base position: 330.3909543876018 mm; Feasibility: YES!; Manipulability: 0.16442 
+Iteration: 218; Base position: -81.03877137500785 mm; Feasibility: YES!; Manipulability: 0.2055 
+Iteration 219; Base position: 819.6556457854758 mm; Feasibility: NO! 
+Iteration 220; Base position: -1497.5542837623495 mm; Feasibility: NO! 
+Iteration 221; Base position: -490.42054569464926 mm; Feasibility: NO! 
+Iteration 222; Base position: -995.6698685903642 mm; Feasibility: NO! 
+Iteration 223; Base position: 1247.4856866780283 mm; Feasibility: NO! 
+Iteration 224; Base position: -1079.084256286441 mm; Feasibility: NO! 
+Iteration 225; Base position: 464.3369608859057 mm; Feasibility: NO! 
+Iteration 226; Base position: 791.7894813283106 mm; Feasibility: NO! 
+Iteration 227; Base position: 620.1340816275779 mm; Feasibility: NO! 
+Iteration 228; Base position: 1211.3125700697187 mm; Feasibility: NO! 
+Iteration 229; Base position: 1150.5433794325918 mm; Feasibility: NO! 
+Iteration 230; Base position: -1195.196171301174 mm; Feasibility: NO! 
+Iteration: 231; Base position: -319.761820117395 mm; Feasibility: YES!; Manipulability: 0.18473 
+Iteration 232; Base position: 1296.0050446512773 mm; Feasibility: NO! 
+Iteration 233; Base position: -850.117822702278 mm; Feasibility: NO! 
+Iteration 234; Base position: 580.2688160222815 mm; Feasibility: NO! 
+Iteration 235; Base position: -694.272978724015 mm; Feasibility: NO! 
+Iteration 236; Base position: -1044.7831610788387 mm; Feasibility: NO! 
+Iteration 237; Base position: -817.5875494451101 mm; Feasibility: NO! 
+Iteration 238; Base position: -1170.8597170988298 mm; Feasibility: NO! 
+Iteration 239; Base position: -838.5215102281619 mm; Feasibility: NO! 
+Iteration 240; Base position: 1061.3742438052855 mm; Feasibility: NO! 
+Iteration 241; Base position: 1233.2586131486455 mm; Feasibility: NO! 
+Iteration 242; Base position: 1426.446837995824 mm; Feasibility: NO! 
+Iteration 243; Base position: 888.3470776773024 mm; Feasibility: NO! 
+Iteration 244; Base position: 440.30396647273074 mm; Feasibility: NO! 
+Iteration 245; Base position: 1296.467488575311 mm; Feasibility: NO! 
+Iteration 246; Base position: -445.9062811141057 mm; Feasibility: NO! 
+Iteration 247; Base position: -629.4972663396476 mm; Feasibility: NO! 
+Iteration: 248; Base position: 49.4196860456716 mm; Feasibility: YES!; Manipulability: 0.20432 
+Iteration 249; Base position: 1218.3193420500284 mm; Feasibility: NO! 
+Iteration: 250; Base position: -335.56269181948846 mm; Feasibility: YES!; Manipulability: 0.1812 
+Iteration 251; Base position: -607.1310124494712 mm; Feasibility: NO! 
+Iteration 252; Base position: -991.0556953649004 mm; Feasibility: NO! 
+Iteration 253; Base position: -485.1404506264197 mm; Feasibility: NO! 
+Iteration: 254; Base position: -275.96056905847263 mm; Feasibility: YES!; Manipulability: 0.19236 
+Iteration 255; Base position: 1028.061060305166 mm; Feasibility: NO! 
+Iteration 256; Base position: 731.0716760723576 mm; Feasibility: NO! 
+Iteration 257; Base position: -854.9469724858957 mm; Feasibility: NO! 
+Iteration: 258; Base position: -39.964427829106626 mm; Feasibility: YES!; Manipulability: 0.20591 
+Iteration 259; Base position: 1349.9391049201854 mm; Feasibility: NO! 
+Iteration: 260; Base position: 70.58835793550747 mm; Feasibility: YES!; Manipulability: 0.20342 
+Iteration 261; Base position: 739.6787239048003 mm; Feasibility: NO! 
+Iteration: 262; Base position: -138.67650345401057 mm; Feasibility: YES!; Manipulability: 0.20368 
+Iteration 263; Base position: -1028.015554702948 mm; Feasibility: NO! 
+Iteration 264; Base position: -468.59569569240557 mm; Feasibility: NO! 
+Iteration 265; Base position: 894.1186165972667 mm; Feasibility: NO! 
+Iteration: 266; Base position: -39.77966582840736 mm; Feasibility: YES!; Manipulability: 0.20591 
+Iteration 267; Base position: 858.1935706176687 mm; Feasibility: NO! 
+Iteration 268; Base position: 404.62557476590246 mm; Feasibility: NO! 
+Iteration: 269; Base position: -155.4180902405135 mm; Feasibility: YES!; Manipulability: 0.20284 
+Iteration 270; Base position: 1275.4507757923343 mm; Feasibility: NO! 
+Iteration 271; Base position: 1183.540858685442 mm; Feasibility: NO! 
+Iteration 272; Base position: 1146.8486736458067 mm; Feasibility: NO! 
+Iteration 273; Base position: 548.4718044830784 mm; Feasibility: NO! 
+Iteration 274; Base position: 1497.7973345072296 mm; Feasibility: NO! 
+Iteration 275; Base position: -1265.3488871354637 mm; Feasibility: NO! 
+Iteration: 276; Base position: -352.46885811943025 mm; Feasibility: YES!; Manipulability: 0.17684 
+Iteration 277; Base position: -744.6147528043384 mm; Feasibility: NO! 
+Iteration 278; Base position: -1049.588520418784 mm; Feasibility: NO! 
+Iteration 279; Base position: 672.8259185147735 mm; Feasibility: NO! 
+Iteration: 280; Base position: 145.09976284379263 mm; Feasibility: YES!; Manipulability: 0.19919 
+Iteration 281; Base position: -1009.5369499255327 mm; Feasibility: NO! 
+Iteration 282; Base position: -1418.2803870779044 mm; Feasibility: NO! 
+Iteration 283; Base position: -1364.9288855974671 mm; Feasibility: NO! 
+Iteration: 284; Base position: -402.4235317272394 mm; Feasibility: YES!; Manipulability: 0.16039 
+Iteration 285; Base position: 1126.5503262667753 mm; Feasibility: NO! 
+Iteration 286; Base position: -465.4441292032409 mm; Feasibility: NO! 
+Iteration 287; Base position: -644.6745217824413 mm; Feasibility: NO! 
+Iteration: 288; Base position: 313.08824746286973 mm; Feasibility: YES!; Manipulability: 0.17033 
+Iteration 289; Base position: -901.4486592300333 mm; Feasibility: NO! 
+Iteration 290; Base position: -944.3528950491507 mm; Feasibility: NO! 
+Iteration: 291; Base position: -39.29961241914384 mm; Feasibility: YES!; Manipulability: 0.20591 
+Iteration: 292; Base position: -270.06573015143636 mm; Feasibility: YES!; Manipulability: 0.19207 
+Iteration 293; Base position: -1192.5640251181048 mm; Feasibility: NO! 
+Iteration 294; Base position: 799.5226231880902 mm; Feasibility: NO! 
+Iteration: 295; Base position: 358.9195795405151 mm; Feasibility: YES!; Manipulability: 0.1244 
+Iteration 296; Base position: 1420.5984171846617 mm; Feasibility: NO! 
+Iteration 297; Base position: -918.3847597812274 mm; Feasibility: NO! 
+Iteration 298; Base position: -1495.162173334764 mm; Feasibility: NO! 
+Iteration 299; Base position: 700.3706489148421 mm; Feasibility: NO! 
+Iteration 300; Base position: 1361.889847570275 mm; Feasibility: NO! 
+Iteration 301; Base position: 965.7148429484814 mm; Feasibility: NO! 
+Iteration 302; Base position: 861.6527458320315 mm; Feasibility: NO! 
+Iteration: 303; Base position: 65.55561147836397 mm; Feasibility: YES!; Manipulability: 0.20365 
+Iteration 304; Base position: 1465.8880564884753 mm; Feasibility: NO! 
+Iteration 305; Base position: 1391.7592584246736 mm; Feasibility: NO! 
+Iteration 306; Base position: 1224.5105913238535 mm; Feasibility: NO! 
+Iteration: 307; Base position: 265.6349870296376 mm; Feasibility: YES!; Manipulability: 0.18151 
+Iteration 308; Base position: -1457.6812435872453 mm; Feasibility: NO! 
+Iteration 309; Base position: 1465.8885669901879 mm; Feasibility: NO! 
+Iteration 310; Base position: -460.9139696022635 mm; Feasibility: NO! 
+Iteration 311; Base position: 1135.9166967051433 mm; Feasibility: NO! 
+Iteration 312; Base position: -731.8221614027283 mm; Feasibility: NO! 
+Iteration 313; Base position: 1155.9545158465498 mm; Feasibility: NO! 
+Iteration: 314; Base position: -342.73547569262337 mm; Feasibility: YES!; Manipulability: 0.17949 
+Iteration 315; Base position: -1448.9263550027224 mm; Feasibility: NO! 
+Iteration: 316; Base position: -27.023972196321665 mm; Feasibility: YES!; Manipulability: 0.20589 
+Iteration: 317; Base position: -113.23152388071458 mm; Feasibility: YES!; Manipulability: 0.20466 
+Iteration: 318; Base position: 20.155678286746024 mm; Feasibility: YES!; Manipulability: 0.20522 
+Iteration 319; Base position: 1278.9517446505815 mm; Feasibility: NO! 
+Iteration: 320; Base position: -90.27630146885826 mm; Feasibility: YES!; Manipulability: 0.20531 
+Iteration: 321; Base position: 259.50252107321967 mm; Feasibility: YES!; Manipulability: 0.18286 
+Iteration 322; Base position: -1050.085497545452 mm; Feasibility: NO! 
+Iteration 323; Base position: 1371.8763123241874 mm; Feasibility: NO! 
+Iteration 324; Base position: 937.6328449554203 mm; Feasibility: NO! 
+Iteration 325; Base position: -1344.341430764543 mm; Feasibility: NO! 
+Iteration 326; Base position: 1409.314180106689 mm; Feasibility: NO! 
+Iteration 327; Base position: 1433.1720100509274 mm; Feasibility: NO! 
+Iteration 328; Base position: -1410.6505944375024 mm; Feasibility: NO! 
+Iteration 329; Base position: 1205.3482139553457 mm; Feasibility: NO! 
+Iteration 330; Base position: -907.5956631556443 mm; Feasibility: NO! 
+Iteration 331; Base position: 931.5127076404087 mm; Feasibility: NO! 
+Iteration 332; Base position: 485.1618478656478 mm; Feasibility: NO! 
+Iteration: 333; Base position: -242.34011915412816 mm; Feasibility: YES!; Manipulability: 0.19565 
+Iteration 334; Base position: -1198.206679262126 mm; Feasibility: NO! 
+Iteration 335; Base position: 656.723368280811 mm; Feasibility: NO! 
+Iteration 336; Base position: -731.9817802330838 mm; Feasibility: NO! 
+Iteration 337; Base position: -1495.1066669430782 mm; Feasibility: NO! 
+Iteration 338; Base position: 800.8682218353292 mm; Feasibility: NO! 
+Iteration 339; Base position: 1413.0062057860523 mm; Feasibility: NO! 
+Iteration 340; Base position: 1036.5954292094139 mm; Feasibility: NO! 
+Iteration 341; Base position: 1381.21442454129 mm; Feasibility: NO! 
+Iteration 342; Base position: -842.5798742160464 mm; Feasibility: NO! 
+Iteration: 343; Base position: 222.11357799377242 mm; Feasibility: YES!; Manipulability: 0.18983 
+Iteration 344; Base position: 808.0142562012406 mm; Feasibility: NO! 
+Iteration 345; Base position: 546.0231105545186 mm; Feasibility: NO! 
+Iteration 346; Base position: -1478.8606662628422 mm; Feasibility: NO! 
+Iteration: 347; Base position: -231.5886774050266 mm; Feasibility: YES!; Manipulability: 0.19687 
+Iteration 348; Base position: 1249.3699805589927 mm; Feasibility: NO! 
+Iteration 349; Base position: 1323.564326573562 mm; Feasibility: NO! 
+Iteration 350; Base position: -593.7514118501464 mm; Feasibility: NO! 
+Iteration 351; Base position: 1093.860329814438 mm; Feasibility: NO! 
+Iteration: 352; Base position: -214.06046257649427 mm; Feasibility: YES!; Manipulability: 0.19855 
+Iteration 353; Base position: -858.6286264720312 mm; Feasibility: NO! 
+Iteration: 354; Base position: 134.39873028133434 mm; Feasibility: YES!; Manipulability: 0.19923 
+Iteration 355; Base position: 1090.790690807486 mm; Feasibility: NO! 
+Iteration 356; Base position: 392.5483491709863 mm; Feasibility: NO! 
+Iteration 357; Base position: 1335.2157844296344 mm; Feasibility: NO! 
+Iteration: 358; Base position: -59.050931175128426 mm; Feasibility: YES!; Manipulability: 0.20581 
+Iteration 359; Base position: -1277.9428748022906 mm; Feasibility: NO! 
+Iteration: 360; Base position: -195.81194330270455 mm; Feasibility: YES!; Manipulability: 0.20019 
+Iteration 361; Base position: 1421.152570801346 mm; Feasibility: NO! 
+Iteration 362; Base position: 929.3975252885102 mm; Feasibility: NO! 
+Iteration 363; Base position: -1090.8721282773336 mm; Feasibility: NO! 
+Iteration 364; Base position: 1440.0665789020368 mm; Feasibility: NO! 
+Iteration 365; Base position: -1047.3384028677417 mm; Feasibility: NO! 
+Iteration 366; Base position: 727.3983461384032 mm; Feasibility: NO! 
+Iteration 367; Base position: -1276.666990759456 mm; Feasibility: NO! 
+Iteration: 368; Base position: -316.4684910353376 mm; Feasibility: YES!; Manipulability: 0.18534 
+Iteration: 369; Base position: 272.15874328326663 mm; Feasibility: YES!; Manipulability: 0.17987 
+Iteration: 370; Base position: -49.03367857412172 mm; Feasibility: YES!; Manipulability: 0.20588 
+Iteration: 371; Base position: -300.13518189332694 mm; Feasibility: YES!; Manipulability: 0.18835 
+Iteration: 372; Base position: -62.56524928094905 mm; Feasibility: YES!; Manipulability: 0.20578 
+Iteration: 373; Base position: -233.87270049460722 mm; Feasibility: YES!; Manipulability: 0.19665 
+Iteration 374; Base position: 780.3395274766604 mm; Feasibility: NO! 
+Iteration 375; Base position: 1347.0472935712405 mm; Feasibility: NO! 
+Iteration: 376; Base position: -335.8901821855766 mm; Feasibility: YES!; Manipulability: 0.1812 
+Iteration 377; Base position: 631.8915019144288 mm; Feasibility: NO! 
+Iteration 378; Base position: -766.2331967820348 mm; Feasibility: NO! 
+Iteration: 379; Base position: 288.5421427616468 mm; Feasibility: YES!; Manipulability: 0.17718 
+Iteration 380; Base position: -570.6126950786658 mm; Feasibility: NO! 
+Iteration: 381; Base position: 272.85888424243694 mm; Feasibility: YES!; Manipulability: 0.17987 
+Iteration: 382; Base position: 54.322746855246805 mm; Feasibility: YES!; Manipulability: 0.20412 
+Iteration 383; Base position: -1016.15749462175 mm; Feasibility: NO! 
+Iteration: 384; Base position: -40.986891728907494 mm; Feasibility: YES!; Manipulability: 0.20591 
+Iteration: 385; Base position: 19.35114789575755 mm; Feasibility: YES!; Manipulability: 0.20524 
+Iteration 386; Base position: 1187.1114817222997 mm; Feasibility: NO! 
+Iteration: 387; Base position: 92.904358153864 mm; Feasibility: YES!; Manipulability: 0.20223 
+Iteration 388; Base position: -560.5547942572878 mm; Feasibility: NO! 
+Iteration: 389; Base position: 33.350497508959734 mm; Feasibility: YES!; Manipulability: 0.20486 
+Iteration 390; Base position: 1428.911945331788 mm; Feasibility: NO! 
+Iteration 391; Base position: 783.6583331304519 mm; Feasibility: NO! 
+Iteration 392; Base position: -1102.0207491481508 mm; Feasibility: NO! 
+Iteration 393; Base position: 484.81311187326537 mm; Feasibility: NO! 
+Iteration 394; Base position: 470.1661459798304 mm; Feasibility: NO! 
+Iteration 395; Base position: -1267.4155786377328 mm; Feasibility: NO! 
+Iteration 396; Base position: 496.42994457684586 mm; Feasibility: NO! 
+Iteration 397; Base position: -893.3049108893407 mm; Feasibility: NO! 
+Iteration 398; Base position: 830.0153637726448 mm; Feasibility: NO! 
+Iteration 399; Base position: 1435.1308223191745 mm; Feasibility: NO! 
+Iteration 400; Base position: -1288.8647646817415 mm; Feasibility: NO! 
+Iteration: 401; Base position: 105.25840972914602 mm; Feasibility: YES!; Manipulability: 0.20141 
+Iteration: 402; Base position: -58.179712492549015 mm; Feasibility: YES!; Manipulability: 0.20581 
+Iteration 403; Base position: 955.8333136562833 mm; Feasibility: NO! 
+Iteration 404; Base position: -1000.784032710226 mm; Feasibility: NO! 
+Iteration 405; Base position: -531.6294517884112 mm; Feasibility: NO! 
+Iteration 406; Base position: -1352.010496862125 mm; Feasibility: NO! 
+Iteration 407; Base position: -555.0143659544925 mm; Feasibility: NO! 
+Iteration 408; Base position: 1019.1213014124096 mm; Feasibility: NO! 
+Iteration 409; Base position: 1379.3926286329265 mm; Feasibility: NO! 
+Iteration 410; Base position: -1404.1070984734313 mm; Feasibility: NO! 
+Iteration 411; Base position: -1081.0191306180927 mm; Feasibility: NO! 
+Iteration 412; Base position: 1295.7119865456043 mm; Feasibility: NO! 
+Iteration 413; Base position: -638.7740272680641 mm; Feasibility: NO! 
+Iteration 414; Base position: 876.3945436232925 mm; Feasibility: NO! 
+Iteration 415; Base position: 863.643913069101 mm; Feasibility: NO! 
+Iteration 416; Base position: 757.3138353969402 mm; Feasibility: NO! 
+Iteration 417; Base position: 933.2253583256629 mm; Feasibility: NO! 
+Iteration 418; Base position: 406.180133111058 mm; Feasibility: NO! 
+Iteration: 419; Base position: 48.14126189004219 mm; Feasibility: YES!; Manipulability: 0.20436 
+Iteration 420; Base position: -972.7279924453478 mm; Feasibility: NO! 
+Iteration 421; Base position: -873.3893836039884 mm; Feasibility: NO! 
+Iteration 422; Base position: -1258.021683072451 mm; Feasibility: NO! 
+Iteration 423; Base position: 1153.1371743980017 mm; Feasibility: NO! 
+Iteration: 424; Base position: -132.24383787101738 mm; Feasibility: YES!; Manipulability: 0.20395 
+Iteration 425; Base position: 496.963146693545 mm; Feasibility: NO! 
+Iteration 426; Base position: 1484.3186211194707 mm; Feasibility: NO! 
+Iteration: 427; Base position: -218.49625494318252 mm; Feasibility: YES!; Manipulability: 0.19817 
+Iteration 428; Base position: 513.6329190446586 mm; Feasibility: NO! 
+Iteration 429; Base position: 764.5990411983935 mm; Feasibility: NO! 
+Iteration 430; Base position: 1461.6474702523851 mm; Feasibility: NO! 
+Iteration 431; Base position: -1042.8953671419529 mm; Feasibility: NO! 
+Iteration 432; Base position: 1298.2320565882146 mm; Feasibility: NO! 
+Iteration 433; Base position: 420.7689353412186 mm; Feasibility: NO! 
+Iteration 434; Base position: 808.8157028422529 mm; Feasibility: NO! 
+Iteration 435; Base position: 1430.3551909753055 mm; Feasibility: NO! 
+Iteration 436; Base position: -729.8231827167511 mm; Feasibility: NO! 
+Iteration 437; Base position: -477.7695899272934 mm; Feasibility: NO! 
+Iteration 438; Base position: 1030.6176109915355 mm; Feasibility: NO! 
+Iteration 439; Base position: 1062.992598995896 mm; Feasibility: NO! 
+Iteration: 440; Base position: 208.4674834874652 mm; Feasibility: YES!; Manipulability: 0.19194 
+Iteration 441; Base position: -936.3576057826261 mm; Feasibility: NO! 
+Iteration 442; Base position: -569.3624456070122 mm; Feasibility: NO! 
+Iteration 443; Base position: -1407.7187003821257 mm; Feasibility: NO! 
+Iteration 444; Base position: 1290.5703054277315 mm; Feasibility: NO! 
+Iteration: 445; Base position: -5.142460031425571 mm; Feasibility: YES!; Manipulability: 0.2057 
+Iteration: 446; Base position: 199.8038171460762 mm; Feasibility: YES!; Manipulability: 0.19319 
+Iteration 447; Base position: -1104.5153475194222 mm; Feasibility: NO! 
+Iteration: 448; Base position: -225.65703554280276 mm; Feasibility: YES!; Manipulability: 0.19749 
+Iteration 449; Base position: -454.6855345736592 mm; Feasibility: NO! 
+Iteration: 450; Base position: 195.93043211529107 mm; Feasibility: YES!; Manipulability: 0.19372 
+Iteration 451; Base position: 1396.3808617942418 mm; Feasibility: NO! 
+Iteration 452; Base position: -931.0399169495274 mm; Feasibility: NO! 
+Iteration 453; Base position: 1426.718127668175 mm; Feasibility: NO! 
+Iteration 454; Base position: 964.4645899798447 mm; Feasibility: NO! 
+Iteration 455; Base position: 436.7434188186537 mm; Feasibility: NO! 
+Iteration 456; Base position: 1002.1671274393575 mm; Feasibility: NO! 
+Iteration: 457; Base position: -132.13815939758683 mm; Feasibility: YES!; Manipulability: 0.20395 
+Iteration 458; Base position: 1044.0755351708872 mm; Feasibility: NO! 
+Iteration 459; Base position: 848.1894058374505 mm; Feasibility: NO! 
+Iteration 460; Base position: 1122.845926332911 mm; Feasibility: NO! 
+Iteration 461; Base position: -481.19321921891105 mm; Feasibility: NO! 
+Iteration 462; Base position: -1195.6108649708965 mm; Feasibility: NO! 
+Iteration 463; Base position: -1432.546594004305 mm; Feasibility: NO! 
+Iteration 464; Base position: 903.5354218523512 mm; Feasibility: NO! 
+Iteration 465; Base position: -1336.6437706988675 mm; Feasibility: NO! 
+Iteration 466; Base position: 1068.4142186014865 mm; Feasibility: NO! 
+Iteration 467; Base position: 829.184370320173 mm; Feasibility: NO! 
+Iteration 468; Base position: -527.0310535309353 mm; Feasibility: NO! 
+Iteration 469; Base position: -724.8945468925128 mm; Feasibility: NO! 
+Iteration 470; Base position: -1195.2105241010788 mm; Feasibility: NO! 
+Iteration 471; Base position: -1068.8613982221932 mm; Feasibility: NO! 
+Iteration 472; Base position: -619.4216090909104 mm; Feasibility: NO! 
+Iteration 473; Base position: 1320.9251639731651 mm; Feasibility: NO! 
+Iteration: 474; Base position: -307.7333352742435 mm; Feasibility: YES!; Manipulability: 0.18708 
+Iteration 475; Base position: 1481.0492841585033 mm; Feasibility: NO! 
+Iteration 476; Base position: -1114.2256173876467 mm; Feasibility: NO! 
+Iteration 477; Base position: -460.94879992404935 mm; Feasibility: NO! 
+Iteration 478; Base position: -483.21320742463865 mm; Feasibility: NO! 
+Iteration: 479; Base position: 182.94477584508786 mm; Feasibility: YES!; Manipulability: 0.19534 
+Iteration: 480; Base position: 353.3907805380245 mm; Feasibility: YES!; Manipulability: 0.12705 
+Iteration 481; Base position: 1471.080724716589 mm; Feasibility: NO! 
+Iteration 482; Base position: -599.5948009598991 mm; Feasibility: NO! 
+Iteration 483; Base position: 469.93474529659443 mm; Feasibility: NO! 
+Iteration 484; Base position: -543.5489088468493 mm; Feasibility: NO! 
+Iteration 485; Base position: 1053.1558736329662 mm; Feasibility: NO! 
+Iteration 486; Base position: 908.5005183288908 mm; Feasibility: NO! 
+Iteration 487; Base position: -863.0653071634404 mm; Feasibility: NO! 
+Iteration 488; Base position: -453.01991967818503 mm; Feasibility: NO! 
+Iteration 489; Base position: -489.0833277845952 mm; Feasibility: NO! 
+Iteration 490; Base position: -1086.2827292867914 mm; Feasibility: NO! 
+Iteration 491; Base position: 1478.0919522701483 mm; Feasibility: NO! 
+Iteration 492; Base position: 858.4932545509905 mm; Feasibility: NO! 
+Iteration: 493; Base position: -224.98823839030342 mm; Feasibility: YES!; Manipulability: 0.19759 
+Iteration 494; Base position: -809.5616171613976 mm; Feasibility: NO! 
+Iteration 495; Base position: -1009.2156422530489 mm; Feasibility: NO! 
+Iteration: 496; Base position: 296.0084008116114 mm; Feasibility: YES!; Manipulability: 0.17518 
+Iteration 497; Base position: 955.5430640502286 mm; Feasibility: NO! 
+Iteration 498; Base position: -690.3661616943857 mm; Feasibility: NO! 
+Iteration: 499; Base position: 227.8442584167933 mm; Feasibility: YES!; Manipulability: 0.18902 
+Iteration: 500; Base position: 265.7458187882862 mm; Feasibility: YES!; Manipulability: 0.18151 
+Iteration 501; Base position: 1121.9668316300322 mm; Feasibility: NO! 
+Iteration: 502; Base position: -393.7802681351386 mm; Feasibility: YES!; Manipulability: 0.16441 
+Iteration 503; Base position: 1295.6729573158987 mm; Feasibility: NO! 
+Iteration 504; Base position: 1182.959902825819 mm; Feasibility: NO! 
+Iteration 505; Base position: -985.5878940012699 mm; Feasibility: NO! 
+Iteration 506; Base position: -809.5641253241704 mm; Feasibility: NO! 
+Iteration 507; Base position: -620.0042073292367 mm; Feasibility: NO! 
+Iteration: 508; Base position: 131.92610896252268 mm; Feasibility: YES!; Manipulability: 0.19948 
+Iteration: 509; Base position: 99.11968936296807 mm; Feasibility: YES!; Manipulability: 0.2018 
+Iteration 510; Base position: 1013.4675462590526 mm; Feasibility: NO! 
+Iteration 511; Base position: -970.4887356210744 mm; Feasibility: NO! 
+Iteration 512; Base position: -905.7869815999055 mm; Feasibility: NO! 
+Iteration 513; Base position: 1280.0440450716806 mm; Feasibility: NO! 
+Iteration 514; Base position: 1264.9205296054106 mm; Feasibility: NO! 
+Iteration: 515; Base position: 183.59014542998148 mm; Feasibility: YES!; Manipulability: 0.19522 
+Iteration 516; Base position: 1006.1997165151242 mm; Feasibility: NO! 
+Iteration 517; Base position: -797.010610072543 mm; Feasibility: NO! 
+Iteration 518; Base position: 1140.9472711961662 mm; Feasibility: NO! 
+Iteration 519; Base position: -1090.2640537794828 mm; Feasibility: NO! 
+Iteration: 520; Base position: 385.5854315495312 mm; Feasibility: YES!; Manipulability: 0.10195 
+Iteration: 521; Base position: 21.923650294235358 mm; Feasibility: YES!; Manipulability: 0.2052 
+Iteration 522; Base position: 1240.0346033343844 mm; Feasibility: NO! 
+Iteration 523; Base position: 1217.159541980439 mm; Feasibility: NO! 
+Iteration 524; Base position: 1353.9060632149044 mm; Feasibility: NO! 
+Iteration 525; Base position: -1014.3049472158539 mm; Feasibility: NO! 
+Iteration: 526; Base position: -37.95558167404488 mm; Feasibility: YES!; Manipulability: 0.20591 
+Iteration 527; Base position: -850.6103647165263 mm; Feasibility: NO! 
+Iteration 528; Base position: 1241.8937888598757 mm; Feasibility: NO! 
+Iteration 529; Base position: -1167.4353363541259 mm; Feasibility: NO! 
+Iteration 530; Base position: -744.9058536832713 mm; Feasibility: NO! 
+Iteration 531; Base position: -541.6325013742086 mm; Feasibility: NO! 
+Iteration 532; Base position: -1334.0471441824416 mm; Feasibility: NO! 
+Iteration 533; Base position: -1330.248610665602 mm; Feasibility: NO! 
+Iteration 534; Base position: 681.4108685317046 mm; Feasibility: NO! 
+Iteration 535; Base position: -1099.8761702931934 mm; Feasibility: NO! 
+Iteration: 536; Base position: 270.7425683025415 mm; Feasibility: YES!; Manipulability: 0.18034 
+Iteration 537; Base position: -1320.3263098940995 mm; Feasibility: NO! 
+Iteration 538; Base position: -756.9993212726282 mm; Feasibility: NO! 
+Iteration 539; Base position: 472.62277547117924 mm; Feasibility: NO! 
+Iteration 540; Base position: -1334.7229093541519 mm; Feasibility: NO! 
+Iteration: 541; Base position: 68.20242602522785 mm; Feasibility: YES!; Manipulability: 0.20351 
+Iteration 542; Base position: -1022.2313274320561 mm; Feasibility: NO! 
+Iteration 543; Base position: -827.1917247687795 mm; Feasibility: NO! 
+Iteration 544; Base position: 850.5476145081634 mm; Feasibility: NO! 
+Iteration 545; Base position: 640.9031445002411 mm; Feasibility: NO! 
+Iteration: 546; Base position: -433.6805266597073 mm; Feasibility: YES!; Manipulability: 0.13893 
+Iteration 547; Base position: 1455.1448314326267 mm; Feasibility: NO! 
+Iteration 548; Base position: 524.5124787497987 mm; Feasibility: NO! 
+Iteration 549; Base position: 1328.7536974283798 mm; Feasibility: NO! 
+Iteration 550; Base position: 1362.7294730252333 mm; Feasibility: NO! 
+Iteration: 551; Base position: -437.93665499440476 mm; Feasibility: YES!; Manipulability: 0.13286 
+Iteration 552; Base position: -1310.711056862643 mm; Feasibility: NO! 
+Iteration: 553; Base position: 357.39867931813 mm; Feasibility: YES!; Manipulability: 0.12495 
+Iteration: 554; Base position: -287.5416298591042 mm; Feasibility: YES!; Manipulability: 0.19054 
+Iteration 555; Base position: -1308.0676058325287 mm; Feasibility: NO! 
+Iteration 556; Base position: 1084.1360412310373 mm; Feasibility: NO! 
+Iteration: 557; Base position: 108.87077568890913 mm; Feasibility: YES!; Manipulability: 0.20121 
+Iteration 558; Base position: -458.59535743642186 mm; Feasibility: NO! 
+Iteration 559; Base position: 1327.778441302381 mm; Feasibility: NO! 
+Iteration: 560; Base position: -151.61593281130922 mm; Feasibility: YES!; Manipulability: 0.20305 
+Iteration 561; Base position: 1228.50684754752 mm; Feasibility: NO! 
+Iteration 562; Base position: 1261.7227778169017 mm; Feasibility: NO! 
+Iteration 563; Base position: 938.5523519000903 mm; Feasibility: NO! 
+Iteration 564; Base position: 849.1756854956734 mm; Feasibility: NO! 
+Iteration 565; Base position: 1035.029696508594 mm; Feasibility: NO! 
+Iteration 566; Base position: 923.7995549272218 mm; Feasibility: NO! 
+Iteration: 567; Base position: 54.30730552839191 mm; Feasibility: YES!; Manipulability: 0.20412 
+Iteration 568; Base position: 468.4239911631464 mm; Feasibility: NO! 
+Iteration: 569; Base position: 27.218648534359318 mm; Feasibility: YES!; Manipulability: 0.20504 
+Iteration: 570; Base position: -141.40044585028318 mm; Feasibility: YES!; Manipulability: 0.20355 
+Iteration: 571; Base position: -87.3296233187848 mm; Feasibility: YES!; Manipulability: 0.20537 
+Iteration 572; Base position: -1286.0332690010523 mm; Feasibility: NO! 
+Iteration 573; Base position: -740.5449652268483 mm; Feasibility: NO! 
+Iteration 574; Base position: -900.7741699676596 mm; Feasibility: NO! 
+Iteration 575; Base position: 678.8016221612438 mm; Feasibility: NO! 
+Iteration: 576; Base position: 77.35883006655467 mm; Feasibility: YES!; Manipulability: 0.20307 
+Iteration 577; Base position: -1354.2601211563754 mm; Feasibility: NO! 
+Iteration 578; Base position: 1247.9140913372958 mm; Feasibility: NO! 
+Iteration 579; Base position: -947.5044522324083 mm; Feasibility: NO! 
+Iteration: 580; Base position: 21.88426880303018 mm; Feasibility: YES!; Manipulability: 0.2052 
+Iteration 581; Base position: -1102.1804619080233 mm; Feasibility: NO! 
+Iteration 582; Base position: 446.1972689424447 mm; Feasibility: NO! 
+Iteration: 583; Base position: 183.98331725836601 mm; Feasibility: YES!; Manipulability: 0.19522 
+Iteration: 584; Base position: -391.0202525513928 mm; Feasibility: YES!; Manipulability: 0.16523 
+Iteration: 585; Base position: -388.56047685852354 mm; Feasibility: YES!; Manipulability: 0.16643 
+Iteration 586; Base position: -1378.0065483644507 mm; Feasibility: NO! 
+Iteration: 587; Base position: 188.3249566276554 mm; Feasibility: YES!; Manipulability: 0.19461 
+Iteration 588; Base position: 768.0449398773453 mm; Feasibility: NO! 
+Iteration 589; Base position: 1410.5053974021807 mm; Feasibility: NO! 
+Iteration: 590; Base position: 75.39763847411677 mm; Feasibility: YES!; Manipulability: 0.20317 
+Iteration 591; Base position: 1321.534363370798 mm; Feasibility: NO! 
+Iteration 592; Base position: 539.3753275708605 mm; Feasibility: NO! 
+Iteration 593; Base position: -547.1679978090032 mm; Feasibility: NO! 
+Iteration 594; Base position: 1172.550550235875 mm; Feasibility: NO! 
+Iteration 595; Base position: 659.9364534454189 mm; Feasibility: NO! 
+Iteration 596; Base position: 500.83553922567216 mm; Feasibility: NO! 
+Iteration: 597; Base position: 304.72580755010426 mm; Feasibility: YES!; Manipulability: 0.17298 
+Iteration: 598; Base position: 294.02323493457266 mm; Feasibility: YES!; Manipulability: 0.1757 
+Iteration 599; Base position: -800.6683492345459 mm; Feasibility: NO! 
+Iteration 600; Base position: -1347.021326405093 mm; Feasibility: NO! 
+Iteration 601; Base position: -450.82200786253975 mm; Feasibility: NO! 
+Iteration 602; Base position: -1160.420877647498 mm; Feasibility: NO! 
+Iteration 603; Base position: -983.5634125322141 mm; Feasibility: NO! 
+Iteration 604; Base position: 587.0369085878451 mm; Feasibility: NO! 
+Iteration 605; Base position: -884.3834722459542 mm; Feasibility: NO! 
+Iteration 606; Base position: -867.1420909974192 mm; Feasibility: NO! 
+Iteration 607; Base position: -1014.6909159685051 mm; Feasibility: NO! 
+Iteration 608; Base position: -482.82171168058153 mm; Feasibility: NO! 
+Iteration 609; Base position: 1195.249582168161 mm; Feasibility: NO! 
+Iteration 610; Base position: -707.3178671259078 mm; Feasibility: NO! 
+Iteration 611; Base position: 717.7635680209032 mm; Feasibility: NO! 
+Iteration 612; Base position: -1011.883422572175 mm; Feasibility: NO! 
+Iteration 613; Base position: -620.8054042418712 mm; Feasibility: NO! 
+Iteration: 614; Base position: 183.35086202875345 mm; Feasibility: YES!; Manipulability: 0.19522 
+Iteration 615; Base position: 453.5737946600807 mm; Feasibility: NO! 
+Iteration 616; Base position: 1048.5307999411457 mm; Feasibility: NO! 
+Iteration 617; Base position: -1435.449238764261 mm; Feasibility: NO! 
+Iteration: 618; Base position: 100.25203955331949 mm; Feasibility: YES!; Manipulability: 0.20174 
+Iteration 619; Base position: 887.852416232633 mm; Feasibility: NO! 
+Iteration 620; Base position: 1164.8407420578978 mm; Feasibility: NO! 
+Iteration 621; Base position: 1187.2404951751628 mm; Feasibility: NO! 
+Iteration 622; Base position: 853.5422684701525 mm; Feasibility: NO! 
+Iteration 623; Base position: 951.7433519747715 mm; Feasibility: NO! 
+Iteration 625; Base position: 405.19644597318006 mm; Feasibility: NO! 
+Iteration 626; Base position: -1462.741932134179 mm; Feasibility: NO! 
+Iteration 627; Base position: 1174.0252974949017 mm; Feasibility: NO! 
+Iteration 628; Base position: -1381.0663070278285 mm; Feasibility: NO! 
+Iteration 629; Base position: 1379.943143662802 mm; Feasibility: NO! 
+Iteration 630; Base position: 423.33779944834464 mm; Feasibility: NO! 
+Iteration 631; Base position: 735.2377507528877 mm; Feasibility: NO! 
+Iteration: 632; Base position: 153.04593242551823 mm; Feasibility: YES!; Manipulability: 0.19845 
+Iteration 633; Base position: 971.9212543132298 mm; Feasibility: NO! 
+Iteration 634; Base position: 1425.0424128042646 mm; Feasibility: NO! 
+Iteration 635; Base position: 794.834776623637 mm; Feasibility: NO! 
+Iteration 636; Base position: 1384.3461640888559 mm; Feasibility: NO! 
+Iteration 637; Base position: -621.4568882836929 mm; Feasibility: NO! 
+Iteration: 638; Base position: 24.57129723734124 mm; Feasibility: YES!; Manipulability: 0.20512 
+Iteration 639; Base position: 671.0076237523963 mm; Feasibility: NO! 
+Iteration 640; Base position: -827.3860858877521 mm; Feasibility: NO! 
+Iteration 641; Base position: -1220.217103277727 mm; Feasibility: NO! 
+Iteration 642; Base position: -1386.5619597615926 mm; Feasibility: NO! 
+Iteration 643; Base position: 852.0795039083209 mm; Feasibility: NO! 
+Iteration: 644; Base position: -439.50167182377936 mm; Feasibility: YES!; Manipulability: 0.15828 
+Iteration: 645; Base position: -92.09341977705935 mm; Feasibility: YES!; Manipulability: 0.20526 
+Iteration: 646; Base position: 139.6674258409605 mm; Feasibility: YES!; Manipulability: 0.19972 
+Iteration: 647; Base position: -319.69049075283306 mm; Feasibility: YES!; Manipulability: 0.18473 
+Iteration 648; Base position: -1365.225583007764 mm; Feasibility: NO! 
+Iteration 649; Base position: -1414.6398427246427 mm; Feasibility: NO! 
+Iteration 650; Base position: -552.1088072838423 mm; Feasibility: NO! 
+Iteration: 651; Base position: -106.35778270444621 mm; Feasibility: YES!; Manipulability: 0.20488 
+Iteration 652; Base position: -454.3069417763436 mm; Feasibility: NO! 
+Iteration 653; Base position: -1317.6024627662594 mm; Feasibility: NO! 
+Iteration 654; Base position: -1055.7343699273188 mm; Feasibility: NO! 
+Iteration 655; Base position: 1143.5233183214186 mm; Feasibility: NO! 
+Iteration 656; Base position: 1010.0791121156367 mm; Feasibility: NO! 
+Iteration 657; Base position: -567.6002665079232 mm; Feasibility: NO! 
+Iteration 658; Base position: 1415.320684347564 mm; Feasibility: NO! 
+Iteration: 659; Base position: 90.47325678210245 mm; Feasibility: YES!; Manipulability: 0.20235 
+Iteration: 660; Base position: 4.797391509411 mm; Feasibility: YES!; Manipulability: 0.20556 
+Iteration: 661; Base position: -178.42349274906314 mm; Feasibility: YES!; Manipulability: 0.20145 
+Iteration 662; Base position: -927.7527984477163 mm; Feasibility: NO! 
+Iteration: 663; Base position: -194.4431130200585 mm; Feasibility: YES!; Manipulability: 0.20027 
+Iteration 664; Base position: -1229.521208956638 mm; Feasibility: NO! 
+Iteration: 665; Base position: -261.97048394526973 mm; Feasibility: YES!; Manipulability: 0.19331 
+Iteration: 666; Base position: -34.13608137202982 mm; Feasibility: YES!; Manipulability: 0.20591 
+Iteration 667; Base position: 422.6628676424514 mm; Feasibility: NO! 
+Iteration 668; Base position: -741.9621750521217 mm; Feasibility: NO! 
+Iteration 669; Base position: 815.8130036479133 mm; Feasibility: NO! 
+Iteration 670; Base position: 748.7852955663261 mm; Feasibility: NO! 
+Iteration 671; Base position: -1191.9760645339506 mm; Feasibility: NO! 
+Iteration: 672; Base position: -185.3080434736098 mm; Feasibility: YES!; Manipulability: 0.20095 
+Iteration 673; Base position: 793.9812511399564 mm; Feasibility: NO! 
+Iteration: 674; Base position: -196.97189408199256 mm; Feasibility: YES!; Manipulability: 0.20011 
+Iteration 675; Base position: 870.8474600306226 mm; Feasibility: NO! 
+Iteration 676; Base position: 878.8302276456275 mm; Feasibility: NO! 
+Iteration 677; Base position: -1328.6035126564975 mm; Feasibility: NO! 
+Iteration: 678; Base position: -354.73084174186374 mm; Feasibility: YES!; Manipulability: 0.17628 
+Iteration: 679; Base position: 383.23443761036106 mm; Feasibility: YES!; Manipulability: 0.10499 
+Iteration: 680; Base position: 231.0330436193567 mm; Feasibility: YES!; Manipulability: 0.18835 
+Iteration 681; Base position: 692.2186799897208 mm; Feasibility: NO! 
+Iteration 682; Base position: 1044.4125384816466 mm; Feasibility: NO! 
+Iteration 683; Base position: 436.9413348290793 mm; Feasibility: NO! 
+Iteration: 684; Base position: -437.62136773918223 mm; Feasibility: YES!; Manipulability: 0.13286 
+Iteration 685; Base position: -1039.3312753482687 mm; Feasibility: NO! 
+Iteration 686; Base position: 1093.0066653707527 mm; Feasibility: NO! 
+Iteration 687; Base position: -562.6648634774912 mm; Feasibility: NO! 
+Iteration 688; Base position: -1121.1338728188323 mm; Feasibility: NO! 
+Iteration: 689; Base position: -426.7722302871816 mm; Feasibility: YES!; Manipulability: 0.14637 
+Iteration: 690; Base position: -43.60480497037133 mm; Feasibility: YES!; Manipulability: 0.2059 
+Iteration 691; Base position: 1293.1997938920158 mm; Feasibility: NO! 
+Iteration 692; Base position: -522.4977659881246 mm; Feasibility: NO! 
+Iteration 693; Base position: 396.9692416091607 mm; Feasibility: NO! 
+Iteration: 694; Base position: 227.28181535651015 mm; Feasibility: YES!; Manipulability: 0.18902 
+Iteration 695; Base position: 594.1733369412655 mm; Feasibility: NO! 
+Iteration: 696; Base position: 10.951159414378708 mm; Feasibility: YES!; Manipulability: 0.20544 
+Iteration 697; Base position: 1347.4343114193425 mm; Feasibility: NO! 
+Iteration 698; Base position: -1019.7177842937613 mm; Feasibility: NO! 
+Iteration 699; Base position: 1176.959860274521 mm; Feasibility: NO! 
+Iteration 700; Base position: -1195.841757521137 mm; Feasibility: NO! 
+Iteration 701; Base position: -502.5732527085503 mm; Feasibility: NO! 
+Iteration: 702; Base position: 192.08922298298012 mm; Feasibility: YES!; Manipulability: 0.19411 
+Iteration: 703; Base position: -345.33804778063745 mm; Feasibility: YES!; Manipulability: 0.17872 
+Iteration 704; Base position: 975.5587358290386 mm; Feasibility: NO! 
+Iteration 705; Base position: 1117.3449777050473 mm; Feasibility: NO! 
+Iteration 706; Base position: -1340.1737021701465 mm; Feasibility: NO! 
+Iteration 707; Base position: 994.2134966807066 mm; Feasibility: NO! 
+Iteration 708; Base position: -845.9434414557257 mm; Feasibility: NO! 
+Iteration: 709; Base position: 283.813108683217 mm; Feasibility: YES!; Manipulability: 0.17842 
+Iteration 710; Base position: -1072.8209285131 mm; Feasibility: NO! 
+Iteration 711; Base position: -1401.7990935493442 mm; Feasibility: NO! 
+Iteration 712; Base position: -880.6276010110727 mm; Feasibility: NO! 
+Iteration: 713; Base position: 154.23608771885665 mm; Feasibility: YES!; Manipulability: 0.19835 
+Iteration: 714; Base position: 193.68031217996304 mm; Feasibility: YES!; Manipulability: 0.19398 
+Iteration 715; Base position: 1190.3080928937516 mm; Feasibility: NO! 
+Iteration 716; Base position: 1420.3785721835948 mm; Feasibility: NO! 
+Iteration 717; Base position: 634.3557904389472 mm; Feasibility: NO! 
+Iteration: 718; Base position: -140.52659762645453 mm; Feasibility: YES!; Manipulability: 0.20359 
+Iteration 719; Base position: -1458.8631141962805 mm; Feasibility: NO! 
+Iteration 720; Base position: -950.8633362849242 mm; Feasibility: NO! 
+Iteration 721; Base position: 1165.8851301925756 mm; Feasibility: NO! 
+Iteration 722; Base position: -850.743514503189 mm; Feasibility: NO! 
+Iteration 723; Base position: -690.3401657823797 mm; Feasibility: NO! 
+Iteration: 724; Base position: -371.9429080728162 mm; Feasibility: YES!; Manipulability: 0.17235 
+Iteration 725; Base position: -1104.658608018708 mm; Feasibility: NO! 
+Iteration 726; Base position: 1391.3435965803642 mm; Feasibility: NO! 
+Iteration: 727; Base position: 188.03099267001198 mm; Feasibility: YES!; Manipulability: 0.19461 
+Iteration 728; Base position: -1177.0200920233863 mm; Feasibility: NO! 
+Iteration 729; Base position: -670.9909043018894 mm; Feasibility: NO! 
+Iteration 730; Base position: 1261.1157030326694 mm; Feasibility: NO! 
+Iteration 731; Base position: 933.3252213481373 mm; Feasibility: NO! 
+Iteration 732; Base position: 471.9707795758011 mm; Feasibility: NO! 
+Iteration: 733; Base position: 137.05607100354814 mm; Feasibility: YES!; Manipulability: 0.19897 
+Iteration 734; Base position: -1343.8494219232944 mm; Feasibility: NO! 
+Iteration 735; Base position: -1089.2819711685845 mm; Feasibility: NO! 
+Iteration: 736; Base position: -408.00813111941306 mm; Feasibility: YES!; Manipulability: 0.15734 
+Iteration: 737; Base position: -434.46814209093964 mm; Feasibility: YES!; Manipulability: 0.1376 
+Iteration: 738; Base position: 238.32284347989275 mm; Feasibility: YES!; Manipulability: 0.1871 
+Iteration 739; Base position: -1218.5125097166688 mm; Feasibility: NO! 
+Iteration 740; Base position: 889.1994807949586 mm; Feasibility: NO! 
+Iteration 741; Base position: -894.3086832157811 mm; Feasibility: NO! 
+Iteration 742; Base position: -525.3070798014768 mm; Feasibility: NO! 
+Iteration: 743; Base position: 337.59360183017475 mm; Feasibility: YES!; Manipulability: 0.13336 
+Iteration 744; Base position: -1429.3046747898054 mm; Feasibility: NO! 
+Iteration 745; Base position: 1024.1799102643486 mm; Feasibility: NO! 
+Iteration 746; Base position: -1336.6432498651207 mm; Feasibility: NO! 
+Iteration: 747; Base position: -165.00324824174004 mm; Feasibility: YES!; Manipulability: 0.20228 
+Iteration 748; Base position: -488.13457231995733 mm; Feasibility: NO! 
+Iteration 749; Base position: -1236.932250889875 mm; Feasibility: NO! 
+Iteration 751; Base position: 815.9311276017074 mm; Feasibility: NO! 
+Iteration 752; Base position: -933.3768318170917 mm; Feasibility: NO! 
+Iteration 753; Base position: -1378.796557125131 mm; Feasibility: NO! 
+Iteration 754; Base position: 864.4640392461815 mm; Feasibility: NO! 
+Iteration 755; Base position: 770.8130046615925 mm; Feasibility: NO! 
+Iteration 756; Base position: -768.956519287976 mm; Feasibility: NO! 
+Iteration 757; Base position: 856.5357775499374 mm; Feasibility: NO! 
+Iteration 758; Base position: -1138.7186154614906 mm; Feasibility: NO! 
+Iteration 759; Base position: 990.9270455680085 mm; Feasibility: NO! 
+Iteration 760; Base position: -519.940379520886 mm; Feasibility: NO! 
+Iteration 761; Base position: 1212.4739727770739 mm; Feasibility: NO! 
+Iteration: 762; Base position: 238.3917684454941 mm; Feasibility: YES!; Manipulability: 0.1871 
+Iteration 763; Base position: -1013.679868963613 mm; Feasibility: NO! 
+Iteration 764; Base position: 1190.7244135076608 mm; Feasibility: NO! 
+Iteration 765; Base position: 392.75969612923313 mm; Feasibility: NO! 
+Iteration 766; Base position: 1002.4160917028848 mm; Feasibility: NO! 
+Iteration 767; Base position: 831.8763073303448 mm; Feasibility: NO! 
+Iteration: 768; Base position: -16.178104191283637 mm; Feasibility: YES!; Manipulability: 0.20582 
+Iteration: 769; Base position: -346.1510425727506 mm; Feasibility: YES!; Manipulability: 0.17846 
+Iteration 770; Base position: -763.4853821031302 mm; Feasibility: NO! 
+Iteration 771; Base position: -1405.567888861102 mm; Feasibility: NO! 
+Iteration 772; Base position: -1177.007422763581 mm; Feasibility: NO! 
+Iteration 773; Base position: -937.6762409284892 mm; Feasibility: NO! 
+Iteration 774; Base position: 961.5552559481876 mm; Feasibility: NO! 
+Iteration 775; Base position: 612.3141695984191 mm; Feasibility: NO! 
+Iteration: 776; Base position: -320.37992184141535 mm; Feasibility: YES!; Manipulability: 0.18452 
+Iteration: 777; Base position: 190.39777089863196 mm; Feasibility: YES!; Manipulability: 0.19436 
+Iteration 778; Base position: -1486.105527606508 mm; Feasibility: NO! 
+Iteration 779; Base position: 1239.6451860322818 mm; Feasibility: NO! 
+Iteration: 780; Base position: 368.3247630515591 mm; Feasibility: YES!; Manipulability: 0.11834 
+Iteration 781; Base position: 1234.0526697832797 mm; Feasibility: NO! 
+Iteration 782; Base position: -511.0392541335017 mm; Feasibility: NO! 
+Iteration 783; Base position: -1427.1275900920377 mm; Feasibility: NO! 
+Iteration 784; Base position: -1076.5430205722469 mm; Feasibility: NO! 
+Iteration 785; Base position: -461.53390791339416 mm; Feasibility: NO! 
+Iteration: 786; Base position: 105.58617867314501 mm; Feasibility: YES!; Manipulability: 0.20141 
+Iteration 787; Base position: 1407.4416312183762 mm; Feasibility: NO! 
+Iteration 788; Base position: 1000.3119666824023 mm; Feasibility: NO! 
+Iteration 789; Base position: -571.1023077295895 mm; Feasibility: NO! 
+Iteration 790; Base position: -631.2079811964471 mm; Feasibility: NO! 
+Iteration 791; Base position: 581.8128494840212 mm; Feasibility: NO! 
+Iteration: 792; Base position: -86.69764575924432 mm; Feasibility: YES!; Manipulability: 0.2054 
+Iteration 793; Base position: -1254.8409684045828 mm; Feasibility: NO! 
+Iteration 794; Base position: -836.0109877433334 mm; Feasibility: NO! 
+Iteration 795; Base position: -792.2983165315311 mm; Feasibility: NO! 
+Iteration 796; Base position: 841.8311936993514 mm; Feasibility: NO! 
+Iteration: 797; Base position: 130.97329109726343 mm; Feasibility: YES!; Manipulability: 0.19956 
+Iteration 798; Base position: -996.0609146808076 mm; Feasibility: NO! 
+Iteration 799; Base position: -674.2644752894735 mm; Feasibility: NO! 
+Iteration: 800; Base position: 187.8779270180678 mm; Feasibility: YES!; Manipulability: 0.19474 
+Iteration 801; Base position: 1271.397733848928 mm; Feasibility: NO! 
+Iteration 802; Base position: 673.2410751191346 mm; Feasibility: NO! 
+Iteration 803; Base position: -565.2076904423493 mm; Feasibility: NO! 
+Iteration 804; Base position: -580.3133711839291 mm; Feasibility: NO! 
+Iteration: 805; Base position: 19.572191820035187 mm; Feasibility: YES!; Manipulability: 0.20524 
+Iteration 806; Base position: 1246.1780547463336 mm; Feasibility: NO! 
+Iteration 807; Base position: -1132.063032087826 mm; Feasibility: NO! 
+Iteration 808; Base position: 1435.994427866839 mm; Feasibility: NO! 
+Iteration 809; Base position: 989.4549997737272 mm; Feasibility: NO! 
+Iteration 810; Base position: -1202.3313822427613 mm; Feasibility: NO! 
+Iteration 811; Base position: -760.8703556096347 mm; Feasibility: NO! 
+Iteration 812; Base position: 812.7056627623506 mm; Feasibility: NO! 
+Iteration 813; Base position: -671.6905441351735 mm; Feasibility: NO! 
+Iteration 814; Base position: -951.3881162957279 mm; Feasibility: NO! 
+Iteration: 815; Base position: -315.52069615764526 mm; Feasibility: YES!; Manipulability: 0.18554 
+Iteration 816; Base position: -945.3028955109352 mm; Feasibility: NO! 
+Iteration 817; Base position: 893.0156872099619 mm; Feasibility: NO! 
+Iteration: 818; Base position: -286.7217975808637 mm; Feasibility: YES!; Manipulability: 0.19069 
+Iteration: 819; Base position: -72.82639226950687 mm; Feasibility: YES!; Manipulability: 0.20565 
+Iteration: 820; Base position: -316.00375784379 mm; Feasibility: YES!; Manipulability: 0.18534 
+Iteration 821; Base position: -1263.8334938693374 mm; Feasibility: NO! 
+Iteration 822; Base position: 828.6116067420185 mm; Feasibility: NO! 
+Iteration 823; Base position: -1292.3862536864056 mm; Feasibility: NO! 
+Iteration 824; Base position: 1371.7696026766212 mm; Feasibility: NO! 
+Iteration 825; Base position: -958.1292619124109 mm; Feasibility: NO! 
+Iteration: 826; Base position: 346.7007822747778 mm; Feasibility: YES!; Manipulability: 0.12964 
+Iteration 827; Base position: 498.1587070847886 mm; Feasibility: NO! 
+Iteration 828; Base position: 1458.1538846803728 mm; Feasibility: NO! 
+Iteration 829; Base position: 809.9991994736115 mm; Feasibility: NO! 
+Iteration 830; Base position: -1338.6115149403943 mm; Feasibility: NO! 
+Iteration 831; Base position: -570.5435489064641 mm; Feasibility: NO! 
+Iteration 832; Base position: 1440.5704836243362 mm; Feasibility: NO! 
+Iteration 833; Base position: 392.7457054878639 mm; Feasibility: NO! 
+Iteration 834; Base position: 1225.4371253097097 mm; Feasibility: NO! 
+Iteration 835; Base position: -518.5771610004387 mm; Feasibility: NO! 
+Iteration 836; Base position: -1313.0028236626713 mm; Feasibility: NO! 
+Iteration 837; Base position: 1094.5093041326127 mm; Feasibility: NO! 
+Iteration: 838; Base position: 62.91335012899958 mm; Feasibility: YES!; Manipulability: 0.20379 
+Iteration 839; Base position: 676.3065580897692 mm; Feasibility: NO! 
+Iteration: 840; Base position: 210.4392175330904 mm; Feasibility: YES!; Manipulability: 0.19165 
+Iteration 841; Base position: -679.6071831611866 mm; Feasibility: NO! 
+Iteration 842; Base position: 1130.4513348518822 mm; Feasibility: NO! 
+Iteration 843; Base position: -562.9121722703626 mm; Feasibility: NO! 
+Iteration 844; Base position: -1448.4170954006165 mm; Feasibility: NO! 
+Iteration 845; Base position: -664.8931478498201 mm; Feasibility: NO! 
+Iteration 846; Base position: 425.3430527340072 mm; Feasibility: NO! 
+Iteration: 847; Base position: 122.11237453572608 mm; Feasibility: YES!; Manipulability: 0.20019 
+Iteration 848; Base position: -1229.467387161762 mm; Feasibility: NO! 
+Iteration 849; Base position: 573.3399007312341 mm; Feasibility: NO! 
+Iteration 850; Base position: 801.3573081097438 mm; Feasibility: NO! 
+Iteration 851; Base position: -1128.5400338256438 mm; Feasibility: NO! 
+Iteration 852; Base position: 1137.1390079446865 mm; Feasibility: NO! 
+Iteration 853; Base position: -543.4288389340766 mm; Feasibility: NO! 
+Iteration: 854; Base position: 183.55327068428687 mm; Feasibility: YES!; Manipulability: 0.19522 
+Iteration 855; Base position: 1222.8798646401015 mm; Feasibility: NO! 
+Iteration 856; Base position: -1232.2634655502466 mm; Feasibility: NO! 
+Iteration 857; Base position: 1204.7040200824053 mm; Feasibility: NO! 
+Iteration: 858; Base position: -286.8387075340929 mm; Feasibility: YES!; Manipulability: 0.19069 
+Iteration: 859; Base position: 159.20098822570844 mm; Feasibility: YES!; Manipulability: 0.19786 
+Iteration: 860; Base position: -229.51554613802455 mm; Feasibility: YES!; Manipulability: 0.19708 
+Iteration: 861; Base position: 251.97985629135178 mm; Feasibility: YES!; Manipulability: 0.18456 
+Iteration: 862; Base position: 12.061419719054356 mm; Feasibility: YES!; Manipulability: 0.2054 
+Iteration 863; Base position: -1393.6097575279634 mm; Feasibility: NO! 
+Iteration 864; Base position: -1409.3537896112837 mm; Feasibility: NO! 
+Iteration 865; Base position: 1460.119664436123 mm; Feasibility: NO! 
+Iteration 866; Base position: -597.4816335537865 mm; Feasibility: NO! 
+Iteration 867; Base position: 1033.5721306047349 mm; Feasibility: NO! 
+Iteration: 868; Base position: 147.83096588182798 mm; Feasibility: YES!; Manipulability: 0.19901 
+Iteration: 869; Base position: -132.54128512408488 mm; Feasibility: YES!; Manipulability: 0.20395 
+Iteration 870; Base position: 1109.9708604742773 mm; Feasibility: NO! 
+Iteration 871; Base position: 1250.548524336651 mm; Feasibility: NO! 
+Iteration 872; Base position: -548.887788514971 mm; Feasibility: NO! 
+Iteration: 873; Base position: -176.7628776019119 mm; Feasibility: YES!; Manipulability: 0.20067 
+Iteration 874; Base position: 927.6986494288335 mm; Feasibility: NO! 
+Iteration: 875; Base position: -278.414150220387 mm; Feasibility: YES!; Manipulability: 0.19192 
+Iteration: 876; Base position: -204.1254677655354 mm; Feasibility: YES!; Manipulability: 0.19944 
+Iteration 877; Base position: 789.1577237762804 mm; Feasibility: NO! 
+Iteration 878; Base position: 1015.8440548651611 mm; Feasibility: NO! 
+Iteration 879; Base position: 458.4870999901216 mm; Feasibility: NO! 
+Iteration: 880; Base position: -28.7130862747008 mm; Feasibility: YES!; Manipulability: 0.20589 
+Iteration: 881; Base position: 366.25585627881674 mm; Feasibility: YES!; Manipulability: 0.11967 
+Iteration: 882; Base position: -128.49608713871248 mm; Feasibility: YES!; Manipulability: 0.20411 
+Iteration 883; Base position: -1421.223536189944 mm; Feasibility: NO! 
+Iteration 884; Base position: 1447.955311043625 mm; Feasibility: NO! 
+Iteration 885; Base position: -1284.0885439358954 mm; Feasibility: NO! 
+Iteration 886; Base position: 625.6967990584367 mm; Feasibility: NO! 
+Iteration 887; Base position: 1064.3365637023412 mm; Feasibility: NO! 
+Iteration: 888; Base position: -295.84823582923286 mm; Feasibility: YES!; Manipulability: 0.18922 
+Iteration 889; Base position: -1490.9932269133137 mm; Feasibility: NO! 
+Iteration 890; Base position: 585.8927016793682 mm; Feasibility: NO! 
+Iteration 891; Base position: 1217.3465759545388 mm; Feasibility: NO! 
+Iteration 892; Base position: -621.7081634910822 mm; Feasibility: NO! 
+Iteration 893; Base position: 1172.610498329274 mm; Feasibility: NO! 
+Iteration: 894; Base position: 339.80062815661654 mm; Feasibility: YES!; Manipulability: 0.13259 
+Iteration 895; Base position: -1379.5280399318626 mm; Feasibility: NO! 
+Iteration 896; Base position: -865.6021375696695 mm; Feasibility: NO! 
+Iteration 897; Base position: 1240.1987738891758 mm; Feasibility: NO! 
+Iteration 898; Base position: -1001.7143850967417 mm; Feasibility: NO! 
+Iteration 899; Base position: -1128.7243073825387 mm; Feasibility: NO! 
+Iteration 900; Base position: 516.8217903484681 mm; Feasibility: NO! 
+Iteration: 901; Base position: 198.7262402712936 mm; Feasibility: YES!; Manipulability: 0.19333 
+Iteration 902; Base position: 673.1587073628489 mm; Feasibility: NO! 
+Iteration 903; Base position: 534.1612355024313 mm; Feasibility: NO! 
+Iteration 904; Base position: -811.8113498874071 mm; Feasibility: NO! 
+Iteration 905; Base position: 1395.3085720793524 mm; Feasibility: NO! 
+Iteration 906; Base position: 1335.4946095105356 mm; Feasibility: NO! 
+Iteration 907; Base position: -505.741501541896 mm; Feasibility: NO! 
+Iteration 908; Base position: -1385.0600401952063 mm; Feasibility: NO! 
+Iteration 909; Base position: -814.477274569614 mm; Feasibility: NO! 
+Iteration 910; Base position: 990.5356200154929 mm; Feasibility: NO! 
+Iteration 911; Base position: 1219.472814992897 mm; Feasibility: NO! 
+Iteration: 912; Base position: 279.5759552957809 mm; Feasibility: YES!; Manipulability: 0.17824 
+Iteration 913; Base position: 1495.2969888874877 mm; Feasibility: NO! 
+Iteration 914; Base position: -1035.761381027449 mm; Feasibility: NO! 
+Iteration 915; Base position: -1234.1540928308846 mm; Feasibility: NO! 
+Iteration 916; Base position: -807.5352168827363 mm; Feasibility: NO! 
+Iteration 917; Base position: -1155.035689186776 mm; Feasibility: NO! 
+Iteration 918; Base position: 1339.4073762245262 mm; Feasibility: NO! 
+Iteration: 919; Base position: -209.15882201589397 mm; Feasibility: YES!; Manipulability: 0.19901 
+Iteration: 920; Base position: 154.80873531097154 mm; Feasibility: YES!; Manipulability: 0.19835 
+Iteration 921; Base position: -734.9569508992229 mm; Feasibility: NO! 
+Iteration 922; Base position: 919.2065833232409 mm; Feasibility: NO! 
+Iteration: 923; Base position: -313.64862037730427 mm; Feasibility: YES!; Manipulability: 0.18593 
+Iteration 924; Base position: -1261.6637403849634 mm; Feasibility: NO! 
+Iteration 925; Base position: -772.161269925199 mm; Feasibility: NO! 
+Iteration 926; Base position: 801.8814346448398 mm; Feasibility: NO! 
+Iteration 927; Base position: 747.1826290707331 mm; Feasibility: NO! 
+Iteration: 928; Base position: -173.79597974494322 mm; Feasibility: YES!; Manipulability: 0.20087 
+Iteration 929; Base position: 966.4763195955056 mm; Feasibility: NO! 
+Iteration 930; Base position: -485.7433329512927 mm; Feasibility: NO! 
+Iteration 931; Base position: -1246.8305368514648 mm; Feasibility: NO! 
+Iteration 932; Base position: 1265.7347426294764 mm; Feasibility: NO! 
+Iteration 933; Base position: -960.4265603938501 mm; Feasibility: NO! 
+Iteration 934; Base position: -1090.709626301521 mm; Feasibility: NO! 
+Iteration: 935; Base position: -244.2052628032004 mm; Feasibility: YES!; Manipulability: 0.19542 
+Iteration 936; Base position: 778.605271929127 mm; Feasibility: NO! 
+Iteration 937; Base position: -781.1320693551957 mm; Feasibility: NO! 
+Iteration 938; Base position: 870.7806373410667 mm; Feasibility: NO! 
+Iteration 939; Base position: -1246.535602650054 mm; Feasibility: NO! 
+Iteration 940; Base position: -1286.043391304069 mm; Feasibility: NO! 
+Iteration 941; Base position: -1325.8597019102733 mm; Feasibility: NO! 
+Iteration 942; Base position: -1427.8429431621569 mm; Feasibility: NO! 
+Iteration: 943; Base position: 49.120078877338756 mm; Feasibility: YES!; Manipulability: 0.20432 
+Iteration: 944; Base position: 135.93645376560858 mm; Feasibility: YES!; Manipulability: 0.19914 
+Iteration 945; Base position: 707.9299517053714 mm; Feasibility: NO! 
+Iteration 946; Base position: 1011.7977909489905 mm; Feasibility: NO! 
+Iteration 947; Base position: 1211.5772358408958 mm; Feasibility: NO! 
+Iteration 948; Base position: 811.1785293423095 mm; Feasibility: NO! 
+Iteration 949; Base position: -1373.4034825592653 mm; Feasibility: NO! 
+Iteration: 950; Base position: 158.16867843118962 mm; Feasibility: YES!; Manipulability: 0.19796 
+Iteration 951; Base position: 1192.5121693906326 mm; Feasibility: NO! 
+Iteration 952; Base position: 1423.2898075821904 mm; Feasibility: NO! 
+Iteration 953; Base position: -1008.4779577542815 mm; Feasibility: NO! 
+Iteration 954; Base position: -664.9716596632743 mm; Feasibility: NO! 
+Iteration 955; Base position: -868.3900523329892 mm; Feasibility: NO! 
+Iteration 956; Base position: -1353.732094942243 mm; Feasibility: NO! 
+Iteration 957; Base position: -1009.6823105101021 mm; Feasibility: NO! 
+Iteration 958; Base position: 890.0696232018108 mm; Feasibility: NO! 
+Iteration 959; Base position: 1357.561269648948 mm; Feasibility: NO! 
+Iteration: 960; Base position: -189.1233677657242 mm; Feasibility: YES!; Manipulability: 0.20065 
+Iteration 961; Base position: -1443.8371851023314 mm; Feasibility: NO! 
+Iteration: 962; Base position: 136.6090052614411 mm; Feasibility: YES!; Manipulability: 0.19906 
+Iteration 963; Base position: -1392.614894686185 mm; Feasibility: NO! 
+Iteration 964; Base position: 1192.4749239422122 mm; Feasibility: NO! 
+Iteration 965; Base position: 885.9266732133442 mm; Feasibility: NO! 
+Iteration: 966; Base position: 386.459093917676 mm; Feasibility: YES!; Manipulability: 0.10896 
+Iteration: 967; Base position: -368.2162880303979 mm; Feasibility: YES!; Manipulability: 0.1733 
+Iteration: 968; Base position: 309.23732170952417 mm; Feasibility: YES!; Manipulability: 0.17154 
+Iteration 969; Base position: -1051.5603158645213 mm; Feasibility: NO! 
+Iteration 970; Base position: 393.1044675015344 mm; Feasibility: NO! 
+Iteration 971; Base position: 1200.9793547663412 mm; Feasibility: NO! 
+Iteration: 972; Base position: 366.8719508663544 mm; Feasibility: YES!; Manipulability: 0.11967 
+Iteration 973; Base position: 1312.9457428141668 mm; Feasibility: NO! 
+Iteration 974; Base position: -1231.6880498247372 mm; Feasibility: NO! 
+Iteration: 975; Base position: 189.1938404260993 mm; Feasibility: YES!; Manipulability: 0.19449 
+Iteration 976; Base position: 1240.1200567738028 mm; Feasibility: NO! 
+Iteration 977; Base position: 1395.8251949018058 mm; Feasibility: NO! 
+Iteration 978; Base position: 653.5486063823232 mm; Feasibility: NO! 
+Iteration 979; Base position: -664.6811115952005 mm; Feasibility: NO! 
+Iteration: 980; Base position: -200.56083163350058 mm; Feasibility: YES!; Manipulability: 0.19978 
+Iteration: 981; Base position: 140.4122324808884 mm; Feasibility: YES!; Manipulability: 0.19964 
+Iteration 982; Base position: 1268.535625977454 mm; Feasibility: NO! 
+Iteration 983; Base position: 1327.2421875596042 mm; Feasibility: NO! 
+Iteration: 984; Base position: 322.61862035394256 mm; Feasibility: YES!; Manipulability: 0.16735 
+Iteration 985; Base position: 501.755955754089 mm; Feasibility: NO! 
+Iteration 986; Base position: -1249.8915365377948 mm; Feasibility: NO! 
+Iteration: 987; Base position: 261.82888270064086 mm; Feasibility: YES!; Manipulability: 0.18242 
+Iteration: 988; Base position: 340.73865724236566 mm; Feasibility: YES!; Manipulability: 0.13219 
+Iteration 989; Base position: -1124.298369335203 mm; Feasibility: NO! 
+Iteration 990; Base position: -466.3354372762533 mm; Feasibility: NO! 
+Iteration 991; Base position: 1131.4730392721985 mm; Feasibility: NO! 
+Iteration 992; Base position: -1432.6125593281395 mm; Feasibility: NO! 
+Iteration 993; Base position: -923.146294991882 mm; Feasibility: NO! 
+Iteration: 994; Base position: 169.63998250754207 mm; Feasibility: YES!; Manipulability: 0.19681 
+Iteration 995; Base position: -1061.0830755983475 mm; Feasibility: NO! 
+Iteration 996; Base position: -1286.1048980203916 mm; Feasibility: NO! 
+Iteration 997; Base position: 522.3958807658953 mm; Feasibility: NO! 
+Iteration 998; Base position: 1221.137601662584 mm; Feasibility: NO! 
+Iteration 999; Base position: 1464.2734742063985 mm; Feasibility: NO! 
+
+ ************ Supposed feasible range: from -440.2497434914801 mm to 386.459093917676 mm 

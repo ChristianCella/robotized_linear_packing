@@ -1,7 +1,3 @@
-/*
-C# side of the code for the robotized linear packing algorithm.
-*/
-
 using System;
 using System.Net;
 using System.Net.Sockets;
@@ -18,7 +14,7 @@ using System.Collections;
 class Program
 {
     // Private variables
-    private static TxSimulationPlayer Player;
+    static TxSimulationPlayer Player;
 
     // Static variables
     static StringWriter m_output;
@@ -28,7 +24,7 @@ class Program
     static int port = 12345;
     static TxRobot Robot = GetRobot("GoFa12");
     static ITxObject tool = GetGripper("Suction cup");
-    static var robot = Robot as ITxLocatableObject;
+    static ITxLocatableObject robot = Robot as ITxLocatableObject;
     static string new_tcp = "tgripper_tf";
     static string new_motion_type = "PTP";
     static string new_speed = "100%";
@@ -36,173 +32,101 @@ class Program
     static string new_blend = "fine";
     static string operation_root = "RoboticProgram_";
     static string item_root = "Cube_";
+    static int[] result = new int[2];
+    static double[] place_pose = new double[4];
 
-    // Main method
+    // Main funtion
     static public void Main(ref StringWriter output)
     {
         m_output = output;
         TcpListener server = null;
         Player = TxApplication.ActiveDocument.SimulationPlayer;
-
+        int N = 1000;
+        
         try
         {
-            // Start the socket connection
+            int port = 12345;
             server = new TcpListener(IPAddress.Parse("127.0.0.1"), port);
             server.Start();
             TcpClient client = server.AcceptTcpClient();
             NetworkStream stream = client.GetStream();
 
-            // ! Here you have to acquire the shared data
+            // Instantiate the item to be picked (never changes)
+            ITxObject considered_item = GetItem("Cube_02");
 
-            // Modify this part by unpacking the vector(s)
-            int Nsim = 20;
+            for (int i = 0; i < N; i++)
+            {
+                // Get the base and place poses
+                var layout = ReceiveNumpyArray(stream);
+
+                //move the base of the robot in the defined position 
+                TxVector translation = new TxVector(layout[0, 0], 0, 0);
+                TxVector orientation = new TxVector(0, 0, 0);
+                TransformPose(robot, translation, orientation);
+                
+                // Re-initialize variables for the mean manipulability
+                determinantCounter = 0;
+                determinantSum = 0; 
+
+                // Create the place pose
+                place_pose[0] = layout[0, 1]; // x
+                place_pose[1] = layout[0, 2]; // y
+                place_pose[2] = layout[0, 3]; // z
+                place_pose[3] = layout[0, 4]; // rotation
+                              
+                // Create the robotc operation
+                TxContinuousRoboticOperation MyOp = RobotPickPlace(
+                    Robot, 
+                    considered_item, 
+                    tool, 
+                    "RobotProgram", 
+                    "Cube_02", 
+                    "TOOLFRAME", 
+                    new_tcp, 
+                    100, // pre-post offset
+                    place_pose); 
+
+                // Set the new operation to be simulated 
+                TxApplication.ActiveDocument.CurrentOperation = MyOp;                                       
+                Player.Rewind();
             
-            int particles = 20;
-            double[] fitness = new double[particles];
-            int num_types = 2;
-            int num_objects_0 = 3;
-            int num_objects_1 = 3;
-            int num_bin_0 = 1;
-            int num_bin_1 = 1;
-            int [] num_bins_array = new int[num_types];
-            int [] num_objects_array = new int [num_types];
-
-            num_bins_array[0] = num_bin_0;
-            num_bins_array[1] = num_bin_1;
-            num_objects_array[0] = num_objects_0;
-            num_objects_array[1] = num_objects_1;
-
-            int num_bins = 0;
-            int count = 0;
-            int num_objects_pick = 0;
-
-
-            // * STEP 1 => for all the types of objects you have ...
-            for (int type_obj = 0; type_obj < num_types; type_obj++)
-            { 
-                num_bins = num_bins_array[type_obj];
-                num_objects_pick = num_objects_array[type_obj];
-
-                // Top face offset
-                var z_top_face_rec = ReceiveNumpyArray(stream); // ! Receive 1 
-                var z_top_face_int = z_top_face_rec[0,0];
-
-                //transform into a vector
-                var z_top_face = new TxVector(0, 0, z_top_face_int);
-
-                // * STEP 2 => for all the bins available for a specific type of object ...
-                for (int bin = 0; bin<num_bins; bin++)
+                // ! Core of the algorithm: Run the simulation
+                if (!Player.IsSimulationRunning())
                 {
-                    // recieve the number of objects inside the considered bin
-                    var num_objects_rec = ReceiveNumpyArray(stream); // ! Receive 2 
-                    var num_objects = num_objects_rec[0, 0];           
+                    m_output = output;        
+                    Player.TimeIntervalReached += new TxSimulationPlayer_TimeIntervalReachedEventHandler(player_TimeIntervalReached);                      
+                    Player.Play(); // Perform the simulation at the current time step 
+                    Player.TimeIntervalReached -= new TxSimulationPlayer_TimeIntervalReachedEventHandler(player_TimeIntervalReached);
+                }
+            
+                // Check if the simulation was successful
+                int simulation_success = CheckSimulationSuccess();
 
-                    // * STEP 3 => for all the objects ('place-side') that can be packed in a specific bin ...
-                    for (int i = 0; i < num_objects; i++)
-                    {
-                        //recieve the place point and the rotation
-                        var place_pose_received = ReceiveNumpyArray(stream); // ! Receive 3 
+                // 'Safety' rewind
+                Player.Rewind();
 
-                        // * STEP 4 =>  for all the items that can be picked (pick side) after knowing a specific 'place-side' spot ...
-                        for (int c = 0; c < num_objects_pick; c++)
-                        {
-                            // ? This is where the evaluations for the PSO are obtained
+                // ! Compute the metrics for this simulation (manipulability, operation time, xi)                                      
+                double mean_determinant = Math.Round(determinantSum / determinantCounter, 5) * 100000;
+                int single_fitness = (int)mean_determinant;
+                result[0] = simulation_success;
+                result[1] = single_fitness;
+                                                       
+                // Send the first array back to the client
+                string result_vec = string.Join(",", result);
+                byte[] result1 = Encoding.ASCII.GetBytes(result_vec);
+                stream.Write(result1, 0, result1.Length);
 
-                            // Receive the skip variable
-                            var skip = ReceiveNumpyArray(stream); // ! Receive 4
-                       
-                            if (skip[0, 0] == 0)
-                            {
+                output.WriteLine("Simulation number: " + i);
+                output.WriteLine("Robot base position: " + layout[0, 0]);
+                output.WriteLine("Simulation success: " + simulation_success);
+                output.WriteLine("Manipulability: " + single_fitness);
 
-                                // ! PSO implementation
-                                for (int ii = 0; ii < Nsim ; ii++)    
-                                {
-                                    // Receive particles positions
-                                    var layout = ReceiveNumpyArray(stream);
-
-                                    // * Loop through all the particles
-                                    for (int pos = 0; pos < particles; pos++)
-                                    {
-                                        // Move the robot to the position encoded in the pos-th particle
-                                        TxVector translation = new TxVector(layout[0, pos], 0, 0);
-                                        TxVector orientation = new TxVector(0, 0, 0);
-                                        TransformPose(robot, translation, orientation);
-                                       
-                                        // Initialize some variables
-                                        determinantCounter = 0;
-                                        determinantSum = 0;   
-                                  
-                                        // Instantiate the item to be picked
-                                        ITxObject considered_item = GetItem(item_root + type_obj.ToString() + c.ToString());
-                                           
-                                        // Create the robotc operation
-                                        TxContinuousRoboticOperation MyOp = RobotPickPlace(
-                                            Robot, 
-                                            considered_item, 
-                                            tool, 
-                                            operation_root + i.ToString() + pos.ToString(), 
-                                            item_root + type_obj.ToString() + c.ToString(), 
-                                            "TOOLFRAME", 
-                                            new_tcp, 
-                                            z_top_face_int, 
-                                            place_pose_received);
-
-                                        // Set the new operation to be simulated
-                                        TxApplication.ActiveDocument.CurrentOperation = MyOp;                                       
-                                        Player.Rewind();
-                                    
-                                        // ! Core of the algorithm: Run the simulation
-                                        if (!Player.IsSimulationRunning())
-                                        {
-                                            m_output = output;        
-                                            Player.TimeIntervalReached += new TxSimulationPlayer_TimeIntervalReachedEventHandler(player_TimeIntervalReached);                      
-                                            Player.Play(); // Perform the simulation at the current time step 
-                                            Player.TimeIntervalReached -= new TxSimulationPlayer_TimeIntervalReachedEventHandler(player_TimeIntervalReached);
-                                        }
-                                    
-                                        // Check if the simulation was successful
-                                        int simulationSuccess = CheckSimulationSuccess();
-                                        if (simulationSuccess == 0)
-                                        {
-                                            int xi = 0;
-                                        }
-                                        else
-                                        {
-                                            int xi = -999999999; 
-                                        }
-
-                                        // Safety rewind
-                                        player.Rewind();
-
-                                        // ! Compute the metrics for this simulation (manipulability, operation time, xi)                                      
-                                        double MeanDeterminant = Math.Round(determinantSum / determinantCounter, 5) * 100000;
-                                        double time_PickPlace = MyOp.Duration;
-                                        int single_fitness = (int)MeanDeterminant;
-                                        fitness[pos] = single_fitness + xi;
-
-                                        // Delete the operation
-                                        MyOp.Delete();
-                                        
-                                    }
-
-                                    //send fitness values
-                                    string fitnes_s = string.Join(",", fitness);
-                                    byte[] fitness_Vec = Encoding.ASCII.GetBytes(fitnes_s);
-                                    stream.Write(fitness_Vec, 0, fitness_Vec.Length); // ! Send 5
-
-                                //recieve something just to see if it works
-                                var helper10= ReceiveNumpyArray(stream);
-                            }
-
-                        }
-
-                    }  
-
-                } 
+                // Delete the operation
+                MyOp.Delete();
 
             }
-       
-            // Close all the instances
+
+            //close connection
             stream.Close();
             client.Close();
             server.Stop();
@@ -212,8 +136,6 @@ class Program
             output.Write("Exception: " + e.Message);
         }
     }
-
-
 
     /*
         Methods to transform the resources
@@ -226,15 +148,9 @@ class Program
         int index = 0;
         while (Robot == null)
         {
-            try
-            {
-                Robot = TxApplication.ActiveDocument.GetObjectsByName(robotName)[index] as TxRobot;
-            }
-            catch (Exception e)
-            {
-                LogThis(e.Message + "\nError obtaining Robot at index " + index + ", trying " + (index + 1) + "...");
-                index++;
-            }
+			
+			Robot = TxApplication.ActiveDocument.GetObjectsByName(robotName)[index] as TxRobot;
+
         }
 
         return Robot;
@@ -243,19 +159,19 @@ class Program
     // get the gripper
     private static ITxObject GetGripper(string gripperName)
     {
-        ITxObject Gripper = TxApplication.ActiveDocument.GetObjectsByName(gripperName)[0] as TxGripper;
+        ITxObject Gripper = TxApplication.ActiveDocument.GetObjectsByName(gripperName)[0] as ITxObject;
         return Gripper;
     }
 
     // get the object
-    private static ITxObject GetItem(string itemName)
+    private static ITxObject GetItem(string item_name)
     {
-        ITxObject Item = TxApplication.ActiveDocument.GetObjectsByName(gripperName)[0];
+        ITxObject Item = TxApplication.ActiveDocument.GetObjectsByName(item_name)[0];
         return Item;
     }
 
     // Object transformation
-    private static void TransformPose(var item, TxVector translation, TxVector orientation)
+    private static void TransformPose(ITxObject item, TxVector translation, TxVector orientation)
     {
         // Make sure the item is an ITxLocatableObject
         ITxLocatableObject locatableItem = item as ITxLocatableObject;
@@ -296,18 +212,18 @@ class Program
         ITxObject tool,
         string op_name, 
         string item_name, 
-        string tcp_flange_name, 
-        string tcp_ee_name,
+        string tcp_flange_name, // "TOOLFRAME"
+        string tcp_ee_name, // new_tcp = "tgripper_tf"
         double z_offset,
-        var place_pose_received)
+        double[] place_pose_received)
     {
         // Initialize operation
         TxContinuousRoboticOperation MyOp = InitializeRoboticOperation(robot, op_name);
 
         // Create operation using atomic operations
-        Approach("pick", item_name, tcp_flange_name, z_offset, MyOp, place_pose_received);
-        Overfly(item_name, MyOp, place_pose_received);
-        Approach("place", item_name, tcp_flange_name, z_offset, MyOp, place_pose_received);
+        Approach("pick", item_name, tcp_ee_name, z_offset, MyOp, place_pose_received);
+        Overfly(item_name, MyOp, z_offset, place_pose_received);
+        Approach("place", item_name, tcp_ee_name, z_offset, MyOp, place_pose_received);
 
         // Specify the parameters
         TxTypeFilter filter = new TxTypeFilter(typeof(TxRoboticViaLocationOperation));
@@ -335,10 +251,10 @@ class Program
     static void Approach(
         string op_type, 
         string item_name, 
-        string tcp_flange_name, 
+        string tcp_ee_name, // TOOLFRAME
         double z_offset, 
         TxContinuousRoboticOperation MyOp, 
-        var place_pose_received)
+        double[] place_pose_received)
     {
         // Create the 3 necessary points
         TxRoboticViaLocationOperationCreationData Point1 = new TxRoboticViaLocationOperationCreationData();
@@ -362,7 +278,7 @@ class Program
             var position_pick = new TxTransformation(frame_obj_pick.AbsoluteLocation);
 
             // First point -> Home
-            ConfigureInitialPosition(FirstPoint, tcp_flange_name);
+            ConfigureInitialPosition(FirstPoint, tcp_ee_name);
 
             // Third point: Pick position
             ThirdPoint.AbsoluteLocation = position_pick;
@@ -379,14 +295,13 @@ class Program
         else if (op_type == "place")
         {
             // Get the object to be placed
-            var place_point_x = place_pose_recieved[0, 0]; 
-            var place_point_y = place_pose_recieved[0, 1]; 
-            var place_point_z = place_pose_recieved[0, 2];
-            rotation = place_pose_recieved[0, 3];
-            var place_point = new TxVector (place_point_x, place_point_y, place_point_z);
-
+            var place_point_x = place_pose_received[0]; 
+            var place_point_y = place_pose_received[1]; 
+            var place_point_z = place_pose_received[2];
+            var rotation = place_pose_received[3];
+            var place_point = new TxTransformation(new TxVector(place_point_x, place_point_y, place_point_z), TxTransformation.TxTransformationType.Translate);
             // Third point -> Home
-            ConfigureInitialPosition(ThirdPoint, tcp_flange_name);
+            ConfigureInitialPosition(ThirdPoint, tcp_ee_name);
 
             // First point: Place position
             double rotZ = 0; // Nominal value
@@ -396,16 +311,17 @@ class Program
             }
 
             // First point: place position
-            FirstPoint.AbsoluteLocation = position_place;
+            FirstPoint.AbsoluteLocation = place_point;
             var placeOffsetPosition = new TxTransformation(FirstPoint.AbsoluteLocation);
-            placeOffsetPosition.Translation = new TxVector(place_point);
+            placeOffsetPosition.Translation = place_point.Translation;
             placeOffsetPosition.RotationRPY_XYZ = new TxVector(Math.PI, 0, rotZ);
             FirstPoint.AbsoluteLocation = placeOffsetPosition;
 
             // Second point: Place approach position (higher approach)
-            SecondPoint.AbsoluteLocation = position_place;
+            SecondPoint.AbsoluteLocation = place_point;
             var placeApproachPosition = new TxTransformation(SecondPoint.AbsoluteLocation);
             placeApproachPosition.Translation = new TxVector(place_point_x, place_point_y, place_point_z + z_offset);
+            placeApproachPosition.RotationRPY_XYZ = new TxVector(Math.PI, 0, rotZ);
             SecondPoint.AbsoluteLocation = placeApproachPosition;
            
         }
@@ -415,13 +331,14 @@ class Program
     static void Overfly(
         string item_name, 
         TxContinuousRoboticOperation MyOp,
-        var place_pose_recieved)
+        double z_offset,
+        double[] place_pose_recieved)
     {
         // Create the 2 necessary points   
         TxRoboticViaLocationOperationCreationData Point1 = new TxRoboticViaLocationOperationCreationData();
-        Point1.Name = "point1_Overfly_" + objName;
+        Point1.Name = "point1_Overfly_" + item_name;
         TxRoboticViaLocationOperationCreationData Point2 = new TxRoboticViaLocationOperationCreationData();
-        Point2.Name = "point2_Overfly_" + objName;
+        Point2.Name = "point2_Overfly_" + item_name;
 
         // Add the points to the operation
         TxRoboticViaLocationOperation FirstPoint = MyOp.CreateRoboticViaLocationOperation(Point1);
@@ -433,18 +350,27 @@ class Program
         TxFrame frame_obj_pick = ref_frame_obj_pick[0] as TxFrame;
         var position_pick = new TxTransformation(frame_obj_pick.AbsoluteLocation);
 
-        // First point: first overfly position
-        FirstPoint.AbsoluteLocation = position_pick;
-        var firstOverflyPosition = new TxTransformation(FirstPoint.AbsoluteLocation);
-        firstOverflyPosition.Translation = new TxVector(position_pick[0, 3], position_pick[1, 3], position_pick[2, 3] + z_offset);
-        FirstPoint.AbsoluteLocation = firstOverflyPosition;
+        // Get the translation vector from the transformation
+        TxVector translation = position_pick.LocationRelativeToWorkingFrame.Translation;
+        var pick_pose_x = translation.X;
+        var pick_pose_y = translation.Y;
+        var pick_pose_z = translation.Z + z_offset;
+        var pick_pose = new TxTransformation(new TxVector(pick_pose_x, pick_pose_y, pick_pose_z), TxTransformation.TxTransformationType.Translate);
+
+        // First point: Pick position
+        TxTransformation full_pose = new TxTransformation();
+        full_pose.Translation = pick_pose.Translation;
+        full_pose.RotationRPY_XYZ = position_pick.RotationRPY_XYZ;
+
+        // Assign it back to the point
+        FirstPoint.LocationRelativeToWorkingFrame = full_pose;
 
         // Define the place position
-        var place_point_x = place_pose_recieved[0, 0]; 
-        var place_point_y = place_pose_recieved[0, 1]; 
-        var place_point_z = place_pose_recieved[0, 2];
-        rotation = place_pose_recieved[0, 3];
-        var place_point = new TxVector (place_point_x, place_point_y, place_point_z);
+        var place_point_x = place_pose_recieved[0]; 
+        var place_point_y = place_pose_recieved[1]; 
+        var place_point_z = place_pose_recieved[2];
+        var rotation = place_pose_recieved[3];
+        var place_point = new TxTransformation(new TxVector(place_point_x, place_point_y, place_point_z), TxTransformation.TxTransformationType.Translate);
 
         // First point: Place position
         double rotZ = 0; // Nominal value
@@ -454,7 +380,7 @@ class Program
         }
 
         // Second point: second overfly position
-        SecondPoint.AbsoluteLocation = position_place;
+        SecondPoint.AbsoluteLocation = place_point;
         var SecondOverflyPosition = new TxTransformation(SecondPoint.AbsoluteLocation);
         SecondOverflyPosition.Translation = new TxVector(place_point_x, place_point_y, place_point_z + z_offset);
         SecondOverflyPosition.RotationRPY_XYZ = new TxVector(Math.PI, 0, rotZ);
@@ -462,9 +388,9 @@ class Program
     }
 
     // Configure the initial position of the first point
-    private static void ConfigureInitialPosition(TxRoboticViaLocationOperation firstPoint, string tcp_flange_name)
+    private static void ConfigureInitialPosition(TxRoboticViaLocationOperation firstPoint, string tcp_ee_name)
     {
-        TxFrame TCPpose1 = TxApplication.ActiveDocument.GetObjectsByName(tcp_flange_name)[0] as TxFrame;
+        TxFrame TCPpose1 = TxApplication.ActiveDocument.GetObjectsByName(tcp_ee_name)[0] as TxFrame;
         var TCP_pose1 = new TxTransformation(TCPpose1.LocationRelativeToWorkingFrame);
         firstPoint.LocationRelativeToWorkingFrame = TCP_pose1;
     }
@@ -484,7 +410,6 @@ class Program
         paramHandler.OnComplexValueChanged("Speed", new_speed, Point);
         paramHandler.OnComplexValueChanged("Accel", new_accel, Point);
         paramHandler.OnComplexValueChanged("Blend", new_blend, Point);
-        paramHandler.OnComplexValueChanged("Coord Type", new_coord, Point);
 
     }
 
@@ -520,7 +445,6 @@ class Program
     // Deactivate suction cup
     public static void SuctionOff(
         string point_name,
-        ITxObject tool,
         ITxObject considered_item
     )
     {
@@ -725,7 +649,7 @@ class Program
         // Compute standard determinant
         double detJ = CalculateDeterminant(J);
 
-        // Compute Yoshikawa manipulability index: w = sqrt(det(J*Jᵗ)) ==> We use this
+        // Compute Yoshikawa manipulability index: w = sqrt(det(J*J?)) ==> We use this
         double[,] JJt = MultiplyMatrixByTranspose(J);
         double detJJt = CalculateDeterminant(JJt);
         double w = Math.Sqrt(Math.Abs(detJJt));

@@ -1,3 +1,7 @@
+''' 
+Python side of the code for the robotized linear packing algorithm.
+'''
+
 import sys
 import os
 
@@ -34,7 +38,7 @@ w0 = 0.9 # Upper bound on inertia
 wN = 0.4 # Lower bound on inertia
 delta_w = (wN - w0) / Nsim # Inertia weight decrease at each iteration
 cognitive_component = 2
-social_component = 2.0 
+social_component = 2 
 
 # Parameters for the packintg algorithm
 num_types = 2 # Different types of objects
@@ -55,7 +59,7 @@ var_man1 = math.sqrt(4262714.748894526)
 var_man2 = math.sqrt(1276617.8388812821)
 var_man_vec =[var_man1, var_man2]
 
-# Parameters obtained with the baseline experiment: time
+# Parameters obtained with the baseline experiment: time (for the linear axis, not the pick and place)
 mean_t = 0.8504154353582923 
 var_t = math.sqrt(0.126730866728932)
 
@@ -67,11 +71,11 @@ base_position_sequence = []
 items = []
 
 # File name
-file_path = "final_packing.txt"
+overall_path = "all_data_file.txt"
 
 def send_array(sock, array):
     # Send the shape and type of the array first
-    shape = np.array(array.shape, dtype=np.int32)
+    shape = np.array(array.shape, dtype = np.int32)
     sock.sendall(shape.tobytes())
     sock.sendall(array.tobytes())
 
@@ -83,21 +87,21 @@ def main():
     print("the connection has happened succesfully \n")
 
     # Start computing the time
-    start_time= time.time()
-    with open(file_path, 'w') as f: f.write(f"inizio tempo: {start_time} \n \n")
+    start_time = time.time()
+    with open(overall_path, 'w') as f: f.write(f"inizio tempo: {start_time} \n \n")
 
     # Instantiate the class to start the 'Best Fit Algorithm'
-    packers= []
+    packers = []
     packer1 = Packer()
     packer2 = Packer()
     packers.append(packer1)
     packers.append(packer2)
 
-    Bin_00 = Bin ('Type1_box1', 300, 200, 130, 20)
+    Bin_00 = Bin('Type1_box1', 300, 200, 130, 20)
     Bin_00.set_offset(-900, -530, -107) # FIXME: coordinates of the lower-left corner
     packer1.add_bin(Bin_00)
 
-    Bin_10 = Bin ('Type2_box1', 300, 200, 130, 20)
+    Bin_10 = Bin('Type2_box1', 300, 200, 130, 20)
     Bin_10.set_offset(-400, -530, -107) # FIXME: coordinates of the lower-left corner
     packer2.add_bin(Bin_10)
 
@@ -109,22 +113,17 @@ def main():
     packer2.add_item(Item('Cube_11', 100, 70, 80, 1))
     packer2.add_item(Item('Cube_12', 100, 70, 80, 1))
 
-    #FIXME: specify better this part
-    overall_path= "all_data_file.txt"
-    with open(overall_path, 'w') as f:
-        pass
-
     # Instantiate the class for the motion planning
     motion_planner = MotionPlanner(v_base, a_base)
 
-    # * for all the types of objects you have ...
+    # * STEP 1 => for all the types of objects you have ...
     while type_obj < num_types:
 
         # Get iteration specific parameters
         packer = packers[type_obj]
         num_bins = num_bins_array[type_obj]
         bin = 0
-        num_obj_pick = num_objects_array[type_obj] # Hpw many objects for a carteian type I have
+        num_obj_pick = num_objects_array[type_obj] # How many objects for a carteian type I have
         pick_objects = [] # array containing the index of objects (pick side) already picked and placed
         var_man = var_man_vec[type_obj]
         mean_man = mean_man_vec[type_obj]
@@ -132,16 +131,13 @@ def main():
         #! think of removing this part (take out one socket call => efficiency increases) 
         generic_bin = packer.bins[0] # First sorted bin (the one with biggest volume)
         generic_item = generic_bin.items[0] # First sorted item (the one with biggest volume)
-        z_top_face = (generic_item.depth)/2
-        z_top_face_send = np.array ([[z_top_face]], dtype=np.int32)
-        send_array(s,z_top_face_send) #! socket call 1
-        helper0=s.recv(1024).decode() #! receive 1
+        z_top_face = (generic_item.depth) / 2
+        z_top_face_send = np.array ([[z_top_face]], dtype = np.int32)
+        send_array(s, z_top_face_send) #! socket call 1
 
-        #FIXME: specify better this part
-        with open (overall_path, 'a') as f:
-            f.write(f"Type: {type_obj} \n")
+        with open (overall_path, 'a') as f: f.write(f"Type: {type_obj} \n")
 
-        # * for all the bins available for a specific type of object ...
+        # * STEP 2 => for all the bins available for a specific type of object ...
         while bin < num_bins: 
 
             place_points = []
@@ -150,7 +146,7 @@ def main():
             b = packer.bins[bin] 
             x_offset_box, y_offset_box, z_offset_box = b.get_offset() # coordinates of the lower-left corner of the bin
 
-            #! Sugegstion by Sole: you have to clear items (still do not know what she meant)
+            #! Suggestion by Sole: you have to clear items (still do not know what she meant)
             for item in b.items:
                 items.append(item) # items is a vector containing all the 'place-side-objects'
                 k = k + 1
@@ -160,39 +156,29 @@ def main():
             num_objects = k # number of objects inside the bin ('spots' available for objects in a bin)
             num_objects_send = np.array ([[num_objects]], dtype = np.int32) 
             send_array(s,num_objects_send) #! socket call 2
-            helper5=s.recv(1024).decode() #! receive 2
            
             with open (overall_path, 'a') as f:
                 f.write(f"Bin: {bin} \n")
 
-            # * for all the objects ('place-side') that can be packed in a specific bin ...
+            # * STEP 3 => for all the objects ('place-side') that can be packed in a specific bin ...
             i = 0 
             while i < num_objects:
 
-                with open (overall_path, 'a') as f:
-                    f.write(f"place side object: {i} \n")
+                with open (overall_path, 'a') as f: f.write(f"place side object: {i} \n")
 
                 # send the 'absolute' coordinates of the 'place position' associated to the item to be packed (assume all items identical)
-                place_x = place_points [i][0] + x_offset_box
-                place_y = place_points [i][1] + y_offset_box
-                place_z = place_points [i][2] + z_offset_box
-                place_point_send= np.array ([[place_x, place_y, place_z]], dtype=np.int32)
-                send_array(s,place_point_send) #! socket call 3
-                helper4 = s.recv(1024).decode() #! receive 3
-
-                #send the rotation associated with the object
-                rotation = rotations[i]
-                rotation_send = np.array ([[rotation]], dtype=np.int32)
-                send_array(s,rotation_send) #! socket call 4          
-                helper2 = s.recv(1024).decode() #! receive 4 
+                place_x = place_points[i][0] + x_offset_box
+                place_y = place_points[i][1] + y_offset_box
+                place_z = place_points[i][2] + z_offset_box
+                rotation = rotations[i] # Also send the rotation
+                place_point_send = np.array ([[place_x, place_y, place_z, rotation]], dtype = np.int32)
+                send_array(s, place_point_send) #! socket call 3
 
                 # Initialize variables for the PSO algorithm
                 c = 0 # initilaize the index of the object to be picked (pick side) 
-                swarm_evolution = [[] for _ in range (Nsim)]
-                x_swarm = [[] for _ in range (Nsim)]
                 best_tradeoff = -9999999999 #se cambio oggetto di place azzer il tradeoff #! What?
               
-                # * for all the items that can be picked (pick side) after knowing a specific 'place-side' spot ...
+                # * STEP 4 =>  for all the items that can be picked (pick side) after knowing a specific 'place-side' spot ...
                 while c < num_obj_pick: 
 
                     '''
@@ -205,16 +191,14 @@ def main():
                     if c not in pick_objects: 
    
                         skip = np.array([[0]], np.int32) # skip = 0 => Do not skip and test this object
-                        send_array(s,skip) #! socket call 5
-                        helper = s.recv(1024).decode() #! receive 5
+                        send_array(s, skip) #! socket call 4
                         trigger_end = 1 # Iteration counter for PSO algorithm
 
                         #initialization of the pso particles 
                         particle_positions = np.random.uniform(lower_bound, upper_bound, num_particles)
                         particle_velocities = np.random.uniform(-1, 1, num_particles) 
                                               
-                        with open(overall_path, 'a') as f:
-                            f.write(f"Object: {c} \n")
+                        with open(overall_path, 'a') as f: f.write(f"Object: {c} \n")
                         
                         '''
                         PSO algorithm 
@@ -224,17 +208,16 @@ def main():
                             # * Update inertia and layout
                             inertia_weight = w0 + delta_w * trigger_end
                             layout = np.array([[int(particle_positions[i]) for i in range(num_particles)]], dtype=np.int32)
-                            send_array(s, layout) #! socket call 6
+                            send_array(s, layout) #! socket call 5
                             
                             ''' 
-                            TPS computes the fitness values for all particles
+                            TPS computes the fitness values for all particles (C# side)
                             '''
 
-                            fitness = s.recv(1024).decode() #! receive 6
+                            fitness = s.recv(1024).decode() #! receive 5
                             fitness = np.array([int(num) for num in fitness.split(',')])
 
-                            with open (overall_path, 'a') as f:
-                                f.write(f"Iteration: {trigger_end}; Particle positions: {layout}; Fitness: {fitness} \n")
+                            with open (overall_path, 'a') as f: f.write(f"Iteration: {trigger_end}; Particle positions: {layout}; Fitness: {fitness} \n")
 
                             # * Set personal best and global best (the mask allows to remove a for loop)
                             if trigger_end == 1 :
@@ -302,22 +285,20 @@ def main():
                 pick_objects.append(next_item)
                 base_position_sequence.append(current_pos)
 
-                # * Update the counter of objects packed so fare inside the bin-th box
+                # * Update the counter of objects packed so far inside the bin-th box
                 i = i + 1
 
             # * A box for a specific type of object is full: I go to the next one available
-            bin = int(s.recv(1024).decode())       
+            bin = bin + 1      
 
         # * All items of a specific type are packed: I go to the next type of object
-        type_obj=int(s.recv(1024).decode())
-
+        type_obj = type_obj + 1
 
     # Close the connection
     s.close()
     end_time = time.time()
     elapsed_time = end_time - start_time
-    with open(file_path, 'a') as f:
-        f.write(f"The total time taken by the algorithm is: {elapsed_time} seconds \n")
+    with open(overall_path, 'a') as f: f.write(f"The total time taken by the algorithm is: {elapsed_time} seconds \n")
 
 # Run the code
 if __name__ == "__main__":

@@ -3,15 +3,15 @@ Test code to verify the data exchange with a socket-based architecture comprisin
 """
 
 import socket
-import numpy as np
+import numpy as np 
 import sys 
 import os
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))) # 'test' becomes the root if you do ctrl + R here
-from utils.parameters import SimulationParameters
+from utils.parameters import VanillaSimulationParameters
 
 verbose = True
-shared_parameters = SimulationParameters()
+shared_parameters = VanillaSimulationParameters()
 
 def send_array(sock, array):
     # Send the shape and type of the array first

@@ -1,1 +1,1 @@
-from .parameters import SimulationParameters
+from .parameters import VanillaSimulationParameters
