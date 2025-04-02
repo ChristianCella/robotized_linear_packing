@@ -18,20 +18,24 @@ class Program
 
     // Static variables
     static StringWriter m_output;
+
     static double determinantSum = 0;
     static double determinantCounter = 0;
     static int fitness_int = 0;
+
+    static string ip_address = "127.0.0.1";
     static int port = 12345;
+
     static TxRobot Robot = GetRobot("GoFa12");
     static ITxObject tool = GetGripper("Suction cup");
     static ITxLocatableObject robot = Robot as ITxLocatableObject;
-    static string new_tcp = "tgripper_tf";
+
+    static string tcp_ee_name = "tgripper_tf";
     static string new_motion_type = "PTP";
     static string new_speed = "100%";
     static string new_accel = "100%";
     static string new_blend = "fine";
-    static string operation_root = "RoboticProgram_";
-    static string item_root = "Cube_";
+
     static int[] result = new int[2];
     static double[] place_pose = new double[4];
 
@@ -41,20 +45,34 @@ class Program
         m_output = output;
         TcpListener server = null;
         Player = TxApplication.ActiveDocument.SimulationPlayer;
-        int N = 1000;
         
         try
         {
-            int port = 12345;
-            server = new TcpListener(IPAddress.Parse("127.0.0.1"), port);
+            server = new TcpListener(IPAddress.Parse(ip_address), port);
             server.Start();
             TcpClient client = server.AcceptTcpClient();
             NetworkStream stream = client.GetStream();
 
-            // Instantiate the item to be picked (never changes)
-            ITxObject considered_item = GetItem("Cube_02");
+            // Receive the shared data
+            var shared_data = ReceiveNumpyArray(stream);
+            int Nsim = shared_data[0, 0];
+            int pre_post_height = shared_data[0, 1];
+            int n_decimals = shared_data[0, 2];
 
-            for (int i = 0; i < N; i++)
+            // Receive the shared strings
+            List<string> labels = ReceiveStrings(stream);
+            string item_name = labels[0];
+            string box_name = labels[1];
+            string program_name = labels[2];
+            foreach (var label in labels)
+            {
+                output.WriteLine("Received: " + label);
+            }
+
+            // Instantiate the item to be picked (never changes)
+            ITxObject considered_item = GetItem(item_name);
+
+            for (int i = 0; i < Nsim; i++)
             {
                 // Get the base and place poses
                 var layout = ReceiveNumpyArray(stream);
@@ -73,17 +91,19 @@ class Program
                 place_pose[1] = layout[0, 2]; // y
                 place_pose[2] = layout[0, 3]; // z
                 place_pose[3] = layout[0, 4]; // rotation
+
+                output.WriteLine("Base position: " + layout[0, 0]);
                               
                 // Create the robotc operation
                 TxContinuousRoboticOperation MyOp = RobotPickPlace(
                     Robot, 
                     considered_item, 
                     tool, 
-                    "RobotProgram", 
-                    "Cube_02", 
+                    program_name, 
+                    item_name, 
                     "TOOLFRAME", 
-                    new_tcp, 
-                    100, // pre-post offset
+                    tcp_ee_name, 
+                    (double)pre_post_height, // pre-post offset
                     place_pose); 
 
                 // Set the new operation to be simulated 
@@ -106,7 +126,7 @@ class Program
                 Player.Rewind();
 
                 // ! Compute the metrics for this simulation (manipulability, operation time, xi)                                      
-                double mean_determinant = Math.Round(determinantSum / determinantCounter, 5) * 100000;
+                double mean_determinant = Math.Round(determinantSum / determinantCounter, n_decimals) * Math.Pow(10, n_decimals);
                 int single_fitness = (int)mean_determinant;
                 result[0] = simulation_success;
                 result[1] = single_fitness;
@@ -121,8 +141,11 @@ class Program
                 output.WriteLine("Simulation success: " + simulation_success);
                 output.WriteLine("Manipulability: " + single_fitness);
 
-                // Delete the operation
-                MyOp.Delete();
+                // Delete all the operations, except the last one
+                if (i != Nsim - 1)
+                {                    
+                    MyOp.Delete();
+                }
 
             }
 
@@ -491,6 +514,39 @@ class Program
 
         return array;
     }
+
+    static List<string> ReceiveStrings(NetworkStream stream)
+    {
+        // Read count
+        byte[] countBuffer = new byte[4];
+        stream.Read(countBuffer, 0, 4);
+        int count = BitConverter.ToInt32(countBuffer, 0);
+
+        List<string> strings = new List<string>();
+
+        for (int i = 0; i < count; i++)
+        {
+            // Read length
+            byte[] lengthBuffer = new byte[4];
+            stream.Read(lengthBuffer, 0, 4);
+            int length = BitConverter.ToInt32(lengthBuffer, 0);
+
+            // Read string
+            byte[] stringBuffer = new byte[length];
+            int totalRead = 0;
+            while (totalRead < length)
+            {
+                int read = stream.Read(stringBuffer, totalRead, length - totalRead);
+                if (read == 0) throw new IOException("Disconnected while reading string");
+                totalRead += read;
+            }
+
+            strings.Add(Encoding.UTF8.GetString(stringBuffer));
+        }
+
+        return strings;
+    }
+
 
     static void PrintArray(int[,] array, StringWriter m_output)
     {
