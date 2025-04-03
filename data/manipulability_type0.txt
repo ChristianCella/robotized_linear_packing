@@ -1,0 +1,1003 @@
+Upper and lower bounds for the problem
+Iteration 0; Item picked: Cube_00; Base position: -960.3630156021272 mm; Feasibility: NO! 
+Iteration: 1;  Base position: -247.99556542462778 mm; Feasibility: YES!; Manipulability: 0.15764 
+Iteration 2; Item picked: Cube_02; Base position: -448.93731404086066 mm; Feasibility: NO! 
+Iteration: 3;  Base position: -406.30351419268277 mm; Feasibility: YES!; Manipulability: 0.18259 
+Iteration 4; Item picked: Cube_02; Base position: 1137.245160516954 mm; Feasibility: NO! 
+Iteration 5; Item picked: Cube_02; Base position: 436.20474144145214 mm; Feasibility: NO! 
+Iteration 6; Item picked: Cube_01; Base position: 1455.7318739579173 mm; Feasibility: NO! 
+Iteration 7; Item picked: Cube_01; Base position: 1414.8377257652487 mm; Feasibility: NO! 
+Iteration: 8;  Base position: -26.92554833305121 mm; Feasibility: YES!; Manipulability: 0.2298 
+Iteration 9; Item picked: Cube_02; Base position: -1216.9407651787756 mm; Feasibility: NO! 
+Iteration 10; Item picked: Cube_01; Base position: -868.3889108832631 mm; Feasibility: NO! 
+Iteration: 11;  Base position: 192.47528630776037 mm; Feasibility: YES!; Manipulability: 0.21511 
+Iteration 12; Item picked: Cube_00; Base position: 557.3022408980187 mm; Feasibility: NO! 
+Iteration 13; Item picked: Cube_01; Base position: -795.2833813850931 mm; Feasibility: NO! 
+Iteration 14; Item picked: Cube_01; Base position: -951.9323827448404 mm; Feasibility: NO! 
+Iteration: 15;  Base position: 235.45156820541547 mm; Feasibility: YES!; Manipulability: 0.16708 
+Iteration: 16;  Base position: 356.95841941062463 mm; Feasibility: YES!; Manipulability: 0.18141 
+Iteration: 17;  Base position: -7.378217108244598 mm; Feasibility: YES!; Manipulability: 0.17185 
+Iteration 18; Item picked: Cube_01; Base position: 1318.9317790617179 mm; Feasibility: NO! 
+Iteration: 19;  Base position: 326.31985365779224 mm; Feasibility: YES!; Manipulability: 0.17177 
+Iteration 20; Item picked: Cube_00; Base position: 1485.9096645213526 mm; Feasibility: NO! 
+Iteration 21; Item picked: Cube_02; Base position: -1449.5781725780596 mm; Feasibility: NO! 
+Iteration 22; Item picked: Cube_01; Base position: -753.0532236977431 mm; Feasibility: NO! 
+Iteration 23; Item picked: Cube_02; Base position: 1344.121465328874 mm; Feasibility: NO! 
+Iteration: 24;  Base position: 366.4401734350565 mm; Feasibility: YES!; Manipulability: 0.1514 
+Iteration 25; Item picked: Cube_01; Base position: -1452.3795892237347 mm; Feasibility: NO! 
+Iteration 26; Item picked: Cube_01; Base position: -857.9963690020112 mm; Feasibility: NO! 
+Iteration 27; Item picked: Cube_02; Base position: -726.9432023181571 mm; Feasibility: NO! 
+Iteration 28; Item picked: Cube_02; Base position: -1000.7217162108309 mm; Feasibility: NO! 
+Iteration: 29;  Base position: 48.184437989535354 mm; Feasibility: YES!; Manipulability: 0.19997 
+Iteration: 30;  Base position: -131.07295825206643 mm; Feasibility: YES!; Manipulability: 0.21271 
+Iteration 31; Item picked: Cube_02; Base position: -647.8519473151341 mm; Feasibility: NO! 
+Iteration: 32;  Base position: -421.40200784194894 mm; Feasibility: YES!; Manipulability: 0.1823 
+Iteration: 33;  Base position: -71.33849492998343 mm; Feasibility: YES!; Manipulability: 0.17903 
+Iteration: 34;  Base position: 218.24887756771682 mm; Feasibility: YES!; Manipulability: 0.16792 
+Iteration: 35;  Base position: -153.54542578290625 mm; Feasibility: YES!; Manipulability: 0.19093 
+Iteration 36; Item picked: Cube_00; Base position: -1303.5179549973836 mm; Feasibility: NO! 
+Iteration 37; Item picked: Cube_02; Base position: 587.951226818036 mm; Feasibility: NO! 
+Iteration 38; Item picked: Cube_01; Base position: -771.7983808042554 mm; Feasibility: NO! 
+Iteration: 39;  Base position: -4.2871319380408295 mm; Feasibility: YES!; Manipulability: 0.21508 
+Iteration: 40;  Base position: 406.0037505711616 mm; Feasibility: YES!; Manipulability: 0.16639 
+Iteration 41; Item picked: Cube_02; Base position: 1349.0703077311432 mm; Feasibility: NO! 
+Iteration 42; Item picked: Cube_02; Base position: -1452.5160149914711 mm; Feasibility: NO! 
+Iteration 43; Item picked: Cube_00; Base position: -1063.9541985826081 mm; Feasibility: NO! 
+Iteration 44; Item picked: Cube_01; Base position: -830.8485049236174 mm; Feasibility: NO! 
+Iteration 45; Item picked: Cube_00; Base position: -1448.1327349498438 mm; Feasibility: NO! 
+Iteration 46; Item picked: Cube_00; Base position: 988.378336395147 mm; Feasibility: NO! 
+Iteration: 47;  Base position: -133.19468688857523 mm; Feasibility: YES!; Manipulability: 0.17088 
+Iteration 48; Item picked: Cube_02; Base position: -439.29604469155015 mm; Feasibility: NO! 
+Iteration 49; Item picked: Cube_02; Base position: 1430.2095860714944 mm; Feasibility: NO! 
+Iteration: 50;  Base position: 494.21185572022546 mm; Feasibility: YES!; Manipulability: 0.10332 
+Iteration 51; Item picked: Cube_01; Base position: -1106.0064640723365 mm; Feasibility: NO! 
+Iteration 52; Item picked: Cube_01; Base position: 1335.7495420851642 mm; Feasibility: NO! 
+Iteration: 53;  Base position: -157.15259950113546 mm; Feasibility: YES!; Manipulability: 0.17056 
+Iteration: 54;  Base position: -301.56779382376476 mm; Feasibility: YES!; Manipulability: 0.19516 
+Iteration 55; Item picked: Cube_01; Base position: 1353.929284474379 mm; Feasibility: NO! 
+Iteration 56; Item picked: Cube_01; Base position: -1014.0473090642263 mm; Feasibility: NO! 
+Iteration 57; Item picked: Cube_01; Base position: 1293.9034868305498 mm; Feasibility: NO! 
+Iteration: 58;  Base position: -552.7549219768289 mm; Feasibility: YES!; Manipulability: 0.15507 
+Iteration 59; Item picked: Cube_00; Base position: 377.5237942796789 mm; Feasibility: NO! 
+Iteration 60; Item picked: Cube_02; Base position: -1175.7395533861454 mm; Feasibility: NO! 
+Iteration 61; Item picked: Cube_00; Base position: -1038.3993504775444 mm; Feasibility: NO! 
+Iteration: 62;  Base position: 371.5819200244164 mm; Feasibility: YES!; Manipulability: 0.16347 
+Iteration 63; Item picked: Cube_01; Base position: 1352.774870622794 mm; Feasibility: NO! 
+Iteration: 64;  Base position: -94.75608086770694 mm; Feasibility: YES!; Manipulability: 0.17118 
+Iteration 65; Item picked: Cube_01; Base position: -1099.2256160431525 mm; Feasibility: NO! 
+Iteration 66; Item picked: Cube_01; Base position: -775.2914729123888 mm; Feasibility: NO! 
+Iteration: 67;  Base position: -427.98849805963096 mm; Feasibility: YES!; Manipulability: 0.17363 
+Iteration 68; Item picked: Cube_02; Base position: 1097.460939849435 mm; Feasibility: NO! 
+Iteration 69; Item picked: Cube_01; Base position: 1066.2336637136882 mm; Feasibility: NO! 
+Iteration 70; Item picked: Cube_01; Base position: -971.7342499297639 mm; Feasibility: NO! 
+Iteration 71; Item picked: Cube_00; Base position: 758.1652958603004 mm; Feasibility: NO! 
+Iteration 72; Item picked: Cube_00; Base position: -1237.7158199387213 mm; Feasibility: NO! 
+Iteration: 73;  Base position: -510.69276308398923 mm; Feasibility: YES!; Manipulability: 0.15025 
+Iteration 74; Item picked: Cube_01; Base position: -1016.2411273877517 mm; Feasibility: NO! 
+Iteration 75; Item picked: Cube_02; Base position: -512.1375108238819 mm; Feasibility: NO! 
+Iteration 76; Item picked: Cube_00; Base position: 1004.4509963738483 mm; Feasibility: NO! 
+Iteration: 77;  Base position: -478.9425773473554 mm; Feasibility: YES!; Manipulability: 0.15279 
+Iteration 78; Item picked: Cube_00; Base position: 1052.2139742704962 mm; Feasibility: NO! 
+Iteration 79; Item picked: Cube_01; Base position: -1278.881959682284 mm; Feasibility: NO! 
+Iteration 80; Item picked: Cube_00; Base position: -657.3533772084148 mm; Feasibility: NO! 
+Iteration: 81;  Base position: -268.63042842198774 mm; Feasibility: YES!; Manipulability: 0.19935 
+Iteration: 82;  Base position: -387.9619749980511 mm; Feasibility: YES!; Manipulability: 0.15772 
+Iteration: 83;  Base position: 252.726695630613 mm; Feasibility: YES!; Manipulability: 0.18038 
+Iteration 84; Item picked: Cube_02; Base position: 1414.9364444257571 mm; Feasibility: NO! 
+Iteration: 85;  Base position: -413.70152029891574 mm; Feasibility: YES!; Manipulability: 0.14843 
+Iteration 86; Item picked: Cube_02; Base position: -436.14551111203923 mm; Feasibility: NO! 
+Iteration 87; Item picked: Cube_01; Base position: -1407.4949302336101 mm; Feasibility: NO! 
+Iteration: 88;  Base position: 313.86275640818644 mm; Feasibility: YES!; Manipulability: 0.15794 
+Iteration 89; Item picked: Cube_00; Base position: -955.3696963999064 mm; Feasibility: NO! 
+Iteration 90; Item picked: Cube_01; Base position: 906.1137909156382 mm; Feasibility: NO! 
+Iteration 91; Item picked: Cube_01; Base position: 488.1060047123476 mm; Feasibility: NO! 
+Iteration 92; Item picked: Cube_01; Base position: -1254.9158946520909 mm; Feasibility: NO! 
+Iteration 93; Item picked: Cube_01; Base position: -1369.1554279386207 mm; Feasibility: NO! 
+Iteration: 94;  Base position: 307.24301469089664 mm; Feasibility: YES!; Manipulability: 0.16189 
+Iteration: 95;  Base position: -234.57950384784954 mm; Feasibility: YES!; Manipulability: 0.20178 
+Iteration 96; Item picked: Cube_01; Base position: 611.7939670256019 mm; Feasibility: NO! 
+Iteration 97; Item picked: Cube_00; Base position: -1441.7428775177762 mm; Feasibility: NO! 
+Iteration 98; Item picked: Cube_02; Base position: 1046.2365828433858 mm; Feasibility: NO! 
+Iteration: 99;  Base position: -245.272136953379 mm; Feasibility: YES!; Manipulability: 0.16832 
+Iteration: 100;  Base position: -86.46937866253302 mm; Feasibility: YES!; Manipulability: 0.17121 
+Iteration 101; Item picked: Cube_02; Base position: -1003.7770207142942 mm; Feasibility: NO! 
+Iteration: 102;  Base position: 367.04385670291276 mm; Feasibility: YES!; Manipulability: 0.12014 
+Iteration 103; Item picked: Cube_01; Base position: -1248.9930548833183 mm; Feasibility: NO! 
+Iteration 104; Item picked: Cube_00; Base position: -1289.6501457007214 mm; Feasibility: NO! 
+Iteration 105; Item picked: Cube_01; Base position: 1095.8013129856708 mm; Feasibility: NO! 
+Iteration 106; Item picked: Cube_00; Base position: -680.8074826588709 mm; Feasibility: NO! 
+Iteration 107; Item picked: Cube_01; Base position: -1390.2953784637034 mm; Feasibility: NO! 
+Iteration 108; Item picked: Cube_02; Base position: -789.4921212254559 mm; Feasibility: NO! 
+Iteration 109; Item picked: Cube_02; Base position: -967.4507749337788 mm; Feasibility: NO! 
+Iteration 110; Item picked: Cube_02; Base position: -874.539092217478 mm; Feasibility: NO! 
+Iteration 111; Item picked: Cube_00; Base position: -850.0541919998169 mm; Feasibility: NO! 
+Iteration 112; Item picked: Cube_02; Base position: -1109.0034831268574 mm; Feasibility: NO! 
+Iteration: 113;  Base position: 267.08354636037484 mm; Feasibility: YES!; Manipulability: 0.15698 
+Iteration 114; Item picked: Cube_01; Base position: 1439.8808440593803 mm; Feasibility: NO! 
+Iteration: 115;  Base position: 194.24091170581164 mm; Feasibility: YES!; Manipulability: 0.1932 
+Iteration: 116;  Base position: 500.75134704773814 mm; Feasibility: YES!; Manipulability: 0.11149 
+Iteration 117; Item picked: Cube_02; Base position: 1341.5672676453878 mm; Feasibility: NO! 
+Iteration 118; Item picked: Cube_00; Base position: -928.7895275824898 mm; Feasibility: NO! 
+Iteration 119; Item picked: Cube_02; Base position: -1206.517782397028 mm; Feasibility: NO! 
+Iteration 120; Item picked: Cube_02; Base position: 797.8796905720578 mm; Feasibility: NO! 
+Iteration: 121;  Base position: -69.62243669487589 mm; Feasibility: YES!; Manipulability: 0.17902 
+Iteration: 122;  Base position: 366.56203565041824 mm; Feasibility: YES!; Manipulability: 0.16474 
+Iteration: 123;  Base position: 407.1528187416395 mm; Feasibility: YES!; Manipulability: 0.1714 
+Iteration: 124;  Base position: -564.3085609502023 mm; Feasibility: YES!; Manipulability: 0.14058 
+Iteration 125; Item picked: Cube_00; Base position: -649.1893322487165 mm; Feasibility: NO! 
+Iteration 126; Item picked: Cube_02; Base position: -606.7240778347821 mm; Feasibility: NO! 
+Iteration 127; Item picked: Cube_00; Base position: 665.3156027213095 mm; Feasibility: NO! 
+Iteration 128; Item picked: Cube_02; Base position: -1286.5488647896111 mm; Feasibility: NO! 
+Iteration 129; Item picked: Cube_01; Base position: -728.9183173571611 mm; Feasibility: NO! 
+Iteration: 130;  Base position: -383.63394714824426 mm; Feasibility: YES!; Manipulability: 0.17338 
+Iteration 131; Item picked: Cube_01; Base position: -815.9733116752412 mm; Feasibility: NO! 
+Iteration 132; Item picked: Cube_02; Base position: 1145.9433107918667 mm; Feasibility: NO! 
+Iteration: 133;  Base position: 353.57787822008845 mm; Feasibility: YES!; Manipulability: 0.17904 
+Iteration 134; Item picked: Cube_00; Base position: -1207.932451280631 mm; Feasibility: NO! 
+Iteration 135; Item picked: Cube_00; Base position: -748.5260951339665 mm; Feasibility: NO! 
+Iteration: 136;  Base position: 151.36423818436288 mm; Feasibility: YES!; Manipulability: 0.20833 
+Iteration 137; Item picked: Cube_02; Base position: -761.4488325151323 mm; Feasibility: NO! 
+Iteration: 138;  Base position: -180.28468971492612 mm; Feasibility: YES!; Manipulability: 0.17015 
+Iteration: 139;  Base position: -232.65122800771928 mm; Feasibility: YES!; Manipulability: 0.18167 
+Iteration 140; Item picked: Cube_02; Base position: -577.8832096763166 mm; Feasibility: NO! 
+Iteration 141; Item picked: Cube_01; Base position: 1207.9410896298077 mm; Feasibility: NO! 
+Iteration 142; Item picked: Cube_01; Base position: 1096.6618905837404 mm; Feasibility: NO! 
+Iteration: 143;  Base position: -111.27827368288104 mm; Feasibility: YES!; Manipulability: 0.21348 
+Iteration 144; Item picked: Cube_02; Base position: 1424.6173739648161 mm; Feasibility: NO! 
+Iteration 145; Item picked: Cube_01; Base position: -610.2727278329497 mm; Feasibility: NO! 
+Iteration: 146;  Base position: 519.373080733583 mm; Feasibility: YES!; Manipulability: 0.11183 
+Iteration 147; Item picked: Cube_02; Base position: 677.4341433336772 mm; Feasibility: NO! 
+Iteration 148; Item picked: Cube_00; Base position: 733.6049207815395 mm; Feasibility: NO! 
+Iteration 149; Item picked: Cube_01; Base position: 519.5662750382801 mm; Feasibility: NO! 
+Iteration 150; Item picked: Cube_02; Base position: -821.8176031877406 mm; Feasibility: NO! 
+Iteration: 151;  Base position: -251.8077500905149 mm; Feasibility: YES!; Manipulability: 0.18754 
+Iteration 152; Item picked: Cube_00; Base position: 861.6356508180816 mm; Feasibility: NO! 
+Iteration 153; Item picked: Cube_01; Base position: -1452.6909546402676 mm; Feasibility: NO! 
+Iteration 154; Item picked: Cube_00; Base position: -1272.622591398388 mm; Feasibility: NO! 
+Iteration: 155;  Base position: -293.8807428193595 mm; Feasibility: YES!; Manipulability: 0.16638 
+Iteration 156; Item picked: Cube_01; Base position: -927.4110153257367 mm; Feasibility: NO! 
+Iteration 157; Item picked: Cube_01; Base position: -1068.0319910661929 mm; Feasibility: NO! 
+Iteration: 158;  Base position: -133.01750601464255 mm; Feasibility: YES!; Manipulability: 0.22731 
+Iteration: 159;  Base position: 443.2441352514236 mm; Feasibility: YES!; Manipulability: 0.16495 
+Iteration: 160;  Base position: 116.33642725269442 mm; Feasibility: YES!; Manipulability: 0.19731 
+Iteration: 161;  Base position: -216.24794977046736 mm; Feasibility: YES!; Manipulability: 0.20677 
+Iteration 162; Item picked: Cube_00; Base position: 681.6343960812178 mm; Feasibility: NO! 
+Iteration 163; Item picked: Cube_00; Base position: -1061.0960016512363 mm; Feasibility: NO! 
+Iteration 164; Item picked: Cube_01; Base position: 526.551282092332 mm; Feasibility: NO! 
+Iteration: 165;  Base position: 459.3816543169278 mm; Feasibility: YES!; Manipulability: 0.16058 
+Iteration: 166;  Base position: 3.1267665380967173 mm; Feasibility: YES!; Manipulability: 0.17172 
+Iteration: 167;  Base position: -380.5427759780364 mm; Feasibility: YES!; Manipulability: 0.18684 
+Iteration: 168;  Base position: 194.7326739792311 mm; Feasibility: YES!; Manipulability: 0.16885 
+Iteration 169; Item picked: Cube_01; Base position: -1312.9009713227758 mm; Feasibility: NO! 
+Iteration: 170;  Base position: 479.6232809230826 mm; Feasibility: YES!; Manipulability: 0.15364 
+Iteration 171; Item picked: Cube_01; Base position: -864.3796071031312 mm; Feasibility: NO! 
+Iteration 172; Item picked: Cube_00; Base position: -645.4005880078306 mm; Feasibility: NO! 
+Iteration: 173;  Base position: -118.34269660340374 mm; Feasibility: YES!; Manipulability: 0.19958 
+Iteration 174; Item picked: Cube_02; Base position: -1255.4092298080059 mm; Feasibility: NO! 
+Iteration 175; Item picked: Cube_02; Base position: -1151.2793235661711 mm; Feasibility: NO! 
+Iteration: 176;  Base position: 230.5961132861937 mm; Feasibility: YES!; Manipulability: 0.15684 
+Iteration 177; Item picked: Cube_02; Base position: 702.1718594518115 mm; Feasibility: NO! 
+Iteration 178; Item picked: Cube_01; Base position: -952.8097539846107 mm; Feasibility: NO! 
+Iteration: 179;  Base position: 135.7472167574963 mm; Feasibility: YES!; Manipulability: 0.1747 
+Iteration: 180;  Base position: -85.50815458791817 mm; Feasibility: YES!; Manipulability: 0.17907 
+Iteration 181; Item picked: Cube_01; Base position: -958.9982367114214 mm; Feasibility: NO! 
+Iteration: 182;  Base position: 56.66252484383426 mm; Feasibility: YES!; Manipulability: 0.22741 
+Iteration: 183;  Base position: 36.20307493965015 mm; Feasibility: YES!; Manipulability: 0.2003 
+Iteration: 184;  Base position: 14.38875220334262 mm; Feasibility: YES!; Manipulability: 0.20608 
+Iteration: 185;  Base position: -479.15702797545816 mm; Feasibility: YES!; Manipulability: 0.16624 
+Iteration: 186;  Base position: -403.09072113251796 mm; Feasibility: YES!; Manipulability: 0.16255 
+Iteration: 187;  Base position: -149.6843382999391 mm; Feasibility: YES!; Manipulability: 0.15759 
+Iteration 188; Item picked: Cube_00; Base position: -696.8332559155835 mm; Feasibility: NO! 
+Iteration: 189;  Base position: -281.8946250525521 mm; Feasibility: YES!; Manipulability: 0.18539 
+Iteration: 190;  Base position: -576.8495845995693 mm; Feasibility: YES!; Manipulability: 0.13766 
+Iteration 191; Item picked: Cube_02; Base position: 908.7850335854109 mm; Feasibility: NO! 
+Iteration 192; Item picked: Cube_00; Base position: 533.1205789698524 mm; Feasibility: NO! 
+Iteration: 193;  Base position: 496.73375446892214 mm; Feasibility: YES!; Manipulability: 0.12456 
+Iteration: 194;  Base position: -520.5615991566225 mm; Feasibility: YES!; Manipulability: 0.14875 
+Iteration: 195;  Base position: -192.69397569283365 mm; Feasibility: YES!; Manipulability: 0.19644 
+Iteration 196; Item picked: Cube_01; Base position: -773.1703607464749 mm; Feasibility: NO! 
+Iteration 197; Item picked: Cube_01; Base position: 1309.3887795528594 mm; Feasibility: NO! 
+Iteration 198; Item picked: Cube_01; Base position: -1278.3518896155615 mm; Feasibility: NO! 
+Iteration 199; Item picked: Cube_02; Base position: -848.78969055301 mm; Feasibility: NO! 
+Iteration 200; Item picked: Cube_01; Base position: -592.7251134334874 mm; Feasibility: NO! 
+Iteration: 201;  Base position: -389.8145369893846 mm; Feasibility: YES!; Manipulability: 0.16248 
+Iteration 202; Item picked: Cube_00; Base position: -829.3259524630728 mm; Feasibility: NO! 
+Iteration: 203;  Base position: 169.04568555301466 mm; Feasibility: YES!; Manipulability: 0.19423 
+Iteration: 204;  Base position: 232.993339721005 mm; Feasibility: YES!; Manipulability: 0.20099 
+Iteration: 205;  Base position: -94.4213456944367 mm; Feasibility: YES!; Manipulability: 0.15779 
+Iteration 206; Item picked: Cube_00; Base position: 1099.3164571223665 mm; Feasibility: NO! 
+Iteration: 207;  Base position: 322.1584112448761 mm; Feasibility: YES!; Manipulability: 0.18146 
+Iteration 208; Item picked: Cube_01; Base position: 1280.1399895459895 mm; Feasibility: NO! 
+Iteration 209; Item picked: Cube_02; Base position: 1294.6071737231696 mm; Feasibility: NO! 
+Iteration 210; Item picked: Cube_02; Base position: 972.2700942485098 mm; Feasibility: NO! 
+Iteration 211; Item picked: Cube_01; Base position: 780.9131604231457 mm; Feasibility: NO! 
+Iteration 212; Item picked: Cube_02; Base position: 704.655084982377 mm; Feasibility: NO! 
+Iteration: 213;  Base position: 119.83035490375732 mm; Feasibility: YES!; Manipulability: 0.22306 
+Iteration 214; Item picked: Cube_00; Base position: -1418.184537062166 mm; Feasibility: NO! 
+Iteration: 215;  Base position: -46.774473544347984 mm; Feasibility: YES!; Manipulability: 0.2294 
+Iteration 216; Item picked: Cube_00; Base position: 988.8961010953631 mm; Feasibility: NO! 
+Iteration 217; Item picked: Cube_01; Base position: -1344.3242105726458 mm; Feasibility: NO! 
+Iteration: 218;  Base position: -143.1919919396305 mm; Feasibility: YES!; Manipulability: 0.1986 
+Iteration 219; Item picked: Cube_00; Base position: -1373.53842341627 mm; Feasibility: NO! 
+Iteration 220; Item picked: Cube_01; Base position: 859.0451498223765 mm; Feasibility: NO! 
+Iteration 221; Item picked: Cube_00; Base position: -1101.8729904882334 mm; Feasibility: NO! 
+Iteration: 222;  Base position: -398.1862455778812 mm; Feasibility: YES!; Manipulability: 0.18399 
+Iteration 223; Item picked: Cube_01; Base position: 780.5507979225522 mm; Feasibility: NO! 
+Iteration 224; Item picked: Cube_01; Base position: -1260.8675465527215 mm; Feasibility: NO! 
+Iteration 225; Item picked: Cube_01; Base position: 826.0998434775665 mm; Feasibility: NO! 
+Iteration: 226;  Base position: -479.26286702440746 mm; Feasibility: YES!; Manipulability: 0.15269 
+Iteration 227; Item picked: Cube_00; Base position: -962.1826034241734 mm; Feasibility: NO! 
+Iteration: 228;  Base position: 140.78304482956423 mm; Feasibility: YES!; Manipulability: 0.1991 
+Iteration: 229;  Base position: 149.96657023422858 mm; Feasibility: YES!; Manipulability: 0.18118 
+Iteration: 230;  Base position: -132.8100478538497 mm; Feasibility: YES!; Manipulability: 0.18527 
+Iteration 231; Item picked: Cube_00; Base position: -660.8285739846049 mm; Feasibility: NO! 
+Iteration 232; Item picked: Cube_02; Base position: 461.7759009467036 mm; Feasibility: NO! 
+Iteration 233; Item picked: Cube_00; Base position: 1089.08993610791 mm; Feasibility: NO! 
+Iteration: 234;  Base position: 308.5776414143918 mm; Feasibility: YES!; Manipulability: 0.18279 
+Iteration 235; Item picked: Cube_02; Base position: 1468.2045529549778 mm; Feasibility: NO! 
+Iteration 236; Item picked: Cube_02; Base position: -1130.9747267168896 mm; Feasibility: NO! 
+Iteration 237; Item picked: Cube_02; Base position: 807.7370394994823 mm; Feasibility: NO! 
+Iteration: 238;  Base position: -81.78348019822988 mm; Feasibility: YES!; Manipulability: 0.18572 
+Iteration 239; Item picked: Cube_01; Base position: 1398.5069113371724 mm; Feasibility: NO! 
+Iteration 240; Item picked: Cube_00; Base position: 1039.2955630988786 mm; Feasibility: NO! 
+Iteration 241; Item picked: Cube_02; Base position: 1054.3469421533969 mm; Feasibility: NO! 
+Iteration: 242;  Base position: -211.02261591827187 mm; Feasibility: YES!; Manipulability: 0.20311 
+Iteration 243; Item picked: Cube_01; Base position: 704.6333029764237 mm; Feasibility: NO! 
+Iteration 244; Item picked: Cube_00; Base position: 474.23114887527277 mm; Feasibility: NO! 
+Iteration: 245;  Base position: -79.92474821168207 mm; Feasibility: YES!; Manipulability: 0.21429 
+Iteration: 246;  Base position: -435.9045813916514 mm; Feasibility: YES!; Manipulability: 0.15581 
+Iteration 247; Item picked: Cube_02; Base position: 859.1456352767823 mm; Feasibility: NO! 
+Iteration 248; Item picked: Cube_00; Base position: -1364.6155513025687 mm; Feasibility: NO! 
+Iteration: 249;  Base position: 1.2923387828004707 mm; Feasibility: YES!; Manipulability: 0.17819 
+Iteration 250; Item picked: Cube_01; Base position: -618.824420058253 mm; Feasibility: NO! 
+Iteration 251; Item picked: Cube_00; Base position: 481.003413721641 mm; Feasibility: NO! 
+Iteration: 252;  Base position: -408.6014343490972 mm; Feasibility: YES!; Manipulability: 0.16692 
+Iteration 253; Item picked: Cube_00; Base position: -887.3824755449184 mm; Feasibility: NO! 
+Iteration 254; Item picked: Cube_01; Base position: 1200.4440257638544 mm; Feasibility: NO! 
+Iteration 255; Item picked: Cube_01; Base position: -1175.8363163879344 mm; Feasibility: NO! 
+Iteration 256; Item picked: Cube_00; Base position: 1017.1649694798402 mm; Feasibility: NO! 
+Iteration 257; Item picked: Cube_02; Base position: 1285.561545350643 mm; Feasibility: NO! 
+Iteration 258; Item picked: Cube_00; Base position: 840.5228096009159 mm; Feasibility: NO! 
+Iteration 259; Item picked: Cube_02; Base position: -705.6971985829739 mm; Feasibility: NO! 
+Iteration 260; Item picked: Cube_00; Base position: -1115.6045259768543 mm; Feasibility: NO! 
+Iteration 261; Item picked: Cube_00; Base position: 865.233016418234 mm; Feasibility: NO! 
+Iteration 262; Item picked: Cube_02; Base position: -690.7645888724579 mm; Feasibility: NO! 
+Iteration: 263;  Base position: 255.36590074320088 mm; Feasibility: YES!; Manipulability: 0.18531 
+Iteration: 264;  Base position: -61.36611637311239 mm; Feasibility: YES!; Manipulability: 0.21455 
+Iteration 265; Item picked: Cube_01; Base position: 802.7770205676225 mm; Feasibility: NO! 
+Iteration 266; Item picked: Cube_00; Base position: -906.4535738858593 mm; Feasibility: NO! 
+Iteration 267; Item picked: Cube_00; Base position: 684.5420601485457 mm; Feasibility: NO! 
+Iteration 268; Item picked: Cube_01; Base position: 794.7209492873089 mm; Feasibility: NO! 
+Iteration 269; Item picked: Cube_01; Base position: -620.6763064904679 mm; Feasibility: NO! 
+Iteration 270; Item picked: Cube_02; Base position: -705.8344133286342 mm; Feasibility: NO! 
+Iteration 271; Item picked: Cube_01; Base position: 1218.5184273374548 mm; Feasibility: NO! 
+Iteration: 272;  Base position: -255.42808758777255 mm; Feasibility: YES!; Manipulability: 0.20278 
+Iteration 273; Item picked: Cube_00; Base position: 1152.9941907745574 mm; Feasibility: NO! 
+Iteration 274; Item picked: Cube_01; Base position: -1249.4532227304082 mm; Feasibility: NO! 
+Iteration: 275;  Base position: 444.8725195205286 mm; Feasibility: YES!; Manipulability: 0.15051 
+Iteration 276; Item picked: Cube_02; Base position: -884.823913444903 mm; Feasibility: NO! 
+Iteration 277; Item picked: Cube_01; Base position: 797.2648489345825 mm; Feasibility: NO! 
+Iteration 278; Item picked: Cube_01; Base position: 1344.2435890605507 mm; Feasibility: NO! 
+Iteration 279; Item picked: Cube_02; Base position: -654.1075775435788 mm; Feasibility: NO! 
+Iteration 280; Item picked: Cube_01; Base position: -651.3093938390002 mm; Feasibility: NO! 
+Iteration: 281;  Base position: 317.66973125919844 mm; Feasibility: YES!; Manipulability: 0.17041 
+Iteration: 282;  Base position: 39.551112097602754 mm; Feasibility: YES!; Manipulability: 0.19118 
+Iteration: 283;  Base position: -94.02538208293117 mm; Feasibility: YES!; Manipulability: 0.18567 
+Iteration 284; Item picked: Cube_01; Base position: 1150.4201374006711 mm; Feasibility: NO! 
+Iteration 285; Item picked: Cube_00; Base position: -977.0097501029097 mm; Feasibility: NO! 
+Iteration: 286;  Base position: 301.2571996496365 mm; Feasibility: YES!; Manipulability: 0.17469 
+Iteration 287; Item picked: Cube_01; Base position: -642.0549114696286 mm; Feasibility: NO! 
+Iteration: 288;  Base position: -427.5782866562565 mm; Feasibility: YES!; Manipulability: 0.17364 
+Iteration 289; Item picked: Cube_00; Base position: 1294.0749049513465 mm; Feasibility: NO! 
+Iteration 290; Item picked: Cube_02; Base position: -1004.0114402308783 mm; Feasibility: NO! 
+Iteration: 291;  Base position: 343.41583404154767 mm; Feasibility: YES!; Manipulability: 0.16482 
+Iteration 292; Item picked: Cube_01; Base position: 1397.5997155106597 mm; Feasibility: NO! 
+Iteration 293; Item picked: Cube_02; Base position: 1260.9786377068208 mm; Feasibility: NO! 
+Iteration 294; Item picked: Cube_00; Base position: 585.9029998499873 mm; Feasibility: NO! 
+Iteration 295; Item picked: Cube_00; Base position: 1204.6039909163692 mm; Feasibility: NO! 
+Iteration: 296;  Base position: -155.6947050255617 mm; Feasibility: YES!; Manipulability: 0.19088 
+Iteration 297; Item picked: Cube_01; Base position: 894.979746583711 mm; Feasibility: NO! 
+Iteration 298; Item picked: Cube_01; Base position: 479.8457006793219 mm; Feasibility: NO! 
+Iteration: 299;  Base position: 221.92978548904784 mm; Feasibility: YES!; Manipulability: 0.17076 
+Iteration 300; Item picked: Cube_02; Base position: 832.5929755861498 mm; Feasibility: NO! 
+Iteration 301; Item picked: Cube_01; Base position: 778.8135122677586 mm; Feasibility: NO! 
+Iteration: 302;  Base position: -109.12293753641598 mm; Feasibility: YES!; Manipulability: 0.21354 
+Iteration 303; Item picked: Cube_00; Base position: -753.7343937017802 mm; Feasibility: NO! 
+Iteration 304; Item picked: Cube_02; Base position: 695.8616551756218 mm; Feasibility: NO! 
+Iteration 305; Item picked: Cube_02; Base position: 1045.5340479133365 mm; Feasibility: NO! 
+Iteration 306; Item picked: Cube_02; Base position: -1264.9743769632432 mm; Feasibility: NO! 
+Iteration 307; Item picked: Cube_00; Base position: 512.5560416436699 mm; Feasibility: NO! 
+Iteration 308; Item picked: Cube_01; Base position: 1125.28763108645 mm; Feasibility: NO! 
+Iteration 309; Item picked: Cube_00; Base position: -697.6508307219041 mm; Feasibility: NO! 
+Iteration 310; Item picked: Cube_00; Base position: -811.4470031907907 mm; Feasibility: NO! 
+Iteration 311; Item picked: Cube_00; Base position: -969.0877060727303 mm; Feasibility: NO! 
+Iteration 312; Item picked: Cube_01; Base position: -1210.4701255541854 mm; Feasibility: NO! 
+Iteration 313; Item picked: Cube_01; Base position: 1220.3258871651115 mm; Feasibility: NO! 
+Iteration 314; Item picked: Cube_01; Base position: 1445.5337724716874 mm; Feasibility: NO! 
+Iteration 315; Item picked: Cube_01; Base position: -1289.0882409121648 mm; Feasibility: NO! 
+Iteration: 316;  Base position: -608.4742674541704 mm; Feasibility: YES!; Manipulability: 0.12581 
+Iteration: 317;  Base position: -207.18767192601626 mm; Feasibility: YES!; Manipulability: 0.16953 
+Iteration 318; Item picked: Cube_00; Base position: 1262.330294612511 mm; Feasibility: NO! 
+Iteration: 319;  Base position: -382.7569017571352 mm; Feasibility: YES!; Manipulability: 0.16576 
+Iteration: 320;  Base position: -121.27396871389419 mm; Feasibility: YES!; Manipulability: 0.19949 
+Iteration 321; Item picked: Cube_00; Base position: 867.7239480865446 mm; Feasibility: NO! 
+Iteration: 322;  Base position: -101.10255250416617 mm; Feasibility: YES!; Manipulability: 0.17906 
+Iteration 323; Item picked: Cube_00; Base position: 1439.7350334806629 mm; Feasibility: NO! 
+Iteration: 324;  Base position: 91.50153067989481 mm; Feasibility: YES!; Manipulability: 0.18273 
+Iteration 325; Item picked: Cube_00; Base position: 736.9850296085538 mm; Feasibility: NO! 
+Iteration 326; Item picked: Cube_00; Base position: -1231.2698663651681 mm; Feasibility: NO! 
+Iteration 327; Item picked: Cube_01; Base position: 398.9418104707179 mm; Feasibility: NO! 
+Iteration: 328;  Base position: -130.99725932471824 mm; Feasibility: YES!; Manipulability: 0.17886 
+Iteration 329; Item picked: Cube_01; Base position: -1020.654900313973 mm; Feasibility: NO! 
+Iteration 330; Item picked: Cube_02; Base position: -881.1021897392125 mm; Feasibility: NO! 
+Iteration: 331;  Base position: 164.69458308180083 mm; Feasibility: YES!; Manipulability: 0.21832 
+Iteration: 332;  Base position: 88.34578194468759 mm; Feasibility: YES!; Manipulability: 0.21228 
+Iteration 333; Item picked: Cube_02; Base position: 1156.934818583195 mm; Feasibility: NO! 
+Iteration 334; Item picked: Cube_00; Base position: 1388.8448131919217 mm; Feasibility: NO! 
+Iteration 335; Item picked: Cube_02; Base position: 1241.0267684396918 mm; Feasibility: NO! 
+Iteration: 336;  Base position: 102.82395698730534 mm; Feasibility: YES!; Manipulability: 0.19797 
+Iteration 337; Item picked: Cube_02; Base position: -845.4441453107304 mm; Feasibility: NO! 
+Iteration 338; Item picked: Cube_02; Base position: 712.8438901599011 mm; Feasibility: NO! 
+Iteration 339; Item picked: Cube_02; Base position: -660.6991295415612 mm; Feasibility: NO! 
+Iteration: 340;  Base position: 277.12284577543755 mm; Feasibility: YES!; Manipulability: 0.19762 
+Iteration: 341;  Base position: -539.8483454303815 mm; Feasibility: YES!; Manipulability: 0.15064 
+Iteration 342; Item picked: Cube_01; Base position: 1186.393479780264 mm; Feasibility: NO! 
+Iteration 343; Item picked: Cube_02; Base position: 1095.2532324179997 mm; Feasibility: NO! 
+Iteration 344; Item picked: Cube_01; Base position: 545.6191255159094 mm; Feasibility: NO! 
+Iteration 345; Item picked: Cube_02; Base position: -967.2249537993855 mm; Feasibility: NO! 
+Iteration 346; Item picked: Cube_00; Base position: 1230.204043544049 mm; Feasibility: NO! 
+Iteration: 347;  Base position: -339.03544551896766 mm; Feasibility: YES!; Manipulability: 0.18177 
+Iteration 348; Item picked: Cube_01; Base position: 1248.6281383606438 mm; Feasibility: NO! 
+Iteration 349; Item picked: Cube_00; Base position: 1279.0718606431615 mm; Feasibility: NO! 
+Iteration 350; Item picked: Cube_01; Base position: -1441.7643753640505 mm; Feasibility: NO! 
+Iteration 351; Item picked: Cube_01; Base position: -1053.8174307250383 mm; Feasibility: NO! 
+Iteration: 352;  Base position: -91.55017981138462 mm; Feasibility: YES!; Manipulability: 0.15778 
+Iteration 353; Item picked: Cube_00; Base position: 1413.6258661273237 mm; Feasibility: NO! 
+Iteration 354; Item picked: Cube_01; Base position: 682.9151038964419 mm; Feasibility: NO! 
+Iteration: 355;  Base position: -454.5801198665142 mm; Feasibility: YES!; Manipulability: 0.1728 
+Iteration 356; Item picked: Cube_01; Base position: -909.4657366357017 mm; Feasibility: NO! 
+Iteration 357; Item picked: Cube_02; Base position: -1204.517141671944 mm; Feasibility: NO! 
+Iteration: 358;  Base position: -181.31757307242128 mm; Feasibility: YES!; Manipulability: 0.17014 
+Iteration 359; Item picked: Cube_01; Base position: 443.6306527707452 mm; Feasibility: NO! 
+Iteration: 360;  Base position: 198.79026211086102 mm; Feasibility: YES!; Manipulability: 0.19274 
+Iteration 361; Item picked: Cube_00; Base position: 875.4315673186115 mm; Feasibility: NO! 
+Iteration: 362;  Base position: -48.49856222954895 mm; Feasibility: YES!; Manipulability: 0.18566 
+Iteration: 363;  Base position: 55.178035553476775 mm; Feasibility: YES!; Manipulability: 0.21367 
+Iteration 364; Item picked: Cube_01; Base position: 984.1827625284382 mm; Feasibility: NO! 
+Iteration 365; Item picked: Cube_01; Base position: -774.430010692618 mm; Feasibility: NO! 
+Iteration 366; Item picked: Cube_01; Base position: -719.8343698178378 mm; Feasibility: NO! 
+Iteration 367; Item picked: Cube_02; Base position: 1025.1157387829307 mm; Feasibility: NO! 
+Iteration: 368;  Base position: -196.62655152709 mm; Feasibility: YES!; Manipulability: 0.18958 
+Iteration 369; Item picked: Cube_02; Base position: 1280.748924116318 mm; Feasibility: NO! 
+Iteration 370; Item picked: Cube_00; Base position: -1410.718259347046 mm; Feasibility: NO! 
+Iteration: 371;  Base position: 154.7175565703751 mm; Feasibility: YES!; Manipulability: 0.1809 
+Iteration: 372;  Base position: -189.18393607907205 mm; Feasibility: YES!; Manipulability: 0.2236 
+Iteration: 373;  Base position: -38.912818188211986 mm; Feasibility: YES!; Manipulability: 0.17878 
+Iteration 374; Item picked: Cube_01; Base position: 906.5232119053871 mm; Feasibility: NO! 
+Iteration: 375;  Base position: -527.6554944542088 mm; Feasibility: YES!; Manipulability: 0.12702 
+Iteration 376; Item picked: Cube_00; Base position: 795.7415238904 mm; Feasibility: NO! 
+Iteration: 377;  Base position: 190.14833122764549 mm; Feasibility: YES!; Manipulability: 0.17849 
+Iteration: 378;  Base position: -521.8878021328825 mm; Feasibility: YES!; Manipulability: 0.16589 
+Iteration 379; Item picked: Cube_02; Base position: 666.6799519891442 mm; Feasibility: NO! 
+Iteration: 380;  Base position: 117.4577971371616 mm; Feasibility: YES!; Manipulability: 0.17553 
+Iteration 381; Item picked: Cube_01; Base position: -1388.7964514208197 mm; Feasibility: NO! 
+Iteration 382; Item picked: Cube_00; Base position: 864.7104880544139 mm; Feasibility: NO! 
+Iteration 383; Item picked: Cube_02; Base position: -1064.5171650942434 mm; Feasibility: NO! 
+Iteration: 384;  Base position: -2.1571778308207286 mm; Feasibility: YES!; Manipulability: 0.15819 
+Iteration 385; Item picked: Cube_02; Base position: 383.80328369419726 mm; Feasibility: NO! 
+Iteration 386; Item picked: Cube_00; Base position: 1125.4373199244133 mm; Feasibility: NO! 
+Iteration 387; Item picked: Cube_00; Base position: -738.0088511965 mm; Feasibility: NO! 
+Iteration: 388;  Base position: 511.97929282020505 mm; Feasibility: YES!; Manipulability: 0.09525 
+Iteration 389; Item picked: Cube_02; Base position: 1400.5755312914298 mm; Feasibility: NO! 
+Iteration: 390;  Base position: -370.1603167887861 mm; Feasibility: YES!; Manipulability: 0.17873 
+Iteration: 391;  Base position: 224.97891514777893 mm; Feasibility: YES!; Manipulability: 0.20977 
+Iteration: 392;  Base position: -230.98705941103253 mm; Feasibility: YES!; Manipulability: 0.20525 
+Iteration: 393;  Base position: -624.9067563308726 mm; Feasibility: YES!; Manipulability: 0.11497 
+Iteration 394; Item picked: Cube_00; Base position: 757.8467685222481 mm; Feasibility: NO! 
+Iteration 395; Item picked: Cube_02; Base position: 1186.741431585347 mm; Feasibility: NO! 
+Iteration 396; Item picked: Cube_01; Base position: -1443.7838937595955 mm; Feasibility: NO! 
+Iteration 397; Item picked: Cube_02; Base position: 772.120536337045 mm; Feasibility: NO! 
+Iteration 398; Item picked: Cube_02; Base position: -1270.466619514478 mm; Feasibility: NO! 
+Iteration: 399;  Base position: -326.9687561800122 mm; Feasibility: YES!; Manipulability: 0.1664 
+Iteration: 400;  Base position: -122.42214906589197 mm; Feasibility: YES!; Manipulability: 0.19946 
+Iteration 401; Item picked: Cube_01; Base position: 997.1276502414244 mm; Feasibility: NO! 
+Iteration 402; Item picked: Cube_01; Base position: 976.0175824764897 mm; Feasibility: NO! 
+Iteration 403; Item picked: Cube_01; Base position: 960.8314970334568 mm; Feasibility: NO! 
+Iteration: 404;  Base position: 354.86035073577636 mm; Feasibility: YES!; Manipulability: 0.1431 
+Iteration 405; Item picked: Cube_00; Base position: -1159.3167791152284 mm; Feasibility: NO! 
+Iteration 406; Item picked: Cube_02; Base position: -773.4316995047159 mm; Feasibility: NO! 
+Iteration 407; Item picked: Cube_01; Base position: 939.5937208575738 mm; Feasibility: NO! 
+Iteration 408; Item picked: Cube_02; Base position: 1390.696623167406 mm; Feasibility: NO! 
+Iteration: 409;  Base position: -170.34691769324832 mm; Feasibility: YES!; Manipulability: 0.19793 
+Iteration: 410;  Base position: -133.2754640137848 mm; Feasibility: YES!; Manipulability: 0.19135 
+Iteration: 411;  Base position: -612.5346812612144 mm; Feasibility: YES!; Manipulability: 0.12781 
+Iteration 412; Item picked: Cube_00; Base position: -855.0800507378206 mm; Feasibility: NO! 
+Iteration: 413;  Base position: 113.62401399444707 mm; Feasibility: YES!; Manipulability: 0.16954 
+Iteration 414; Item picked: Cube_00; Base position: -640.9392421784185 mm; Feasibility: NO! 
+Iteration 415; Item picked: Cube_01; Base position: -936.8748224022347 mm; Feasibility: NO! 
+Iteration 416; Item picked: Cube_00; Base position: -1370.8750966927603 mm; Feasibility: NO! 
+Iteration: 417;  Base position: 84.92379636848727 mm; Feasibility: YES!; Manipulability: 0.17684 
+Iteration 418; Item picked: Cube_00; Base position: -1417.0299675098863 mm; Feasibility: NO! 
+Iteration 419; Item picked: Cube_01; Base position: 428.0239780195441 mm; Feasibility: NO! 
+Iteration: 420;  Base position: 474.250268482976 mm; Feasibility: YES!; Manipulability: 0.13136 
+Iteration: 421;  Base position: 31.866403931082687 mm; Feasibility: YES!; Manipulability: 0.15766 
+Iteration 422; Item picked: Cube_00; Base position: 887.128054017146 mm; Feasibility: NO! 
+Iteration 423; Item picked: Cube_02; Base position: -1430.3493482889915 mm; Feasibility: NO! 
+Iteration 424; Item picked: Cube_00; Base position: 558.7328120611669 mm; Feasibility: NO! 
+Iteration 425; Item picked: Cube_00; Base position: -908.0465454358019 mm; Feasibility: NO! 
+Iteration: 426;  Base position: -306.61802533927516 mm; Feasibility: YES!; Manipulability: 0.167 
+Iteration: 427;  Base position: -268.5277333272513 mm; Feasibility: YES!; Manipulability: 0.17621 
+Iteration 428; Item picked: Cube_02; Base position: 958.1742328761875 mm; Feasibility: NO! 
+Iteration 429; Item picked: Cube_02; Base position: -1207.5768338019404 mm; Feasibility: NO! 
+Iteration: 430;  Base position: -466.6962917047008 mm; Feasibility: YES!; Manipulability: 0.15378 
+Iteration 431; Item picked: Cube_01; Base position: 565.4298643514185 mm; Feasibility: NO! 
+Iteration 432; Item picked: Cube_00; Base position: -777.140934183385 mm; Feasibility: NO! 
+Iteration 433; Item picked: Cube_02; Base position: -669.3192380359145 mm; Feasibility: NO! 
+Iteration 434; Item picked: Cube_02; Base position: 429.5335174725187 mm; Feasibility: NO! 
+Iteration: 435;  Base position: -345.87489944909566 mm; Feasibility: YES!; Manipulability: 0.18611 
+Iteration 436; Item picked: Cube_00; Base position: 619.6331847201536 mm; Feasibility: NO! 
+Iteration 437; Item picked: Cube_02; Base position: 574.0732515658865 mm; Feasibility: NO! 
+Iteration: 438;  Base position: -557.8835772360708 mm; Feasibility: YES!; Manipulability: 0.15381 
+Iteration 439; Item picked: Cube_02; Base position: -1380.1040675726622 mm; Feasibility: NO! 
+Iteration 440; Item picked: Cube_02; Base position: 460.91479580780106 mm; Feasibility: NO! 
+Iteration: 441;  Base position: -293.862093244222 mm; Feasibility: YES!; Manipulability: 0.18445 
+Iteration 442; Item picked: Cube_00; Base position: -755.7320475618793 mm; Feasibility: NO! 
+Iteration 443; Item picked: Cube_00; Base position: -1286.6719185746501 mm; Feasibility: NO! 
+Iteration 444; Item picked: Cube_00; Base position: 1006.2711549217879 mm; Feasibility: NO! 
+Iteration 445; Item picked: Cube_01; Base position: -1066.3746082083244 mm; Feasibility: NO! 
+Iteration 446; Item picked: Cube_01; Base position: 671.4884629994981 mm; Feasibility: NO! 
+Iteration: 447;  Base position: 209.03053865631432 mm; Feasibility: YES!; Manipulability: 0.1712 
+Iteration 448; Item picked: Cube_02; Base position: -1359.5031453441638 mm; Feasibility: NO! 
+Iteration: 449;  Base position: -43.02017400154887 mm; Feasibility: YES!; Manipulability: 0.17883 
+Iteration 450; Item picked: Cube_02; Base position: -667.4286139358376 mm; Feasibility: NO! 
+Iteration 451; Item picked: Cube_01; Base position: -1405.8773006538822 mm; Feasibility: NO! 
+Iteration 452; Item picked: Cube_01; Base position: -1064.5830789352383 mm; Feasibility: NO! 
+Iteration 453; Item picked: Cube_02; Base position: 525.635715777001 mm; Feasibility: NO! 
+Iteration: 454;  Base position: -292.11878125261615 mm; Feasibility: YES!; Manipulability: 0.20969 
+Iteration: 455;  Base position: 283.1441508266141 mm; Feasibility: YES!; Manipulability: 0.1564 
+Iteration: 456;  Base position: -335.0084965091514 mm; Feasibility: YES!; Manipulability: 0.17695 
+Iteration 457; Item picked: Cube_00; Base position: 719.7751783571111 mm; Feasibility: NO! 
+Iteration: 458;  Base position: -432.91175106901323 mm; Feasibility: YES!; Manipulability: 0.17079 
+Iteration 459; Item picked: Cube_01; Base position: -1455.1852547206875 mm; Feasibility: NO! 
+Iteration 460; Item picked: Cube_02; Base position: -450.25433330805345 mm; Feasibility: NO! 
+Iteration 461; Item picked: Cube_02; Base position: -1267.680245523482 mm; Feasibility: NO! 
+Iteration 462; Item picked: Cube_00; Base position: 1014.1145172502652 mm; Feasibility: NO! 
+Iteration 463; Item picked: Cube_01; Base position: -843.7588211747766 mm; Feasibility: NO! 
+Iteration: 464;  Base position: -125.2546597542464 mm; Feasibility: YES!; Manipulability: 0.17096 
+Iteration: 465;  Base position: 322.2390670116936 mm; Feasibility: YES!; Manipulability: 0.16655 
+Iteration: 466;  Base position: 431.12732097893377 mm; Feasibility: YES!; Manipulability: 0.14147 
+Iteration 467; Item picked: Cube_01; Base position: -560.1708019208035 mm; Feasibility: NO! 
+Iteration: 468;  Base position: 5.335135213108742 mm; Feasibility: YES!; Manipulability: 0.17169 
+Iteration 469; Item picked: Cube_02; Base position: -940.1298198495091 mm; Feasibility: NO! 
+Iteration: 470;  Base position: 124.60434935744138 mm; Feasibility: YES!; Manipulability: 0.1694 
+Iteration: 471;  Base position: -243.1718800913343 mm; Feasibility: YES!; Manipulability: 0.20367 
+Iteration 472; Item picked: Cube_01; Base position: 1070.5498349820764 mm; Feasibility: NO! 
+Iteration 473; Item picked: Cube_01; Base position: -581.5404015886675 mm; Feasibility: NO! 
+Iteration 474; Item picked: Cube_00; Base position: -1107.3602246518185 mm; Feasibility: NO! 
+Iteration 475; Item picked: Cube_02; Base position: -745.2467380339799 mm; Feasibility: NO! 
+Iteration 476; Item picked: Cube_00; Base position: -1018.4949112623278 mm; Feasibility: NO! 
+Iteration 477; Item picked: Cube_01; Base position: 477.7237367026364 mm; Feasibility: NO! 
+Iteration 478; Item picked: Cube_00; Base position: 1008.5642731760549 mm; Feasibility: NO! 
+Iteration 479; Item picked: Cube_02; Base position: -1122.9921853918243 mm; Feasibility: NO! 
+Iteration: 480;  Base position: 206.4742249748324 mm; Feasibility: YES!; Manipulability: 0.16838 
+Iteration 481; Item picked: Cube_02; Base position: -633.0213401649071 mm; Feasibility: NO! 
+Iteration: 482;  Base position: -592.0919040838909 mm; Feasibility: YES!; Manipulability: 0.1431 
+Iteration 483; Item picked: Cube_01; Base position: -566.7319835429623 mm; Feasibility: NO! 
+Iteration 484; Item picked: Cube_02; Base position: 1366.3831362752699 mm; Feasibility: NO! 
+Iteration: 485;  Base position: 393.8462695674791 mm; Feasibility: YES!; Manipulability: 0.17064 
+Iteration 486; Item picked: Cube_01; Base position: -1260.5615911063642 mm; Feasibility: NO! 
+Iteration: 487;  Base position: 109.1928811322739 mm; Feasibility: YES!; Manipulability: 0.21116 
+Iteration: 488;  Base position: -62.79379867327566 mm; Feasibility: YES!; Manipulability: 0.21454 
+Iteration 489; Item picked: Cube_00; Base position: 1021.2841965310404 mm; Feasibility: NO! 
+Iteration 490; Item picked: Cube_02; Base position: 561.8040029127969 mm; Feasibility: NO! 
+Iteration: 491;  Base position: -188.7375622765021 mm; Feasibility: YES!; Manipulability: 0.22368 
+Iteration 492; Item picked: Cube_02; Base position: 1287.2697806299798 mm; Feasibility: NO! 
+Iteration 493; Item picked: Cube_02; Base position: 392.05527927159324 mm; Feasibility: NO! 
+Iteration 494; Item picked: Cube_00; Base position: -695.9316246626992 mm; Feasibility: NO! 
+Iteration 495; Item picked: Cube_02; Base position: 823.873339398589 mm; Feasibility: NO! 
+Iteration 496; Item picked: Cube_02; Base position: -1228.463809602796 mm; Feasibility: NO! 
+Iteration 497; Item picked: Cube_02; Base position: 840.3908417392354 mm; Feasibility: NO! 
+Iteration 498; Item picked: Cube_00; Base position: 948.4810201636842 mm; Feasibility: NO! 
+Iteration 499; Item picked: Cube_00; Base position: -1235.2784655181006 mm; Feasibility: NO! 
+Iteration: 500;  Base position: 339.03732538700547 mm; Feasibility: YES!; Manipulability: 0.12515 
+Iteration: 501;  Base position: -622.3961519147866 mm; Feasibility: YES!; Manipulability: 0.11621 
+Iteration 502; Item picked: Cube_00; Base position: 754.2050653827705 mm; Feasibility: NO! 
+Iteration 503; Item picked: Cube_02; Base position: 742.613263989007 mm; Feasibility: NO! 
+Iteration 504; Item picked: Cube_01; Base position: -1115.207623356379 mm; Feasibility: NO! 
+Iteration: 505;  Base position: 370.5807882701324 mm; Feasibility: YES!; Manipulability: 0.12988 
+Iteration 506; Item picked: Cube_02; Base position: 545.3901286223336 mm; Feasibility: NO! 
+Iteration 507; Item picked: Cube_01; Base position: -1229.724197351611 mm; Feasibility: NO! 
+Iteration 508; Item picked: Cube_00; Base position: 585.0323870384136 mm; Feasibility: NO! 
+Iteration 509; Item picked: Cube_00; Base position: 1172.3053196365267 mm; Feasibility: NO! 
+Iteration 510; Item picked: Cube_00; Base position: -1066.3500783738486 mm; Feasibility: NO! 
+Iteration 511; Item picked: Cube_01; Base position: -806.5693821623552 mm; Feasibility: NO! 
+Iteration 512; Item picked: Cube_00; Base position: -819.0670305151515 mm; Feasibility: NO! 
+Iteration 513; Item picked: Cube_00; Base position: 513.6830656084746 mm; Feasibility: NO! 
+Iteration 514; Item picked: Cube_02; Base position: 745.4382973901897 mm; Feasibility: NO! 
+Iteration 515; Item picked: Cube_02; Base position: -1098.316077017755 mm; Feasibility: NO! 
+Iteration 516; Item picked: Cube_02; Base position: 1274.1506907030835 mm; Feasibility: NO! 
+Iteration 517; Item picked: Cube_00; Base position: -1210.0512975218862 mm; Feasibility: NO! 
+Iteration 518; Item picked: Cube_01; Base position: 1174.7971519615612 mm; Feasibility: NO! 
+Iteration 519; Item picked: Cube_02; Base position: -1405.8728610598391 mm; Feasibility: NO! 
+Iteration 520; Item picked: Cube_01; Base position: 1236.687889829564 mm; Feasibility: NO! 
+Iteration 521; Item picked: Cube_01; Base position: 705.2472306868813 mm; Feasibility: NO! 
+Iteration 522; Item picked: Cube_00; Base position: -889.7162650811453 mm; Feasibility: NO! 
+Iteration: 523;  Base position: -459.54238162308343 mm; Feasibility: YES!; Manipulability: 0.17133 
+Iteration 524; Item picked: Cube_01; Base position: -827.5360131251025 mm; Feasibility: NO! 
+Iteration 525; Item picked: Cube_02; Base position: 1156.9005969229324 mm; Feasibility: NO! 
+Iteration: 526;  Base position: -210.88471046800692 mm; Feasibility: YES!; Manipulability: 0.22163 
+Iteration 527; Item picked: Cube_00; Base position: 789.6545513533001 mm; Feasibility: NO! 
+Iteration 528; Item picked: Cube_01; Base position: 835.8893314184229 mm; Feasibility: NO! 
+Iteration 529; Item picked: Cube_02; Base position: -1035.55814353595 mm; Feasibility: NO! 
+Iteration: 530;  Base position: -266.6889018083896 mm; Feasibility: YES!; Manipulability: 0.16752 
+Iteration 531; Item picked: Cube_00; Base position: -1165.918368092116 mm; Feasibility: NO! 
+Iteration 532; Item picked: Cube_02; Base position: -753.6924813565911 mm; Feasibility: NO! 
+Iteration 533; Item picked: Cube_00; Base position: 1191.1067244172282 mm; Feasibility: NO! 
+Iteration 534; Item picked: Cube_01; Base position: 1279.854376305952 mm; Feasibility: NO! 
+Iteration 535; Item picked: Cube_01; Base position: -652.8565923650399 mm; Feasibility: NO! 
+Iteration 536; Item picked: Cube_02; Base position: 822.0183469154795 mm; Feasibility: NO! 
+Iteration: 537;  Base position: 267.81032417726556 mm; Feasibility: YES!; Manipulability: 0.17904 
+Iteration 538; Item picked: Cube_02; Base position: 1297.9315339736854 mm; Feasibility: NO! 
+Iteration 539; Item picked: Cube_01; Base position: 553.9110605164678 mm; Feasibility: NO! 
+Iteration: 540;  Base position: -90.12790457180563 mm; Feasibility: YES!; Manipulability: 0.18569 
+Iteration: 541;  Base position: -0.851969354454468 mm; Feasibility: YES!; Manipulability: 0.17176 
+Iteration 542; Item picked: Cube_02; Base position: 1077.3601593530125 mm; Feasibility: NO! 
+Iteration 543; Item picked: Cube_01; Base position: -1034.8373995788265 mm; Feasibility: NO! 
+Iteration 544; Item picked: Cube_01; Base position: -665.5339996239339 mm; Feasibility: NO! 
+Iteration: 545;  Base position: -142.1712872706753 mm; Feasibility: YES!; Manipulability: 0.19865 
+Iteration 546; Item picked: Cube_01; Base position: 1449.3420540452094 mm; Feasibility: NO! 
+Iteration 547; Item picked: Cube_02; Base position: -1132.649542774464 mm; Feasibility: NO! 
+Iteration 548; Item picked: Cube_02; Base position: -735.8493613872135 mm; Feasibility: NO! 
+Iteration: 549;  Base position: 307.87877271608977 mm; Feasibility: YES!; Manipulability: 0.17451 
+Iteration 550; Item picked: Cube_00; Base position: -658.7559153929406 mm; Feasibility: NO! 
+Iteration 551; Item picked: Cube_00; Base position: 1362.8250287849683 mm; Feasibility: NO! 
+Iteration: 552;  Base position: 490.5743882581037 mm; Feasibility: YES!; Manipulability: 0.10482 
+Iteration 553; Item picked: Cube_01; Base position: 686.5720293707113 mm; Feasibility: NO! 
+Iteration 554; Item picked: Cube_02; Base position: 844.104147851559 mm; Feasibility: NO! 
+Iteration: 555;  Base position: 31.20109781572978 mm; Feasibility: YES!; Manipulability: 0.20043 
+Iteration 556; Item picked: Cube_00; Base position: 898.0959543202789 mm; Feasibility: NO! 
+Iteration 557; Item picked: Cube_00; Base position: -1373.8780055730945 mm; Feasibility: NO! 
+Iteration 558; Item picked: Cube_02; Base position: -1031.6462936364298 mm; Feasibility: NO! 
+Iteration: 559;  Base position: -392.2579368842023 mm; Feasibility: YES!; Manipulability: 0.16907 
+Iteration 560; Item picked: Cube_01; Base position: 996.1378681733672 mm; Feasibility: NO! 
+Iteration: 561;  Base position: 459.50698885049496 mm; Feasibility: YES!; Manipulability: 0.16058 
+Iteration 562; Item picked: Cube_01; Base position: -750.773653249411 mm; Feasibility: NO! 
+Iteration: 563;  Base position: -43.86878927625048 mm; Feasibility: YES!; Manipulability: 0.21467 
+Iteration: 564;  Base position: -25.689439036371823 mm; Feasibility: YES!; Manipulability: 0.17203 
+Iteration 565; Item picked: Cube_01; Base position: -554.7503354024004 mm; Feasibility: NO! 
+Iteration 566; Item picked: Cube_01; Base position: 797.5020851006752 mm; Feasibility: NO! 
+Iteration 567; Item picked: Cube_00; Base position: -1335.8850602125758 mm; Feasibility: NO! 
+Iteration: 568;  Base position: -55.80509149582372 mm; Feasibility: YES!; Manipulability: 0.22937 
+Iteration: 569;  Base position: -166.7909141965033 mm; Feasibility: YES!; Manipulability: 0.18462 
+Iteration 570; Item picked: Cube_01; Base position: -806.2405655924586 mm; Feasibility: NO! 
+Iteration 571; Item picked: Cube_01; Base position: 1400.8292033883527 mm; Feasibility: NO! 
+Iteration 572; Item picked: Cube_00; Base position: 923.5641454611168 mm; Feasibility: NO! 
+Iteration: 573;  Base position: -81.82141531826937 mm; Feasibility: YES!; Manipulability: 0.19272 
+Iteration 574; Item picked: Cube_02; Base position: 1033.164067473463 mm; Feasibility: NO! 
+Iteration: 575;  Base position: 175.32036379681176 mm; Feasibility: YES!; Manipulability: 0.21692 
+Iteration: 576;  Base position: 80.87941153749034 mm; Feasibility: YES!; Manipulability: 0.20375 
+Iteration 577; Item picked: Cube_00; Base position: -831.7696237969237 mm; Feasibility: NO! 
+Iteration 578; Item picked: Cube_01; Base position: 452.85978008398934 mm; Feasibility: NO! 
+Iteration 579; Item picked: Cube_01; Base position: 544.3262067648973 mm; Feasibility: NO! 
+Iteration 580; Item picked: Cube_01; Base position: 1357.9559692833777 mm; Feasibility: NO! 
+Iteration: 581;  Base position: -226.52443050559714 mm; Feasibility: YES!; Manipulability: 0.17639 
+Iteration: 582;  Base position: -217.4138706363019 mm; Feasibility: YES!; Manipulability: 0.19439 
+Iteration 583; Item picked: Cube_00; Base position: 880.5900980035863 mm; Feasibility: NO! 
+Iteration 584; Item picked: Cube_02; Base position: 1396.1165293928648 mm; Feasibility: NO! 
+Iteration 585; Item picked: Cube_01; Base position: -689.6938029094126 mm; Feasibility: NO! 
+Iteration: 586;  Base position: 278.473504400504 mm; Feasibility: YES!; Manipulability: 0.15659 
+Iteration 587; Item picked: Cube_02; Base position: 1472.7567203326967 mm; Feasibility: NO! 
+Iteration 588; Item picked: Cube_02; Base position: -1359.5897209347381 mm; Feasibility: NO! 
+Iteration 589; Item picked: Cube_01; Base position: 450.0082236423991 mm; Feasibility: NO! 
+Iteration 590; Item picked: Cube_01; Base position: 1368.4994409400874 mm; Feasibility: NO! 
+Iteration 591; Item picked: Cube_01; Base position: 894.9864008511959 mm; Feasibility: NO! 
+Iteration 592; Item picked: Cube_00; Base position: -1154.2725839099069 mm; Feasibility: NO! 
+Iteration: 593;  Base position: -497.51820361043485 mm; Feasibility: YES!; Manipulability: 0.1501 
+Iteration: 594;  Base position: -509.9671898648793 mm; Feasibility: YES!; Manipulability: 0.14327 
+Iteration 595; Item picked: Cube_02; Base position: -1254.6830022108038 mm; Feasibility: NO! 
+Iteration 596; Item picked: Cube_01; Base position: -837.3831174068156 mm; Feasibility: NO! 
+Iteration 597; Item picked: Cube_01; Base position: 1091.4602521382944 mm; Feasibility: NO! 
+Iteration: 598;  Base position: -254.84123066263396 mm; Feasibility: YES!; Manipulability: 0.15764 
+Iteration: 599;  Base position: -409.52410718745637 mm; Feasibility: YES!; Manipulability: 0.18204 
+Iteration 600; Item picked: Cube_02; Base position: -1491.4207070215753 mm; Feasibility: NO! 
+Iteration 601; Item picked: Cube_01; Base position: -682.0746617713213 mm; Feasibility: NO! 
+Iteration 602; Item picked: Cube_01; Base position: -1228.3096869153894 mm; Feasibility: NO! 
+Iteration: 603;  Base position: -326.7365955963603 mm; Feasibility: YES!; Manipulability: 0.19003 
+Iteration 604; Item picked: Cube_02; Base position: 1126.8228304238582 mm; Feasibility: NO! 
+Iteration 605; Item picked: Cube_02; Base position: 900.2360162219002 mm; Feasibility: NO! 
+Iteration 606; Item picked: Cube_02; Base position: -982.9397392438107 mm; Feasibility: NO! 
+Iteration 607; Item picked: Cube_02; Base position: 523.8120480902837 mm; Feasibility: NO! 
+Iteration 608; Item picked: Cube_01; Base position: -664.3831651923452 mm; Feasibility: NO! 
+Iteration 609; Item picked: Cube_01; Base position: -1217.400337746438 mm; Feasibility: NO! 
+Iteration 610; Item picked: Cube_01; Base position: 614.2408083751366 mm; Feasibility: NO! 
+Iteration 611; Item picked: Cube_00; Base position: -1144.5015942663872 mm; Feasibility: NO! 
+Iteration 612; Item picked: Cube_02; Base position: 769.1353705732554 mm; Feasibility: NO! 
+Iteration: 613;  Base position: 402.5657095574554 mm; Feasibility: YES!; Manipulability: 0.15337 
+Iteration: 614;  Base position: -156.02675896586425 mm; Feasibility: YES!; Manipulability: 0.15752 
+Iteration 615; Item picked: Cube_00; Base position: -660.2775440116784 mm; Feasibility: NO! 
+Iteration 616; Item picked: Cube_02; Base position: -447.17913134318815 mm; Feasibility: NO! 
+Iteration 617; Item picked: Cube_00; Base position: -786.8721643740704 mm; Feasibility: NO! 
+Iteration 618; Item picked: Cube_01; Base position: 826.0805566017234 mm; Feasibility: NO! 
+Iteration: 619;  Base position: -217.14978895333434 mm; Feasibility: YES!; Manipulability: 0.20278 
+Iteration: 620;  Base position: 175.26655598357502 mm; Feasibility: YES!; Manipulability: 0.21692 
+Iteration: 621;  Base position: 151.30614870113368 mm; Feasibility: YES!; Manipulability: 0.18107 
+Iteration 622; Item picked: Cube_02; Base position: -1229.1991677363967 mm; Feasibility: NO! 
+Iteration 623; Item picked: Cube_01; Base position: 851.1564815075944 mm; Feasibility: NO! 
+Iteration: 624;  Base position: -258.0915256191754 mm; Feasibility: YES!; Manipulability: 0.21562 
+Iteration 625; Item picked: Cube_00; Base position: -1269.8529903548833 mm; Feasibility: NO! 
+Iteration 626; Item picked: Cube_01; Base position: 583.5072280876907 mm; Feasibility: NO! 
+Iteration 627; Item picked: Cube_00; Base position: -1086.3045504815732 mm; Feasibility: NO! 
+Iteration 628; Item picked: Cube_01; Base position: -1234.8823068806728 mm; Feasibility: NO! 
+Iteration: 629;  Base position: -396.67064306058296 mm; Feasibility: YES!; Manipulability: 0.20238 
+Iteration 630; Item picked: Cube_01; Base position: 1158.1661144346358 mm; Feasibility: NO! 
+Iteration 631; Item picked: Cube_01; Base position: 865.1926258741573 mm; Feasibility: NO! 
+Iteration: 632;  Base position: 478.21023855756766 mm; Feasibility: YES!; Manipulability: 0.1297 
+Iteration 633; Item picked: Cube_00; Base position: 1044.2872335937586 mm; Feasibility: NO! 
+Iteration 634; Item picked: Cube_02; Base position: -657.4415508299332 mm; Feasibility: NO! 
+Iteration: 635;  Base position: 371.0335147795254 mm; Feasibility: YES!; Manipulability: 0.15007 
+Iteration 636; Item picked: Cube_02; Base position: 994.556317372097 mm; Feasibility: NO! 
+Iteration 637; Item picked: Cube_01; Base position: 1158.7138804823267 mm; Feasibility: NO! 
+Iteration: 638;  Base position: -342.37805800200636 mm; Feasibility: YES!; Manipulability: 0.19234 
+Iteration 639; Item picked: Cube_00; Base position: -925.60172868897 mm; Feasibility: NO! 
+Iteration 640; Item picked: Cube_00; Base position: 1361.8083680471068 mm; Feasibility: NO! 
+Iteration 641; Item picked: Cube_02; Base position: 1120.3267470328678 mm; Feasibility: NO! 
+Iteration 642; Item picked: Cube_02; Base position: 778.5320103350359 mm; Feasibility: NO! 
+Iteration: 643;  Base position: 382.5997337592951 mm; Feasibility: YES!; Manipulability: 0.14876 
+Iteration 644; Item picked: Cube_02; Base position: -869.2858181607486 mm; Feasibility: NO! 
+Iteration 645; Item picked: Cube_01; Base position: 588.7485363168571 mm; Feasibility: NO! 
+Iteration 646; Item picked: Cube_01; Base position: 916.1314216238907 mm; Feasibility: NO! 
+Iteration: 647;  Base position: -0.4062773027644653 mm; Feasibility: YES!; Manipulability: 0.15816 
+Iteration 648; Item picked: Cube_02; Base position: 1069.4690303481498 mm; Feasibility: NO! 
+Iteration 649; Item picked: Cube_01; Base position: -954.1713734011198 mm; Feasibility: NO! 
+Iteration: 650;  Base position: -340.47112696379054 mm; Feasibility: YES!; Manipulability: 0.17288 
+Iteration 651; Item picked: Cube_01; Base position: -1276.4634491269858 mm; Feasibility: NO! 
+Iteration 652; Item picked: Cube_00; Base position: 928.6261763137691 mm; Feasibility: NO! 
+Iteration: 653;  Base position: -432.0905520952788 mm; Feasibility: YES!; Manipulability: 0.17029 
+Iteration 654; Item picked: Cube_00; Base position: -1192.9983534897488 mm; Feasibility: NO! 
+Iteration: 655;  Base position: -427.63533150102603 mm; Feasibility: YES!; Manipulability: 0.1621 
+Iteration: 656;  Base position: 118.54565106219638 mm; Feasibility: YES!; Manipulability: 0.20105 
+Iteration: 657;  Base position: -247.88025621660313 mm; Feasibility: YES!; Manipulability: 0.20315 
+Iteration 658; Item picked: Cube_02; Base position: -1113.0371808903283 mm; Feasibility: NO! 
+Iteration 659; Item picked: Cube_02; Base position: 1476.3977925842892 mm; Feasibility: NO! 
+Iteration 660; Item picked: Cube_00; Base position: 541.6509406113494 mm; Feasibility: NO! 
+Iteration 661; Item picked: Cube_02; Base position: 918.7955344964721 mm; Feasibility: NO! 
+Iteration 662; Item picked: Cube_00; Base position: 487.2097453176805 mm; Feasibility: NO! 
+Iteration 663; Item picked: Cube_01; Base position: 1351.038050454179 mm; Feasibility: NO! 
+Iteration 664; Item picked: Cube_01; Base position: -628.083033260194 mm; Feasibility: NO! 
+Iteration 665; Item picked: Cube_02; Base position: 1328.553990208066 mm; Feasibility: NO! 
+Iteration 666; Item picked: Cube_02; Base position: 1317.2938393755953 mm; Feasibility: NO! 
+Iteration 667; Item picked: Cube_01; Base position: -1094.8367189903586 mm; Feasibility: NO! 
+Iteration 668; Item picked: Cube_00; Base position: 1488.3469856270071 mm; Feasibility: NO! 
+Iteration: 669;  Base position: -55.73245296684604 mm; Feasibility: YES!; Manipulability: 0.17893 
+Iteration 670; Item picked: Cube_01; Base position: -631.2600217374496 mm; Feasibility: NO! 
+Iteration 671; Item picked: Cube_00; Base position: -712.5764409874187 mm; Feasibility: NO! 
+Iteration 672; Item picked: Cube_00; Base position: 885.9178628413074 mm; Feasibility: NO! 
+Iteration 673; Item picked: Cube_00; Base position: -1190.6664125578466 mm; Feasibility: NO! 
+Iteration 674; Item picked: Cube_02; Base position: 1107.668660588885 mm; Feasibility: NO! 
+Iteration: 675;  Base position: 11.9021742807181 mm; Feasibility: YES!; Manipulability: 0.20617 
+Iteration 676; Item picked: Cube_00; Base position: 1111.4879333902986 mm; Feasibility: NO! 
+Iteration: 677;  Base position: 30.262832658580464 mm; Feasibility: YES!; Manipulability: 0.20552 
+Iteration 678; Item picked: Cube_00; Base position: -933.4274914851209 mm; Feasibility: NO! 
+Iteration: 679;  Base position: 130.78418039621238 mm; Feasibility: YES!; Manipulability: 0.22205 
+Iteration: 680;  Base position: 101.97752633012647 mm; Feasibility: YES!; Manipulability: 0.19802 
+Iteration 681; Item picked: Cube_01; Base position: 1148.6507491328357 mm; Feasibility: NO! 
+Iteration: 682;  Base position: 454.70869307562 mm; Feasibility: YES!; Manipulability: 0.16203 
+Iteration 683; Item picked: Cube_01; Base position: 1191.331973177234 mm; Feasibility: NO! 
+Iteration 684; Item picked: Cube_00; Base position: -1315.6654054164128 mm; Feasibility: NO! 
+Iteration: 685;  Base position: -178.96103266479258 mm; Feasibility: YES!; Manipulability: 0.18432 
+Iteration 686; Item picked: Cube_02; Base position: -1353.6228351348602 mm; Feasibility: NO! 
+Iteration: 687;  Base position: -334.786934570556 mm; Feasibility: YES!; Manipulability: 0.16618 
+Iteration 688; Item picked: Cube_02; Base position: 755.7025533846058 mm; Feasibility: NO! 
+Iteration 689; Item picked: Cube_01; Base position: 939.9741158899301 mm; Feasibility: NO! 
+Iteration 690; Item picked: Cube_00; Base position: -1020.551051619545 mm; Feasibility: NO! 
+Iteration 691; Item picked: Cube_00; Base position: 1156.8213607301677 mm; Feasibility: NO! 
+Iteration 692; Item picked: Cube_02; Base position: 629.4249020191864 mm; Feasibility: NO! 
+Iteration 693; Item picked: Cube_00; Base position: -1075.4546677190208 mm; Feasibility: NO! 
+Iteration 694; Item picked: Cube_01; Base position: -769.8029351558702 mm; Feasibility: NO! 
+Iteration: 695;  Base position: 254.91690442471395 mm; Feasibility: YES!; Manipulability: 0.19808 
+Iteration 696; Item picked: Cube_02; Base position: -616.5877057470847 mm; Feasibility: NO! 
+Iteration: 697;  Base position: 201.43585836758507 mm; Feasibility: YES!; Manipulability: 0.1572 
+Iteration 698; Item picked: Cube_02; Base position: -923.6304128305215 mm; Feasibility: NO! 
+Iteration: 699;  Base position: 345.34985012322795 mm; Feasibility: YES!; Manipulability: 0.16463 
+Iteration: 700;  Base position: 397.04056729993613 mm; Feasibility: YES!; Manipulability: 0.17309 
+Iteration: 701;  Base position: -542.2510961982787 mm; Feasibility: YES!; Manipulability: 0.15003 
+Iteration: 702;  Base position: -52.359854436096384 mm; Feasibility: YES!; Manipulability: 0.19271 
+Iteration 703; Item picked: Cube_02; Base position: -1006.4837410050227 mm; Feasibility: NO! 
+Iteration 704; Item picked: Cube_02; Base position: -975.5560654482678 mm; Feasibility: NO! 
+Iteration 705; Item picked: Cube_00; Base position: -1172.84326759455 mm; Feasibility: NO! 
+Iteration: 706;  Base position: -335.7451326665514 mm; Feasibility: YES!; Manipulability: 0.18871 
+Iteration: 707;  Base position: 324.4566495245099 mm; Feasibility: YES!; Manipulability: 0.1664 
+Iteration: 708;  Base position: 404.21270501353933 mm; Feasibility: YES!; Manipulability: 0.14066 
+Iteration 709; Item picked: Cube_00; Base position: 765.7472927191056 mm; Feasibility: NO! 
+Iteration: 710;  Base position: -22.85576508134136 mm; Feasibility: YES!; Manipulability: 0.15842 
+Iteration 711; Item picked: Cube_00; Base position: 953.4295407650143 mm; Feasibility: NO! 
+Iteration 712; Item picked: Cube_02; Base position: -674.5135394986156 mm; Feasibility: NO! 
+Iteration: 713;  Base position: 159.0187992781423 mm; Feasibility: YES!; Manipulability: 0.18605 
+Iteration 714; Item picked: Cube_01; Base position: 1025.515502646454 mm; Feasibility: NO! 
+Iteration 715; Item picked: Cube_02; Base position: 1324.8138612284893 mm; Feasibility: NO! 
+Iteration 716; Item picked: Cube_01; Base position: -1343.1935439192737 mm; Feasibility: NO! 
+Iteration 717; Item picked: Cube_01; Base position: -1023.9368984628657 mm; Feasibility: NO! 
+Iteration 718; Item picked: Cube_00; Base position: 1225.4730516596505 mm; Feasibility: NO! 
+Iteration 719; Item picked: Cube_00; Base position: -1320.2334542886272 mm; Feasibility: NO! 
+Iteration 720; Item picked: Cube_02; Base position: -561.9830769204486 mm; Feasibility: NO! 
+Iteration 721; Item picked: Cube_02; Base position: 1088.1614906914874 mm; Feasibility: NO! 
+Iteration: 722;  Base position: -95.0416230780097 mm; Feasibility: YES!; Manipulability: 0.21395 
+Iteration 723; Item picked: Cube_01; Base position: -628.1857872435627 mm; Feasibility: NO! 
+Iteration 724; Item picked: Cube_01; Base position: -1466.015287369987 mm; Feasibility: NO! 
+Iteration 725; Item picked: Cube_02; Base position: 1373.4399818677603 mm; Feasibility: NO! 
+Iteration 726; Item picked: Cube_01; Base position: 380.70604061210815 mm; Feasibility: NO! 
+Iteration 727; Item picked: Cube_02; Base position: 1168.559106772283 mm; Feasibility: NO! 
+Iteration: 728;  Base position: -310.966116393324 mm; Feasibility: YES!; Manipulability: 0.1832 
+Iteration: 729;  Base position: -390.6673682482333 mm; Feasibility: YES!; Manipulability: 0.16197 
+Iteration: 730;  Base position: -163.98845759984397 mm; Feasibility: YES!; Manipulability: 0.19067 
+Iteration 731; Item picked: Cube_02; Base position: 1365.3559769348667 mm; Feasibility: NO! 
+Iteration 732; Item picked: Cube_01; Base position: -981.5822435799003 mm; Feasibility: NO! 
+Iteration: 733;  Base position: -401.3406603976373 mm; Feasibility: YES!; Manipulability: 0.1568 
+Iteration: 734;  Base position: -298.6819899568861 mm; Feasibility: YES!; Manipulability: 0.19572 
+Iteration 735; Item picked: Cube_02; Base position: 708.3302944986194 mm; Feasibility: NO! 
+Iteration: 736;  Base position: -12.686241719397458 mm; Feasibility: YES!; Manipulability: 0.20676 
+Iteration 737; Item picked: Cube_01; Base position: 1158.5397164162687 mm; Feasibility: NO! 
+Iteration 738; Item picked: Cube_01; Base position: 1235.083536170016 mm; Feasibility: NO! 
+Iteration 739; Item picked: Cube_02; Base position: 590.8565370046472 mm; Feasibility: NO! 
+Iteration 740; Item picked: Cube_01; Base position: 536.2428634717851 mm; Feasibility: NO! 
+Iteration 741; Item picked: Cube_02; Base position: 790.594988469968 mm; Feasibility: NO! 
+Iteration: 742;  Base position: 107.78192671881538 mm; Feasibility: YES!; Manipulability: 0.20192 
+Iteration: 743;  Base position: 295.46446825667476 mm; Feasibility: YES!; Manipulability: 0.192 
+Iteration: 744;  Base position: 199.53866291856275 mm; Feasibility: YES!; Manipulability: 0.21404 
+Iteration: 745;  Base position: 194.556223852926 mm; Feasibility: YES!; Manipulability: 0.21481 
+Iteration 746; Item picked: Cube_00; Base position: 741.7822060775661 mm; Feasibility: NO! 
+Iteration 747; Item picked: Cube_01; Base position: 1152.0134936455338 mm; Feasibility: NO! 
+Iteration: 748;  Base position: -441.0835991755646 mm; Feasibility: YES!; Manipulability: 0.16838 
+Iteration 749; Item picked: Cube_02; Base position: -704.8564238751748 mm; Feasibility: NO! 
+Iteration: 750;  Base position: 478.65908173839057 mm; Feasibility: YES!; Manipulability: 0.1297 
+Iteration 751; Item picked: Cube_01; Base position: 385.6562540381235 mm; Feasibility: NO! 
+Iteration 752; Item picked: Cube_00; Base position: -1301.9456028400455 mm; Feasibility: NO! 
+Iteration 753; Item picked: Cube_02; Base position: 475.0706158812761 mm; Feasibility: NO! 
+Iteration: 754;  Base position: -354.8069372890518 mm; Feasibility: YES!; Manipulability: 0.15836 
+Iteration: 755;  Base position: -265.8406906534808 mm; Feasibility: YES!; Manipulability: 0.19959 
+Iteration 756; Item picked: Cube_00; Base position: 1438.1668070490337 mm; Feasibility: NO! 
+Iteration 757; Item picked: Cube_02; Base position: 1434.8883821706359 mm; Feasibility: NO! 
+Iteration 758; Item picked: Cube_00; Base position: -958.9233724740818 mm; Feasibility: NO! 
+Iteration 759; Item picked: Cube_01; Base position: -1352.281327363821 mm; Feasibility: NO! 
+Iteration 760; Item picked: Cube_00; Base position: -1328.1629721579268 mm; Feasibility: NO! 
+Iteration 761; Item picked: Cube_00; Base position: 1197.6046363374962 mm; Feasibility: NO! 
+Iteration 762; Item picked: Cube_01; Base position: -729.7670405681355 mm; Feasibility: NO! 
+Iteration 763; Item picked: Cube_02; Base position: -736.6142223934198 mm; Feasibility: NO! 
+Iteration 764; Item picked: Cube_00; Base position: 1458.2396851440444 mm; Feasibility: NO! 
+Iteration 765; Item picked: Cube_01; Base position: -1416.1551237297194 mm; Feasibility: NO! 
+Iteration 766; Item picked: Cube_02; Base position: -1063.3721915465012 mm; Feasibility: NO! 
+Iteration: 767;  Base position: -274.5868807563927 mm; Feasibility: YES!; Manipulability: 0.19886 
+Iteration 768; Item picked: Cube_02; Base position: 997.3067093833033 mm; Feasibility: NO! 
+Iteration 769; Item picked: Cube_02; Base position: -965.6021962405633 mm; Feasibility: NO! 
+Iteration 770; Item picked: Cube_02; Base position: -680.6714048546135 mm; Feasibility: NO! 
+Iteration: 771;  Base position: 43.33036753866736 mm; Feasibility: YES!; Manipulability: 0.15742 
+Iteration: 772;  Base position: -449.182521881836 mm; Feasibility: YES!; Manipulability: 0.16194 
+Iteration: 773;  Base position: 23.192859490484125 mm; Feasibility: YES!; Manipulability: 0.17139 
+Iteration 774; Item picked: Cube_01; Base position: 778.2655699362317 mm; Feasibility: NO! 
+Iteration 775; Item picked: Cube_01; Base position: 1344.1607347064937 mm; Feasibility: NO! 
+Iteration: 776;  Base position: 62.798603836257826 mm; Feasibility: YES!; Manipulability: 0.20407 
+Iteration: 777;  Base position: 150.3004474630518 mm; Feasibility: YES!; Manipulability: 0.16995 
+Iteration 778; Item picked: Cube_02; Base position: 537.387747764896 mm; Feasibility: NO! 
+Iteration 779; Item picked: Cube_01; Base position: 747.7556819660281 mm; Feasibility: NO! 
+Iteration: 780;  Base position: 261.2978935297174 mm; Feasibility: YES!; Manipulability: 0.20179 
+Iteration 781; Item picked: Cube_01; Base position: 1300.6249086777912 mm; Feasibility: NO! 
+Iteration: 782;  Base position: 119.56948272216505 mm; Feasibility: YES!; Manipulability: 0.16946 
+Iteration 783; Item picked: Cube_02; Base position: 960.0112851257791 mm; Feasibility: NO! 
+Iteration 784; Item picked: Cube_02; Base position: -588.5956356210179 mm; Feasibility: NO! 
+Iteration 785; Item picked: Cube_00; Base position: 1189.368873994953 mm; Feasibility: NO! 
+Iteration 786; Item picked: Cube_02; Base position: -524.7759239249945 mm; Feasibility: NO! 
+Iteration 787; Item picked: Cube_00; Base position: -1026.0366753105025 mm; Feasibility: NO! 
+Iteration 788; Item picked: Cube_00; Base position: -1115.0724093335882 mm; Feasibility: NO! 
+Iteration 789; Item picked: Cube_01; Base position: 1040.5771188491653 mm; Feasibility: NO! 
+Iteration 790; Item picked: Cube_02; Base position: 911.9349198205164 mm; Feasibility: NO! 
+Iteration 791; Item picked: Cube_00; Base position: -1248.4176483892138 mm; Feasibility: NO! 
+Iteration: 792;  Base position: -240.55786107395284 mm; Feasibility: YES!; Manipulability: 0.20405 
+Iteration 793; Item picked: Cube_01; Base position: -564.2999984980372 mm; Feasibility: NO! 
+Iteration: 794;  Base position: -422.7043583639206 mm; Feasibility: YES!; Manipulability: 0.14041 
+Iteration 795; Item picked: Cube_01; Base position: 540.0909787345495 mm; Feasibility: NO! 
+Iteration 796; Item picked: Cube_02; Base position: 645.7292424840916 mm; Feasibility: NO! 
+Iteration 797; Item picked: Cube_01; Base position: 403.3190841395872 mm; Feasibility: NO! 
+Iteration 798; Item picked: Cube_02; Base position: 722.029464724018 mm; Feasibility: NO! 
+Iteration: 799;  Base position: 456.420706107549 mm; Feasibility: YES!; Manipulability: 0.13666 
+Iteration 800; Item picked: Cube_00; Base position: -1328.9993467734266 mm; Feasibility: NO! 
+Iteration 801; Item picked: Cube_00; Base position: -648.3327289219399 mm; Feasibility: NO! 
+Iteration 802; Item picked: Cube_01; Base position: 390.4454071455368 mm; Feasibility: NO! 
+Iteration 803; Item picked: Cube_00; Base position: 526.7880728992689 mm; Feasibility: NO! 
+Iteration: 804;  Base position: 115.51681267386971 mm; Feasibility: YES!; Manipulability: 0.18184 
+Iteration: 805;  Base position: 435.08489810704214 mm; Feasibility: YES!; Manipulability: 0.14041 
+Iteration 806; Item picked: Cube_02; Base position: -1266.6777686209018 mm; Feasibility: NO! 
+Iteration 807; Item picked: Cube_01; Base position: -833.6834547658324 mm; Feasibility: NO! 
+Iteration 808; Item picked: Cube_01; Base position: 997.5064827771321 mm; Feasibility: NO! 
+Iteration 809; Item picked: Cube_02; Base position: 846.7519558230333 mm; Feasibility: NO! 
+Iteration 810; Item picked: Cube_02; Base position: -1491.768830583011 mm; Feasibility: NO! 
+Iteration 811; Item picked: Cube_01; Base position: 656.1102177974622 mm; Feasibility: NO! 
+Iteration: 812;  Base position: 268.59843714886097 mm; Feasibility: YES!; Manipulability: 0.16973 
+Iteration: 813;  Base position: -262.3552646032558 mm; Feasibility: YES!; Manipulability: 0.16768 
+Iteration 814; Item picked: Cube_00; Base position: 713.3352186281677 mm; Feasibility: NO! 
+Iteration 815; Item picked: Cube_02; Base position: -634.6751307214449 mm; Feasibility: NO! 
+Iteration: 816;  Base position: 502.8322263427367 mm; Feasibility: YES!; Manipulability: 0.09999 
+Iteration: 817;  Base position: 276.6986987274024 mm; Feasibility: YES!; Manipulability: 0.17818 
+Iteration 818; Item picked: Cube_02; Base position: 534.7480281134733 mm; Feasibility: NO! 
+Iteration: 819;  Base position: -188.70190366661882 mm; Feasibility: YES!; Manipulability: 0.17762 
+Iteration 820; Item picked: Cube_00; Base position: 752.5604973839681 mm; Feasibility: NO! 
+Iteration 821; Item picked: Cube_00; Base position: 570.971546858932 mm; Feasibility: NO! 
+Iteration 822; Item picked: Cube_00; Base position: 535.1856948330351 mm; Feasibility: NO! 
+Iteration 823; Item picked: Cube_00; Base position: 1487.1652886491052 mm; Feasibility: NO! 
+Iteration 824; Item picked: Cube_01; Base position: 764.7788407088306 mm; Feasibility: NO! 
+Iteration 825; Item picked: Cube_02; Base position: 646.7282902608404 mm; Feasibility: NO! 
+Iteration: 826;  Base position: -343.6309137594112 mm; Feasibility: YES!; Manipulability: 0.16591 
+Iteration 827; Item picked: Cube_00; Base position: -765.1090052527715 mm; Feasibility: NO! 
+Iteration 828; Item picked: Cube_02; Base position: -730.2219900700181 mm; Feasibility: NO! 
+Iteration: 829;  Base position: 311.38804153878505 mm; Feasibility: YES!; Manipulability: 0.18251 
+Iteration 830; Item picked: Cube_00; Base position: 782.9024891790787 mm; Feasibility: NO! 
+Iteration: 831;  Base position: -244.7844809569583 mm; Feasibility: YES!; Manipulability: 0.18117 
+Iteration 832; Item picked: Cube_00; Base position: -1101.9431590255995 mm; Feasibility: NO! 
+Iteration 833; Item picked: Cube_02; Base position: -726.5300387618215 mm; Feasibility: NO! 
+Iteration 834; Item picked: Cube_01; Base position: 1132.700771350812 mm; Feasibility: NO! 
+Iteration 835; Item picked: Cube_00; Base position: 505.10208289338107 mm; Feasibility: NO! 
+Iteration 836; Item picked: Cube_00; Base position: -827.1683099199464 mm; Feasibility: NO! 
+Iteration: 837;  Base position: 120.63034176680549 mm; Feasibility: YES!; Manipulability: 0.1754 
+Iteration: 838;  Base position: -55.58528650971948 mm; Feasibility: YES!; Manipulability: 0.20059 
+Iteration 839; Item picked: Cube_00; Base position: -1469.318970252944 mm; Feasibility: NO! 
+Iteration: 840;  Base position: -509.6639951877146 mm; Feasibility: YES!; Manipulability: 0.1504 
+Iteration 841; Item picked: Cube_01; Base position: 531.3434596573857 mm; Feasibility: NO! 
+Iteration 842; Item picked: Cube_02; Base position: -909.7177772711206 mm; Feasibility: NO! 
+Iteration 843; Item picked: Cube_00; Base position: 1214.8048656376936 mm; Feasibility: NO! 
+Iteration 844; Item picked: Cube_01; Base position: -726.2140750562791 mm; Feasibility: NO! 
+Iteration 845; Item picked: Cube_00; Base position: 1161.7488167540992 mm; Feasibility: NO! 
+Iteration 846; Item picked: Cube_00; Base position: 953.5254494133346 mm; Feasibility: NO! 
+Iteration 847; Item picked: Cube_02; Base position: 1425.5026441541181 mm; Feasibility: NO! 
+Iteration: 848;  Base position: 158.9940378049082 mm; Feasibility: YES!; Manipulability: 0.19726 
+Iteration 849; Item picked: Cube_01; Base position: -627.1324695224059 mm; Feasibility: NO! 
+Iteration 850; Item picked: Cube_01; Base position: 1092.9263767892025 mm; Feasibility: NO! 
+Iteration 851; Item picked: Cube_00; Base position: -787.4694081121053 mm; Feasibility: NO! 
+Iteration: 852;  Base position: 292.879841054302 mm; Feasibility: YES!; Manipulability: 0.17724 
+Iteration: 853;  Base position: -437.26596933876976 mm; Feasibility: YES!; Manipulability: 0.16275 
+Iteration 854; Item picked: Cube_01; Base position: -1273.0952813360657 mm; Feasibility: NO! 
+Iteration: 855;  Base position: 147.15167393239403 mm; Feasibility: YES!; Manipulability: 0.19562 
+Iteration 856; Item picked: Cube_01; Base position: -1228.280098381696 mm; Feasibility: NO! 
+Iteration 857; Item picked: Cube_01; Base position: 1064.9666144950243 mm; Feasibility: NO! 
+Iteration 858; Item picked: Cube_01; Base position: 1445.9630265546612 mm; Feasibility: NO! 
+Iteration: 859;  Base position: -406.9448370830685 mm; Feasibility: YES!; Manipulability: 0.1635 
+Iteration: 860;  Base position: -477.8762563780931 mm; Feasibility: YES!; Manipulability: 0.15179 
+Iteration 861; Item picked: Cube_00; Base position: 389.95650925086966 mm; Feasibility: NO! 
+Iteration 862; Item picked: Cube_02; Base position: -787.5159764658272 mm; Feasibility: NO! 
+Iteration 863; Item picked: Cube_01; Base position: -1428.194199020123 mm; Feasibility: NO! 
+Iteration 864; Item picked: Cube_02; Base position: -1100.7370446331333 mm; Feasibility: NO! 
+Iteration 865; Item picked: Cube_00; Base position: 1306.9605865486042 mm; Feasibility: NO! 
+Iteration 866; Item picked: Cube_00; Base position: -843.696930618215 mm; Feasibility: NO! 
+Iteration 867; Item picked: Cube_02; Base position: 1333.6268219548633 mm; Feasibility: NO! 
+Iteration: 868;  Base position: 347.7993846278623 mm; Feasibility: YES!; Manipulability: 0.18346 
+Iteration 869; Item picked: Cube_00; Base position: -744.8497021800232 mm; Feasibility: NO! 
+Iteration 870; Item picked: Cube_00; Base position: 632.6365083877731 mm; Feasibility: NO! 
+Iteration 871; Item picked: Cube_01; Base position: -1044.0824167303804 mm; Feasibility: NO! 
+Iteration 872; Item picked: Cube_01; Base position: 975.1630412886593 mm; Feasibility: NO! 
+Iteration 873; Item picked: Cube_00; Base position: 1317.194215602748 mm; Feasibility: NO! 
+Iteration: 874;  Base position: 390.84759252299614 mm; Feasibility: YES!; Manipulability: 0.1742 
+Iteration: 875;  Base position: -430.3614179930512 mm; Feasibility: YES!; Manipulability: 0.17069 
+Iteration: 876;  Base position: -489.76139000029696 mm; Feasibility: YES!; Manipulability: 0.1582 
+Iteration: 877;  Base position: -274.36074854158346 mm; Feasibility: YES!; Manipulability: 0.18593 
+Iteration 878; Item picked: Cube_00; Base position: 640.6963263968814 mm; Feasibility: NO! 
+Iteration 879; Item picked: Cube_02; Base position: 1087.6771131846058 mm; Feasibility: NO! 
+Iteration 880; Item picked: Cube_00; Base position: -1248.3884805945966 mm; Feasibility: NO! 
+Iteration: 881;  Base position: -549.9427601578207 mm; Feasibility: YES!; Manipulability: 0.14854 
+Iteration: 882;  Base position: 405.2625825064956 mm; Feasibility: YES!; Manipulability: 0.17174 
+Iteration 883; Item picked: Cube_01; Base position: 545.1752050847024 mm; Feasibility: NO! 
+Iteration 884; Item picked: Cube_01; Base position: 919.6309606216755 mm; Feasibility: NO! 
+Iteration 885; Item picked: Cube_02; Base position: -1068.7048502857415 mm; Feasibility: NO! 
+Iteration 886; Item picked: Cube_01; Base position: 1234.4349036360413 mm; Feasibility: NO! 
+Iteration 887; Item picked: Cube_02; Base position: -655.1252537611058 mm; Feasibility: NO! 
+Iteration: 888;  Base position: 262.36439836626505 mm; Feasibility: YES!; Manipulability: 0.17055 
+Iteration 889; Item picked: Cube_02; Base position: -1240.4306180771157 mm; Feasibility: NO! 
+Iteration: 890;  Base position: -14.7495095276156 mm; Feasibility: YES!; Manipulability: 0.17845 
+Iteration 891; Item picked: Cube_00; Base position: 605.3163778404337 mm; Feasibility: NO! 
+Iteration 892; Item picked: Cube_01; Base position: -1004.0828994777191 mm; Feasibility: NO! 
+Iteration: 893;  Base position: 430.2787632139782 mm; Feasibility: YES!; Manipulability: 0.15369 
+Iteration 894; Item picked: Cube_02; Base position: -1127.0866080004234 mm; Feasibility: NO! 
+Iteration: 895;  Base position: 153.5756894228707 mm; Feasibility: YES!; Manipulability: 0.1575 
+Iteration 896; Item picked: Cube_00; Base position: 864.2287903878837 mm; Feasibility: NO! 
+Iteration 897; Item picked: Cube_01; Base position: 750.0810118731965 mm; Feasibility: NO! 
+Iteration 898; Item picked: Cube_00; Base position: -1460.0891038352545 mm; Feasibility: NO! 
+Iteration 899; Item picked: Cube_01; Base position: -956.3939374062153 mm; Feasibility: NO! 
+Iteration 900; Item picked: Cube_02; Base position: -1085.2708618216402 mm; Feasibility: NO! 
+Iteration 901; Item picked: Cube_01; Base position: -1114.6048257406399 mm; Feasibility: NO! 
+Iteration: 902;  Base position: 445.94431974290546 mm; Feasibility: YES!; Manipulability: 0.12006 
+Iteration 903; Item picked: Cube_00; Base position: 792.0255886223031 mm; Feasibility: NO! 
+Iteration 904; Item picked: Cube_01; Base position: -1229.5864641164155 mm; Feasibility: NO! 
+Iteration 905; Item picked: Cube_00; Base position: 752.4307934545805 mm; Feasibility: NO! 
+Iteration 906; Item picked: Cube_00; Base position: 1037.2925531506835 mm; Feasibility: NO! 
+Iteration 907; Item picked: Cube_01; Base position: -1151.4833889440777 mm; Feasibility: NO! 
+Iteration 908; Item picked: Cube_00; Base position: 991.6425794569323 mm; Feasibility: NO! 
+Iteration: 909;  Base position: -107.61745170129029 mm; Feasibility: YES!; Manipulability: 0.19254 
+Iteration 910; Item picked: Cube_02; Base position: -1444.1299613337485 mm; Feasibility: NO! 
+Iteration 911; Item picked: Cube_01; Base position: -1158.1022750461655 mm; Feasibility: NO! 
+Iteration: 912;  Base position: -510.19280512619434 mm; Feasibility: YES!; Manipulability: 0.1499 
+Iteration: 913;  Base position: 76.80287096964366 mm; Feasibility: YES!; Manipulability: 0.20399 
+Iteration 914; Item picked: Cube_01; Base position: 652.3809541207793 mm; Feasibility: NO! 
+Iteration 915; Item picked: Cube_02; Base position: -879.4283176183419 mm; Feasibility: NO! 
+Iteration 916; Item picked: Cube_00; Base position: -909.4829701611427 mm; Feasibility: NO! 
+Iteration: 917;  Base position: 351.8314121726985 mm; Feasibility: YES!; Manipulability: 0.18257 
+Iteration 918; Item picked: Cube_00; Base position: 1309.8134518990823 mm; Feasibility: NO! 
+Iteration 919; Item picked: Cube_02; Base position: 961.1976325486926 mm; Feasibility: NO! 
+Iteration: 920;  Base position: 7.070573682510258 mm; Feasibility: YES!; Manipulability: 0.17807 
+Iteration 921; Item picked: Cube_02; Base position: 1451.4116769727648 mm; Feasibility: NO! 
+Iteration 922; Item picked: Cube_00; Base position: 571.1030504002347 mm; Feasibility: NO! 
+Iteration: 923;  Base position: 320.3802347291712 mm; Feasibility: YES!; Manipulability: 0.18872 
+Iteration: 924;  Base position: 55.87779677656158 mm; Feasibility: YES!; Manipulability: 0.15717 
+Iteration 925; Item picked: Cube_02; Base position: 620.4814466681482 mm; Feasibility: NO! 
+Iteration 926; Item picked: Cube_01; Base position: 1432.1427970024179 mm; Feasibility: NO! 
+Iteration: 927;  Base position: -392.9921630500453 mm; Feasibility: YES!; Manipulability: 0.16907 
+Iteration 928; Item picked: Cube_00; Base position: 510.5598335936961 mm; Feasibility: NO! 
+Iteration: 929;  Base position: -332.49917882540944 mm; Feasibility: YES!; Manipulability: 0.20087 
+Iteration 930; Item picked: Cube_01; Base position: 1049.1764844124818 mm; Feasibility: NO! 
+Iteration 931; Item picked: Cube_00; Base position: -931.0939409430972 mm; Feasibility: NO! 
+Iteration 932; Item picked: Cube_01; Base position: 1109.427841574413 mm; Feasibility: NO! 
+Iteration: 933;  Base position: -23.47888044461024 mm; Feasibility: YES!; Manipulability: 0.15844 
+Iteration 934; Item picked: Cube_02; Base position: -596.0038253741097 mm; Feasibility: NO! 
+Iteration: 935;  Base position: 154.5937812077118 mm; Feasibility: YES!; Manipulability: 0.19769 
+Iteration 936; Item picked: Cube_00; Base position: 1129.978037366221 mm; Feasibility: NO! 
+Iteration: 937;  Base position: 342.2195321559286 mm; Feasibility: YES!; Manipulability: 0.18452 
+Iteration: 938;  Base position: -330.8153252246984 mm; Feasibility: YES!; Manipulability: 0.18908 
+Iteration 939; Item picked: Cube_00; Base position: -1202.6754386347243 mm; Feasibility: NO! 
+Iteration: 940;  Base position: -589.3460867378907 mm; Feasibility: YES!; Manipulability: 0.13877 
+Iteration: 941;  Base position: 380.69274473600217 mm; Feasibility: YES!; Manipulability: 0.17498 
+Iteration: 942;  Base position: 35.19458145596968 mm; Feasibility: YES!; Manipulability: 0.17115 
+Iteration 943; Item picked: Cube_01; Base position: 1101.3696535072813 mm; Feasibility: NO! 
+Iteration 944; Item picked: Cube_02; Base position: 1137.5720239370326 mm; Feasibility: NO! 
+Iteration 945; Item picked: Cube_01; Base position: -552.0750173116684 mm; Feasibility: NO! 
+Iteration: 946;  Base position: 193.5974553601318 mm; Feasibility: YES!; Manipulability: 0.17823 
+Iteration: 947;  Base position: 199.47983017614456 mm; Feasibility: YES!; Manipulability: 0.18334 
+Iteration 948; Item picked: Cube_02; Base position: 968.9867732293378 mm; Feasibility: NO! 
+Iteration 949; Item picked: Cube_02; Base position: -817.464918514867 mm; Feasibility: NO! 
+Iteration: 950;  Base position: 423.83963751703027 mm; Feasibility: YES!; Manipulability: 0.15512 
+Iteration 951; Item picked: Cube_01; Base position: 507.34666802609854 mm; Feasibility: NO! 
+Iteration: 952;  Base position: -168.65813604472305 mm; Feasibility: YES!; Manipulability: 0.21072 
+Iteration 953; Item picked: Cube_02; Base position: -1336.3420708303315 mm; Feasibility: NO! 
+Iteration: 954;  Base position: -18.54116937271715 mm; Feasibility: YES!; Manipulability: 0.22972 
+Iteration: 955;  Base position: 192.66892665656837 mm; Feasibility: YES!; Manipulability: 0.21511 
+Iteration 956; Item picked: Cube_02; Base position: 924.211026003853 mm; Feasibility: NO! 
+Iteration 957; Item picked: Cube_02; Base position: 675.7593033829608 mm; Feasibility: NO! 
+Iteration: 958;  Base position: -95.4157156479489 mm; Feasibility: YES!; Manipulability: 0.20013 
+Iteration 959; Item picked: Cube_01; Base position: 835.0023129189249 mm; Feasibility: NO! 
+Iteration 960; Item picked: Cube_00; Base position: -819.7417034335544 mm; Feasibility: NO! 
+Iteration: 961;  Base position: -217.6495055385858 mm; Feasibility: YES!; Manipulability: 0.19439 
+Iteration: 962;  Base position: -115.67012694580058 mm; Feasibility: YES!; Manipulability: 0.17105 
+Iteration 963; Item picked: Cube_00; Base position: -901.8230270350894 mm; Feasibility: NO! 
+Iteration 964; Item picked: Cube_02; Base position: 1026.7291174174188 mm; Feasibility: NO! 
+Iteration 965; Item picked: Cube_02; Base position: 1058.6593206968528 mm; Feasibility: NO! 
+Iteration: 966;  Base position: 11.630892179151488 mm; Feasibility: YES!; Manipulability: 0.20617 
+Iteration 967; Item picked: Cube_01; Base position: 778.7082938656431 mm; Feasibility: NO! 
+Iteration 968; Item picked: Cube_02; Base position: -1050.4990773458294 mm; Feasibility: NO! 
+Iteration 969; Item picked: Cube_01; Base position: 825.0214383830507 mm; Feasibility: NO! 
+Iteration: 970;  Base position: 51.517720528821656 mm; Feasibility: YES!; Manipulability: 0.20462 
+Iteration: 971;  Base position: 505.3539865120931 mm; Feasibility: YES!; Manipulability: 0.1093 
+Iteration: 972;  Base position: -309.1131586022368 mm; Feasibility: YES!; Manipulability: 0.17869 
+Iteration 973; Item picked: Cube_01; Base position: -810.2192190029155 mm; Feasibility: NO! 
+Iteration 974; Item picked: Cube_02; Base position: -1096.2914019441778 mm; Feasibility: NO! 
+Iteration: 975;  Base position: -252.68422171055454 mm; Feasibility: YES!; Manipulability: 0.15764 
+Iteration: 976;  Base position: -156.04749122370868 mm; Feasibility: YES!; Manipulability: 0.19796 
+Iteration 977; Item picked: Cube_01; Base position: 863.9060860822824 mm; Feasibility: NO! 
+Iteration 978; Item picked: Cube_00; Base position: 1221.3820210325644 mm; Feasibility: NO! 
+Iteration 979; Item picked: Cube_02; Base position: -1377.4330592437125 mm; Feasibility: NO! 
+Iteration 980; Item picked: Cube_01; Base position: 1048.499454610921 mm; Feasibility: NO! 
+Iteration 981; Item picked: Cube_01; Base position: -788.5330977616601 mm; Feasibility: NO! 
+Iteration 982; Item picked: Cube_02; Base position: -644.9190952106906 mm; Feasibility: NO! 
+Iteration 983; Item picked: Cube_02; Base position: -1030.9305501124218 mm; Feasibility: NO! 
+Iteration 984; Item picked: Cube_01; Base position: -557.2421118191963 mm; Feasibility: NO! 
+Iteration 985; Item picked: Cube_00; Base position: -882.725595532705 mm; Feasibility: NO! 
+Iteration 986; Item picked: Cube_02; Base position: 1304.520313999075 mm; Feasibility: NO! 
+Iteration 987; Item picked: Cube_02; Base position: 1254.6747033934444 mm; Feasibility: NO! 
+Iteration 988; Item picked: Cube_01; Base position: 688.227892215591 mm; Feasibility: NO! 
+Iteration 989; Item picked: Cube_01; Base position: 625.5543640456317 mm; Feasibility: NO! 
+Iteration: 990;  Base position: -626.0971805792917 mm; Feasibility: YES!; Manipulability: 0.11645 
+Iteration 991; Item picked: Cube_00; Base position: 1340.4276252635855 mm; Feasibility: NO! 
+Iteration 992; Item picked: Cube_02; Base position: -701.9761923107676 mm; Feasibility: NO! 
+Iteration: 993;  Base position: -34.60412323281275 mm; Feasibility: YES!; Manipulability: 0.19258 
+Iteration 994; Item picked: Cube_01; Base position: 1475.9117105967293 mm; Feasibility: NO! 
+Iteration: 995;  Base position: -278.45100028030765 mm; Feasibility: YES!; Manipulability: 0.19925 
+Iteration 996; Item picked: Cube_01; Base position: -1142.1820009702908 mm; Feasibility: NO! 
+Iteration: 997;  Base position: -474.6530190440237 mm; Feasibility: YES!; Manipulability: 0.15298 
+Iteration: 998;  Base position: -117.58391809949512 mm; Feasibility: YES!; Manipulability: 0.19961 
+Iteration 999; Item picked: Cube_02; Base position: -793.1611943457616 mm; Feasibility: NO! 
+
+********* Mean manipulability: 0.17647116071428573; Standard deviation: 0.025524081127491004 *********

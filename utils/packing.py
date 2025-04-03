@@ -14,22 +14,23 @@ class PackingListCreator:
         self.packers = []
 
     def create(self):
-        self.packers = []  # reset in case of reuse
+        self.packers = []
+        bin_counter = 0  # <- New counter
 
-        # * Loop over the items of each type ...
         for i in range(len(self.params.items_of_each_type)):
             packer = Packer()
             N_current_bins = self.params.bins_of_each_type[i]
             N_current_items = self.params.items_of_each_type[i]
 
-            # * Create the instances of the bins for the current type of items
             for j in range(N_current_bins):
                 bin_name = f"{self.params.bins_root_name}_{i}{j}"
                 bin_size = self.params.bins_sizes_and_weight[i][:-1]
                 bin_weight = self.params.bins_sizes_and_weight[i][-1]
                 current_bin = Bin(bin_name, *bin_size, bin_weight)
 
-                bin_center = self.params.bins_centers[i]
+                bin_center = self.params.bins_centers[bin_counter]  # <- Use flat index
+                bin_counter += 1
+
                 current_bin.set_offset(
                     bin_center[0] - bin_size[0] / 2,
                     bin_center[1] - bin_size[1] / 2,
@@ -37,7 +38,6 @@ class PackingListCreator:
                 )
                 packer.add_bin(current_bin)
 
-            # * For the type you are considering, loop over all the items of that type
             for k in range(N_current_items):
                 item_name = f"{self.params.items_root_name}_{i}{k}"
                 item_size = self.params.items_sizes_and_weight[i][:-1]
@@ -46,9 +46,10 @@ class PackingListCreator:
                 packer.add_item(item)
 
             self.packers.append(packer)
-
+        
         for packer in self.packers:
-            packer.pack(distribute_items=True)
+            packer.pack()
+
 
     def list_bin_names(self):
         bin_list = []
@@ -76,6 +77,9 @@ class PackingListCreator:
 
     
     def list_place_points(self):
+        ''' 
+        Return the relative position of the items in the bins.
+        '''
         place_points = []
         for packer in self.packers:
             for bin in packer.bins:
@@ -92,12 +96,11 @@ class PackingListCreator:
                     rotations.append(item.rotation_type)
         return rotations
 
-    
-
-from parameters import PackingSimulationParameters
-
 # Run test scenario
 if __name__ == '__main__':
+
+    from parameters import PackingSimulationParameters
+    
     params = PackingSimulationParameters()
     creator = PackingListCreator(params)
 
@@ -109,8 +112,9 @@ if __name__ == '__main__':
     rotations_list = creator.list_rotations()
     unfitted_items_list = creator.list_unfitted_items()
 
-    print(f"The bins are: {bin_names_list}")
-    print(f"The items are: {items_names_list}")
-    print(f"The place points are: {place_points_list}")
-    print(f"The rotations are: {rotations_list}")
-    print(f"The unfitted items are: {unfitted_items_list}")
+    if params.verbose:
+        print(f"The bins are: {bin_names_list}")
+        print(f"The items are: {items_names_list}")
+        print(f"The place points are: {place_points_list}")
+        print(f"The rotations are: {rotations_list}")
+        print(f"The unfitted items are: {unfitted_items_list}")

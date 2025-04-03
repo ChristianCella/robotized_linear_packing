@@ -155,7 +155,7 @@ def main():
 
             num_objects = k # number of objects inside the bin ('spots' available for objects in a bin)
             num_objects_send = np.array ([[num_objects]], dtype = np.int32) 
-            send_array(s,num_objects_send) #! socket call 2
+            send_array(s, num_objects_send) #! socket call 2
            
             with open (overall_path, 'a') as f:
                 f.write(f"Bin: {bin} \n")
