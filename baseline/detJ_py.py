@@ -8,6 +8,13 @@ import random
 import os
 import sys
 
+# Choose the type of objects you want to use for the test
+selected_type = 1
+if selected_type == 0:
+    file_name = "manipulability_type0.txt"
+elif selected_type == 1:
+    file_name = "manipulability_type1.txt"
+
 # Set the path to the 3D bin packing library
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..', '3dbinpacking'))
 sys.path.append(project_root)
@@ -16,7 +23,7 @@ from py3dbp import Packer, Bin, Item
 # Get the full path to the text file
 script_dir = os.path.dirname(os.path.realpath(__file__)) # Get absolute path of the current script
 project_root = os.path.abspath(os.path.join(script_dir, "..")) # Go up one folder to "robotized_linear_packing"
-save_path = os.path.join(project_root, "data", "manipulability_type0.txt") # Build full path to bounds_experiment.txt
+save_path = os.path.join(project_root, "data", file_name) # Build full path to bounds_experiment.txt
 
 # Append the path for utils
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
@@ -61,15 +68,14 @@ def main():
     place_points = []
     rotations = []
 
-    # ! Dynamic way of creating the packing scene
     # Simplified case: I only have one bin and 3 items
-    x_offset_box, y_offset_box, z_offset_box = creator.packers[0].bins[0].get_offset() 
-    for idx1 in range(len(creator.packers[0].bins[0].items)):
-        place_points.append(creator.packers[0].bins[0].items[idx1].get_center())
-        rotations.append(creator.packers[0].bins[0].items[idx1].rotation_type) 
-    for idx2 in range(len(creator.packers[0].bins[0].items)):
-        item_names.append(creator.packers[0].bins[0].items[idx2].name) 
-    box_name = creator.packers[0].bins[0].name # You only have 1 box
+    x_offset_box, y_offset_box, z_offset_box = creator.packers[selected_type].bins[0].get_offset() 
+    for idx1 in range(len(creator.packers[selected_type].bins[0].items)):
+        place_points.append(creator.packers[selected_type].bins[0].items[idx1].get_center())
+        rotations.append(creator.packers[selected_type].bins[0].items[idx1].rotation_type) 
+    for idx2 in range(len(creator.packers[selected_type].bins[0].items)):
+        item_names.append(creator.packers[selected_type].bins[0].items[idx2].name) 
+    box_name = creator.packers[selected_type].bins[0].name # You only have 1 box
 
     if params.verbose:
         print(f"Item name: {item_names}")
@@ -113,7 +119,7 @@ def main():
         result = np.array([int(num) for num in result.split(',')]) # fitness, flag
         flag = result[0]
         mean_determinant = result[1] / (10 ** 5)
-        if params.verbose: print(f"Iteration number: {i}")
+        print(f"Iteration number: {i}")
 
         # Add the value to the text file
         if flag == 0:
