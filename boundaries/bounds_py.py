@@ -119,7 +119,7 @@ def main():
         result = np.array([int(num) for num in result.split(',')]) # fitness, flag
         flag = result[0]
         mean_determinant = result[1] / (10 ** 5)
-        if params.verbose: print(f"the success variables is {flag}, while the fitness is {mean_determinant}")
+        if params.verbose: print(f"Iteration: {i}")
 
         # Add the value to the text file
         if flag == 0:

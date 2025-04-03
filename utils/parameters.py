@@ -19,10 +19,10 @@ class VanillaSimulationParameters:
 # data for the the problem of determining the boundaries for the robot
 @dataclass
 class BoundarySimulationParameters:
-    verbose : bool = False
+    verbose : bool = True
     host: str = '127.0.0.1'
     port: int = 12345
-    Nsim: int = 20
+    Nsim: int = 1000
     lower_bound: int = -1500 # [mm]
     upper_bound: int = 1500 # [mm]
     items_root_name: str = 'Cube'
@@ -33,7 +33,7 @@ class BoundarySimulationParameters:
     items_of_each_type: List[int] = field(default_factory=lambda: [1])
     items_sizes_and_weight: List[List[float]] = field(default_factory=lambda: [[75, 150, 80, 1]]) # '1' is a random weight
     bins_of_each_type: List[int] = field(default_factory=lambda: [1])
-    bins_sizes_and_weight: List[List[float]] = field(default_factory=lambda: [[300, 200, 130, 20]]) # '20' is a random weight
+    bins_sizes_and_weight: List[List[float]] = field(default_factory=lambda: [[300, 200, 130, 20]]) # '20' is a random weight 
     bins_centers: List[List[float]] = field(default_factory=lambda: [[-750, -430, -107.14]])
 
 # data for determining the manipulability's baseline
