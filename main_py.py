@@ -125,8 +125,8 @@ def main():
         bin = 0
         num_obj_pick = num_objects_array[type_obj] # How many objects for a carteian type I have
         pick_objects = [] # array containing the index of objects (pick side) already picked and placed
-        var_man = var_man_vec[type_obj]
-        mean_man = mean_man_vec[type_obj]
+        var_man = var_man_vec[type_obj] # ? still need to obtain these parameters
+        mean_man = mean_man_vec[type_obj] # ? still need to obtain these parameters
 
         #! think of removing this part (take out one socket call => efficiency increases) 
         generic_bin = packer.bins[0] # First sorted bin (the one with biggest volume)

@@ -14,3 +14,10 @@ class MotionPlanner:
         else: # Full trapezoidal is possible
             self.t = 2 * (self.v / self.a) + (self.h - self.ratio) / self.v 
         return self.t
+    
+# Have a test
+if __name__ == "__main__":
+    
+    motion_planner = MotionPlanner(700, 900)
+    t = motion_planner.trapezoidal_velocity_profile(0, 1500)
+    print(f"The time taken is: {t} seconds")
