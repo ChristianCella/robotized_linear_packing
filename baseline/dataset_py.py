@@ -8,12 +8,9 @@ import random
 import os
 import sys
 
-# Choose the type of objects you want to use for the test
+# Choose the type of objects you want to test
 selected_type = 1
-if selected_type == 0:
-    file_name = "manipulability_type0.txt"
-elif selected_type == 1:
-    file_name = "manipulability_type1.txt"
+file_name = f"manipulability_type{selected_type}.txt"
 
 # Set the path to the 3D bin packing library
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..', '3dbinpacking'))
@@ -62,8 +59,10 @@ def main():
 
     # Initialize the parameters for the simulation
     i = 0
+    feasibility_counter = 0
     place_points = []    
-    keep = []
+    keep_manipulability = []
+    keep_execution_time = []
     item_names = []
     place_points = []
     rotations = []
@@ -112,19 +111,23 @@ def main():
         # Send the string that corresponds to the item to be picked
         send_strings(s, [item_names[rand_pick]])
 
-        # ! ... C# is evaluating the fitness function ...
+        # ! ... C# is evaluating the manipulability and time ...
 
         # Get the manipulability measure
         result = s.recv(1024).decode()
         result = np.array([int(num) for num in result.split(',')]) # fitness, flag
         flag = result[0]
-        mean_determinant = result[1] / (10 ** 5)
+        mean_determinant = result[1] / (10 ** params.n_decimals)
+        execution_time = result[2] / (10 ** params.n_decimals)
         print(f"Iteration number: {i}")
 
         # Add the value to the text file
         if flag == 0:
-            keep.append(mean_determinant)
-            with open(save_path, 'a') as f: f.write(f"Iteration: {i};  Base position: {base_position} mm; Feasibility: YES!; Manipulability: {mean_determinant} \n")
+            feasibility_counter += 1
+            keep_manipulability.append(mean_determinant)
+            keep_execution_time.append(execution_time)
+            with open(save_path, 'a') as f: f.write(f"Iteration: {i};  Base position: {base_position} mm; Feasibility: YES!;"
+                                                    f"Manipulability: {mean_determinant}; Execution time: {execution_time} \n")
 
         else:
             with open(save_path, 'a') as f: f.write(f"Iteration {i}; Item picked: {item_names[rand_pick]}; Base position: {base_position} mm; Feasibility: NO! \n")
@@ -136,14 +139,18 @@ def main():
     s.close()
 
     # Calculate the mean and standard deviation of the manipulability
-    if keep == []:
+    if keep_manipulability == [] and keep_execution_time == []:
         if params.verbose: print("No feasible solutions found.")
         with open(save_path, 'a') as f: f.write(f"No feasible solutions found. \n")
         return
-    mean = np.mean(keep)
-    std = np.std(keep)
+    mean_manipulability = np.mean(keep_manipulability)
+    std_manipulability = np.std(keep_manipulability)
+    mean_execution_time = np.mean(keep_execution_time)
+    std_execution_time = np.std(keep_execution_time)
     with open(save_path, 'a') as f: f.write(f"\n")
-    with open(save_path, 'a') as f: f.write(f"********* Mean manipulability: {mean}; Standard deviation: {std} *********")
+    with open(save_path, 'a') as f: f.write(f"********* Number of feasible solutions: {feasibility_counter}/{params.Nsim} ********* \n")
+    with open(save_path, 'a') as f: f.write(f"********* Mean manipulability: {mean_manipulability}; Standard deviation: {std_manipulability} ********* \n")
+    with open(save_path, 'a') as f: f.write(f"********* Mean execution time: {mean_execution_time}; Standard deviation: {std_execution_time} ********* \n")
 
 
 if __name__ == "__main__":

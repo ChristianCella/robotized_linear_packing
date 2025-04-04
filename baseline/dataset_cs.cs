@@ -36,7 +36,7 @@ class Program
     static string new_accel = "100%";
     static string new_blend = "fine";
 
-    static int[] result = new int[2];
+    static int[] result = new int[3];
     static double[] place_pose = new double[4];
 
     // Main funtion
@@ -63,10 +63,6 @@ class Program
             List<string> labels = ReceiveStrings(stream);
             string box_name = labels[0];
             string program_name = labels[1];
-            foreach (var label in labels)
-            {
-                output.WriteLine("Received: " + label);
-            }
 
             for (int i = 0; i < Nsim; i++)
             {
@@ -129,8 +125,11 @@ class Program
                 // ! Compute the metrics for this simulation (manipulability, operation time, xi)                                      
                 double mean_determinant = Math.Round(determinantSum / determinantCounter, n_decimals) * Math.Pow(10, n_decimals);
                 int single_fitness = (int)mean_determinant;
+                double time_pp = MyOp.Duration;
+                int execution_time = (int)(Math.Round(time_pp, n_decimals) * Math.Pow(10, n_decimals));
                 result[0] = simulation_success;
                 result[1] = single_fitness;
+                result[2] = execution_time;
                                                        
                 // Send the first array back to the client
                 string result_vec = string.Join(",", result);
@@ -138,9 +137,6 @@ class Program
                 stream.Write(result1, 0, result1.Length);
 
                 output.WriteLine("Simulation number: " + i);
-                output.WriteLine("Robot base position: " + layout[0, 0]);
-                output.WriteLine("Simulation success: " + simulation_success);
-                output.WriteLine("Manipulability: " + single_fitness);
 
                 // Delete all the operations, except the last one
                 if (i != Nsim - 1)

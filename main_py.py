@@ -194,7 +194,7 @@ def main():
                         send_array(s, skip) #! socket call 4
                         trigger_end = 1 # Iteration counter for PSO algorithm
 
-                        #initialization of the pso particles 
+                        # Initialization of the pso particles 
                         particle_positions = np.random.uniform(lower_bound, upper_bound, num_particles)
                         particle_velocities = np.random.uniform(-1, 1, num_particles) 
                                               
