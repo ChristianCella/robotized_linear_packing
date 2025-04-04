@@ -7,6 +7,7 @@ import numpy as np
 import random
 import os
 import sys
+import time
 
 # Choose the type of objects you want to test
 selected_type = 1
@@ -60,12 +61,16 @@ def main():
     # Initialize the parameters for the simulation
     i = 0
     feasibility_counter = 0
-    place_points = []    
+     
     keep_manipulability = []
     keep_execution_time = []
+    keep_index = []
+    keep_base_positions = []
+
     item_names = []
     place_points = []
     rotations = []
+    place_points = []
 
     # Simplified case: I only have one bin and 3 items
     x_offset_box, y_offset_box, z_offset_box = creator.packers[selected_type].bins[0].get_offset() 
@@ -84,9 +89,11 @@ def main():
 
     # Send the shared numbers
     send_array(s, np.array([[params.Nsim, params.pre_post_height, params.n_decimals]], dtype = np.int32))
+    time.sleep(0.005)
 
     # Send the shared strings
     send_strings(s, [box_name, params.robot_program_name])
+    time.sleep(0.005)
 
     # loop over all the needed simulations
     while(i < params.Nsim):
@@ -103,18 +110,22 @@ def main():
 
         # Generate the new position for the robot base
         base_position = random.uniform(params.lower_bound, params.upper_bound)
+        keep_base_positions.append(base_position)
 
         # Send the integer data to the C# server
         layout = np.array ([[base_position, place_x, place_y, place_z, rotation]], dtype = np.int32)
         send_array(s, layout)
+        time.sleep(0.005)
 
         # Send the string that corresponds to the item to be picked
         send_strings(s, [item_names[rand_pick]])
+        time.sleep(0.005)
 
         # ! ... C# is evaluating the manipulability and time ...
 
         # Get the manipulability measure
         result = s.recv(1024).decode()
+        time.sleep(0.005)
         result = np.array([int(num) for num in result.split(',')]) # fitness, flag
         flag = result[0]
         mean_determinant = result[1] / (10 ** params.n_decimals)
@@ -126,17 +137,26 @@ def main():
             feasibility_counter += 1
             keep_manipulability.append(mean_determinant)
             keep_execution_time.append(execution_time)
-            with open(save_path, 'a') as f: f.write(f"Iteration: {i};  Base position: {base_position} mm; Feasibility: YES!;"
-                                                    f"Manipulability: {mean_determinant}; Execution time: {execution_time} \n")
-
-        else:
-            with open(save_path, 'a') as f: f.write(f"Iteration {i}; Item picked: {item_names[rand_pick]}; Base position: {base_position} mm; Feasibility: NO! \n")
+            keep_index.append(i)
 
         # Increase the counter
         i += 1
 
     # Close the socket communication
     s.close()
+
+    # ! Now fill the txt file: don't do it in the for loop 
+    display_faesible_idx = 0
+    display_unfeasible_idx = 0
+    for i in range (0, params.Nsim - 1):
+        if i not in keep_index:
+            with open(save_path, 'a') as f: f.write(f"Iteration {i}; Item picked: Base position: {keep_base_positions[display_unfeasible_idx]} mm; Feasibility: NO! \n")
+            display_unfeasible_idx += 1
+        else:
+            with open(save_path, 'a') as f: f.write(f"Iteration: {i};  Base position: {keep_base_positions[display_faesible_idx]} mm; Feasibility: YES!;"
+                                                    f"Manipulability: {keep_manipulability[display_faesible_idx]}; Execution time: {keep_execution_time[display_faesible_idx]} \n")
+            display_faesible_idx += 1
+
 
     # Calculate the mean and standard deviation of the manipulability
     if keep_manipulability == [] and keep_execution_time == []:

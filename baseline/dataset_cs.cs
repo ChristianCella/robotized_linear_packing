@@ -49,6 +49,7 @@ class Program
         try
         {
             server = new TcpListener(IPAddress.Parse(ip_address), port);
+            server.Server.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.ReuseAddress, true);
             server.Start();
             TcpClient client = server.AcceptTcpClient();
             NetworkStream stream = client.GetStream();
@@ -136,12 +137,14 @@ class Program
                 byte[] result1 = Encoding.ASCII.GetBytes(result_vec);
                 stream.Write(result1, 0, result1.Length);
 
-                output.WriteLine("Simulation number: " + i);
+                // output.WriteLine("Simulation number: " + i);
 
                 // Delete all the operations, except the last one
                 if (i != Nsim - 1)
                 {                    
                     MyOp.Delete();
+                    GC.Collect();
+                    GC.WaitForPendingFinalizers();
                 }
 
             }
