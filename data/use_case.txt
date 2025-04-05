@@ -1,0 +1,95 @@
+Data of the complete use case 
+********* Type of item: 0 
+	 Considered bin number: 0 
+	 	 'Place-side' obejct number: 0 
+	 	 	 'Pick-side' obejct number: 0 
+	 	 	 ***** Starting the PSO ***** 
+	 	 	 	 PSO iteration: 0; 
+	 	 	 	 PSO iteration: 1; 
+	 	 	 	 	 New global best found. Base position: 232; Fitness value: -5.706817242038098 
+	 	 	 	 PSO iteration: 2; 
+	 	 	 New best trade-off found. Base position: 232; Trade-off value: -0.5469511616305787 
+	 	 	 'Pick-side' obejct number: 1 
+	 	 	 ***** Starting the PSO ***** 
+	 	 	 	 PSO iteration: 0; 
+	 	 	 	 PSO iteration: 1; 
+	 	 	 	 PSO iteration: 2; 
+	 	 	 	 	 New global best found. Base position: -17; Fitness value: -615.0223383078477 
+	 	 	 New best trade-off found. Base position: -17; Trade-off value: -0.8905025132802646 
+	 	 	 'Pick-side' obejct number: 2 
+	 	 	 ***** Starting the PSO ***** 
+	 	 	 	 PSO iteration: 0; 
+	 	 	 	 PSO iteration: 1; 
+	 	 	 	 	 New global best found. Base position: 308; Fitness value: -6.695031920045786 
+	 	 	 	 PSO iteration: 2; 
+	 	 	 	 	 New global best found. Base position: 307; Fitness value: -6.752547309116512 
+	 	 'Place-side' obejct number: 1 
+	 	 	 'Pick-side' obejct number: 0 
+	 	 	 ***** Starting the PSO ***** 
+	 	 	 	 PSO iteration: 0; 
+	 	 	 	 PSO iteration: 1; 
+	 	 	 	 	 New global best found. Base position: 285; Fitness value: -5.595200095854299 
+	 	 	 	 PSO iteration: 2; 
+	 	 	 	 	 New global best found. Base position: 295; Fitness value: -5.605502688867796 
+	 	 	 New best trade-off found. Base position: 295; Trade-off value: -0.471324017537965 
+	 	 	 'Pick-side' obejct number: 2 
+	 	 	 ***** Starting the PSO ***** 
+	 	 	 	 PSO iteration: 0; 
+	 	 	 	 PSO iteration: 1; 
+	 	 	 	 PSO iteration: 2; 
+	 	 	 	 	 New global best found. Base position: 447; Fitness value: -4.202110179221235 
+	 	 'Place-side' obejct number: 2 
+	 	 	 'Pick-side' obejct number: 2 
+	 	 	 ***** Starting the PSO ***** 
+	 	 	 	 PSO iteration: 0; 
+	 	 	 	 PSO iteration: 1; 
+	 	 	 	 PSO iteration: 2; 
+	 	 	 	 	 New global best found. Base position: -289; Fitness value: -10.33877288315701 
+	 	 	 New best trade-off found. Base position: -289; Trade-off value: -0.2676043483367189 
+********* Type of item: 1 
+	 Considered bin number: 0 
+	 	 'Place-side' obejct number: 0 
+	 	 	 'Pick-side' obejct number: 0 
+	 	 	 ***** Starting the PSO ***** 
+	 	 	 	 PSO iteration: 0; 
+	 	 	 	 PSO iteration: 1; 
+	 	 	 	 	 New global best found. Base position: 756; Fitness value: -3.085996726274289 
+	 	 	 	 PSO iteration: 2; 
+	 	 	 	 	 New global best found. Base position: 735; Fitness value: -3.1713529312484035 
+	 	 	 New best trade-off found. Base position: 735; Trade-off value: 0.02277059449757473 
+	 	 	 'Pick-side' obejct number: 1 
+	 	 	 ***** Starting the PSO ***** 
+	 	 	 	 PSO iteration: 0; 
+	 	 	 	 PSO iteration: 1; 
+	 	 	 	 PSO iteration: 2; 
+	 	 	 New best trade-off found. Base position: 114.46198217130132; Trade-off value: -0.3957808003206668 
+	 	 	 'Pick-side' obejct number: 2 
+	 	 	 ***** Starting the PSO ***** 
+	 	 	 	 PSO iteration: 0; 
+	 	 	 	 PSO iteration: 1; 
+	 	 	 	 	 New global best found. Base position: -9; Fitness value: -1.081129274847281 
+	 	 	 	 PSO iteration: 2; 
+	 	 	 	 	 New global best found. Base position: 504; Fitness value: -5.720806294613898 
+	 	 'Place-side' obejct number: 1 
+	 	 	 'Pick-side' obejct number: 0 
+	 	 	 ***** Starting the PSO ***** 
+	 	 	 	 PSO iteration: 0; 
+	 	 	 	 PSO iteration: 1; 
+	 	 	 	 PSO iteration: 2; 
+	 	 	 New best trade-off found. Base position: 674.9838367734355; Trade-off value: -0.286176193430024 
+	 	 	 'Pick-side' obejct number: 2 
+	 	 	 ***** Starting the PSO ***** 
+	 	 	 	 PSO iteration: 0; 
+	 	 	 	 PSO iteration: 1; 
+	 	 	 	 	 New global best found. Base position: 726; Fitness value: -3.051513221933809 
+	 	 	 	 PSO iteration: 2; 
+	 	 'Place-side' obejct number: 2 
+	 	 	 'Pick-side' obejct number: 2 
+	 	 	 ***** Starting the PSO ***** 
+	 	 	 	 PSO iteration: 0; 
+	 	 	 	 PSO iteration: 1; 
+	 	 	 	 PSO iteration: 2; 
+	 	 	 New best trade-off found. Base position: -744.0019163782897; Trade-off value: 0.2902280076546411 
+********** Results ************ 
+The optimal sequence is: [1, 0, 2, 1, 0, 2] 
+The optimal base positions are: [np.int64(-17), np.int64(295), np.int64(-289), np.float64(114.46198217130132), np.float64(674.9838367734355), np.float64(-744.0019163782897)] 

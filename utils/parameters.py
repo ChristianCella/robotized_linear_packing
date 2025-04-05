@@ -91,10 +91,37 @@ class PackingSimulationParameters:
 # Data for the real optimization procedure (to be implemented)
 @dataclass
 class RealSimulationParameters:
-    items_root_name: str = 'Item'
+    host: str = '127.0.0.3' # socket address
+    port : int = 26 # socket port
+    v_max: int = 700 # [mm / s]
+    a_max: int = 900 # [mm / s^2]
+    upper_bound: int = 1500 # [mm]
+    lower_bound: int = -1500 # [mm]
+    N_sim_pso: int = 3 # N simulations for the pso
+    N_particles: int = 5 # N particles for the pso
+    w0: float = 0.9 # upper bound on inertia
+    wN: float = 0.4 # lower bound on inertia
+    delta_w: float = (w0 - wN) / N_sim_pso # decay of the inertia
+    c1: int = 2 # cognitive component
+    c2: int = 2 # social component
+    mean_travel_time: float = 2.183 # mean travel time
+    std_travel_time: float = 1.0714 # std travel time
+    mean_manip: List[float] = field(default_factory=lambda: [0.1766, 0.1366]) # mean manipulability of the objects
+    std_manip: List[float] = field(default_factory=lambda: [0.0244, 0.0273]) # std manipulability of the objects
+    mean_time_pp: List[float] = field(default_factory=lambda: [10.337, 9.747]) # mean time for the pick and place
+    std_time_pp: List[float] = field(default_factory=lambda: [0.201, 0.536]) # std time for the pick and place
+    items_root_name: str = 'Cube'
     bins_root_name: str = 'Bin'
+    robot_program_name: str = 'RobotProgram'
+    file_name: str = 'use_case.txt' # file name for the results
+    pre_post_height: int = 200 # [mm]
+    n_decimals: int = 5
+    alpha_fitness: float = 0.5 # weight for the fitness function    
+    beta_fitness: float = 0.5
+    alpha_tradeoff: float = 0.5 # weight for the trade-off function
+    beta_tradeoff: float = 0.5
     items_of_each_type: List[int] = field(default_factory=lambda: [3, 3])
-    items_sizes_and_weight: List[List[float]] = field(default_factory=lambda: [[75, 150, 80, 1], [10, 70, 80, 1]])
+    items_sizes_and_weight: List[List[float]] = field(default_factory=lambda: [[75, 150, 80, 1], [100, 70, 80, 1]])
     bins_of_each_type: List[int] = field(default_factory=lambda: [1, 1])
     bins_sizes_and_weight: List[List[float]] = field(default_factory=lambda: [[300, 200, 130, 20], [300, 200, 130, 20]])
     bins_centers: List[List[float]] = field(default_factory=lambda: [[-750, -430, -107.14], [-250, -430, -107.14]])
