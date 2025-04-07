@@ -31,9 +31,15 @@ def main():
     packing_creator.create()
 
     # Parameters to be initilaized
-    base_position_sequence = [] 
+    base_position_sequence = [] # sequence of the base positions
     optimal_sequence = [] # sequence of the objects to be packed (pick side)
+    optimal_travel_times = [] # travel times for the base position
+    optimal_pp_times = [] # sequence that is updated with the p&p time of the selected object
+    pp_times = [] # vector storing all the 'best' pick&place times for the objects to be packed
+    total_times = []
     current_base_pos = 0
+    pp_time = 0 # Time associated to the best position found for a specific object
+    keep_travel_time = 0 # temporary variable that is overwritten in the loop  
     global_best_position = 0
     global_best_score = 0
     type_obj = 0
@@ -196,7 +202,10 @@ def main():
                                 if fitness[min_index] < global_best_score:
                                     global_best_position = particle_positions[min_index]
                                     global_best_score = fitness[min_index]
-                                    with open (save_path, 'a') as f: f.write(f"\t \t \t \t \t New global best score found. Base position: {global_best_position}; Fitness value: {global_best_score} \n")
+                                    pp_time = execution_time[min_index] # Time associated to the best position found
+                                    with open (save_path, 'a') as f: f.write(f"\t \t \t \t \t New global best score found. Base position: {global_best_position} \n")
+                                    with open (save_path, 'a') as f: f.write(f"\t \t \t \t \t Fitness value: {global_best_score} \n")
+                                    with open (save_path, 'a') as f: f.write(f"\t \t \t \t \t Pick&Place time: {pp_time} \n")
 
                             # * Update particles
                             # Random vectors for cognitive and social components
@@ -218,17 +227,21 @@ def main():
 
                             # Clip positions within bounds
                             particle_positions = np.clip(particle_positions, params.base_lower_bound, params.base_upper_bound)
-                                                   
+
+                        # The PSO for a specific 'pick-side' object is over  
+                        pp_times.append(pp_time) # Best time for a specific 'pick-side' object                      
                         with open(save_path, 'a') as f: f.write(f"\t \t \t ***** PSO ended for 'Pick-side' object number  {c} ***** \n")
                         
                         # ? Time-manipulability trade-off for the sequence update                                               
                         travel_time = motion_planner.trapezoidal_velocity_profile(current_base_pos, global_best_position)  
                         tradeoff = params.alpha_tradeoff * (1 / ((global_best_score - params.mean_manip[type_obj]) / params.std_manip[type_obj])) + params.beta_tradeoff * (((travel_time - params.mean_travel_time) / params.std_travel_time)) 
                         
+                        # Check the improvement
                         if (tradeoff < best_tradeoff):
                             best_tradeoff = tradeoff
                             next_position = global_best_position
-                            next_item = c                            
+                            next_item = c  
+                            keep_travel_time = travel_time                        
                             if params.verbose: print(f"Checkpoint: computed the motion law for the base")
                         
                     else: # the 'c-th' object has already been picked and placed, so I skip it
@@ -242,10 +255,20 @@ def main():
 
                 # * All 'pick-side' items scanned: I know the object to be picked (sequence) and where to put the robot (base position)                
                 current_base_pos = next_position 
-                pick_objects.append(next_item) # Remove the c-th item from the available ones pick-side
-                optimal_sequence.append(next_item)
-                base_position_sequence.append(current_base_pos)
+                pick_objects.append(next_item) # Remove the c-th item from the available ones pick-side (this list will be re-initialized)
+                
+                # Send the index of the object to color in LightBlue
+                send_array(s, np.array([[next_item]], dtype = np.int32))
+
+                optimal_sequence.append(next_item) # Augment the sequence of objects to be packed (pick side)
+                base_position_sequence.append(current_base_pos) # Augment the sequence of base positions
+                optimal_travel_times.append(keep_travel_time) # Augment the travel time sequence
+                optimal_pp_times.append(pp_times[next_item]) # pick&place time associated to the selected object
+                total_times.append(keep_travel_time + pp_times[next_item]) # Augment the sequence of total times (not 'absolute' but relative to the previous one)
+                
                 with open(save_path, 'a') as f: f.write(f"\t \t All 'Pick-side' objects scanned. The best one is: {next_item}; the robot is moved to {current_base_pos} \n")
+                with open(save_path, 'a') as f: f.write(f"\t \t The robot is moved to: {current_base_pos} mm wrt the center \n")
+                with open(save_path, 'a') as f: f.write(f"\t \t The total time so far is: {sum(total_times)} seconds.\n")
                 if params.verbose: print(f"Checkpoint: Pick-side objects scanned")
                 
                 # * Update the counter of objects packed so far inside the bin-th box

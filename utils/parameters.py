@@ -93,16 +93,16 @@ class PackingSimulationParameters:
 class RealSimulationParameters:
     verbose : bool = True
     timeout: int = 60 # [s] timeout for the socket connection
-    host: str = '127.0.0.20' # socket address
-    port : int = 120 # socket port
+    host: str = '127.0.0.23' # socket address
+    port : int = 123 # socket port
     v_max: int = 700 # [mm / s] => for the line
     a_max: int = 900 # [mm / s^2] => for the line
     base_upper_bound: int = 1500 # [mm] for the robot base (NOT taken from /data/bounds_experiment.txt)
     base_lower_bound: int = -1500 # [mm] for the robot base (NOT taken from /data/bounds_experiment.txt)
     vel_upper_bound: int = 1 # Upper bound for particle velocity
     vel_lower_bound: int = -1 # Lower bound for particle velocity
-    N_sim_pso: int = 10 # N simulations for the pso
-    N_particles: int = 5 # N particles for the pso
+    N_sim_pso: int = 3 # N simulations for the pso
+    N_particles: int = 2 # N particles for the pso
     w0: float = 0.9 # upper bound on inertia
     wN: float = 0.4 # lower bound on inertia
     delta_w: float = (w0 - wN) / N_sim_pso # decay of the inertia

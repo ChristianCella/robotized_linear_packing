@@ -19,15 +19,15 @@ class Program
 {
     // variables controlling the display of messages
     static StringWriter m_output;
-    static bool verbose = true;
+    static bool verbose = false;
 
     // variables for the Jacobian
     static double determinantSum = 0;
     static double determinantCounter = 0;
 
     // socket variables
-    static string ip_address = "127.0.0.20";
-    static int port = 120;
+    static string ip_address = "127.0.0.23";
+    static int port = 123;
 
     // Variables to create the robot program
     static string new_motion_type = "PTP";
@@ -59,8 +59,10 @@ class Program
             output.WriteLine(N_sim_pso.ToString());
             output.WriteLine(N_particles.ToString());
 
-            // get the number items of each type
+            // get the number items of each type and the total number of items
             var num_types_items = ReceiveNumpyArray(stream);
+            int total_items = num_types_items.Cast<int>().Sum();
+            int idx_color = 0; // index to keep track of the objects to color in white
 
             // Get the number of bins for each object
             var num_bins_each_type = ReceiveNumpyArray(stream);
@@ -83,6 +85,7 @@ class Program
             double[] manipulability_vec = new double[N_particles];
             double[] time_vec = new double[N_particles];
             double[] xi_vec = new double[N_particles];
+            string[] items_color_names = new string[total_items];
 
             // Get 'static' instances
             TxRobot Robot = GetRobot(robot_name);
@@ -138,7 +141,10 @@ class Program
                            
                             if (skip[0, 0] == 0)                            
                             {
-                                output.WriteLine("Skip = 0 ... ");
+                                if (verbose)
+                                {
+                                    output.WriteLine("Skip = 0 ... ");
+                                }
 
                                 // Initialize the counter for the PSO
                                 int ii = 0;
@@ -256,12 +262,21 @@ class Program
                             }
                             else // Skip this item
                             {
-                                output.WriteLine("Skip = 1 ... ");
+                                if (verbose)
+                                {
+                                    output.WriteLine("Skip = 1 ... ");
+                                }
                             }
 
                             // Increment the counter for the next object
                             c++;
                         }
+
+                        // Receive the index of the object to color in LightBlue
+                        var obj_to_color = ReceiveNumpyArray(stream);
+                        items_color_names[idx_color] = items_root_name + "_" + type_obj.ToString() + obj_to_color[0, 0].ToString();
+                        idx_color++;
+                        SetColor(items_root_name + "_" + type_obj.ToString() + obj_to_color[0, 0].ToString(), TxColor.TxColorLightBlue);
 
                         // Increment the counter for the next object place-side
                         j++;
@@ -272,6 +287,12 @@ class Program
                 } 
                 // Increment the counter for the next type of object
                 type_obj++;
+            }
+
+            // Color everything in white
+            for (int i = 0; i < items_color_names.Length; i++)
+            {
+                SetColor(items_color_names[i], TxColor.TxColorWhite);
             }
        
             // Close all the instances
@@ -306,14 +327,14 @@ class Program
         return Robot;
     }
 
-    // get the gripper
+    // Get the gripper
     private static ITxObject GetGripper(string gripperName)
     {
         ITxObject Gripper = TxApplication.ActiveDocument.GetObjectsByName(gripperName)[0] as ITxObject;
         return Gripper;
     }
 
-    // get the object
+    // Get the object
     private static ITxObject GetItem(string item_name)
     {
         ITxObject Item = TxApplication.ActiveDocument.GetObjectsByName(item_name)[0];
@@ -333,6 +354,17 @@ class Program
         locatableItem.LocationRelativeToWorkingFrame = pose;
 
         TxApplication.RefreshDisplay();
+    }
+
+    private static void SetColor(string item_name, TxColor col)
+    {
+        // Save the obejct after addressing it by name	
+		ITxObject selected_obj = TxApplication.ActiveDocument.GetObjectsByName(item_name)[0];
+
+        // Set the color       
+		(selected_obj as ITxDisplayableObject).Color = col;
+		TxApplication.RefreshDisplay();
+
     }
 
     /*
