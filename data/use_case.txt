@@ -1,229 +1,335 @@
 Data of the complete use case 
+
 ********* Type of item: 0 
 	 Considered bin number: 0 
-	 	 'Place-side' obejct number: 0 
+	 	 Considering the 'place-side' obejct number: 0/3 
 	 	 	 'Pick-side' obejct number: 0 
 	 	 	 ***** Starting the PSO ***** 
-	 	 	 	 PSO iteration: 1; 
-	 	 	 	 PSO iteration: 2; 
-	 	 	 	 PSO iteration: 3; 
-	 	 	 	 PSO iteration: 4; 
-	 	 	 	 PSO iteration: 5; 
-	 	 	 	 	 New global best found. Base position: 251; Fitness value: -2.3959550075708305 
-	 	 	 	 PSO iteration: 6; 
-	 	 	 	 PSO iteration: 7; 
-	 	 	 	 PSO iteration: 8; 
-	 	 	 	 PSO iteration: 9; 
-	 	 	 	 PSO iteration: 10; 
+	 	 	 	 PSO iteration: 1; the fitness values are: [1.64255514e+00 1.53919591e+00 3.13880340e+07 3.13880340e+07
+ 3.13880340e+07] 
+	 	 	 	 PSO iteration: 2; the fitness values are: [ 3.13798654e+00  1.53919591e+00 -4.23023770e-01  3.13880340e+07
+  5.19776119e+00] 
+	 	 	 	 	 New global best score found. Base position: -549; Fitness value: -0.4230237700386943 
+	 	 	 	 PSO iteration: 3; the fitness values are: [ 2.32247852e+00  3.13880340e+07 -1.91240227e+00 -3.37844675e-01
+  3.13880340e+07] 
+	 	 	 	 	 New global best score found. Base position: 255; Fitness value: -1.9124022743425726 
+	 	 	 	 PSO iteration: 4; the fitness values are: [3.13880340e+07 1.28820185e+00 3.13880340e+07 9.84439505e-01
+ 3.13880340e+07] 
+	 	 	 	 PSO iteration: 5; the fitness values are: [3.1388034e+07 3.1388034e+07 3.1388034e+07 1.5380908e+00 3.1388034e+07] 
+	 	 	 	 PSO iteration: 6; the fitness values are: [ 3.13880340e+07 -3.93991581e-01 -1.16338121e+00 -8.67208077e-01
+  3.13880340e+07] 
+	 	 	 	 PSO iteration: 7; the fitness values are: [ 3.13880340e+07 -1.97783808e+00  3.13880340e+07 -3.19516873e-01
+  3.13880340e+07] 
+	 	 	 	 	 New global best score found. Base position: -432; Fitness value: -1.977838082315695 
+	 	 	 	 PSO iteration: 8; the fitness values are: [-7.90360697e+00  3.13880340e+07 -1.31063433e+00  3.13880340e+07
+ -1.90493959e+00] 
+	 	 	 	 	 New global best score found. Base position: -363; Fitness value: -7.903606965174044 
+	 	 	 	 PSO iteration: 9; the fitness values are: [ 5.20273632e+00 -6.50362645e-01 -1.84638034e-01  1.06155393e+00
+  3.13880340e+07] 
+	 	 	 	 PSO iteration: 10; the fitness values are: [-3.39417371e-01  3.13880340e+07  3.13880340e+07  3.13880340e+07
+  3.13880340e+07] 
 	 	 	 ***** PSO ended for 'Pick-side' object number  0 ***** 
-	 	 	 New best trade-off found. Base position: 251; Trade-off value: -0.5305970270266046 
 	 	 	 'Pick-side' obejct number: 1 
 	 	 	 ***** Starting the PSO ***** 
-	 	 	 	 PSO iteration: 1; 
-	 	 	 	 PSO iteration: 2; 
-	 	 	 	 	 New global best found. Base position: -527; Fitness value: -0.3300433317284538 
-	 	 	 	 PSO iteration: 3; 
-	 	 	 	 	 New global best found. Base position: -526; Fitness value: -0.4737457291853972 
-	 	 	 	 PSO iteration: 4; 
-	 	 	 	 	 New global best found. Base position: -525; Fitness value: -0.6291487766646217 
-	 	 	 	 PSO iteration: 5; 
-	 	 	 	 	 New global best found. Base position: -524; Fitness value: -0.7279045946736914 
-	 	 	 	 PSO iteration: 6; 
-	 	 	 	 	 New global best found. Base position: -523; Fitness value: -0.8090499881544656 
-	 	 	 	 PSO iteration: 7; 
-	 	 	 	 	 New global best found. Base position: -522; Fitness value: -0.8999828443986966 
-	 	 	 	 PSO iteration: 8; 
-	 	 	 	 	 New global best found. Base position: -520; Fitness value: -1.1315298507462668 
-	 	 	 	 PSO iteration: 9; 
-	 	 	 	 	 New global best found. Base position: -518; Fitness value: -1.2867638551428888 
-	 	 	 	 PSO iteration: 10; 
-	 	 	 	 	 New global best found. Base position: -516; Fitness value: -1.7216191768430587 
+	 	 	 	 PSO iteration: 1; the fitness values are: [3.13880340e+07 3.13880340e+07 1.22708824e-01 3.13880340e+07
+ 3.13880340e+07] 
+	 	 	 	 PSO iteration: 2; the fitness values are: [2.46250499e-01 3.13880340e+07 1.20221262e-01 3.13880340e+07
+ 5.79601990e-01] 
+	 	 	 	 	 New global best score found. Base position: 0; Fitness value: 0.12022126211050155 
+	 	 	 	 PSO iteration: 3; the fitness values are: [ 3.42156863e+00 -2.54409769e-02  1.20221262e-01  1.04165343e+00
+  3.13880340e+07] 
+	 	 	 	 	 New global best score found. Base position: -211; Fitness value: -0.02544097693351366 
+	 	 	 	 PSO iteration: 4; the fitness values are: [-2.20593461  0.43270256  0.01479211  0.25371319  0.89944508] 
+	 	 	 	 	 New global best score found. Base position: -462; Fitness value: -2.2059346126510313 
+	 	 	 	 PSO iteration: 5; the fitness values are: [-3.00531242e-01  3.13880340e+07  3.13880340e+07 -4.73195248e-01
+  3.13880340e+07] 
+	 	 	 	 PSO iteration: 6; the fitness values are: [-2.20593461e+00  3.13880340e+07 -7.60989573e-01  3.13880340e+07
+  3.13880340e+07] 
+	 	 	 	 PSO iteration: 7; the fitness values are: [ 2.07020453e+00  3.13880340e+07 -8.48322490e-03  3.13880340e+07
+  3.13880340e+07] 
+	 	 	 	 PSO iteration: 8; the fitness values are: [ 4.93159204e+00  1.30560738e+00 -2.04477612e+01  2.02814055e+00
+  3.13880340e+07] 
+	 	 	 	 	 New global best score found. Base position: -438; Fitness value: -20.44776119402927 
+	 	 	 	 PSO iteration: 9; the fitness values are: [-6.82548794e-01  3.13880340e+07  3.13880340e+07  3.13880340e+07
+  3.13880340e+07] 
+	 	 	 	 PSO iteration: 10; the fitness values are: [-1.40616684e+00  3.13880340e+07  3.13880340e+07  3.13880340e+07
+  3.13880340e+07] 
 	 	 	 ***** PSO ended for 'Pick-side' object number  1 ***** 
 	 	 	 'Pick-side' obejct number: 2 
 	 	 	 ***** Starting the PSO ***** 
-	 	 	 	 PSO iteration: 1; 
-	 	 	 	 PSO iteration: 2; 
-	 	 	 	 	 New global best found. Base position: -33; Fitness value: -0.18757358246933392 
-	 	 	 	 PSO iteration: 3; 
-	 	 	 	 PSO iteration: 4; 
-	 	 	 	 	 New global best found. Base position: -269; Fitness value: -0.26086146806076277 
-	 	 	 	 PSO iteration: 5; 
-	 	 	 	 PSO iteration: 6; 
-	 	 	 	 	 New global best found. Base position: -156; Fitness value: -0.2679618103812893 
-	 	 	 	 PSO iteration: 7; 
-	 	 	 	 PSO iteration: 8; 
-	 	 	 	 PSO iteration: 9; 
-	 	 	 	 PSO iteration: 10; 
+	 	 	 	 PSO iteration: 1; the fitness values are: [-2.61981233e-02 -4.64413470e-02  3.13880340e+07  3.13880340e+07
+ -3.80842268e-02] 
+	 	 	 	 PSO iteration: 2; the fitness values are: [-5.90065865e-02 -4.64413470e-02  3.13880340e+07  3.13880340e+07
+ -2.20043849e-01] 
+	 	 	 	 	 New global best score found. Base position: -280; Fitness value: -0.22004384855384151 
+	 	 	 	 PSO iteration: 3; the fitness values are: [ 3.13880340e+07  5.58665008e-01 -2.75297068e-01  3.13880340e+07
+ -2.72646668e-01] 
+	 	 	 	 	 New global best score found. Base position: -173; Fitness value: -0.275297068377122 
+	 	 	 	 PSO iteration: 4; the fitness values are: [ 3.13880340e+07 -2.34837264e-01  3.13880340e+07 -2.44787513e-01
+ -2.62911632e-01] 
+	 	 	 	 PSO iteration: 5; the fitness values are: [ 3.13880340e+07 -6.39817109e-02  3.13880340e+07  3.13880340e+07
+ -2.74954342e-01] 
+	 	 	 	 PSO iteration: 6; the fitness values are: [ 3.13880340e+07 -1.15879745e-01 -1.15879745e-01  3.13880340e+07
+ -2.83516339e-01] 
+	 	 	 	 	 New global best score found. Base position: -212; Fitness value: -0.2835163390097956 
+	 	 	 	 PSO iteration: 7; the fitness values are: [ 8.02799727e-01 -2.57936508e-01  3.13880340e+07  6.77968851e-01
+ -2.72646668e-01] 
+	 	 	 	 PSO iteration: 8; the fitness values are: [ 3.13880340e+07  7.21916732e-01  3.13880340e+07  3.13880340e+07
+ -2.72646668e-01] 
+	 	 	 	 PSO iteration: 9; the fitness values are: [ 3.13880340e+07  3.13880340e+07  3.13880340e+07  3.13880340e+07
+ -2.82439156e-01] 
+	 	 	 	 PSO iteration: 10; the fitness values are: [ 3.13880340e+07  3.13880340e+07  3.13880340e+07  3.13880340e+07
+ -2.80272193e-01] 
 	 	 	 ***** PSO ended for 'Pick-side' object number  2 ***** 
-	 	 	 New best trade-off found. Base position: -156; Trade-off value: -0.6576152377992861 
-	 	 All 'Pick-side' objects scanned. The best one is: 2; the robot is moved to -156 
+	 	 All 'Pick-side' objects scanned. The best one is: 2; the robot is moved to -212 
 	 	 Still need to pack 2 objects in the bin 0 
-	 	 'Place-side' obejct number: 1 
+	 	 Considering the 'place-side' obejct number: 1/3 
 	 	 	 'Pick-side' obejct number: 0 
 	 	 	 ***** Starting the PSO ***** 
-	 	 	 	 PSO iteration: 1; 
-	 	 	 	 PSO iteration: 2; 
-	 	 	 	 	 New global best found. Base position: -70; Fitness value: -2.8884923210036626 
-	 	 	 	 PSO iteration: 3; 
-	 	 	 	 PSO iteration: 4; 
-	 	 	 	 PSO iteration: 5; 
-	 	 	 	 PSO iteration: 6; 
-	 	 	 	 PSO iteration: 7; 
-	 	 	 	 PSO iteration: 8; 
-	 	 	 	 PSO iteration: 9; 
-	 	 	 	 PSO iteration: 10; 
+	 	 	 	 PSO iteration: 1; the fitness values are: [-1.76686336e+00  3.13880340e+07  3.13880340e+07 -8.97212053e-01
+  3.13880340e+07] 
+	 	 	 	 PSO iteration: 2; the fitness values are: [-1.76437580e+00  3.13880340e+07  3.13880340e+07 -2.33031272e+00
+ -2.46712864e+00] 
+	 	 	 	 	 New global best score found. Base position: -111; Fitness value: -2.4671286425017787 
+	 	 	 	 PSO iteration: 3; the fitness values are: [-2.49946695e+00  3.13880340e+07 -1.54307410e+00 -8.59745391e-01
+  3.13880340e+07] 
+	 	 	 	 	 New global best score found. Base position: -137; Fitness value: -2.49946695095949 
+	 	 	 	 PSO iteration: 4; the fitness values are: [-2.86112914e+00  3.13880340e+07  3.13880340e+07 -4.55782313e-01
+  3.13880340e+07] 
+	 	 	 	 	 New global best score found. Base position: -50; Fitness value: -2.861129136924063 
+	 	 	 	 PSO iteration: 5; the fitness values are: [-2.27061123e+00  3.13880340e+07 -1.49083530e+00  3.13880340e+07
+  3.13880340e+07] 
+	 	 	 	 PSO iteration: 6; the fitness values are: [-2.49449183e+00 -2.34275053e+00  3.13880340e+07  3.13880340e+07
+  3.13880340e+07] 
+	 	 	 	 PSO iteration: 7; the fitness values are: [-1.98088505e+00  3.13880340e+07 -1.85843510e+00  1.09996891e-02
+ -2.32533760e+00] 
+	 	 	 	 PSO iteration: 8; the fitness values are: [-2.26563611e+00  3.13880340e+07  3.13880340e+07  3.13880340e+07
+  3.13880340e+07] 
+	 	 	 	 PSO iteration: 9; the fitness values are: [-1.80619629e+00  3.13880340e+07  3.13880340e+07 -2.36016347e+00
+ -6.99961730e-01] 
+	 	 	 	 PSO iteration: 10; the fitness values are: [-2.47210377e+00  3.13880340e+07  3.13880340e+07  3.13880340e+07
+  3.13880340e+07] 
 	 	 	 ***** PSO ended for 'Pick-side' object number  0 ***** 
-	 	 	 New best trade-off found. Base position: -70; Trade-off value: -0.7342205352433697 
 	 	 	 'Pick-side' obejct number: 1 
 	 	 	 ***** Starting the PSO ***** 
-	 	 	 	 PSO iteration: 1; 
-	 	 	 	 PSO iteration: 2; 
-	 	 	 	 PSO iteration: 3; 
-	 	 	 	 	 New global best found. Base position: -491; Fitness value: -0.2557551226916254 
-	 	 	 	 PSO iteration: 4; 
-	 	 	 	 PSO iteration: 5; 
-	 	 	 	 	 New global best found. Base position: -397; Fitness value: -20.378109452735735 
-	 	 	 	 PSO iteration: 6; 
-	 	 	 	 PSO iteration: 7; 
-	 	 	 	 PSO iteration: 8; 
-	 	 	 	 PSO iteration: 9; 
-	 	 	 	 PSO iteration: 10; 
+	 	 	 	 PSO iteration: 1; the fitness values are: [ 3.13880340e+07  1.22573304e+00  3.99172966e-01 -2.43078088e+00
+ -5.68700615e-01] 
+	 	 	 	 PSO iteration: 2; the fitness values are: [ 0.99438975  1.23319572  1.68877312 -2.43078088 -1.94225302] 
+	 	 	 	 PSO iteration: 3; the fitness values are: [ 3.13880340e+07  8.81627576e+00 -3.69268117e-01 -2.43078088e+00
+ -7.47325871e+00] 
+	 	 	 	 	 New global best score found. Base position: 296; Fitness value: -7.4732587064675755 
+	 	 	 	 PSO iteration: 4; the fitness values are: [ 3.13880340e+07 -3.18242123e+00  1.23319572e+00 -3.18988391e+00
+  3.66534972e+00] 
+	 	 	 	 PSO iteration: 5; the fitness values are: [ 3.13880340e+07 -9.92226368e-01 -1.14248525e+00  8.82871357e+00
+  5.17786070e+00] 
+	 	 	 	 PSO iteration: 6; the fitness values are: [ 3.13880340e+07 -1.60221619e+00  3.13880340e+07 -7.45833333e+00
+ -7.45833333e+00] 
+	 	 	 	 PSO iteration: 7; the fitness values are: [ 3.13880340e+07  3.66286216e+00  3.66286216e+00 -3.18739635e+00
+ -1.60719132e+00] 
+	 	 	 	 PSO iteration: 8; the fitness values are: [ 3.13880340e+07 -1.60967888e+00  1.90127488e+00 -2.01890547e+01
+  8.82125089e+00] 
+	 	 	 	 	 New global best score found. Base position: 292; Fitness value: -20.18905472636758 
+	 	 	 	 PSO iteration: 9; the fitness values are: [ 3.13880340e+07 -9.84763682e-01 -4.36280138e-01  5.16542289e+00
+  3.65788704e+00] 
+	 	 	 	 PSO iteration: 10; the fitness values are: [3.13880340e+07 3.66534972e+00 3.13880340e+07 3.65788704e+00
+ 3.66534972e+00] 
 	 	 	 ***** PSO ended for 'Pick-side' object number  1 ***** 
-	 	 All 'Pick-side' objects scanned. The best one is: 0; the robot is moved to -70 
+	 	 All 'Pick-side' objects scanned. The best one is: 0; the robot is moved to -50 
 	 	 Still need to pack 1 objects in the bin 0 
-	 	 'Place-side' obejct number: 2 
+	 	 Considering the 'place-side' obejct number: 2/3 
 	 	 	 'Pick-side' obejct number: 1 
 	 	 	 ***** Starting the PSO ***** 
-	 	 	 	 PSO iteration: 1; 
-	 	 	 	 PSO iteration: 2; 
-	 	 	 	 	 New global best found. Base position: -303; Fitness value: -7.689676616915336 
-	 	 	 	 PSO iteration: 3; 
-	 	 	 	 	 New global best found. Base position: -302; Fitness value: -7.69216417910439 
-	 	 	 	 PSO iteration: 4; 
-	 	 	 	 PSO iteration: 5; 
-	 	 	 	 PSO iteration: 6; 
-	 	 	 	 PSO iteration: 7; 
-	 	 	 	 PSO iteration: 8; 
-	 	 	 	 	 New global best found. Base position: -235; Fitness value: -20.53233830845713 
-	 	 	 	 PSO iteration: 9; 
-	 	 	 	 PSO iteration: 10; 
+	 	 	 	 PSO iteration: 1; the fitness values are: [ 4.78482587e+00 -1.50576067e+00  3.13880340e+07  8.33866382e+00
+  3.13880340e+07] 
+	 	 	 	 PSO iteration: 2; the fitness values are: [ 4.76492537 -1.50824823  8.33617626 -0.51105916  4.80472637] 
+	 	 	 	 	 New global best score found. Base position: -387; Fitness value: -1.5082482325216042 
+	 	 	 	 PSO iteration: 3; the fitness values are: [ 3.13880340e+07 -1.51073579e+00 -2.15618337e+00  3.13880340e+07
+  3.13880340e+07] 
+	 	 	 	 	 New global best score found. Base position: 220; Fitness value: -2.1561833688699377 
+	 	 	 	 PSO iteration: 4; the fitness values are: [ 3.13880340e+07 -1.26188823e+00  3.13880340e+07  3.13880340e+07
+  3.13880340e+07] 
+	 	 	 	 PSO iteration: 5; the fitness values are: [3.13880340e+07 3.13880340e+07 4.78731343e+00 3.02487562e+01
+ 8.39836532e+00] 
+	 	 	 	 PSO iteration: 6; the fitness values are: [ 8.47796731e+00 -4.76693456e+00  4.77487562e+00  3.13880340e+07
+  3.13880340e+07] 
+	 	 	 	 	 New global best score found. Base position: 154; Fitness value: -4.766934557979299 
+	 	 	 	 PSO iteration: 7; the fitness values are: [ 3.13880340e+07  3.13880340e+07  3.13880340e+07  3.13880340e+07
+ -2.05223881e+01] 
+	 	 	 	 	 New global best score found. Base position: -239; Fitness value: -20.522388059700912 
+	 	 	 	 PSO iteration: 8; the fitness values are: [-2.05149254e+01 -1.09172886e+00  3.13880340e+07  3.13880340e+07
+  3.13880340e+07] 
+	 	 	 	 PSO iteration: 9; the fitness values are: [ 3.13880340e+07 -5.52034349e-01  3.13880340e+07 -5.73096058e-01
+  3.13880340e+07] 
+	 	 	 	 PSO iteration: 10; the fitness values are: [ 3.13880340e+07 -7.08004097e-01  3.13880340e+07  3.13880340e+07
+  3.13880340e+07] 
 	 	 	 ***** PSO ended for 'Pick-side' object number  1 ***** 
-	 	 	 New best trade-off found. Base position: -235; Trade-off value: -0.6197095028056754 
-	 	 All 'Pick-side' objects scanned. The best one is: 1; the robot is moved to -235 
+	 	 All 'Pick-side' objects scanned. The best one is: 1; the robot is moved to -239 
 	 	 Still need to pack 0 objects in the bin 0 
-	 All objects packed in the bin 0 
+	 All objects packed in the bin number 0 
 All objects of type 0 have been packed 
 ********* Type of item: 1 
 	 Considered bin number: 0 
-	 	 'Place-side' obejct number: 0 
+	 	 Considering the 'place-side' obejct number: 0/3 
 	 	 	 'Pick-side' obejct number: 0 
 	 	 	 ***** Starting the PSO ***** 
-	 	 	 	 PSO iteration: 1; 
-	 	 	 	 PSO iteration: 2; 
-	 	 	 	 	 New global best found. Base position: 182; Fitness value: -3.0289584685269357 
-	 	 	 	 PSO iteration: 3; 
-	 	 	 	 PSO iteration: 4; 
-	 	 	 	 PSO iteration: 5; 
-	 	 	 	 PSO iteration: 6; 
-	 	 	 	 PSO iteration: 7; 
-	 	 	 	 	 New global best found. Base position: 150; Fitness value: -5.267723880597033 
-	 	 	 	 PSO iteration: 8; 
-	 	 	 	 PSO iteration: 9; 
-	 	 	 	 	 New global best found. Base position: 98; Fitness value: -8.486473880597067 
-	 	 	 	 PSO iteration: 10; 
-	 	 	 	 	 New global best found. Base position: 103; Fitness value: -8.492070895522442 
+	 	 	 	 PSO iteration: 1; the fitness values are: [1.73955133e+07 1.73955133e+07 1.73955133e+07 1.13828722e+00
+ 1.73955133e+07] 
+	 	 	 	 PSO iteration: 2; the fitness values are: [1.73955133e+07 1.73955133e+07 1.73955133e+07 1.13828722e+00
+ 1.51305970e+00] 
+	 	 	 	 PSO iteration: 3; the fitness values are: [1.73955133e+07 1.73955133e+07 1.73955133e+07 1.13922006e+00
+ 1.73955133e+07] 
+	 	 	 	 PSO iteration: 4; the fitness values are: [1.73955133e+07 1.05435452e+00 1.73955133e+07 1.13922006e+00
+ 1.03385645e+00] 
+	 	 	 	 	 New global best score found. Base position: -266; Fitness value: 1.0338564530289727 
+	 	 	 	 PSO iteration: 5; the fitness values are: [ 1.73955133e+07 -3.02056295e+00  1.73955133e+07  1.13828722e+00
+  1.73955133e+07] 
+	 	 	 	 	 New global best score found. Base position: 176; Fitness value: -3.0205629461388757 
+	 	 	 	 PSO iteration: 6; the fitness values are: [ 1.73955133e+07 -1.82131369e+00  1.73955133e+07 -1.84653766e+00
+  1.73955133e+07] 
+	 	 	 	 PSO iteration: 7; the fitness values are: [ 1.73955133e+07 -1.96769442e+00 -1.84724813e+00  1.73955133e+07
+  1.73955133e+07] 
+	 	 	 	 PSO iteration: 8; the fitness values are: [1.73955133e+07 1.78746891e+00 1.73955133e+07 1.73955133e+07
+ 1.73955133e+07] 
+	 	 	 	 PSO iteration: 9; the fitness values are: [ 1.73955133e+07 -1.10969566e+00  1.73955133e+07  1.73955133e+07
+ -3.82151741e+00] 
+	 	 	 	 	 New global best score found. Base position: 159; Fitness value: -3.821517412935332 
+	 	 	 	 PSO iteration: 10; the fitness values are: [17395513.29570895 17395513.29570895 17395513.29570895 17395513.29570895
+ 17395513.29570895] 
 	 	 	 ***** PSO ended for 'Pick-side' object number  0 ***** 
-	 	 	 New best trade-off found. Base position: 103; Trade-off value: -0.4483563641647383 
 	 	 	 'Pick-side' obejct number: 1 
 	 	 	 ***** Starting the PSO ***** 
-	 	 	 	 PSO iteration: 1; 
-	 	 	 	 PSO iteration: 2; 
-	 	 	 	 	 New global best found. Base position: -44; Fitness value: 0.6517857142857146 
-	 	 	 	 PSO iteration: 3; 
-	 	 	 	 PSO iteration: 4; 
-	 	 	 	 PSO iteration: 5; 
-	 	 	 	 	 New global best found. Base position: -100; Fitness value: 0.65170674405749 
-	 	 	 	 PSO iteration: 6; 
-	 	 	 	 	 New global best found. Base position: -435; Fitness value: -0.09165111940298565 
-	 	 	 	 PSO iteration: 7; 
-	 	 	 	 PSO iteration: 8; 
-	 	 	 	 	 New global best found. Base position: 737; Fitness value: -1.6142241379310343 
-	 	 	 	 PSO iteration: 9; 
-	 	 	 	 PSO iteration: 10; 
+	 	 	 	 PSO iteration: 1; the fitness values are: [ 9.47854478e+00 -3.30833456e-02  2.91477273e+00  3.79828797e+00
+  1.73955133e+07] 
+	 	 	 	 PSO iteration: 2; the fitness values are: [ 1.73955133e+07 -2.56206591e-02  9.51305970e+00  1.73955133e+07
+ -8.91464552e+00] 
+	 	 	 	 	 New global best score found. Base position: 613; Fitness value: -8.914645522388113 
+	 	 	 	 PSO iteration: 3; the fitness values are: [ 6.46774352e-01 -8.92210821e+00 -4.21050995e+00  7.67967229e-01
+  1.73955133e+07] 
+	 	 	 	 	 New global best score found. Base position: 618; Fitness value: -8.922108208955278 
+	 	 	 	 PSO iteration: 4; the fitness values are: [ 6.62354287e-01  1.99008862e+00 -1.43091528e+00  6.59615471e-01
+  1.73955133e+07] 
+	 	 	 	 PSO iteration: 5; the fitness values are: [-1.02736017 -1.5199005  -8.85960821 -1.21594587  2.93436228] 
+	 	 	 	 PSO iteration: 6; the fitness values are: [ 1.73955133e+07 -2.56206591e-02  2.92969810e+00  1.73955133e+07
+  1.73955133e+07] 
+	 	 	 	 PSO iteration: 7; the fitness values are: [1.99475280e+00 9.39365672e-01 1.08636096e+00 6.82250087e-01
+ 1.73955133e+07] 
+	 	 	 	 PSO iteration: 8; the fitness values are: [ 7.35348990e-01 -3.44127190e+00 -1.87803172e+00  1.73955133e+07
+  1.73955133e+07] 
+	 	 	 	 PSO iteration: 9; the fitness values are: [17395513.29570895 17395513.29570895 17395513.29570895 17395513.29570895
+ 17395513.29570895] 
+	 	 	 	 PSO iteration: 10; the fitness values are: [ 1.73955133e+07  6.59615471e-01 -2.91417910e+00  1.73955133e+07
+  1.73955133e+07] 
 	 	 	 ***** PSO ended for 'Pick-side' object number  1 ***** 
 	 	 	 'Pick-side' obejct number: 2 
 	 	 	 ***** Starting the PSO ***** 
-	 	 	 	 PSO iteration: 1; 
-	 	 	 	 PSO iteration: 2; 
-	 	 	 	 	 New global best found. Base position: 774; Fitness value: -2.726679104477615 
-	 	 	 	 PSO iteration: 3; 
-	 	 	 	 PSO iteration: 4; 
-	 	 	 	 PSO iteration: 5; 
-	 	 	 	 PSO iteration: 6; 
-	 	 	 	 PSO iteration: 7; 
-	 	 	 	 PSO iteration: 8; 
-	 	 	 	 PSO iteration: 9; 
-	 	 	 	 PSO iteration: 10; 
+	 	 	 	 PSO iteration: 1; the fitness values are: [ 1.73955133e+07  1.73955133e+07 -2.07310487e+00  1.73955133e+07
+ -1.05410448e+00] 
+	 	 	 	 PSO iteration: 2; the fitness values are: [ 1.73955133e+07  4.35945274e-01 -2.07310487e+00 -3.27615996e+00
+ -5.58768657e+00] 
+	 	 	 	 	 New global best score found. Base position: 749; Fitness value: -5.587686567164197 
+	 	 	 	 PSO iteration: 3; the fitness values are: [ 0.9753535   0.39294724 -8.88945896  0.33312293  2.23300166] 
+	 	 	 	 	 New global best score found. Base position: 738; Fitness value: -8.889458955223935 
+	 	 	 	 PSO iteration: 4; the fitness values are: [ 4.20030529e-01  1.73955133e+07  2.78883989e+00 -2.31138060e+01
+  3.37761194e+01] 
+	 	 	 	 	 New global best score found. Base position: 735; Fitness value: -23.113805970149656 
+	 	 	 	 PSO iteration: 5; the fitness values are: [ 4.89972015e-01  1.73955133e+07 -1.67280784e+00  1.73955133e+07
+ -2.07030636e+00] 
+	 	 	 	 PSO iteration: 6; the fitness values are: [ 1.73955133e+07  1.73970664e+00 -1.51161645e+00  9.40951493e+00
+ -8.88759328e+00] 
+	 	 	 	 PSO iteration: 7; the fitness values are: [ 3.07755749e-02  1.73955133e+07 -4.11815920e+00  3.41837011e-01
+  2.22274046e+00] 
+	 	 	 	 PSO iteration: 8; the fitness values are: [  0.98095051   0.83302239   1.37220149   9.40764925 -23.11007463] 
+	 	 	 	 PSO iteration: 9; the fitness values are: [-1.41086593e+00  1.73955133e+07 -5.57276119e+00  1.73955133e+07
+ -1.52934033e+00] 
+	 	 	 	 PSO iteration: 10; the fitness values are: [1.73955133e+07 8.97572780e-01 3.22722326e-01 1.73955133e+07
+ 1.36847015e+00] 
 	 	 	 ***** PSO ended for 'Pick-side' object number  2 ***** 
-	 	 All 'Pick-side' objects scanned. The best one is: 0; the robot is moved to 103 
+	 	 All 'Pick-side' objects scanned. The best one is: 0; the robot is moved to 159 
 	 	 Still need to pack 2 objects in the bin 0 
-	 	 'Place-side' obejct number: 1 
+	 	 Considering the 'place-side' obejct number: 1/3 
 	 	 	 'Pick-side' obejct number: 1 
 	 	 	 ***** Starting the PSO ***** 
-	 	 	 	 PSO iteration: 1; 
-	 	 	 	 PSO iteration: 2; 
-	 	 	 	 	 New global best found. Base position: 525; Fitness value: -1.5601239087580965 
-	 	 	 	 PSO iteration: 3; 
-	 	 	 	 PSO iteration: 4; 
-	 	 	 	 	 New global best found. Base position: 469; Fitness value: -1.8064257202360292 
-	 	 	 	 PSO iteration: 5; 
-	 	 	 	 	 New global best found. Base position: 391; Fitness value: -2.2360922659430136 
-	 	 	 	 PSO iteration: 6; 
-	 	 	 	 	 New global best found. Base position: 281; Fitness value: -22.799440298507864 
-	 	 	 	 PSO iteration: 7; 
-	 	 	 	 PSO iteration: 8; 
-	 	 	 	 PSO iteration: 9; 
-	 	 	 	 PSO iteration: 10; 
+	 	 	 	 PSO iteration: 1; the fitness values are: [ 1.73955133e+07  1.73955133e+07 -1.10596432e+00 -1.34374438e+00
+  1.73955133e+07] 
+	 	 	 	 PSO iteration: 2; the fitness values are: [ 1.73955133e+07 -1.52187764e+00 -1.18887036e+00 -1.34187871e+00
+ -2.58955224e+00] 
+	 	 	 	 	 New global best score found. Base position: 352; Fitness value: -2.589552238805973 
+	 	 	 	 PSO iteration: 3; the fitness values are: [ 1.33327680e+00  1.73955133e+07  8.14090409e-01 -1.49015697e+00
+  3.25501399e+00] 
+	 	 	 	 PSO iteration: 4; the fitness values are: [ 1.73955133e+07 -2.23172928e-01 -1.03697422e+00 -1.77657497e+00
+ -9.60689268e-01] 
+	 	 	 	 PSO iteration: 5; the fitness values are: [ 1.15890122e+00 -8.78890124e-01  1.73955133e+07  2.19904384e+00
+  1.73955133e+07] 
+	 	 	 	 PSO iteration: 6; the fitness values are: [ 1.73955133e+07  8.20983664e-01 -1.27083031e+00  9.72201493e+00
+  1.73955133e+07] 
+	 	 	 	 PSO iteration: 7; the fitness values are: [ 1.73955133e+07  1.73955133e+07  1.15330420e+00 -1.45937339e+00
+  1.73955133e+07] 
+	 	 	 	 PSO iteration: 8; the fitness values are: [ 1.73955133e+07  1.73955133e+07  1.73955133e+07 -1.53120600e+00
+  1.73955133e+07] 
+	 	 	 	 PSO iteration: 9; the fitness values are: [-1.97702278e+00  1.73955133e+07 -1.38893766e+00  1.04960991e+00
+  1.73955133e+07] 
+	 	 	 	 PSO iteration: 10; the fitness values are: [1.73955133e+07 6.86847015e+00 1.09468284e+01 1.00116036e+00
+ 1.73955133e+07] 
 	 	 	 ***** PSO ended for 'Pick-side' object number  1 ***** 
-	 	 	 New best trade-off found. Base position: 281; Trade-off value: -0.6042705714799299 
 	 	 	 'Pick-side' obejct number: 2 
 	 	 	 ***** Starting the PSO ***** 
-	 	 	 	 PSO iteration: 1; 
-	 	 	 	 PSO iteration: 2; 
-	 	 	 	 	 New global best found. Base position: 631; Fitness value: -5.494402985074645 
-	 	 	 	 PSO iteration: 3; 
-	 	 	 	 PSO iteration: 4; 
-	 	 	 	 PSO iteration: 5; 
-	 	 	 	 PSO iteration: 6; 
-	 	 	 	 PSO iteration: 7; 
-	 	 	 	 PSO iteration: 8; 
-	 	 	 	 PSO iteration: 9; 
-	 	 	 	 PSO iteration: 10; 
+	 	 	 	 PSO iteration: 1; the fitness values are: [-4.07524876e+00  5.30215357e-01  1.73955133e+07  2.38412106e+00
+ -2.16079144e+00] 
+	 	 	 	 PSO iteration: 2; the fitness values are: [-4.07524876e+00  1.73955133e+07  1.73955133e+07  3.39132463e+01
+ -4.07431592e+00] 
+	 	 	 	 PSO iteration: 3; the fitness values are: [-4.07524876e+00  1.73955133e+07  5.28976213e-01 -2.14400039e+00
+  3.39039179e+01] 
+	 	 	 	 PSO iteration: 4; the fitness values are: [-4.07524876e+00  1.73955133e+07  5.19824008e-01 -1.61795548e+00
+  3.39132463e+01] 
+	 	 	 	 PSO iteration: 5; the fitness values are: [-4.07524876e+00  1.73955133e+07  1.73955133e+07 -3.28642116e+00
+ -2.40027137e+00] 
+	 	 	 	 PSO iteration: 6; the fitness values are: [-4.07524876e+00  1.73955133e+07  1.73955133e+07  9.55783582e+00
+ -1.83791978e+00] 
+	 	 	 	 PSO iteration: 7; the fitness values are: [-4.07524876e+00  1.73955133e+07  1.73955133e+07 -4.07991294e+00
+  3.39113806e+01] 
+	 	 	 	 	 New global best score found. Base position: 670; Fitness value: -4.079912935323391 
+	 	 	 	 PSO iteration: 8; the fitness values are: [-4.07711443e+00  1.73955133e+07  1.19216418e+00 -1.54135572e+00
+ -5.50373134e+00] 
+	 	 	 	 	 New global best score found. Base position: 640; Fitness value: -5.5037313432836 
+	 	 	 	 PSO iteration: 9; the fitness values are: [-5.49067164e+00  1.73955133e+07  1.73955133e+07 -5.51399254e+00
+ -3.28362265e+00] 
+	 	 	 	 	 New global best score found. Base position: 649; Fitness value: -5.51399253731345 
+	 	 	 	 PSO iteration: 10; the fitness values are: [ 3.39020522e+01  5.62787659e-01  1.73955133e+07  1.32246348e+00
+ -4.08457711e+00] 
 	 	 	 ***** PSO ended for 'Pick-side' object number  2 ***** 
-	 	 All 'Pick-side' objects scanned. The best one is: 1; the robot is moved to 281 
+	 	 All 'Pick-side' objects scanned. The best one is: 1; the robot is moved to 352 
 	 	 Still need to pack 1 objects in the bin 0 
-	 	 'Place-side' obejct number: 2 
+	 	 Considering the 'place-side' obejct number: 2/3 
 	 	 	 'Pick-side' obejct number: 2 
 	 	 	 ***** Starting the PSO ***** 
-	 	 	 	 PSO iteration: 1; 
-	 	 	 	 PSO iteration: 2; 
-	 	 	 	 PSO iteration: 3; 
-	 	 	 	 	 New global best found. Base position: 498; Fitness value: -2.59235074626866 
-	 	 	 	 PSO iteration: 4; 
-	 	 	 	 	 New global best found. Base position: 500; Fitness value: -2.593283582089555 
-	 	 	 	 PSO iteration: 5; 
-	 	 	 	 PSO iteration: 6; 
-	 	 	 	 	 New global best found. Base position: 484; Fitness value: -3.116645035691114 
-	 	 	 	 PSO iteration: 7; 
-	 	 	 	 PSO iteration: 8; 
-	 	 	 	 PSO iteration: 9; 
-	 	 	 	 PSO iteration: 10; 
+	 	 	 	 PSO iteration: 1; the fitness values are: [17395513.29570895 17395513.29570895 17395513.29570895 17395513.29570895
+ 17395513.29570895] 
+	 	 	 	 PSO iteration: 2; the fitness values are: [1.73955133e+07 1.73955133e+07 1.73955133e+07 1.02534204e+00
+ 3.40149254e+01] 
+	 	 	 	 	 New global best score found. Base position: 280; Fitness value: 1.0253420398009956 
+	 	 	 	 PSO iteration: 3; the fitness values are: [-9.30889268e-01 -8.80755795e-01  1.73955133e+07  1.73955133e+07
+  1.73955133e+07] 
+	 	 	 	 	 New global best score found. Base position: 926; Fitness value: -0.9308892675351559 
+	 	 	 	 PSO iteration: 4; the fitness values are: [17395513.29570895 17395513.29570895 17395513.29570895 17395513.29570895
+ 17395513.29570895] 
+	 	 	 	 PSO iteration: 5; the fitness values are: [1.73955133e+07 1.73955133e+07 1.15677472e+00 1.73955133e+07
+ 1.73955133e+07] 
+	 	 	 	 PSO iteration: 6; the fitness values are: [ 1.73955133e+07 -5.39179104e+00  7.27762398e-01  1.73955133e+07
+  2.09736474e+00] 
+	 	 	 	 	 New global best score found. Base position: 462; Fitness value: -5.391791044776136 
+	 	 	 	 PSO iteration: 7; the fitness values are: [1.45358156e+00 1.73955133e+07 1.73955133e+07 1.73955133e+07
+ 1.73955133e+07] 
+	 	 	 	 PSO iteration: 8; the fitness values are: [-1.24807946e+00  1.73955133e+07  1.73955133e+07  1.73955133e+07
+ -1.12631445e+00] 
+	 	 	 	 PSO iteration: 9; the fitness values are: [ 1.73955133e+07 -1.96489592e+00  1.73955133e+07  1.73955133e+07
+  1.73955133e+07] 
+	 	 	 	 PSO iteration: 10; the fitness values are: [-1.02364865e+00  1.73955133e+07  1.73955133e+07  1.73955133e+07
+  1.73955133e+07] 
 	 	 	 ***** PSO ended for 'Pick-side' object number  2 ***** 
-	 	 	 New best trade-off found. Base position: 484; Trade-off value: -0.579679388198597 
-	 	 All 'Pick-side' objects scanned. The best one is: 2; the robot is moved to 484 
+	 	 All 'Pick-side' objects scanned. The best one is: 2; the robot is moved to 462 
 	 	 Still need to pack 0 objects in the bin 0 
-	 All objects packed in the bin 0 
+	 All objects packed in the bin number 0 
 All objects of type 1 have been packed 
 ********** Results ************ 
 The optimal sequence is: [2, 0, 1, 0, 1, 2] 
-The optimal base positions are: [np.int64(-156), np.int64(-70), np.int64(-235), np.int64(103), np.int64(281), np.int64(484)] 
+The optimal base positions are: [np.int64(-212), np.int64(-50), np.int64(-239), np.int64(159), np.int64(352), np.int64(462)] 
