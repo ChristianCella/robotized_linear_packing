@@ -4,6 +4,7 @@ Python side of the code for the robotized linear packing algorithm.
 
 import sys
 import os
+import struct
 
 # Set the path to the 3D bin packing library
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '3dbinpacking'))
@@ -13,7 +14,7 @@ from py3dbp import Packer, Bin, Item, Scene
 from utils.motion_planning import MotionPlanner 
 from utils.parameters import RealSimulationParameters
 from utils.packing import PackingListCreator
-from utils.socket_manager import send_array, send_strings
+from utils.socket_manager import send_array, send_strings, recv_msg
 params = RealSimulationParameters()
 
 # Get the full path to the text file
@@ -31,7 +32,7 @@ import time
 # Create useful lists
 
 # Parameters to be initilaized
-best_tradeoff = 99999 # infinity
+best_tradeoff = params.max_cost
 base_position_sequence = [] 
 optimal_sequence = [] # sequence of the objects to be packed (pick side)
 items = []
@@ -47,11 +48,14 @@ def main():
     # Create a socket object
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.connect((params.host, params.port))
+    s.settimeout(60.0) # Raise a socket timeout exception if no data is received within 3 seconds
 
     with open(save_path, 'w') as f: f.write(f"Data of the complete use case \n")
 
     # Instantiate the class for the motion planning
     current_pos = 0
+    global_best_position = 0
+    global_best_score = 0
     motion_planner = MotionPlanner(params.v_max, params.a_max)
 
     # ! Send 1: shared bumbers
@@ -78,9 +82,6 @@ def main():
         # Get iteration specific parameters
         bin = 0
         pick_objects = [] # array containing the index of objects (pick side) already picked and placed
-
-        z_top_face_send = np.array ([[params.items_sizes_and_weight[type_obj][2]/2]], dtype = np.int32)
-        send_array(s, z_top_face_send)
         with open (save_path, 'a') as f: f.write(f"********* Type of item: {type_obj} \n")
 
         # * STEP 2 => for all the bins available for a specific type of object ...
@@ -112,14 +113,14 @@ def main():
                 # send the 'absolute' coordinates of the 'place position' associated to the item to be packed (assume all items identical)
                 place_x = place_points[i][0] + x_offset_box
                 place_y = place_points[i][1] + y_offset_box
-                place_z = place_points[i][2] + z_offset_box
+                place_z = place_points[i][2] + z_offset_box + params.items_sizes_and_weight[type_obj][2]/2
                 rotation = rotations[i] # Also send the rotation
                 place_point_send = np.array ([[place_x, place_y, place_z, rotation]], dtype = np.int32)
                 send_array(s, place_point_send)
 
                 # Initialize variables for the PSO algorithm
                 c = 0 # initilaize the index of the object to be picked (pick side) 
-                best_tradeoff = 99999 # Re-initilize the cost
+                best_tradeoff = params.max_cost # Re-initilize the cost
               
                 # * STEP 4 => for all the items that can be picked (pick side) after knowing a specific 'place-side' spot ...
                 while c < params.items_of_each_type[type_obj]: 
@@ -152,29 +153,68 @@ def main():
 
                             # * Update inertia and layout
                             inertia_weight = params.w0 + params.delta_w * trigger_end
-                            layout = np.array([[int(particle_positions[i]) for i in range(params.N_particles)]], dtype=np.int32)
+                            layout = np.array([[int(particle_positions[q]) for q in range(params.N_particles)]], dtype=np.int32)
+                            print(f"PSO iteration: {trigger_end}; Particle positions: {particle_positions}")
                             send_array(s, layout)
+
                             
                             ''' 
                             TPS computes the fitness values for all particles (C# side)
                             '''
 
-                            result_flag = s.recv(1024).decode()
-                            flag = [int(num) for num in result_flag.split(',')]
-                            result_manip = s.recv(1024).decode()
-                            mean_determinant = [int(num) / (10 ** params.n_decimals) for num in result_manip.split(',')]
-                            result_time_pp = s.recv(1024).decode()
-                            execution_time = [int(num) / (10 ** params.n_decimals) for num in result_time_pp.split(',')] 
+                            
+
+                            # ! Get all the vectors
+                            try:
+                                result_flag = recv_msg(s)
+                                result_manip = recv_msg(s)
+                                result_time_pp = recv_msg(s)
+
+
+
+                                flag = [int(num) for num in result_flag.split(',')]
+                                print(f"Flag: {flag}")
+
+                                
+                                mean_determinant = [params.max_cost if int(num) == 1 else int(num) / (10 ** params.n_decimals)
+                                    for num in result_manip.split(',')]
+                                print(f"Mean determinant: {mean_determinant}")
+
+                                
+                                execution_time = [params.max_cost if int(num) == 1 else int(num) / (10 ** params.n_decimals)
+                                    for num in result_time_pp.split(',')]
+                                print(f"Execution time: {execution_time}")
+                            except socket.timeout:
+                                print("Timeout waiting for simulator response. Breaking PSO loop.")
+                                with open(save_path, 'a') as f:
+                                    f.write("Timeout during recv() — simulator unresponsive.\n")
+                                break 
+
                             # Compute the vector of fitness values: alpha * z_t + beta * (1 / z_m) + xi (MINIMIZE THIS)
-                            xi = [0 if num == 0 else 99999 for num in flag] 
-                            z_m = (np.array(mean_determinant) - params.mean_manip[type_obj]) / params.std_manip[type_obj]
-                            z_t = (np.array(execution_time) - params.mean_time_pp[type_obj]) / params.std_time_pp[type_obj]
+                            xi = [0 if num == 0 else params.max_cost for num in flag] 
+                            z_m = []
+                            for val in mean_determinant:
+                                if val == params.max_cost:
+                                    z_m.append(1)  # Or whatever default you want
+                                else:
+                                    z = (val - params.mean_manip[type_obj]) / params.std_manip[type_obj]
+                                    z_m.append(z)
+                            z_t = []
+                            for val in execution_time:
+                                if val == params.max_cost:
+                                    z_t.append(1)  # Or whatever default you want
+                                else:
+                                    z = (val - params.mean_time_pp[type_obj]) / params.std_time_pp[type_obj]
+                                    z_t.append(z)
+                            z_t = np.array(z_t)
+                            z_m = np.array(z_m)
+                            xi = np.array(xi)
                             fitness = params.alpha_fitness * z_t + params.beta_fitness * (1 / z_m) + xi
-                            print("Fitness values: ", fitness)
+                            trigger_end += 1
                             with open (save_path, 'a') as f: f.write(f"\t \t \t \t PSO iteration: {trigger_end}; \n")
 
                             # * Set personal best and global best (the mask allows to remove a for loop)
-                            if trigger_end == 0:
+                            if trigger_end == 1:
 
                                 personal_best_positions = particle_positions.copy()
                                 personal_best_scores = fitness.copy()
@@ -206,9 +246,6 @@ def main():
                             social = params.c2 * r2 * (global_best_position - particle_positions)
                             particle_velocities = inertia + cognitive + social
 
-                            print(f"Particle positions: {particle_positions}")
-                            print(f"Particle velocities: {particle_velocities}")
-
                             # Update positions
                             particle_positions = particle_positions.astype(float)
                             particle_positions += particle_velocities
@@ -218,16 +255,13 @@ def main():
 
                             # Clip positions within bounds
                             particle_positions = np.clip(particle_positions, params.lower_bound, params.upper_bound)
+                              
 
-                               
-                            # * Update the trigger
-                            trigger_end += 1
-                            print(f"Updated trigger_end: {trigger_end}")
-
-                        ''' 
-                        Time-manipulability trade-off for the sequence update
-                        '''
-                        print(f"Computing the trade-off ...")
+                        
+                        with open(save_path, 'a') as f: f.write(f"\t \t \t ***** PSO ended for 'Pick-side' object number  {c} ***** \n")
+                        
+                        #Time-manipulability trade-off for the sequence update
+                                                
                         travel_time = motion_planner.trapezoidal_velocity_profile(current_pos, global_best_position)  
                         tradeoff = params.alpha_tradeoff * (1 / ((global_best_score - params.mean_manip[type_obj]) / params.std_manip[type_obj])) + params.beta_tradeoff * (((travel_time - params.mean_travel_time) / params.std_travel_time)) 
                         
@@ -236,32 +270,40 @@ def main():
                             next_position = global_best_position
                             next_item = c
                             with open (save_path, 'a') as f: f.write(f"\t \t \t New best trade-off found. Base position: {next_position}; Trade-off value: {tradeoff} \n")
-
+                            print(f"Checkpoint: computed the motion law for the base")
+                        
                     else: # the 'c-th' object has already been picked and placed, so I skip it
                         skip = np.array([[1]], dtype = np.int32) # skip = 1 => Skip
                         send_array(s, skip)
+                        print(f" Skipping the object {c} because it has already been picked and placed")
 
                     # Update the counter
                     c = c + 1 # go to the next object (pick side) to be tested
                     print(f"counter c = {c}")
 
                 # * All 'pick-side' items scanned: I know the object to be picked (sequence) and where to put the robot (base position)
+                
                 current_pos = next_position 
                 pick_objects.append(next_item)
                 optimal_sequence.append(next_item)
                 base_position_sequence.append(current_pos)
-
+                with open(save_path, 'a') as f: f.write(f"\t \t All 'Pick-side' objects scanned. The best one is: {next_item}; the robot is moved to {current_pos} \n")
+                print(f"Checkpoint: Pick-side objects scanned")
+                
                 # * Update the counter of objects packed so far inside the bin-th box
                 i = i + 1
-                print(f"counter i = {i}")
+                with open(save_path, 'a') as f: f.write(f"\t \t Still need to pack {k-i} objects in the bin {bin} \n")
+                print(f"Checkpoint: Still need to pack {k-i} objects in the bin {bin}")
 
             # * A box for a specific type of object is full: I go to the next one available
+            with open(save_path, 'a') as f: f.write(f"\t All objects packed in the bin {bin} \n") 
             bin = bin + 1   
-            print(f"counter bin = {bin}")   
-
+            print(f"Checkpoint: All objects packed in the bin {bin}")
+            
         # * All items of a specific type are packed: I go to the next type of object
+        with open(save_path, 'a') as f: f.write(f"All objects of type {type_obj} have been packed \n")
         type_obj = type_obj + 1
-        print(f"counter type_obj = {type_obj}")
+        print(f"Checkpoint: All objects of type {type_obj} have been packed")
 
     # Close the connection
     s.close()

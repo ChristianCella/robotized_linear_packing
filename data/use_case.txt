@@ -4,92 +4,226 @@ Data of the complete use case
 	 	 'Place-side' obejct number: 0 
 	 	 	 'Pick-side' obejct number: 0 
 	 	 	 ***** Starting the PSO ***** 
-	 	 	 	 PSO iteration: 0; 
 	 	 	 	 PSO iteration: 1; 
-	 	 	 	 	 New global best found. Base position: 232; Fitness value: -5.706817242038098 
 	 	 	 	 PSO iteration: 2; 
-	 	 	 New best trade-off found. Base position: 232; Trade-off value: -0.5469511616305787 
+	 	 	 	 PSO iteration: 3; 
+	 	 	 	 PSO iteration: 4; 
+	 	 	 	 PSO iteration: 5; 
+	 	 	 	 	 New global best found. Base position: 251; Fitness value: -2.3959550075708305 
+	 	 	 	 PSO iteration: 6; 
+	 	 	 	 PSO iteration: 7; 
+	 	 	 	 PSO iteration: 8; 
+	 	 	 	 PSO iteration: 9; 
+	 	 	 	 PSO iteration: 10; 
+	 	 	 ***** PSO ended for 'Pick-side' object number  0 ***** 
+	 	 	 New best trade-off found. Base position: 251; Trade-off value: -0.5305970270266046 
 	 	 	 'Pick-side' obejct number: 1 
 	 	 	 ***** Starting the PSO ***** 
-	 	 	 	 PSO iteration: 0; 
 	 	 	 	 PSO iteration: 1; 
 	 	 	 	 PSO iteration: 2; 
-	 	 	 	 	 New global best found. Base position: -17; Fitness value: -615.0223383078477 
-	 	 	 New best trade-off found. Base position: -17; Trade-off value: -0.8905025132802646 
+	 	 	 	 	 New global best found. Base position: -527; Fitness value: -0.3300433317284538 
+	 	 	 	 PSO iteration: 3; 
+	 	 	 	 	 New global best found. Base position: -526; Fitness value: -0.4737457291853972 
+	 	 	 	 PSO iteration: 4; 
+	 	 	 	 	 New global best found. Base position: -525; Fitness value: -0.6291487766646217 
+	 	 	 	 PSO iteration: 5; 
+	 	 	 	 	 New global best found. Base position: -524; Fitness value: -0.7279045946736914 
+	 	 	 	 PSO iteration: 6; 
+	 	 	 	 	 New global best found. Base position: -523; Fitness value: -0.8090499881544656 
+	 	 	 	 PSO iteration: 7; 
+	 	 	 	 	 New global best found. Base position: -522; Fitness value: -0.8999828443986966 
+	 	 	 	 PSO iteration: 8; 
+	 	 	 	 	 New global best found. Base position: -520; Fitness value: -1.1315298507462668 
+	 	 	 	 PSO iteration: 9; 
+	 	 	 	 	 New global best found. Base position: -518; Fitness value: -1.2867638551428888 
+	 	 	 	 PSO iteration: 10; 
+	 	 	 	 	 New global best found. Base position: -516; Fitness value: -1.7216191768430587 
+	 	 	 ***** PSO ended for 'Pick-side' object number  1 ***** 
 	 	 	 'Pick-side' obejct number: 2 
 	 	 	 ***** Starting the PSO ***** 
-	 	 	 	 PSO iteration: 0; 
 	 	 	 	 PSO iteration: 1; 
-	 	 	 	 	 New global best found. Base position: 308; Fitness value: -6.695031920045786 
 	 	 	 	 PSO iteration: 2; 
-	 	 	 	 	 New global best found. Base position: 307; Fitness value: -6.752547309116512 
+	 	 	 	 	 New global best found. Base position: -33; Fitness value: -0.18757358246933392 
+	 	 	 	 PSO iteration: 3; 
+	 	 	 	 PSO iteration: 4; 
+	 	 	 	 	 New global best found. Base position: -269; Fitness value: -0.26086146806076277 
+	 	 	 	 PSO iteration: 5; 
+	 	 	 	 PSO iteration: 6; 
+	 	 	 	 	 New global best found. Base position: -156; Fitness value: -0.2679618103812893 
+	 	 	 	 PSO iteration: 7; 
+	 	 	 	 PSO iteration: 8; 
+	 	 	 	 PSO iteration: 9; 
+	 	 	 	 PSO iteration: 10; 
+	 	 	 ***** PSO ended for 'Pick-side' object number  2 ***** 
+	 	 	 New best trade-off found. Base position: -156; Trade-off value: -0.6576152377992861 
+	 	 All 'Pick-side' objects scanned. The best one is: 2; the robot is moved to -156 
+	 	 Still need to pack 2 objects in the bin 0 
 	 	 'Place-side' obejct number: 1 
 	 	 	 'Pick-side' obejct number: 0 
 	 	 	 ***** Starting the PSO ***** 
-	 	 	 	 PSO iteration: 0; 
 	 	 	 	 PSO iteration: 1; 
-	 	 	 	 	 New global best found. Base position: 285; Fitness value: -5.595200095854299 
 	 	 	 	 PSO iteration: 2; 
-	 	 	 	 	 New global best found. Base position: 295; Fitness value: -5.605502688867796 
-	 	 	 New best trade-off found. Base position: 295; Trade-off value: -0.471324017537965 
-	 	 	 'Pick-side' obejct number: 2 
+	 	 	 	 	 New global best found. Base position: -70; Fitness value: -2.8884923210036626 
+	 	 	 	 PSO iteration: 3; 
+	 	 	 	 PSO iteration: 4; 
+	 	 	 	 PSO iteration: 5; 
+	 	 	 	 PSO iteration: 6; 
+	 	 	 	 PSO iteration: 7; 
+	 	 	 	 PSO iteration: 8; 
+	 	 	 	 PSO iteration: 9; 
+	 	 	 	 PSO iteration: 10; 
+	 	 	 ***** PSO ended for 'Pick-side' object number  0 ***** 
+	 	 	 New best trade-off found. Base position: -70; Trade-off value: -0.7342205352433697 
+	 	 	 'Pick-side' obejct number: 1 
 	 	 	 ***** Starting the PSO ***** 
-	 	 	 	 PSO iteration: 0; 
 	 	 	 	 PSO iteration: 1; 
 	 	 	 	 PSO iteration: 2; 
-	 	 	 	 	 New global best found. Base position: 447; Fitness value: -4.202110179221235 
+	 	 	 	 PSO iteration: 3; 
+	 	 	 	 	 New global best found. Base position: -491; Fitness value: -0.2557551226916254 
+	 	 	 	 PSO iteration: 4; 
+	 	 	 	 PSO iteration: 5; 
+	 	 	 	 	 New global best found. Base position: -397; Fitness value: -20.378109452735735 
+	 	 	 	 PSO iteration: 6; 
+	 	 	 	 PSO iteration: 7; 
+	 	 	 	 PSO iteration: 8; 
+	 	 	 	 PSO iteration: 9; 
+	 	 	 	 PSO iteration: 10; 
+	 	 	 ***** PSO ended for 'Pick-side' object number  1 ***** 
+	 	 All 'Pick-side' objects scanned. The best one is: 0; the robot is moved to -70 
+	 	 Still need to pack 1 objects in the bin 0 
 	 	 'Place-side' obejct number: 2 
-	 	 	 'Pick-side' obejct number: 2 
+	 	 	 'Pick-side' obejct number: 1 
 	 	 	 ***** Starting the PSO ***** 
-	 	 	 	 PSO iteration: 0; 
 	 	 	 	 PSO iteration: 1; 
 	 	 	 	 PSO iteration: 2; 
-	 	 	 	 	 New global best found. Base position: -289; Fitness value: -10.33877288315701 
-	 	 	 New best trade-off found. Base position: -289; Trade-off value: -0.2676043483367189 
+	 	 	 	 	 New global best found. Base position: -303; Fitness value: -7.689676616915336 
+	 	 	 	 PSO iteration: 3; 
+	 	 	 	 	 New global best found. Base position: -302; Fitness value: -7.69216417910439 
+	 	 	 	 PSO iteration: 4; 
+	 	 	 	 PSO iteration: 5; 
+	 	 	 	 PSO iteration: 6; 
+	 	 	 	 PSO iteration: 7; 
+	 	 	 	 PSO iteration: 8; 
+	 	 	 	 	 New global best found. Base position: -235; Fitness value: -20.53233830845713 
+	 	 	 	 PSO iteration: 9; 
+	 	 	 	 PSO iteration: 10; 
+	 	 	 ***** PSO ended for 'Pick-side' object number  1 ***** 
+	 	 	 New best trade-off found. Base position: -235; Trade-off value: -0.6197095028056754 
+	 	 All 'Pick-side' objects scanned. The best one is: 1; the robot is moved to -235 
+	 	 Still need to pack 0 objects in the bin 0 
+	 All objects packed in the bin 0 
+All objects of type 0 have been packed 
 ********* Type of item: 1 
 	 Considered bin number: 0 
 	 	 'Place-side' obejct number: 0 
 	 	 	 'Pick-side' obejct number: 0 
 	 	 	 ***** Starting the PSO ***** 
-	 	 	 	 PSO iteration: 0; 
 	 	 	 	 PSO iteration: 1; 
-	 	 	 	 	 New global best found. Base position: 756; Fitness value: -3.085996726274289 
 	 	 	 	 PSO iteration: 2; 
-	 	 	 	 	 New global best found. Base position: 735; Fitness value: -3.1713529312484035 
-	 	 	 New best trade-off found. Base position: 735; Trade-off value: 0.02277059449757473 
+	 	 	 	 	 New global best found. Base position: 182; Fitness value: -3.0289584685269357 
+	 	 	 	 PSO iteration: 3; 
+	 	 	 	 PSO iteration: 4; 
+	 	 	 	 PSO iteration: 5; 
+	 	 	 	 PSO iteration: 6; 
+	 	 	 	 PSO iteration: 7; 
+	 	 	 	 	 New global best found. Base position: 150; Fitness value: -5.267723880597033 
+	 	 	 	 PSO iteration: 8; 
+	 	 	 	 PSO iteration: 9; 
+	 	 	 	 	 New global best found. Base position: 98; Fitness value: -8.486473880597067 
+	 	 	 	 PSO iteration: 10; 
+	 	 	 	 	 New global best found. Base position: 103; Fitness value: -8.492070895522442 
+	 	 	 ***** PSO ended for 'Pick-side' object number  0 ***** 
+	 	 	 New best trade-off found. Base position: 103; Trade-off value: -0.4483563641647383 
 	 	 	 'Pick-side' obejct number: 1 
 	 	 	 ***** Starting the PSO ***** 
-	 	 	 	 PSO iteration: 0; 
 	 	 	 	 PSO iteration: 1; 
 	 	 	 	 PSO iteration: 2; 
-	 	 	 New best trade-off found. Base position: 114.46198217130132; Trade-off value: -0.3957808003206668 
+	 	 	 	 	 New global best found. Base position: -44; Fitness value: 0.6517857142857146 
+	 	 	 	 PSO iteration: 3; 
+	 	 	 	 PSO iteration: 4; 
+	 	 	 	 PSO iteration: 5; 
+	 	 	 	 	 New global best found. Base position: -100; Fitness value: 0.65170674405749 
+	 	 	 	 PSO iteration: 6; 
+	 	 	 	 	 New global best found. Base position: -435; Fitness value: -0.09165111940298565 
+	 	 	 	 PSO iteration: 7; 
+	 	 	 	 PSO iteration: 8; 
+	 	 	 	 	 New global best found. Base position: 737; Fitness value: -1.6142241379310343 
+	 	 	 	 PSO iteration: 9; 
+	 	 	 	 PSO iteration: 10; 
+	 	 	 ***** PSO ended for 'Pick-side' object number  1 ***** 
 	 	 	 'Pick-side' obejct number: 2 
 	 	 	 ***** Starting the PSO ***** 
-	 	 	 	 PSO iteration: 0; 
 	 	 	 	 PSO iteration: 1; 
-	 	 	 	 	 New global best found. Base position: -9; Fitness value: -1.081129274847281 
 	 	 	 	 PSO iteration: 2; 
-	 	 	 	 	 New global best found. Base position: 504; Fitness value: -5.720806294613898 
+	 	 	 	 	 New global best found. Base position: 774; Fitness value: -2.726679104477615 
+	 	 	 	 PSO iteration: 3; 
+	 	 	 	 PSO iteration: 4; 
+	 	 	 	 PSO iteration: 5; 
+	 	 	 	 PSO iteration: 6; 
+	 	 	 	 PSO iteration: 7; 
+	 	 	 	 PSO iteration: 8; 
+	 	 	 	 PSO iteration: 9; 
+	 	 	 	 PSO iteration: 10; 
+	 	 	 ***** PSO ended for 'Pick-side' object number  2 ***** 
+	 	 All 'Pick-side' objects scanned. The best one is: 0; the robot is moved to 103 
+	 	 Still need to pack 2 objects in the bin 0 
 	 	 'Place-side' obejct number: 1 
-	 	 	 'Pick-side' obejct number: 0 
+	 	 	 'Pick-side' obejct number: 1 
 	 	 	 ***** Starting the PSO ***** 
-	 	 	 	 PSO iteration: 0; 
 	 	 	 	 PSO iteration: 1; 
 	 	 	 	 PSO iteration: 2; 
-	 	 	 New best trade-off found. Base position: 674.9838367734355; Trade-off value: -0.286176193430024 
+	 	 	 	 	 New global best found. Base position: 525; Fitness value: -1.5601239087580965 
+	 	 	 	 PSO iteration: 3; 
+	 	 	 	 PSO iteration: 4; 
+	 	 	 	 	 New global best found. Base position: 469; Fitness value: -1.8064257202360292 
+	 	 	 	 PSO iteration: 5; 
+	 	 	 	 	 New global best found. Base position: 391; Fitness value: -2.2360922659430136 
+	 	 	 	 PSO iteration: 6; 
+	 	 	 	 	 New global best found. Base position: 281; Fitness value: -22.799440298507864 
+	 	 	 	 PSO iteration: 7; 
+	 	 	 	 PSO iteration: 8; 
+	 	 	 	 PSO iteration: 9; 
+	 	 	 	 PSO iteration: 10; 
+	 	 	 ***** PSO ended for 'Pick-side' object number  1 ***** 
+	 	 	 New best trade-off found. Base position: 281; Trade-off value: -0.6042705714799299 
 	 	 	 'Pick-side' obejct number: 2 
 	 	 	 ***** Starting the PSO ***** 
-	 	 	 	 PSO iteration: 0; 
 	 	 	 	 PSO iteration: 1; 
-	 	 	 	 	 New global best found. Base position: 726; Fitness value: -3.051513221933809 
 	 	 	 	 PSO iteration: 2; 
+	 	 	 	 	 New global best found. Base position: 631; Fitness value: -5.494402985074645 
+	 	 	 	 PSO iteration: 3; 
+	 	 	 	 PSO iteration: 4; 
+	 	 	 	 PSO iteration: 5; 
+	 	 	 	 PSO iteration: 6; 
+	 	 	 	 PSO iteration: 7; 
+	 	 	 	 PSO iteration: 8; 
+	 	 	 	 PSO iteration: 9; 
+	 	 	 	 PSO iteration: 10; 
+	 	 	 ***** PSO ended for 'Pick-side' object number  2 ***** 
+	 	 All 'Pick-side' objects scanned. The best one is: 1; the robot is moved to 281 
+	 	 Still need to pack 1 objects in the bin 0 
 	 	 'Place-side' obejct number: 2 
 	 	 	 'Pick-side' obejct number: 2 
 	 	 	 ***** Starting the PSO ***** 
-	 	 	 	 PSO iteration: 0; 
 	 	 	 	 PSO iteration: 1; 
 	 	 	 	 PSO iteration: 2; 
-	 	 	 New best trade-off found. Base position: -744.0019163782897; Trade-off value: 0.2902280076546411 
+	 	 	 	 PSO iteration: 3; 
+	 	 	 	 	 New global best found. Base position: 498; Fitness value: -2.59235074626866 
+	 	 	 	 PSO iteration: 4; 
+	 	 	 	 	 New global best found. Base position: 500; Fitness value: -2.593283582089555 
+	 	 	 	 PSO iteration: 5; 
+	 	 	 	 PSO iteration: 6; 
+	 	 	 	 	 New global best found. Base position: 484; Fitness value: -3.116645035691114 
+	 	 	 	 PSO iteration: 7; 
+	 	 	 	 PSO iteration: 8; 
+	 	 	 	 PSO iteration: 9; 
+	 	 	 	 PSO iteration: 10; 
+	 	 	 ***** PSO ended for 'Pick-side' object number  2 ***** 
+	 	 	 New best trade-off found. Base position: 484; Trade-off value: -0.579679388198597 
+	 	 All 'Pick-side' objects scanned. The best one is: 2; the robot is moved to 484 
+	 	 Still need to pack 0 objects in the bin 0 
+	 All objects packed in the bin 0 
+All objects of type 1 have been packed 
 ********** Results ************ 
-The optimal sequence is: [1, 0, 2, 1, 0, 2] 
-The optimal base positions are: [np.int64(-17), np.int64(295), np.int64(-289), np.float64(114.46198217130132), np.float64(674.9838367734355), np.float64(-744.0019163782897)] 
+The optimal sequence is: [2, 0, 1, 0, 1, 2] 
+The optimal base positions are: [np.int64(-156), np.int64(-70), np.int64(-235), np.int64(103), np.int64(281), np.int64(484)] 

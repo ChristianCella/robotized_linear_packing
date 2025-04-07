@@ -91,19 +91,20 @@ class PackingSimulationParameters:
 # Data for the real optimization procedure (to be implemented)
 @dataclass
 class RealSimulationParameters:
-    host: str = '127.0.0.3' # socket address
-    port : int = 26 # socket port
+    host: str = '127.0.0.19' # socket address
+    port : int = 119 # socket port
     v_max: int = 700 # [mm / s]
     a_max: int = 900 # [mm / s^2]
-    upper_bound: int = 1500 # [mm]
-    lower_bound: int = -1500 # [mm]
-    N_sim_pso: int = 3 # N simulations for the pso
+    upper_bound: int = 1000 # [mm]
+    lower_bound: int = -1000 # [mm]
+    N_sim_pso: int = 10 # N simulations for the pso
     N_particles: int = 5 # N particles for the pso
     w0: float = 0.9 # upper bound on inertia
     wN: float = 0.4 # lower bound on inertia
     delta_w: float = (w0 - wN) / N_sim_pso # decay of the inertia
     c1: int = 2 # cognitive component
     c2: int = 2 # social component
+    max_cost: int = 9000000 # max cost for the pso
     mean_travel_time: float = 2.183 # mean travel time
     std_travel_time: float = 1.0714 # std travel time
     mean_manip: List[float] = field(default_factory=lambda: [0.1766, 0.1366]) # mean manipulability of the objects
@@ -115,7 +116,7 @@ class RealSimulationParameters:
     robot_program_name: str = 'RobotProgram'
     file_name: str = 'use_case.txt' # file name for the results
     pre_post_height: int = 200 # [mm]
-    n_decimals: int = 5
+    n_decimals: int = 3
     alpha_fitness: float = 0.5 # weight for the fitness function    
     beta_fitness: float = 0.5
     alpha_tradeoff: float = 0.5 # weight for the trade-off function

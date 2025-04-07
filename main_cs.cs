@@ -17,9 +17,6 @@ using System.Collections;
 
 class Program
 {
-    // Private variables
-    private static TxSimulationPlayer Player;
-
     // Static variables
     static StringWriter m_output;
 
@@ -27,8 +24,8 @@ class Program
     static double determinantCounter = 0;
     static int fitness_int = 0;
 
-    static string ip_address = "127.0.0.3";
-    static int port = 25;
+    static string ip_address = "127.0.0.19";
+    static int port = 119;
 
     static TxRobot Robot = GetRobot("GoFa12");
     static ITxObject tool = GetGripper("Suction cup");
@@ -45,7 +42,6 @@ class Program
     {
         m_output = output;
         TcpListener server = null;
-        Player = TxApplication.ActiveDocument.SimulationPlayer;
 
         try
         {
@@ -62,6 +58,8 @@ class Program
             int N_particles = shared_data[0, 1];
             int pre_post_height = shared_data[0, 2];
             int n_decimals = shared_data[0, 3];
+            output.WriteLine(N_sim_pso.ToString());
+            output.WriteLine(N_particles.ToString());
 
             // Initialize empty vectors
             double[] manipulability_vec = new double[N_particles];
@@ -85,8 +83,16 @@ class Program
             int count = 0;
             int num_objects_pick = 0;
 
+            // Some information
+            output.WriteLine("There are  " + num_types_items.Length.ToString() + " types of items ... ");
+            output.WriteLine("There are " + num_types_items[0, 0].ToString() + " items of type 0 ... ");
+            output.WriteLine("There are " + num_types_items[0, 1].ToString() + " items of type 1 ... ");
+            output.WriteLine("There are " + num_bins_each_type[0, 0].ToString() + " bins of type 0 ... ");
+            output.WriteLine("There are " + num_bins_each_type[0, 1].ToString() + " bins of type 1 ... ");
+
             // * STEP 1 => for all the types of objects you have ...
-            for (int type_obj = 0; type_obj < num_types_items.Length; type_obj++)
+            int type_obj = 0;
+            while (type_obj < num_types_items.Length)
             { 
 
                 num_bins = num_bins_each_type[0, type_obj];
@@ -94,22 +100,19 @@ class Program
                 output.WriteLine(num_bins.ToString());
                 output.WriteLine(num_objects_pick.ToString());
 
-                // Top face offset
-                var shared_z_top = ReceiveNumpyArray(stream); // ! Receive 1 
-                var z_top_face_int = shared_z_top[0, 0];
-
-                //transform into a vector
-                var z_top_face = new TxVector(0, 0, z_top_face_int);
+                output.WriteLine("For objectts of type " + type_obj.ToString() + " there are " + num_bins.ToString() + " bins, each with " + num_objects_pick.ToString() + " objects ... ");
 
                 // * STEP 2 => for all the bins available for a specific type of object ...
-                for (int bin = 0; bin < num_bins; bin++)
+                int bin = 0;
+                while(bin < num_bins)
                 {
                     // recieve the number of objects inside the considered bin
                     var shared_num_items = ReceiveNumpyArray(stream); // ! Receive 2 
                     var num_objects = shared_num_items[0, 0];          
 
                     // * STEP 3 => for all the objects ('place-side') that can be packed in a specific bin ...
-                    for (int i = 0; i < num_objects; i++)
+                    int j = 0;
+                    while (j < num_objects)
                     {
                         //recieve the place point and the rotation
                         double[] place_pose = new double[4];
@@ -120,24 +123,30 @@ class Program
 						place_pose[3] = place_pose_received[0, 3];
 						
                         // * STEP 4 =>  for all the items that can be picked (pick side) after knowing a specific 'place-side' spot ...
-                        for (int c = 0; c < num_objects_pick; c++)
+                        int c = 0;
+                        while (c < num_objects_pick)
                         {
                             // ? This is where the evaluations for the PSO are obtained
                             // Receive the skip variable
                             var skip = ReceiveNumpyArray(stream); // ! Receive 4
-                            output.WriteLine(skip[0, 0].ToString());
-                            if (skip[0, 0] == 0)
+                            output.WriteLine("Skip: " + skip[0, 0].ToString());
+                            if (skip[0, 0] == 0)                            
                             {
+                                output.WriteLine("Skip = 0 ... ");
 
+                                int ii = 0;
                                 // ! PSO implementation
-                                for (int ii = 0; ii < N_sim_pso ; ii++)    
+                                while (ii < N_sim_pso)    
                                 {
+                                    output.WriteLine("PSO iteration: " + ii.ToString() + " ... ");
                                     // Receive particles positions
                                     var layout = ReceiveNumpyArray(stream);
 
                                     // * Loop through all the particles
-                                    for (int pos = 0; pos < N_particles; pos++)
+                                    int pos = 0;
+                                    while (pos < N_particles)
                                     {
+                                        output.WriteLine("Particle: " + pos.ToString() + " ... ");
                                         // Move the robot to the position encoded in the pos-th particle
                                         TxVector translation = new TxVector(layout[0, pos], 0, 0);
                                         TxVector orientation = new TxVector(0, 0, 0);
@@ -155,74 +164,141 @@ class Program
                                             Robot, 
                                             considered_item, 
                                             tool, 
-                                            robot_program_name + i.ToString() + pos.ToString(), 
+                                            robot_program_name + "_" + j.ToString() + pos.ToString(), 
                                             items_root_name + "_" + type_obj.ToString() + c.ToString(), 
                                             "TOOLFRAME", 
                                             new_tcp, 
-                                            z_top_face_int, 
+                                            (double)pre_post_height, 
                                             place_pose);
+                                        //output.WriteLine("Operation created: " + MyOp.Name.ToString());
 
                                         // Set the new operation to be simulated
-                                        TxApplication.ActiveDocument.CurrentOperation = MyOp;                                       
+                                        //TxSimulationPlayer Player = TxApplication.ActiveDocument.SimulationPlayer; 
+                                        //TxApplication.ActiveDocument.CurrentOperation = MyOp;                                                                             
+                                        //Player.Rewind();
+                                        //Player.Stop();
+
+                                        // select the Robotic Program by name
+                                        var descendants = TxApplication.ActiveDocument.OperationRoot.GetAllDescendants(new TxTypeFilter(typeof(TxContinuousRoboticOperation)));
+                                        TxContinuousRoboticOperation op = null;
+                                        foreach (var descendant in descendants)
+                                        {
+                                            if (descendant.Name.Equals(robot_program_name + "_" + j.ToString() + pos.ToString()))
+                                            {
+                                                op = descendant as TxContinuousRoboticOperation;
+                                                break; // Exit loop after finding the first match
+                                            }
+                                        }
+                                        TxApplication.ActiveDocument.CurrentOperation = op;
+                                        TxSimulationPlayer Player = TxApplication.ActiveDocument.SimulationPlayer;
                                         Player.Rewind();
                                     
                                         // ! Core of the algorithm: Run the simulation
                                         if (!Player.IsSimulationRunning())
                                         {
-                                            m_output = output;        
+                                            //output.WriteLine("Simulation started: " + MyOp.Name.ToString());
+                                            m_output = output;  
+                                            //output.WriteLine("Triggering");     
                                             Player.TimeIntervalReached += new TxSimulationPlayer_TimeIntervalReachedEventHandler(player_TimeIntervalReached);                      
-                                            Player.Play(); // Perform the simulation at the current time step 
+                                            //output.WriteLine("Before palying");
+                                            Player.Play(); // Perform the simulation 
+                                            //output.WriteLine("Finished Playing");
                                             Player.TimeIntervalReached -= new TxSimulationPlayer_TimeIntervalReachedEventHandler(player_TimeIntervalReached);
+                                            //output.WriteLine("Untriggering");
                                         }
-                                    
+
+                                        //Player.Rewind(); // Just for safety
+                                        //output.WriteLine("Simulation finished: " + MyOp.Name.ToString());
                                         // Check if the simulation was successful
+                                        
                                         int simulationSuccess = CheckSimulationSuccess();
+                                        output.WriteLine("Simulation success: " + simulationSuccess.ToString());
 
                                         // Safety rewind
                                         Player.Rewind();
+                                        Player.Stop();
+                                        output.WriteLine("Rewind finished");
+                                        double MeanDeterminant = 0.0;
+                                        double time_PickPlace = 0.0;
 
                                         // ! Compute the metrics for this simulation (manipulability, operation time, xi)                                      
-                                        double MeanDeterminant = Math.Round(determinantSum / determinantCounter, n_decimals) * Math.Pow(10, n_decimals);
-                                        double time_PickPlace = Math.Round(MyOp.Duration, n_decimals) * Math.Pow(10, n_decimals);
-
+                                        if (simulationSuccess == 0)
+                                        {
+                                            output.WriteLine("Sum: " + determinantSum.ToString());
+                                            output.WriteLine("Counter: " + determinantCounter.ToString());
+                                            MeanDeterminant = Math.Round(determinantSum / determinantCounter, n_decimals) * Math.Pow(10, n_decimals);
+                                            time_PickPlace = Math.Round(MyOp.Duration, n_decimals) * Math.Pow(10, n_decimals);
+                                        }
+                                        else
+                                        {
+                                            MeanDeterminant = 1;
+                                            time_PickPlace = 1;
+                                        }
+                                        output.WriteLine("Mean determinant: " + MeanDeterminant.ToString());
+                                        output.WriteLine("Operation time: " + time_PickPlace.ToString());
+                                        output.WriteLine("Computing the metrics for pos = " + pos.ToString() + " ... ");
+                                        
+                                        
+                                        MyOp.Delete();
+                                        
                                         manipulability_vec[pos] = (int)MeanDeterminant;
                                         time_vec[pos] = (int)time_PickPlace;
                                         xi_vec[pos] = (int)simulationSuccess;
+                                        
+                                        pos++;
 
-                                        // Delete the operation
-                                        MyOp.Delete();
+                                        
+                                        
 
-                                        output.WriteLine("Simulation " + ii.ToString() + " finished.");
+                                        //output.WriteLine("Simulation " + ii.ToString() + " finished.");
                                         
                                     }
+
                                     
+                                    output.WriteLine("Ready to send the data ... ");
                                     //send xi
                                     string xi_s = string.Join(",", xi_vec);
-                                    output.WriteLine(xi_s);
+                                    //output.WriteLine(xi_s);
                                     byte[] xi_Vec = Encoding.ASCII.GetBytes(xi_s);
-                                    stream.Write(xi_Vec, 0, xi_Vec.Length); // ! Send 5
+                                    
 
                                     //send manipulability
                                     string manip_s = string.Join(",", manipulability_vec);
-                                    output.WriteLine(manip_s);
+                                    //output.WriteLine(manip_s);
                                     byte[] manip_Vec = Encoding.ASCII.GetBytes(manip_s);
-                                    stream.Write(manip_Vec, 0, manip_Vec.Length); // ! Send 5
+                                    
 
                                     //send time
                                     string time_s = string.Join(",", time_vec);
-                                    output.WriteLine(time_s);
+                                    //output.WriteLine(time_s);
                                     byte[] time_Vec = Encoding.ASCII.GetBytes(time_s);
-                                    stream.Write(time_Vec, 0, time_Vec.Length); // ! Send 5
+
+                                    SendWithLength(stream, xi_Vec);
+                                    SendWithLength(stream, manip_Vec);
+                                    SendWithLength(stream, time_Vec);
+
+                                    
+                                    // Update the counter
+                                    ii++;
 
                                 }
                             }
+                            else
+                            {
+                                output.WriteLine("Skip = 1 ... ");
 
+                            }
+                            // Increment the counter for the next object
+                            c++;
                         }
-
+                        // Increment the counter for the next bin
+                        j++;
                     }  
-
+                    // Increment the counter for the next type of object
+                    bin++;
                 } 
-
+                // Increment the counter for the next type of object
+                type_obj++;
             }
        
             // Close all the instances
@@ -236,6 +312,14 @@ class Program
         {
             output.Write("Exception: " + e.Message);
         }
+    }
+
+    // New procedure
+    private static void SendWithLength(NetworkStream stream, byte[] data) 
+    {
+        byte[] lengthPrefix = BitConverter.GetBytes(data.Length);
+        stream.Write(lengthPrefix, 0, 4);
+        stream.Write(data, 0, data.Length);
     }
 
 
