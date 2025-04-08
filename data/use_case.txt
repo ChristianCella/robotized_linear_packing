@@ -2,15 +2,47 @@ Data of the complete use case
 
 ********* Type of item: 0 
 	 Considered bin number: 0 
-	 	 Considering the 'place-side' obejct number: 0/3 
+	 	 Considering the 'place-side' obejct number: 0/4 
 	 	 	 'Pick-side' obejct number: 0 
 	 	 	 ***** Starting the PSO ***** 
-	 	 	 	 PSO iteration: 1; the fitness values are: [2.27418463 0.47289992] 
-	 	 	 	 PSO iteration: 2; the fitness values are: [-0.94586591  0.47289992] 
-	 	 	 	 	 New global best score found. Base position: -501 
-	 	 	 	 	 Fitness value: -0.9458659085524749 
-	 	 	 	 	 Pick&Place time: 10.346 
-	 	 	 	 PSO iteration: 3; the fitness values are: [ 3.13880340e+07 -8.64720515e-01] 
+	 	 	 	 PSO iteration: 1; the fitness values are: [31388033.98756219 31388033.98756219] 
+	 	 	 	 PSO iteration: 2; the fitness values are: [31388033.98756219 31388033.98756219] 
+	 	 	 	 PSO iteration: 3; the fitness values are: [31388033.98756219 31388033.98756219] 
+	 	 	 ***** PSO ended for 'Pick-side' object number  0 ***** 
+	 	 	 'Pick-side' obejct number: 1 
+	 	 	 ***** Starting the PSO ***** 
+	 	 	 	 PSO iteration: 1; the fitness values are: [3.13880340e+07 4.05241121e+00] 
+	 	 	 	 PSO iteration: 2; the fitness values are: [3.13880340e+07 4.05241121e+00] 
+	 	 	 	 PSO iteration: 3; the fitness values are: [3.13880340e+07 4.06733658e+00] 
+	 	 	 ***** PSO ended for 'Pick-side' object number  1 ***** 
+	 	 	 'Pick-side' obejct number: 2 
+	 	 	 ***** Starting the PSO ***** 
+	 	 	 	 PSO iteration: 1; the fitness values are: [-4.23052095 40.63834507] 
+	 	 	 	 PSO iteration: 2; the fitness values are: [-4.23052095 21.12279634] 
+	 	 	 	 PSO iteration: 3; the fitness values are: [-4.23052095  0.90103056] 
+	 	 	 ***** PSO ended for 'Pick-side' object number  2 ***** 
+	 	 	 'Pick-side' obejct number: 3 
+	 	 	 ***** Starting the PSO ***** 
+	 	 	 	 PSO iteration: 1; the fitness values are: [3.13880340e+07 3.80501339e+00] 
+	 	 	 	 PSO iteration: 2; the fitness values are: [5.93558649 3.79506315] 
+	 	 	 	 	 New global best score found. Base position: 59 
+	 	 	 	 	 Fitness value: 3.795063145809414 
+	 	 	 	 	 Pick&Place time: 12.177 
+	 	 	 	 PSO iteration: 3; the fitness values are: [38.09444375  3.79506315] 
+	 	 	 ***** PSO ended for 'Pick-side' object number  3 ***** 
+	 	 All 'Pick-side' objects scanned. The best one is: 3; the robot is moved to 59 
+	 	 The robot is moved to: 59 mm wrt the center 
+	 	 The total time so far is: 12.68907638319124 seconds.
+	 	 Still need to pack 3 objects in the bin 0 
+	 	 Considering the 'place-side' obejct number: 1/4 
+	 	 	 'Pick-side' obejct number: 0 
+	 	 	 ***** Starting the PSO ***** 
+	 	 	 	 PSO iteration: 1; the fitness values are: [31388033.98756219 31388033.98756219] 
+	 	 	 	 PSO iteration: 2; the fitness values are: [31388033.98756219 31388033.98756219] 
+	 	 	 	 PSO iteration: 3; the fitness values are: [ 3.13880340e+07 -1.54946743e-01] 
+	 	 	 	 	 New global best score found. Base position: -532 
+	 	 	 	 	 Fitness value: -0.15494674279608775 
+	 	 	 	 	 Pick&Place time: 10.357 
 	 	 	 ***** PSO ended for 'Pick-side' object number  0 ***** 
 	 	 	 'Pick-side' obejct number: 1 
 	 	 	 ***** Starting the PSO ***** 
@@ -20,105 +52,158 @@ Data of the complete use case
 	 	 	 ***** PSO ended for 'Pick-side' object number  1 ***** 
 	 	 	 'Pick-side' obejct number: 2 
 	 	 	 ***** Starting the PSO ***** 
+	 	 	 	 PSO iteration: 1; the fitness values are: [3.98509527e+01 3.13880340e+07] 
+	 	 	 	 PSO iteration: 2; the fitness values are: [39.85095271  3.33986243] 
+	 	 	 	 	 New global best score found. Base position: -1500 
+	 	 	 	 	 Fitness value: 3.3398624311854794 
+	 	 	 	 	 Pick&Place time: 11.739 
+	 	 	 	 PSO iteration: 3; the fitness values are: [5.22222222 3.33986243] 
+	 	 	 ***** PSO ended for 'Pick-side' object number  2 ***** 
+	 	 All 'Pick-side' objects scanned. The best one is: 0; the robot is moved to -532 
+	 	 The robot is moved to: -532 mm wrt the center 
+	 	 The total time so far is: 14.311139875254732 seconds.
+	 	 Still need to pack 2 objects in the bin 0 
+	 	 Considering the 'place-side' obejct number: 2/4 
+	 	 	 'Pick-side' obejct number: 1 
+	 	 	 ***** Starting the PSO ***** 
 	 	 	 	 PSO iteration: 1; the fitness values are: [31388033.98756219 31388033.98756219] 
 	 	 	 	 PSO iteration: 2; the fitness values are: [31388033.98756219 31388033.98756219] 
 	 	 	 	 PSO iteration: 3; the fitness values are: [31388033.98756219 31388033.98756219] 
-	 	 	 ***** PSO ended for 'Pick-side' object number  2 ***** 
-	 	 All 'Pick-side' objects scanned. The best one is: 0; the robot is moved to -501 
-	 	 The robot is moved to: -501 mm wrt the center 
-	 	 The total time so far is: 11.838201952373293 seconds.
-	 	 Still need to pack 2 objects in the bin 0 
-	 	 Considering the 'place-side' obejct number: 1/3 
-	 	 	 'Pick-side' obejct number: 1 
-	 	 	 ***** Starting the PSO ***** 
-	 	 	 	 PSO iteration: 1; the fitness values are: [8.61478323 0.40808154] 
-	 	 	 	 PSO iteration: 2; the fitness values are: [0.50874659 0.40808154] 
-	 	 	 	 PSO iteration: 3; the fitness values are: [2.81252827 0.40808154] 
 	 	 	 ***** PSO ended for 'Pick-side' object number  1 ***** 
 	 	 	 'Pick-side' obejct number: 2 
 	 	 	 ***** Starting the PSO ***** 
+	 	 	 	 PSO iteration: 1; the fitness values are: [ 3.1388034e+07 -4.0368381e+00] 
+	 	 	 	 PSO iteration: 2; the fitness values are: [ 2.96515212 -4.03186298] 
+	 	 	 	 PSO iteration: 3; the fitness values are: [38.02668032 -4.05176348] 
+	 	 	 	 	 New global best score found. Base position: 197 
+	 	 	 	 	 Fitness value: -4.0517634756155525 
+	 	 	 	 	 Pick&Place time: 8.552 
+	 	 	 ***** PSO ended for 'Pick-side' object number  2 ***** 
+	 	 All 'Pick-side' objects scanned. The best one is: 2; the robot is moved to 197 
+	 	 The robot is moved to: 197 mm wrt the center 
+	 	 The total time so far is: 16.130346224461082 seconds.
+	 	 Still need to pack 1 objects in the bin 0 
+	 	 Considering the 'place-side' obejct number: 3/4 
+	 	 	 'Pick-side' obejct number: 1 
+	 	 	 ***** Starting the PSO ***** 
 	 	 	 	 PSO iteration: 1; the fitness values are: [31388033.98756219 31388033.98756219] 
 	 	 	 	 PSO iteration: 2; the fitness values are: [31388033.98756219 31388033.98756219] 
 	 	 	 	 PSO iteration: 3; the fitness values are: [31388033.98756219 31388033.98756219] 
-	 	 	 ***** PSO ended for 'Pick-side' object number  2 ***** 
-	 	 All 'Pick-side' objects scanned. The best one is: 1; the robot is moved to -56.42823113110671 
-	 	 The robot is moved to: -56.42823113110671 mm wrt the center 
-	 	 The total time so far is: 23.58985999340112 seconds.
-	 	 Still need to pack 1 objects in the bin 0 
-	 	 Considering the 'place-side' obejct number: 2/3 
-	 	 	 'Pick-side' obejct number: 2 
-	 	 	 ***** Starting the PSO ***** 
-	 	 	 	 PSO iteration: 1; the fitness values are: [3.13880340e+07 1.91122512e+00] 
-	 	 	 	 PSO iteration: 2; the fitness values are: [3.13880340e+07 1.90873756e+00] 
-	 	 	 	 	 New global best score found. Base position: 311 
-	 	 	 	 	 Fitness value: 1.908737562189057 
-	 	 	 	 	 Pick&Place time: 10.338 
-	 	 	 	 PSO iteration: 3; the fitness values are: [3.13880340e+07 1.90873756e+00] 
-	 	 	 ***** PSO ended for 'Pick-side' object number  2 ***** 
-	 	 All 'Pick-side' objects scanned. The best one is: 2; the robot is moved to 311 
-	 	 The robot is moved to: 311 mm wrt the center 
-	 	 The total time so far is: 35.21375449631703 seconds.
+	 	 	 ***** PSO ended for 'Pick-side' object number  1 ***** 
+	 	 All 'Pick-side' objects scanned. The best one is: 1; the robot is moved to 1154.8735618080582 
+	 	 The robot is moved to: 1154.8735618080582 mm wrt the center 
+	 	 The total time so far is: 18.2765148048218 seconds.
 	 	 Still need to pack 0 objects in the bin 0 
 	 All objects packed in the bin number 0 
 All objects of type 0 have been packed 
 ********* Type of item: 1 
 	 Considered bin number: 0 
-	 	 Considering the 'place-side' obejct number: 0/3 
+	 	 Considering the 'place-side' obejct number: 0/4 
 	 	 	 'Pick-side' obejct number: 0 
 	 	 	 ***** Starting the PSO ***** 
-	 	 	 	 PSO iteration: 1; the fitness values are: [17395513.29570895 17395513.29570895] 
-	 	 	 	 PSO iteration: 2; the fitness values are: [17395513.29570895 17395513.29570895] 
-	 	 	 	 PSO iteration: 3; the fitness values are: [17395513.29570895 17395513.29570895] 
+	 	 	 	 PSO iteration: 1; the fitness values are: [ 1.73955133e+07 -1.01054195e-01] 
+	 	 	 	 PSO iteration: 2; the fitness values are: [ 1.73955133e+07 -1.01054195e-01] 
+	 	 	 	 PSO iteration: 3; the fitness values are: [-0.559311  -0.1010542] 
+	 	 	 	 	 New global best score found. Base position: 503 
+	 	 	 	 	 Fitness value: -0.559311003123916 
+	 	 	 	 	 Pick&Place time: 9.431 
 	 	 	 ***** PSO ended for 'Pick-side' object number  0 ***** 
 	 	 	 'Pick-side' obejct number: 1 
 	 	 	 ***** Starting the PSO ***** 
-	 	 	 	 PSO iteration: 1; the fitness values are: [-8.88479478e+00  1.73955133e+07] 
-	 	 	 	 PSO iteration: 2; the fitness values are: [-8.8829291   0.99073182] 
-	 	 	 	 PSO iteration: 3; the fitness values are: [-8.88759328e+00  1.73955133e+07] 
-	 	 	 	 	 New global best score found. Base position: 595 
-	 	 	 	 	 Fitness value: -8.887593283582142 
-	 	 	 	 	 Pick&Place time: 9.365 
+	 	 	 	 PSO iteration: 1; the fitness values are: [ 1.73955133e+07 -1.02793020e+00] 
+	 	 	 	 PSO iteration: 2; the fitness values are: [ 0.43066222 -1.0279302 ] 
+	 	 	 	 PSO iteration: 3; the fitness values are: [ 1.73955133e+07 -1.02793020e+00] 
 	 	 	 ***** PSO ended for 'Pick-side' object number  1 ***** 
 	 	 	 'Pick-side' obejct number: 2 
 	 	 	 ***** Starting the PSO ***** 
-	 	 	 	 PSO iteration: 1; the fitness values are: [17395513.29570895 17395513.29570895] 
-	 	 	 	 PSO iteration: 2; the fitness values are: [17395513.29570895 17395513.29570895] 
-	 	 	 	 PSO iteration: 3; the fitness values are: [17395513.29570895 17395513.29570895] 
+	 	 	 	 PSO iteration: 1; the fitness values are: [-0.27814386  1.47150337] 
+	 	 	 	 PSO iteration: 2; the fitness values are: [-0.27814386 -0.88622565] 
+	 	 	 	 	 New global best score found. Base position: -14 
+	 	 	 	 	 Fitness value: -0.8862256514039971 
+	 	 	 	 	 Pick&Place time: 9.417 
+	 	 	 	 PSO iteration: 3; the fitness values are: [-2.23086602e+00  1.73955133e+07] 
+	 	 	 	 	 New global best score found. Base position: 68 
+	 	 	 	 	 Fitness value: -2.230866018743492 
+	 	 	 	 	 Pick&Place time: 9.057 
 	 	 	 ***** PSO ended for 'Pick-side' object number  2 ***** 
-	 	 All 'Pick-side' objects scanned. The best one is: 1; the robot is moved to 595 
-	 	 The robot is moved to: 595 mm wrt the center 
-	 	 The total time so far is: 46.68324113274055 seconds.
+	 	 	 'Pick-side' obejct number: 3 
+	 	 	 ***** Starting the PSO ***** 
+	 	 	 	 PSO iteration: 1; the fitness values are: [-8.58292618e-01  1.73955133e+07] 
+	 	 	 	 PSO iteration: 2; the fitness values are: [-0.8629568   2.66022827] 
+	 	 	 	 	 New global best score found. Base position: 119 
+	 	 	 	 	 Fitness value: -0.8629567967338192 
+	 	 	 	 	 Pick&Place time: 9.15 
+	 	 	 	 PSO iteration: 3; the fitness values are: [-0.8629568  -0.02561711] 
+	 	 	 ***** PSO ended for 'Pick-side' object number  3 ***** 
+	 	 All 'Pick-side' objects scanned. The best one is: 0; the robot is moved to 503 
+	 	 The robot is moved to: 503 mm wrt the center 
+	 	 The total time so far is: 19.98554052803966 seconds.
+	 	 Still need to pack 3 objects in the bin 0 
+	 	 Considering the 'place-side' obejct number: 1/4 
+	 	 	 'Pick-side' obejct number: 1 
+	 	 	 ***** Starting the PSO ***** 
+	 	 	 	 PSO iteration: 1; the fitness values are: [-2.1744403  -0.44964191] 
+	 	 	 	 PSO iteration: 2; the fitness values are: [ -2.17350746 -22.40205224] 
+	 	 	 	 	 New global best score found. Base position: -67 
+	 	 	 	 	 Fitness value: -22.402052238806373 
+	 	 	 	 	 Pick&Place time: 10.12 
+	 	 	 	 PSO iteration: 3; the fitness values are: [-2.69873459e+00  1.73955133e+07] 
+	 	 	 ***** PSO ended for 'Pick-side' object number  1 ***** 
+	 	 	 'Pick-side' obejct number: 2 
+	 	 	 ***** Starting the PSO ***** 
+	 	 	 	 PSO iteration: 1; the fitness values are: [8.29237740e+00 1.73955133e+07] 
+	 	 	 	 PSO iteration: 2; the fitness values are: [8.2923774  1.80385872] 
+	 	 	 	 	 New global best score found. Base position: -1201 
+	 	 	 	 	 Fitness value: 1.8038587163333473 
+	 	 	 	 	 Pick&Place time: 11.888 
+	 	 	 	 PSO iteration: 3; the fitness values are: [8.84942932e+00 1.73955133e+07] 
+	 	 	 ***** PSO ended for 'Pick-side' object number  2 ***** 
+	 	 	 'Pick-side' obejct number: 3 
+	 	 	 ***** Starting the PSO ***** 
+	 	 	 	 PSO iteration: 1; the fitness values are: [8.94077997e-01 1.73955133e+07] 
+	 	 	 	 PSO iteration: 2; the fitness values are: [0.894078   0.90948813] 
+	 	 	 	 PSO iteration: 3; the fitness values are: [0.89501083 0.90667808] 
+	 	 	 ***** PSO ended for 'Pick-side' object number  3 ***** 
+	 	 All 'Pick-side' objects scanned. The best one is: 1; the robot is moved to -67 
+	 	 The robot is moved to: -67 mm wrt the center 
+	 	 The total time so far is: 21.577604020103152 seconds.
 	 	 Still need to pack 2 objects in the bin 0 
-	 	 Considering the 'place-side' obejct number: 1/3 
-	 	 	 'Pick-side' obejct number: 0 
-	 	 	 ***** Starting the PSO ***** 
-	 	 	 	 PSO iteration: 1; the fitness values are: [-1.36477043  1.41256347] 
-	 	 	 	 PSO iteration: 2; the fitness values are: [-1.36477043e+00  1.73955133e+07] 
-	 	 	 	 PSO iteration: 3; the fitness values are: [-1.36477043e+00  1.73955133e+07] 
-	 	 	 ***** PSO ended for 'Pick-side' object number  0 ***** 
+	 	 Considering the 'place-side' obejct number: 2/4 
 	 	 	 'Pick-side' obejct number: 2 
 	 	 	 ***** Starting the PSO ***** 
-	 	 	 	 PSO iteration: 1; the fitness values are: [17395513.29570895 17395513.29570895] 
-	 	 	 	 PSO iteration: 2; the fitness values are: [17395513.29570895 17395513.29570895] 
-	 	 	 	 PSO iteration: 3; the fitness values are: [17395513.29570895 17395513.29570895] 
+	 	 	 	 PSO iteration: 1; the fitness values are: [1.38076939 1.33132909] 
+	 	 	 	 PSO iteration: 2; the fitness values are: [1.25930157 1.33132909] 
+	 	 	 	 	 New global best score found. Base position: -761 
+	 	 	 	 	 Fitness value: 1.2593015665796348 
+	 	 	 	 	 Pick&Place time: 11.288 
+	 	 	 	 PSO iteration: 3; the fitness values are: [3.23047926 1.3238664 ] 
 	 	 	 ***** PSO ended for 'Pick-side' object number  2 ***** 
-	 	 All 'Pick-side' objects scanned. The best one is: 0; the robot is moved to 713.3101713669676 
-	 	 The robot is moved to: 713.3101713669676 mm wrt the center 
-	 	 The total time so far is: 57.75437766047391 seconds.
+	 	 	 'Pick-side' obejct number: 3 
+	 	 	 ***** Starting the PSO ***** 
+	 	 	 	 PSO iteration: 1; the fitness values are: [1.73955133e+07 3.40576155e+00] 
+	 	 	 	 PSO iteration: 2; the fitness values are: [1.73955133e+07 3.40576155e+00] 
+	 	 	 	 PSO iteration: 3; the fitness values are: [1.73955133e+07 3.40576155e+00] 
+	 	 	 ***** PSO ended for 'Pick-side' object number  3 ***** 
+	 	 All 'Pick-side' objects scanned. The best one is: 2; the robot is moved to -761 
+	 	 The robot is moved to: -761 mm wrt the center 
+	 	 The total time so far is: 23.3468103693095 seconds.
 	 	 Still need to pack 1 objects in the bin 0 
-	 	 Considering the 'place-side' obejct number: 2/3 
-	 	 	 'Pick-side' obejct number: 2 
+	 	 Considering the 'place-side' obejct number: 3/4 
+	 	 	 'Pick-side' obejct number: 3 
 	 	 	 ***** Starting the PSO ***** 
-	 	 	 	 PSO iteration: 1; the fitness values are: [-1.10513962e+00  1.73955133e+07] 
-	 	 	 	 PSO iteration: 2; the fitness values are: [-1.10513962  0.65695087] 
-	 	 	 	 PSO iteration: 3; the fitness values are: [-1.10513962 -0.98233516] 
-	 	 	 ***** PSO ended for 'Pick-side' object number  2 ***** 
-	 	 All 'Pick-side' objects scanned. The best one is: 2; the robot is moved to 727.022409250289 
-	 	 The robot is moved to: 727.022409250289 mm wrt the center 
-	 	 The total time so far is: 68.34724458713973 seconds.
+	 	 	 	 PSO iteration: 1; the fitness values are: [-3.61660448  8.02465655] 
+	 	 	 	 PSO iteration: 2; the fitness values are: [-3.61660448 -0.48364305] 
+	 	 	 	 PSO iteration: 3; the fitness values are: [-3.61847015e+00  1.73955133e+07] 
+	 	 	 	 	 New global best score found. Base position: 416 
+	 	 	 	 	 Fitness value: -3.618470149253734 
+	 	 	 	 	 Pick&Place time: 8.481 
+	 	 	 ***** PSO ended for 'Pick-side' object number  3 ***** 
+	 	 All 'Pick-side' objects scanned. The best one is: 3; the robot is moved to 416 
+	 	 The robot is moved to: 416 mm wrt the center 
+	 	 The total time so far is: 37.98301671851585 seconds.
 	 	 Still need to pack 0 objects in the bin 0 
 	 All objects packed in the bin number 0 
 All objects of type 1 have been packed 
 ********** Results ************ 
-The optimal sequence is: [0, 1, 2, 1, 0, 2] 
-The optimal base positions are: [np.int64(-501), np.float64(-56.42823113110671), np.int64(311), np.int64(595), np.float64(713.3101713669676), np.float64(727.022409250289)] 
+The optimal sequence is: [3, 0, 2, 1, 0, 1, 2, 3] 
+The optimal base positions are: [np.int64(59), np.int64(-532), np.int64(197), np.float64(1154.8735618080582), np.int64(503), np.int64(-67), np.int64(-761), np.int64(416)] 

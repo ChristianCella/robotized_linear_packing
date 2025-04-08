@@ -19,15 +19,15 @@ class Program
 {
     // variables controlling the display of messages
     static StringWriter m_output;
-    static bool verbose = false;
+    static bool verbose = true;
 
     // variables for the Jacobian
     static double determinantSum = 0;
     static double determinantCounter = 0;
 
     // socket variables
-    static string ip_address = "127.0.0.23";
-    static int port = 123;
+    static string ip_address = "127.0.0.1";
+    static int port = 100;
 
     // Variables to create the robot program
     static string new_motion_type = "PTP";

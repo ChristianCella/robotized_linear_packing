@@ -70,21 +70,16 @@ class TravelSimulationParameters:
 @dataclass
 class PackingSimulationParameters:
     verbose : bool = True
-    host: str = '127.0.0.1'
-    port: int = 12345
     Nsim: int = 20
     lower_bound: int = -1500 # [mm]
     upper_bound: int = 1500 # [mm]
     items_root_name: str = 'Cube'
     bins_root_name: str = 'Bin'
-    robot_program_name: str = 'RobotProgram'
-    pre_post_height: int = 200 # [mm]
-    n_decimals: int = 5 
-    items_of_each_type: List[int] = field(default_factory=lambda: [6, 3])
+    items_of_each_type: List[int] = field(default_factory=lambda: [4, 4])
     items_sizes_and_weight: List[List[float]] = field(default_factory=lambda: [[75, 150, 80, 1], [100, 70, 80, 1]]) # '1' is a random weight
-    bins_of_each_type: List[int] = field(default_factory=lambda: [2, 1])
+    bins_of_each_type: List[int] = field(default_factory=lambda: [1, 1])
     bins_sizes_and_weight: List[List[float]] = field(default_factory=lambda: [[300, 200, 130, 20], [300, 200, 130, 20]]) # '20' is a random weight
-    bins_centers: List[List[float]] = field(default_factory=lambda: [[-750, -430, -107.14], [-1250, -200, -55], [-250, -430, -107.14]]) # Specify all the centers!
+    bins_centers: List[List[float]] = field(default_factory=lambda: [[-750, -430, -107.14], [-250, -430, -107.14]]) # Specify all the centers!
 
 
 
@@ -93,8 +88,8 @@ class PackingSimulationParameters:
 class RealSimulationParameters:
     verbose : bool = True
     timeout: int = 60 # [s] timeout for the socket connection
-    host: str = '127.0.0.23' # socket address
-    port : int = 123 # socket port
+    host: str = '127.0.0.1' # socket address
+    port : int = 100 # socket port
     v_max: int = 700 # [mm / s] => for the line
     a_max: int = 900 # [mm / s^2] => for the line
     base_upper_bound: int = 1500 # [mm] for the robot base (NOT taken from /data/bounds_experiment.txt)
@@ -129,7 +124,7 @@ class RealSimulationParameters:
     beta_fitness: float = 0.5 # weight for the fitness function (fitness of each particle)
     alpha_tradeoff: float = 0.5 # weight for the trade-off function (cost associated to moving the robot base)
     beta_tradeoff: float = 0.5 # weight for the trade-off function (cost associated to moving the robot base)
-    items_of_each_type: List[int] = field(default_factory = lambda: [3, 3])
+    items_of_each_type: List[int] = field(default_factory = lambda: [4, 4])
     items_sizes_and_weight: List[List[float]] = field(default_factory = lambda: [[75, 150, 80, 1], [100, 70, 80, 1]])
     bins_of_each_type: List[int] = field(default_factory = lambda: [1, 1])
     bins_sizes_and_weight: List[List[float]] = field(default_factory = lambda: [[300, 200, 130, 20], [300, 200, 130, 20]])
