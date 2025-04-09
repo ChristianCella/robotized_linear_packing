@@ -846,7 +846,7 @@ class Program
         paramHandler.OnComplexValueChanged("Tool", tcp, Point);
         paramHandler.OnComplexValueChanged("Motion Type", type_of_motion, Point);
         paramHandler.OnComplexValueChanged("Speed", speed_val, Point);
-        paramHandler.OnComplexValueChanged("Accel", accel_val, Point);
+        paramHandler.OnComplexValueChanged("Acc", accel_val, Point);
         paramHandler.OnComplexValueChanged("Blend", type_of_blend, Point);
 
     }

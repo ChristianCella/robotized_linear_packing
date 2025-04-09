@@ -17,40 +17,47 @@ using System.Collections;
 
 public class MainScript
 {
+    // General variables
+    static string robot_name = "GoFa12";
+    static string gripper_name = "Suction_cup";
+    static string item_name = "Cube_13";
+    static string program_name = "RobotProgram_" + item_name;
+    static string tcp_flange_name = "TOOLFRAME";
+    static string tcp_ee_name = "tgripper_tf";
+
 	// Variables to create the robot program
     static string new_motion_type = "PTP";
-    static string new_speed = "20%";
-    static string new_accel = "20%";
+    static string new_speed = "100%";
+    static string new_accel = "100%";
     static string new_blend = "fine";
 
     public static void Main()
     {
     	// Get robot and gripper
-    	TxRobot Robot = GetRobot("GoFa12");
-        ITxObject tool = GetGripper("Suction_cup");
+    	TxRobot Robot = GetRobot(robot_name);
+        ITxObject tool = GetGripper(gripper_name);
         
         // Define the place pose (manually, center of the box)
         double[] place_pose = new double[4];
-        place_pose[0] = -750;
-        place_pose[1] = -430;
-        place_pose[2] = -67.14;
+        place_pose[0] = -350;
+        place_pose[1] = -425;
+        place_pose[2] = -7.14;
         place_pose[3] = 0;
         
     	// Instantiate the item to be picked
-        ITxObject considered_item = GetItem("Cube_03");
+        ITxObject considered_item = GetItem(item_name);
            
         // Create the robotc operation
         TxContinuousRoboticOperation MyOp = RobotPickPlace(
             Robot, 
             considered_item, 
             tool, 
-            "RobotProgram", 
-            "Cube_03", 
-            "TOOLFRAME", 
-            "tgripper_tf", 
+            program_name, 
+            item_name, 
+            tcp_flange_name, 
+            tcp_ee_name, 
             200.0, 
-            place_pose);
-        
+            place_pose);       
     }
     
     /*
@@ -304,7 +311,7 @@ public class MainScript
         paramHandler.OnComplexValueChanged("Tool", tcp, Point);
         paramHandler.OnComplexValueChanged("Motion Type", new_motion_type, Point);
         paramHandler.OnComplexValueChanged("Speed", new_speed, Point);
-        paramHandler.OnComplexValueChanged("Accel", new_accel, Point);
+        paramHandler.OnComplexValueChanged("Acc", new_accel, Point);
         paramHandler.OnComplexValueChanged("Blend", new_blend, Point);
 
     }
