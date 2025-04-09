@@ -19,22 +19,54 @@ class Program
 {
     // variables controlling the display of messages
     static StringWriter m_output;
-    static bool verbose = true;
+    static bool verbose = false;
 
     // variables for the Jacobian
     static double determinantSum = 0;
     static double determinantCounter = 0;
+    static int collision_flag = 0;
 
     // socket variables
-    static string ip_address = "127.0.0.1";
-    static int port = 100;
+    static string ip_address = "127.0.0.12";
+    static int port = 112;
 
-    // Variables to create the robot program
-    static string new_motion_type = "PTP";
-    static string new_speed = "100%";
-    static string new_accel = "100%";
-    static string new_blend = "fine";
+    // Static variables to create the robot program
+    static string type_of_motion = "PTP";
+    static string type_of_blend = "fine";
 
+    // Human x-y coordinates for the stations A, B, C, D
+    static double human_z = 142.0;
+
+    static double human_x_A = -1248.0;
+    static double human_y_A = -940.0;
+    static double human_rotz_A = Math.PI / 2;
+
+    static double human_x_B = 1248.0;
+    static double human_y_B = -940.0;
+    static double human_rotz_B = Math.PI / 2;
+
+    static double human_x_C = 1248.0;
+    static double human_y_C = 940.0;
+    static double human_rotz_C = -Math.PI / 2;
+
+    static double human_x_D = -1248.0;
+    static double human_y_D = 940.0;
+    static double human_rotz_D = -Math.PI / 2;
+
+    static double human_safety_x = 3000;
+    static double human_safety_y = 3000;
+    static double human_safety_rotz = Math.PI / 2;
+
+    // Parameters varying as a function of the safety zone
+    static string speed_zone_0 = "100%";
+    static string acceleration_zone_0 = "100%";
+    static string speed_zone_1 = "75%";
+    static string acceleration_zone_1 = "75%";
+    static string speed_zone_2 = "50%";
+    static string acceleration_zone_2 = "50%";
+    static string speed_zone_3 = "25%";
+    static string acceleration_zone_3 = "25%";
+    
     // Main method
     static public void Main(ref StringWriter output)
     {
@@ -56,8 +88,10 @@ class Program
             int N_particles = shared_data[0, 1];
             int pre_post_height = shared_data[0, 2];
             int n_decimals = shared_data[0, 3];
-            output.WriteLine(N_sim_pso.ToString());
-            output.WriteLine(N_particles.ToString());
+            int mean_travel_time = shared_data[0, 4];
+
+            // Get the mean time for the pick and place of the objects
+            var mean_pp_times = ReceiveNumpyArray(stream);
 
             // get the number items of each type and the total number of items
             var num_types_items = ReceiveNumpyArray(stream);
@@ -75,21 +109,25 @@ class Program
             string ee_name = labels[3];
             string tcp_ee_name = labels[4];
             string tcp_flange_name = labels[5];
+            string human_name = labels[6];
 
             // Initialize the variables
             int num_bins = 0;
-            int count = 0;
             int num_objects_pick = 0;
             double MeanDeterminant = 0.0;
             double time_PickPlace = 0.0;
             double[] manipulability_vec = new double[N_particles];
             double[] time_vec = new double[N_particles];
-            double[] xi_vec = new double[N_particles];
+            double[] xi_vec = new double[N_particles]; // vector for successful simulations
+            double[] eta_vec = new double[N_particles]; // vector for collisions
+            double[] robot_params_vec = new double[N_particles];
             string[] items_color_names = new string[total_items];
 
             // Get 'static' instances
             TxRobot Robot = GetRobot(robot_name);
             ITxObject tool = GetGripper(ee_name);
+            ITxLocatableObject human = GetHuman(human_name);
+            ITxLocatableObject human_proxy = GetHuman(human_name + "_proxy");
             ITxLocatableObject robot = Robot as ITxLocatableObject;
 
             // Some information, if needed
@@ -120,6 +158,7 @@ class Program
 
                     // * STEP 3 => for all the objects ('place-side') that can be packed in a specific bin ...
                     int j = 0;
+
                     while (j < num_objects)
                     {
                         // receive the place point and the rotation
@@ -129,6 +168,13 @@ class Program
 						place_pose[1] = place_pose_received[0, 1];
 						place_pose[2] = place_pose_received[0, 2];
 						place_pose[3] = place_pose_received[0, 3];
+                        double cumulative_time = (place_pose_received[0, 4] / Math.Pow(10, n_decimals));
+
+                        // Place the humans (main one and proxy), as scheduled by the ERP
+                        bool apply_transformation = true;
+                        int useless_block = 100; // DO not enter the 'if's with the second condition
+                        int useless_result1 = ERP(cumulative_time, apply_transformation, human, useless_block); 
+                        int useless_result2 = ERP(cumulative_time, apply_transformation, human_proxy, useless_block); 
 						
                         // * STEP 4 =>  for all the items that can be picked (pick side) after knowing a specific 'place-side' spot ...
                         int c = 0;
@@ -146,6 +192,13 @@ class Program
                                     output.WriteLine("Skip = 0 ... ");
                                 }
 
+                                // Instantiate the item to be picked
+                                ITxLocatableObject considered_item = GetItem(items_root_name + "_" + type_obj.ToString() + c.ToString());
+
+                                // Here you decide the set of parameters based on the 'receding horizon approach'
+                                double time_window = mean_travel_time + mean_pp_times[0, type_obj];
+                                int set_of_parameters = RecedingHorizon(human, human_proxy, considered_item, place_pose, cumulative_time, time_window);
+
                                 // Initialize the counter for the PSO
                                 int ii = 0;
 
@@ -161,17 +214,15 @@ class Program
                                     while (pos < N_particles)
                                     {
                                         // Move the robot to the position encoded in the pos-th particle
-                                        TxVector translation = new TxVector(layout[0, pos], 0, 0);
+                                        TxVector translation = new TxVector(layout[0, pos], 0, 1); // 1mm of offset to avoid collisions
                                         TxVector orientation = new TxVector(0, 0, 0);
                                         TransformPose(robot, translation, orientation);
                                        
-                                        // Re-initialize the variables to compute the Jacobian
+                                        // Re-initialize the variables to compute the Jacobian and collisions
+                                        collision_flag = 0;
                                         determinantCounter = 0;
                                         determinantSum = 0;   
-                                  
-                                        // Instantiate the item to be picked
-                                        ITxObject considered_item = GetItem(items_root_name + "_" + type_obj.ToString() + c.ToString());
-                                           
+
                                         // Create the robotc operation
                                         TxContinuousRoboticOperation MyOp = RobotPickPlace(
                                             Robot, 
@@ -182,7 +233,8 @@ class Program
                                             tcp_flange_name, 
                                             tcp_ee_name, 
                                             (double)pre_post_height, 
-                                            place_pose);
+                                            place_pose,
+                                            set_of_parameters);
 
                                         // select the Robotic Program by name
                                         var descendants = TxApplication.ActiveDocument.OperationRoot.GetAllDescendants(new TxTypeFilter(typeof(TxContinuousRoboticOperation)));
@@ -198,31 +250,33 @@ class Program
 
                                         // Set the operation to be simulated
                                         TxApplication.ActiveDocument.CurrentOperation = op;
+                                        TxApplication.ActiveDocument.CollisionRoot.CheckCollisions = true;
                                         TxSimulationPlayer Player = TxApplication.ActiveDocument.SimulationPlayer;
-                                        Player.Rewind();
+                                        Player.Rewind(); // Do it before simulating
                                     
                                         // ! Core of the algorithm: Run the simulation
                                         if (!Player.IsSimulationRunning())
                                         {
                                             m_output = output;      
-                                            Player.TimeIntervalReached += new TxSimulationPlayer_TimeIntervalReachedEventHandler(player_TimeIntervalReached);                      
+                                            Player.TimeIntervalReached += new TxSimulationPlayer_TimeIntervalReachedEventHandler(player_TimeIntervalReached);  
+                                            Player.TimeIntervalReached += new TxSimulationPlayer_TimeIntervalReachedEventHandler(player_ComputeJacobian);                    
                                             Player.Play();
                                             Player.TimeIntervalReached -= new TxSimulationPlayer_TimeIntervalReachedEventHandler(player_TimeIntervalReached);
+                                            Player.TimeIntervalReached -= new TxSimulationPlayer_TimeIntervalReachedEventHandler(player_ComputeJacobian);
                                         }
 
-                                        // Check if the simulation was successful (NOTE: do it before rewinding!)                                     
+                                        // Check if the simulation was successful                                    
                                         int simulationSuccess = CheckSimulationSuccess();
-                                        if (verbose)
-                                        {
-                                            output.WriteLine("Simulation success: " + simulationSuccess.ToString());
-                                        }
+                                        output.WriteLine("Feasibility flag: " + simulationSuccess.ToString());
+                                        output.WriteLine("Collisions flag: " + collision_flag.ToString());
+
 
                                         // Safety rewind and stop of the simulation
                                         Player.Rewind();
                                         Player.Stop();
 
                                         // ! Compute the metrics for this simulation (manipulability, operation time, xi)                                      
-                                        if (simulationSuccess == 0)
+                                        if (simulationSuccess == 0 && collision_flag == 0)
                                         {
                                             MeanDeterminant = Math.Round(determinantSum / determinantCounter, n_decimals) * Math.Pow(10, n_decimals);
                                             time_PickPlace = Math.Round(MyOp.Duration, n_decimals) * Math.Pow(10, n_decimals);
@@ -233,12 +287,15 @@ class Program
                                             time_PickPlace = 1;
                                         }
 
-                                        // Now you can delete the current operation and append the results to the vectors
-                                        
+                                        output.WriteLine("Time pick-place: " + time_PickPlace.ToString() + " seconds");
+
+                                        // Now you can delete the current operation and append the results to the vectors                                       
                                         MyOp.Delete();                                       
                                         manipulability_vec[pos] = (int)MeanDeterminant;
                                         time_vec[pos] = (int)time_PickPlace;
                                         xi_vec[pos] = (int)simulationSuccess;
+                                        eta_vec[pos] = (int)collision_flag;
+                                        robot_params_vec[pos] = (int)set_of_parameters;
                                         
                                         // Update the counter for the next particle
                                         pos++;                                       
@@ -247,14 +304,20 @@ class Program
                                     // Send the vectors for the current iteration of the PSO
                                     string xi_s = string.Join(",", xi_vec); // xi
                                     byte[] xi_Vec = Encoding.ASCII.GetBytes(xi_s);
+                                    string eta_s = string.Join(",", eta_vec); // xi
+                                    byte[] eta_Vec = Encoding.ASCII.GetBytes(eta_s);
                                     string manip_s = string.Join(",", manipulability_vec); // manipulability
                                     byte[] manip_Vec = Encoding.ASCII.GetBytes(manip_s);
                                     string time_s = string.Join(",", time_vec); // pick-and-place time
                                     byte[] time_Vec = Encoding.ASCII.GetBytes(time_s);
+                                    string parameters_s = string.Join(",", robot_params_vec); // set of parameters used
+                                    byte[] robot_parameters_Vec = Encoding.ASCII.GetBytes(parameters_s);
 
                                     SendWithLength(stream, xi_Vec);
+                                    SendWithLength(stream, eta_Vec);
                                     SendWithLength(stream, manip_Vec);
                                     SendWithLength(stream, time_Vec);
+                                    SendWithLength(stream, robot_parameters_Vec);
                                   
                                     // Update the counter for the PSO iterations
                                     ii++;
@@ -335,10 +398,31 @@ class Program
     }
 
     // Get the object
-    private static ITxObject GetItem(string item_name)
+    private static ITxLocatableObject GetItem(string item_name)
     {
-        ITxObject Item = TxApplication.ActiveDocument.GetObjectsByName(item_name)[0];
+        ITxLocatableObject Item = TxApplication.ActiveDocument.GetObjectsByName(item_name)[0] as ITxLocatableObject;
         return Item;
+    }
+
+    // Get the item coordinates
+    private static TxTransformation GetItemPose(ITxLocatableObject item)
+    {
+        var position = new TxTransformation(item.LocationRelativeToWorkingFrame);
+        return position;
+    }
+
+    // Get the human
+    private static ITxLocatableObject GetHuman(string human_name)
+    {
+        ITxLocatableObject Human = TxApplication.ActiveDocument.GetObjectsByName(human_name)[0] as ITxLocatableObject;
+        return Human;
+    }
+
+    // find human position
+    private static TxTransformation GetHumanPose(ITxLocatableObject human)
+    {
+        var position = new TxTransformation(human.LocationRelativeToWorkingFrame);
+        return position;
     }
 
     // Object transformation
@@ -368,6 +452,146 @@ class Program
     }
 
     /*
+        Methods concerning the presence of the human
+    */
+
+    private static int ERP(double cumulative_time, bool apply_transformation, ITxLocatableObject human, int block)
+    {
+        // Initialize variables
+        TxVector translation = new TxVector(0, 0, 0);
+        TxVector orientation = new TxVector(0, 0, 0);
+        int k = 0;
+
+        // Human in station A
+        if ((cumulative_time >= 0.0 && cumulative_time <= 10.0) || block == 0)
+        {
+            translation = new TxVector(human_x_A, human_y_A, human_z);
+            orientation = new TxVector(0, 0, human_rotz_A);
+            k = 0;
+        }
+        // Human away from the line
+        else if ((cumulative_time > 10.0 && cumulative_time <= 25.0) || block == 1)
+        {
+            translation = new TxVector(human_safety_x, human_safety_y, human_z);
+            orientation = new TxVector(0, 0, human_safety_rotz);
+            k = 1;
+        }
+        // Human in station B
+        else if ((cumulative_time > 25.0 && cumulative_time <= 35.0) || block == 2)
+        {
+            translation = new TxVector(human_x_B, human_y_B, human_z);
+            orientation = new TxVector(0, 0, human_rotz_B);
+            k = 2;
+        }
+        // Human in station C
+        else if ((cumulative_time > 35.0 && cumulative_time <= 45.0) || block == 3)
+        {
+            translation = new TxVector(human_x_C, human_y_C, human_z);
+            orientation = new TxVector(0, 0, human_rotz_C);
+            k = 3;
+        }
+        // Human away from the line
+        else if ((cumulative_time > 45.0 && cumulative_time <= 60.0) || block == 4)
+        {
+            translation = new TxVector(human_safety_x, human_safety_y, human_z);
+            orientation = new TxVector(0, 0, human_safety_rotz);
+            k = 4;
+        }
+        // Human in station D
+        else if ((cumulative_time > 60.0 && cumulative_time <= 70.0) || block == 5)
+        {
+            translation = new TxVector(human_x_D, human_y_D, human_z);
+            orientation = new TxVector(0, 0, human_rotz_D);
+            k = 5;
+        }
+        // Human away from the line 
+        else if (cumulative_time > 70.0 || block == 6)
+        {
+            translation = new TxVector(human_safety_x, human_safety_y, human_z);
+            orientation = new TxVector(0, 0, human_safety_rotz);
+            k = 6;
+        }
+
+        // Check if the human msut be moved
+        if (apply_transformation)
+        {
+            TransformPose(human, translation, orientation);
+        }
+        
+        // Return the block corresponding to the cumulative time
+        return k;
+    }
+
+    private static int RecedingHorizon(
+        ITxLocatableObject human,
+        ITxLocatableObject human_proxy, 
+        ITxLocatableObject considered_item, 
+        double[] place_pose, 
+        double cumulative_time, 
+        double time_window)
+    {
+        // Variables
+        bool apply_transformation = false;
+        double total_time = cumulative_time + time_window;
+        int fake_block = 100; 
+        double x_place = place_pose[0];
+        double y_place = place_pose[1];
+        TxTransformation item_pose = GetItemPose(considered_item);
+        double x_item = item_pose[0, 3];
+        double y_item = item_pose[1, 3];
+        double min_ref_distance = 20000.0;
+        int param_set = 0;
+
+        // Get index of the current time instant
+        int first_block = ERP(cumulative_time, apply_transformation, human, fake_block);
+
+        // Get index of the final time instant
+        int final_block = ERP(total_time, apply_transformation, human, fake_block);
+
+        // Evaluate the worst condition: when the human is closer to the instances
+        for (int ii = first_block; ii <= final_block; ii++)
+        {
+            double fake_time = -1.0;
+            ERP(fake_time, true, human_proxy, ii);
+            TxTransformation human_pose = GetHumanPose(human_proxy);
+            double x_hum = human_pose[0, 3];
+            double y_hum = human_pose[1, 3];
+            m_output.WriteLine("Human position: " + x_hum.ToString() + " " + y_hum.ToString());
+
+            // Compute the distance
+            double distance_pick = Math.Sqrt(Math.Pow(x_hum - x_item, 2) + Math.Pow(y_hum - y_item, 2));
+            double distance_place = Math.Sqrt(Math.Pow(x_hum - x_place, 2) + Math.Pow(y_hum - y_place, 2));
+            double min_distance = Math.Min(distance_pick, distance_place);
+
+            if (min_distance < min_ref_distance)
+            {
+                min_ref_distance = min_distance;
+            }
+        }
+
+        // Analyze min_ref_distance to set the parameters
+        if(min_ref_distance > 1000.0)
+        {
+            param_set = 0; // No human in the area
+        }
+        else if(min_ref_distance > 500.0 && min_ref_distance <= 1000.0)
+        {
+            param_set = 1; // Human in the area, but far away
+        }
+        else if(min_ref_distance > 200.0 && min_ref_distance <= 500.0)
+        {
+            param_set = 2; // Human in the area, close to the robot
+        }
+        else if(min_ref_distance <= 200.0)
+        {
+            param_set = 3; // Human in the area, very close to the robot
+        }
+
+        return param_set;
+
+    }
+
+    /*
         Methods to create the robotic program
     */
 
@@ -390,14 +614,15 @@ class Program
     // Create the robotic program
     public static TxContinuousRoboticOperation RobotPickPlace(
         TxRobot robot, 
-        ITxObject considered_item,
+        ITxLocatableObject considered_item,
         ITxObject tool,
         string op_name, 
         string item_name, 
         string tcp_flange_name, // "TOOLFRAME"
         string tcp_ee_name, // new_tcp = "tgripper_tf"
         double z_offset,
-        double[] place_pose_received)
+        double[] place_pose_received,
+        int set_of_parameters)
     {
         // Initialize operation
         TxContinuousRoboticOperation MyOp = InitializeRoboticOperation(robot, op_name);
@@ -419,7 +644,7 @@ class Program
 
         for (int ii = 0; ii < points.Count; ii++)
         {
-            SetWaypointValues(points[ii].Name.ToString(), paramHandler, tcp_ee_name);
+            SetWaypointValues(points[ii].Name.ToString(), paramHandler, tcp_ee_name, set_of_parameters);
         }
 
         // OLP command for attaching/detaching the obejct
@@ -581,17 +806,48 @@ class Program
     private static void SetWaypointValues(
         string point_name, 
         ITxOlpRobotControllerParametersHandler paramHandler, 
-        string tcp
+        string tcp,
+        int set_of_parameters
         )
     {
+        // Inizialize some variables
+        string speed_val = "0.0";
+        string accel_val = "0.0";
+
         TxRoboticViaLocationOperation Point = TxApplication.ActiveDocument.
         GetObjectsByName(point_name)[0] as TxRoboticViaLocationOperation;
 
+        if (set_of_parameters == 0)
+        {
+            speed_val = speed_zone_0;
+            accel_val = acceleration_zone_0;
+        }
+        else if (set_of_parameters == 1)
+        {
+            speed_val = speed_zone_1;
+            accel_val = acceleration_zone_1;
+        }
+        else if (set_of_parameters == 2)
+        {
+            speed_val = speed_zone_2;
+            accel_val = acceleration_zone_2;
+        }
+        else if (set_of_parameters == 3)
+        {
+            speed_val = speed_zone_3;
+            accel_val = acceleration_zone_3;
+        }
+        else // If something unexpected happens, use the maximum ones
+        {
+            speed_val = speed_zone_0;
+            accel_val = acceleration_zone_0;
+        }
+
         paramHandler.OnComplexValueChanged("Tool", tcp, Point);
-        paramHandler.OnComplexValueChanged("Motion Type", new_motion_type, Point);
-        paramHandler.OnComplexValueChanged("Speed", new_speed, Point);
-        paramHandler.OnComplexValueChanged("Accel", new_accel, Point);
-        paramHandler.OnComplexValueChanged("Blend", new_blend, Point);
+        paramHandler.OnComplexValueChanged("Motion Type", type_of_motion, Point);
+        paramHandler.OnComplexValueChanged("Speed", speed_val, Point);
+        paramHandler.OnComplexValueChanged("Accel", accel_val, Point);
+        paramHandler.OnComplexValueChanged("Blend", type_of_blend, Point);
 
     }
 
@@ -827,8 +1083,49 @@ class Program
         return result;
     }
 
-    // Define a method to display the value of the determinant during the simulation
+    // Define an event to verify collisions
     private static void player_TimeIntervalReached(object sender, TxSimulationPlayer_TimeIntervalReachedEventArgs args)
+    {
+
+        // Set some parameters for the collision check
+        TxCollisionQueryParams collisionQueryParams = new TxCollisionQueryParams
+        {
+            UseNearMiss = false,
+            UseAllowedPenetration = false
+        };
+
+        // Create a new context
+        TxCollisionQueryResults results =
+        TxApplication.ActiveDocument.CollisionRoot.GetCollidingObjects(collisionQueryParams, new
+        TxCollisionQueryContext());
+
+        // Analyze all the states
+        foreach (TxCollisionState state in results.States)
+        {
+            switch (state.Type)
+            {
+                case TxCollisionState.TxCollisionStateType.Collision:
+
+                    // Display a message on the screen: the time instant at which a possible collision happens
+                    if (collision_flag < 1) // 'flag' has not been incremented yet
+                    {
+
+      					// display the time instant
+                        m_output.Write("A collision happened at: " + args.CurrentTime.ToString() + " seconds" + m_output.NewLine);
+
+                        // Increase the counter to avoid displaying all the collisions
+                        collision_flag++;
+                    }
+                    
+
+                    break;
+
+            }
+        }
+    }
+
+    // Define a method to display the value of the determinant during the simulation
+    private static void player_ComputeJacobian(object sender, TxSimulationPlayer_TimeIntervalReachedEventArgs args)
     {
         // Get transformation frames
         TxFrame DH0 = TxApplication.ActiveDocument.GetObjectsByName("BASEFRAME")[0] as TxFrame;

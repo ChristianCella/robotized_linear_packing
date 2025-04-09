@@ -5,9 +5,17 @@ This snippet allows, at every temporal discretization, to:
 */
 
 using System;
+using System.Net;
+using System.Net.Sockets;
+using System.Runtime.InteropServices;
+using System.Text;
 using System.IO;
 using System.Windows.Forms;
 using Tecnomatix.Engineering;
+using System.Collections.Generic;
+using Tecnomatix.Engineering.Olp;
+using System.Linq;
+using System.Collections;
 
 public class MainScript
 {
@@ -41,9 +49,6 @@ public class MainScript
             player.TimeIntervalReached -= new TxSimulationPlayer_TimeIntervalReachedEventHandler(player_TimeIntervalReached);
             player.TimeIntervalReached -= new TxSimulationPlayer_TimeIntervalReachedEventHandler(player_ComputeJacobian);
         }
-        
-        // Rewind the simulation
-        player.Rewind();
 
         // Check the flag
         if (flag == 0)
@@ -51,6 +56,11 @@ public class MainScript
         	m_output.Write("No collision happened!" + m_output.NewLine);
         }
 
+        // Check if the simulation was successful (NOTE: do it before rewinding!)                                     
+        int simulationSuccess = CheckSimulationSuccess();
+        m_output.WriteLine("Simulation success: " + simulationSuccess.ToString());
+
+        // Rewind
         player.Rewind();
     }
 
@@ -249,6 +259,23 @@ public class MainScript
         //output.WriteLine("Yoshikawa Manipulability Index: w = sqrt(det(J*Jt))");
         m_output.WriteLine("w = " + w.ToString("G6"));
        
+    }
+
+    static int CheckSimulationSuccess()
+    {
+        // Get errors and traces associated to the current simulation
+        List<string> errors = TxApplication.ActiveDocument.SimulationPlayer.GetErrorsAndTraces(TxSimulationErrorType.Error);
+
+        // Check if there are any errors and give a return value
+        if (errors.Count > 0)
+        {
+            return 1; // Simulation failed
+        }
+
+        else // No error
+        {
+            return 0; // Simulation succeeded
+        }
     }
     
 

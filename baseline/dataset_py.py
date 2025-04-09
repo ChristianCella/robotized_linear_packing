@@ -128,8 +128,8 @@ def main():
         time.sleep(0.005)
         result = np.array([int(num) for num in result.split(',')]) # fitness, flag
         flag = result[0]
-        mean_determinant = result[1] / (10 ** params.n_decimals)
-        execution_time = result[2] / (10 ** params.n_decimals)
+        mean_determinant = result[1] / (10 ** params.n_decimals) # ! Watch out: this is the inverse of the manipualbility mean!
+        execution_time = result[2] / (10 ** params.n_decimals) # ! Watch out: this is the inverse of the manipualbility std dev!
         print(f"Iteration number: {i}")
 
         # Add the value to the text file
