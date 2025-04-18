@@ -20,7 +20,7 @@ from py3dbp import Packer, Bin, Item
 # Get the full path to the text file
 script_dir = os.path.dirname(os.path.realpath(__file__)) # Get absolute path of the current script
 project_root = os.path.abspath(os.path.join(script_dir, "..")) # Go up one folder to "robotized_linear_packing"
-save_path = os.path.join(project_root, "data", "bounds_experiment.txt") # Build full path to bounds_experiment.txt
+save_path = os.path.join(project_root, "boundaries", "bounds_experiment.txt") # Build full path to bounds_experiment.txt
 
 # Append the path for utils
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
