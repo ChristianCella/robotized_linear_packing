@@ -10,8 +10,8 @@ import sys
 import time
 
 # Choose the type of objects you want to test
-selected_type = 1
-file_name = f"manipulability_type{selected_type}.txt"
+selected_type = 0
+file_name = f"manipulability_and_time_type{selected_type}.txt"
 
 # Set the path to the 3D bin packing library
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..', '3dbinpacking'))
@@ -128,14 +128,15 @@ def main():
         time.sleep(0.005)
         result = np.array([int(num) for num in result.split(',')]) # fitness, flag
         flag = result[0]
-        mean_determinant = result[1] / (10 ** params.n_decimals) # ! Watch out: this is the inverse of the manipualbility mean!
-        execution_time = result[2] / (10 ** params.n_decimals) # ! Watch out: this is the inverse of the manipualbility std dev!
+        collision = result[1] # 0: no collision, 1: collision
+        mean_determinant = result[2] / (10 ** params.n_decimals)
+        execution_time = result[3] / (10 ** params.n_decimals)
         print(f"Iteration number: {i}")
 
         # Add the value to the text file
-        if flag == 0:
+        if flag == 0 and collision == 0:
             feasibility_counter += 1
-            keep_manipulability.append(mean_determinant)
+            keep_manipulability.append(1 / mean_determinant) # ! The manipulability is 1 / sqrt(det(J^T * J))
             keep_execution_time.append(execution_time)
             keep_index.append(i)
 

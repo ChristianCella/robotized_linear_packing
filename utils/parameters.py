@@ -40,9 +40,9 @@ class BoundarySimulationParameters:
 @dataclass
 class ManipulabilitySimulationParameters:
     verbose : bool = False
-    host: str = '127.0.0.1'
-    port: int = 12345
-    Nsim: int = 1000
+    host: str = '127.0.0.3'
+    port: int = 103
+    Nsim: int = 2000
     lower_bound: int = -1500 # [mm]
     upper_bound: int = 1500 # [mm]
     items_root_name: str = 'Cube'
@@ -50,7 +50,7 @@ class ManipulabilitySimulationParameters:
     robot_program_name: str = 'RobotProgram'
     pre_post_height: int = 200 # [mm]
     n_decimals: int = 5 
-    items_of_each_type: List[int] = field(default_factory=lambda: [3, 3])
+    items_of_each_type: List[int] = field(default_factory=lambda: [4, 4])
     items_sizes_and_weight: List[List[float]] = field(default_factory=lambda: [[75, 150, 80, 1], [100, 70, 80, 1]]) # '1' is a random weight
     bins_of_each_type: List[int] = field(default_factory=lambda: [1, 1])
     bins_sizes_and_weight: List[List[float]] = field(default_factory=lambda: [[300, 200, 130, 20], [300, 200, 130, 20]]) # '20' is a random weight
@@ -88,28 +88,28 @@ class PackingSimulationParameters:
 class RealSimulationParameters:
     verbose : bool = False
     timeout: int = 60 # [s] timeout for the socket connection
-    host: str = '127.0.0.12' # socket address
-    port : int = 112 # socket port
+    host: str = '127.0.0.3' # socket address
+    port : int = 103 # socket port
     v_max: int = 700 # [mm / s] => for the line
-    a_max: int = 900 # [mm / s^2] => for the line
-    base_upper_bound: int = 500 # [mm] for the robot base (NOT taken from /data/bounds_experiment.txt)
-    base_lower_bound: int = -500 # [mm] for the robot base (NOT taken from /data/bounds_experiment.txt)
+    a_max: int = 900 # [mm / s^2] => for the line (this is very small)
+    base_upper_bound: int = 1500 # [mm] for the robot base (NOT taken from /data/bounds_experiment.txt)
+    base_lower_bound: int = -1500 # [mm] for the robot base (NOT taken from /data/bounds_experiment.txt)
     vel_upper_bound: int = 1 # Upper bound for particle velocity
     vel_lower_bound: int = -1 # Lower bound for particle velocity
-    N_sim_pso: int = 5 # N simulations for the pso
-    N_particles: int = 5 # N particles for the pso
+    N_sim_pso: int = 20 # N simulations for the pso
+    N_particles: int = 10 # N particles for the pso
     w0: float = 0.9 # upper bound on inertia
     wN: float = 0.4 # lower bound on inertia
     delta_w: float = (w0 - wN) / N_sim_pso # decay of the inertia
     c1: int = 2 # cognitive component
     c2: int = 2 # social component
     max_cost: int = 9000000 # max cost for the pso
-    mean_travel_time: float = 2.183 # mean travel time (taken from /data/trvel_time.txt)
-    std_travel_time: float = 1.0714 # std travel time (taken from /data/trvel_time.txt)
-    mean_manip: List[float] = field(default_factory = lambda: [1 / 0.1766, 1 / 0.1366]) # mean manipulability of the objects (taken from /data/manip_and_time.txt)
-    std_manip: List[float] = field(default_factory = lambda: [1 / 0.0244, 1 / 0.0273]) # std manipulability of the objects (taken from /data/manip_and_time.txt)
-    mean_time_pp: List[float] = field(default_factory = lambda: [10.337, 9.747]) # mean time for the pick and place (taken from /data/manip_and_time.txt)
-    std_time_pp: List[float] = field(default_factory = lambda: [0.201, 0.536]) # std time for the pick and place (taken from /data/manip_and_time.txt)
+    mean_travel_time: float = 2.105 # mean travel time (taken from /data/trvel_time.txt) # ! To be changed
+    std_travel_time: float = 1.055 # std travel time (taken from /data/trvel_time.txt) # ! To be changed
+    mean_manip: List[float] = field(default_factory = lambda: [7.387128200984265, 11.410671381377163]) 
+    std_manip: List[float] = field(default_factory = lambda: [1.48444435959406024, 3.3806774958127277]) 
+    mean_time_pp: List[float] = field(default_factory = lambda: [9.289720901287554, 8.892060898587934]) 
+    std_time_pp: List[float] = field(default_factory = lambda: [0.5308538490814543, 0.5252044370512248]) 
     items_root_name: str = 'Cube' # shared name between the objects
     bins_root_name: str = 'Bin' # shared name between the objects
     robot_program_name: str = 'RobotProgram'
@@ -123,10 +123,10 @@ class RealSimulationParameters:
     n_decimals: int = 3 # number of decimals for the results
     alpha_fitness: float = 0.5 # weight for the fitness function (fitness of each particle)   
     beta_fitness: float = 0.5 # weight for the fitness function (fitness of each particle)
-    items_of_each_type: List[int] = field(default_factory = lambda: [4, 4])
-    items_sizes_and_weight: List[List[float]] = field(default_factory = lambda: [[75, 150, 80, 1], [100, 70, 80, 1]])
+    items_of_each_type: List[int] = field(default_factory = lambda: [3, 3])
+    items_sizes_and_weight: List[List[float]] = field(default_factory = lambda: [[85, 155, 85, 1], [105, 80, 85, 1]]) # all meaasures increased of 5 mm
     bins_of_each_type: List[int] = field(default_factory = lambda: [1, 1])
-    bins_sizes_and_weight: List[List[float]] = field(default_factory = lambda: [[300, 200, 130, 20], [300, 200, 130, 20]])
+    bins_sizes_and_weight: List[List[float]] = field(default_factory = lambda: [[285, 190, 130, 20], [285, 190, 130, 20]])
     bins_centers: List[List[float]] = field(default_factory = lambda: [[-750, -430, -107.14], [-250, -430, -107.14]])
     
 

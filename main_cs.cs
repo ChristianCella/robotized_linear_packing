@@ -27,8 +27,8 @@ class Program
     static int collision_flag = 0;
 
     // socket variables
-    static string ip_address = "127.0.0.12";
-    static int port = 112;
+    static string ip_address = "127.0.0.3";
+    static int port = 103;
 
     // Static variables to create the robot program
     static string type_of_motion = "PTP";
@@ -570,19 +570,19 @@ class Program
         }
 
         // Analyze min_ref_distance to set the parameters
-        if(min_ref_distance > 1000.0)
+        if(min_ref_distance > 1500.0)
         {
             param_set = 0; // No human in the area
         }
-        else if(min_ref_distance > 500.0 && min_ref_distance <= 1000.0)
+        else if(min_ref_distance > 1000.0 && min_ref_distance <= 1500.0)
         {
             param_set = 1; // Human in the area, but far away
         }
-        else if(min_ref_distance > 200.0 && min_ref_distance <= 500.0)
+        else if(min_ref_distance > 500.0 && min_ref_distance <= 1000.0)
         {
             param_set = 2; // Human in the area, close to the robot
         }
-        else if(min_ref_distance <= 200.0)
+        else if(min_ref_distance <= 500.0)
         {
             param_set = 3; // Human in the area, very close to the robot
         }

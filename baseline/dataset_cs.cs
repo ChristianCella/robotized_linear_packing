@@ -22,12 +22,13 @@ class Program
     static double determinantSum = 0;
     static double determinantCounter = 0;
     static int fitness_int = 0;
+    static int collision_flag = 0;
 
-    static string ip_address = "127.0.0.1";
-    static int port = 12345;
+    static string ip_address = "127.0.0.3";
+    static int port = 103;
 
     static TxRobot Robot = GetRobot("GoFa12");
-    static ITxObject tool = GetGripper("Suction cup");
+    static ITxObject tool = GetGripper("Suction_cup");
     static ITxLocatableObject robot = Robot as ITxLocatableObject;
 
     static string tcp_ee_name = "tgripper_tf";
@@ -36,7 +37,7 @@ class Program
     static string new_accel = "100%";
     static string new_blend = "fine";
 
-    static int[] result = new int[3];
+    static int[] result = new int[4];
     static double[] place_pose = new double[4];
 
     // Main funtion
@@ -71,13 +72,14 @@ class Program
                 var layout = ReceiveNumpyArray(stream);
 
                 //move the base of the robot in the defined position 
-                TxVector translation = new TxVector(layout[0, 0], 0, 0);
+                TxVector translation = new TxVector(layout[0, 0], 0, 1);
                 TxVector orientation = new TxVector(0, 0, 0);
                 TransformPose(robot, translation, orientation);
                 
                 // Re-initialize variables for the mean manipulability
                 determinantCounter = 0;
                 determinantSum = 0; 
+                collision_flag = 0;
 
                 // Create the place pose
                 place_pose[0] = layout[0, 1]; // x
@@ -111,14 +113,17 @@ class Program
                 // ! Core of the algorithm: Run the simulation
                 if (!Player.IsSimulationRunning())
                 {
-                    m_output = output;        
-                    Player.TimeIntervalReached += new TxSimulationPlayer_TimeIntervalReachedEventHandler(player_TimeIntervalReached);                      
-                    Player.Play(); // Perform the simulation at the current time step 
+                    m_output = output;      
+                    Player.TimeIntervalReached += new TxSimulationPlayer_TimeIntervalReachedEventHandler(player_TimeIntervalReached);  
+                    Player.TimeIntervalReached += new TxSimulationPlayer_TimeIntervalReachedEventHandler(player_ComputeJacobian);                    
+                    Player.Play();
                     Player.TimeIntervalReached -= new TxSimulationPlayer_TimeIntervalReachedEventHandler(player_TimeIntervalReached);
-                }
+                    Player.TimeIntervalReached -= new TxSimulationPlayer_TimeIntervalReachedEventHandler(player_ComputeJacobian);
+}
             
-                // Check if the simulation was successful
+                // Check if the simulation is feasible
                 int simulation_success = CheckSimulationSuccess();
+                int collision_check = collision_flag;
 
                 // 'Safety' rewind
                 Player.Rewind();
@@ -129,8 +134,9 @@ class Program
                 double time_pp = MyOp.Duration;
                 int execution_time = (int)(Math.Round(time_pp, n_decimals) * Math.Pow(10, n_decimals));
                 result[0] = simulation_success;
-                result[1] = single_fitness;
-                result[2] = execution_time;
+                result[1] = collision_check;
+                result[2] = single_fitness;
+                result[3] = execution_time;
                                                        
                 // Send the first array back to the client
                 string result_vec = string.Join(",", result);
@@ -635,6 +641,47 @@ class Program
 
     // Define a method to display the value of the determinant during the simulation
     private static void player_TimeIntervalReached(object sender, TxSimulationPlayer_TimeIntervalReachedEventArgs args)
+    {
+
+        // Set some parameters for the collision check
+        TxCollisionQueryParams collisionQueryParams = new TxCollisionQueryParams
+        {
+            UseNearMiss = false,
+            UseAllowedPenetration = false
+        };
+
+        // Create a new context
+        TxCollisionQueryResults results =
+        TxApplication.ActiveDocument.CollisionRoot.GetCollidingObjects(collisionQueryParams, new
+        TxCollisionQueryContext());
+
+        // Analyze all the states
+        foreach (TxCollisionState state in results.States)
+        {
+            switch (state.Type)
+            {
+                case TxCollisionState.TxCollisionStateType.Collision:
+
+                    // Display a message on the screen: the time instant at which a possible collision happens
+                    if (collision_flag < 1) // 'flag' has not been incremented yet
+                    {
+
+      					// display the time instant
+                        m_output.Write("A collision happened at: " + args.CurrentTime.ToString() + " seconds" + m_output.NewLine);
+
+                        // Increase the counter to avoid displaying all the collisions
+                        collision_flag++;
+                    }
+                    
+
+                    break;
+
+            }
+        }
+    }
+
+    // Define a method to display the value of the determinant during the simulation
+    private static void player_ComputeJacobian(object sender, TxSimulationPlayer_TimeIntervalReachedEventArgs args)
     {
         // Get transformation frames
         TxFrame DH0 = TxApplication.ActiveDocument.GetObjectsByName("BASEFRAME")[0] as TxFrame;

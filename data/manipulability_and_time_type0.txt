@@ -1,0 +1,2004 @@
+Upper and lower bounds for the problem
+Iteration 0; Item picked: Base position: -543.4233654804352 mm; Feasibility: NO! 
+Iteration 1; Item picked: Base position: 1306.8037125442424 mm; Feasibility: NO! 
+Iteration: 2;  Base position: -543.4233654804352 mm; Feasibility: YES!;Manipulability: 6.595435958316845; Execution time: 9.02641 
+Iteration 3; Item picked: Base position: -240.87457431531516 mm; Feasibility: NO! 
+Iteration: 4;  Base position: 1306.8037125442424 mm; Feasibility: YES!;Manipulability: 7.690532953933707; Execution time: 9.51702 
+Iteration 5; Item picked: Base position: 1298.1834850678629 mm; Feasibility: NO! 
+Iteration: 6;  Base position: -240.87457431531516 mm; Feasibility: YES!;Manipulability: 8.79043600562588; Execution time: 9.17788 
+Iteration 7; Item picked: Base position: 446.6374109862413 mm; Feasibility: NO! 
+Iteration: 8;  Base position: 1298.1834850678629 mm; Feasibility: YES!;Manipulability: 7.049203440011278; Execution time: 9.31174 
+Iteration 9; Item picked: Base position: 968.1789830332555 mm; Feasibility: NO! 
+Iteration 10; Item picked: Base position: -27.646354394035598 mm; Feasibility: NO! 
+Iteration: 11;  Base position: 446.6374109862413 mm; Feasibility: YES!;Manipulability: 4.855547462976451; Execution time: 8.50695 
+Iteration 12; Item picked: Base position: 1052.4797159368977 mm; Feasibility: NO! 
+Iteration 13; Item picked: Base position: 354.69996675562106 mm; Feasibility: NO! 
+Iteration 14; Item picked: Base position: -1048.3593181005044 mm; Feasibility: NO! 
+Iteration 15; Item picked: Base position: 1026.931224371945 mm; Feasibility: NO! 
+Iteration: 16;  Base position: 968.1789830332555 mm; Feasibility: YES!;Manipulability: 5.780680964217584; Execution time: 9.0763 
+Iteration 17; Item picked: Base position: 237.2966358667593 mm; Feasibility: NO! 
+Iteration 18; Item picked: Base position: -856.0368973344874 mm; Feasibility: NO! 
+Iteration: 19;  Base position: -27.646354394035598 mm; Feasibility: YES!;Manipulability: 8.692628650904034; Execution time: 9.22747 
+Iteration 20; Item picked: Base position: -938.790573430398 mm; Feasibility: NO! 
+Iteration: 21;  Base position: 1052.4797159368977 mm; Feasibility: YES!;Manipulability: 10.979358805445763; Execution time: 10.00479 
+Iteration 22; Item picked: Base position: 439.47051169501174 mm; Feasibility: NO! 
+Iteration: 23;  Base position: 354.69996675562106 mm; Feasibility: YES!;Manipulability: 7.630675314765357; Execution time: 9.32156 
+Iteration 24; Item picked: Base position: 495.4803823971308 mm; Feasibility: NO! 
+Iteration 25; Item picked: Base position: -135.0915347699049 mm; Feasibility: NO! 
+Iteration 26; Item picked: Base position: -1156.4155922392958 mm; Feasibility: NO! 
+Iteration 27; Item picked: Base position: -777.3169026588419 mm; Feasibility: NO! 
+Iteration 28; Item picked: Base position: 115.7641389573464 mm; Feasibility: NO! 
+Iteration 29; Item picked: Base position: 1087.7399997037687 mm; Feasibility: NO! 
+Iteration 30; Item picked: Base position: -626.3768724815213 mm; Feasibility: NO! 
+Iteration 31; Item picked: Base position: 631.8035775127205 mm; Feasibility: NO! 
+Iteration 32; Item picked: Base position: 251.39972453216 mm; Feasibility: NO! 
+Iteration: 33;  Base position: -1048.3593181005044 mm; Feasibility: YES!;Manipulability: 8.75733426744899; Execution time: 9.19961 
+Iteration 34; Item picked: Base position: -1126.4033545194277 mm; Feasibility: NO! 
+Iteration 35; Item picked: Base position: 947.7474110677326 mm; Feasibility: NO! 
+Iteration 36; Item picked: Base position: -1034.7461292671446 mm; Feasibility: NO! 
+Iteration: 37;  Base position: 1026.931224371945 mm; Feasibility: YES!;Manipulability: 8.771929824561402; Execution time: 9.18937 
+Iteration: 38;  Base position: 237.2966358667593 mm; Feasibility: YES!;Manipulability: 5.729345708720064; Execution time: 9.12349 
+Iteration 39; Item picked: Base position: -826.2949205385518 mm; Feasibility: NO! 
+Iteration 40; Item picked: Base position: -1335.5592799951212 mm; Feasibility: NO! 
+Iteration: 41;  Base position: -856.0368973344874 mm; Feasibility: YES!;Manipulability: 8.93814801573114; Execution time: 9.09234 
+Iteration 42; Item picked: Base position: -1027.9919961073008 mm; Feasibility: NO! 
+Iteration 43; Item picked: Base position: -1364.614863227827 mm; Feasibility: NO! 
+Iteration 44; Item picked: Base position: -1209.9868218327395 mm; Feasibility: NO! 
+Iteration 45; Item picked: Base position: -1089.7333978855713 mm; Feasibility: NO! 
+Iteration 46; Item picked: Base position: 31.266217900349147 mm; Feasibility: NO! 
+Iteration 47; Item picked: Base position: 630.7563635995389 mm; Feasibility: NO! 
+Iteration 48; Item picked: Base position: 745.984240413185 mm; Feasibility: NO! 
+Iteration: 49;  Base position: -938.790573430398 mm; Feasibility: YES!;Manipulability: 8.459521191100585; Execution time: 9.68211 
+Iteration 50; Item picked: Base position: 741.2021410850411 mm; Feasibility: NO! 
+Iteration 51; Item picked: Base position: 3.940680922719821 mm; Feasibility: NO! 
+Iteration 52; Item picked: Base position: 42.49683724269721 mm; Feasibility: NO! 
+Iteration 53; Item picked: Base position: 895.9604867868316 mm; Feasibility: NO! 
+Iteration 54; Item picked: Base position: -120.80161673641965 mm; Feasibility: NO! 
+Iteration 55; Item picked: Base position: -206.24649814684358 mm; Feasibility: NO! 
+Iteration: 56;  Base position: 439.47051169501174 mm; Feasibility: YES!;Manipulability: 5.357334190506804; Execution time: 9.07141 
+Iteration 57; Item picked: Base position: 1223.5233487147643 mm; Feasibility: NO! 
+Iteration 58; Item picked: Base position: -402.5864641188616 mm; Feasibility: NO! 
+Iteration: 59;  Base position: 495.4803823971308 mm; Feasibility: YES!;Manipulability: 8.23113013416742; Execution time: 9.03309 
+Iteration 60; Item picked: Base position: -855.1931695033684 mm; Feasibility: NO! 
+Iteration 61; Item picked: Base position: -1028.7646088123029 mm; Feasibility: NO! 
+Iteration 62; Item picked: Base position: -1316.1489400263367 mm; Feasibility: NO! 
+Iteration 63; Item picked: Base position: -1172.3533863925932 mm; Feasibility: NO! 
+Iteration: 64;  Base position: -135.0915347699049 mm; Feasibility: YES!;Manipulability: 6.923769300006923; Execution time: 9.20332 
+Iteration 65; Item picked: Base position: -282.2216825465837 mm; Feasibility: NO! 
+Iteration 66; Item picked: Base position: 383.3545811507927 mm; Feasibility: NO! 
+Iteration 67; Item picked: Base position: -154.34186687881743 mm; Feasibility: NO! 
+Iteration 68; Item picked: Base position: -1138.2884871243318 mm; Feasibility: NO! 
+Iteration 69; Item picked: Base position: -413.12613098037355 mm; Feasibility: NO! 
+Iteration: 70;  Base position: -1156.4155922392958 mm; Feasibility: YES!;Manipulability: 8.373105584861426; Execution time: 9.28104 
+Iteration 71; Item picked: Base position: -713.5986535123403 mm; Feasibility: NO! 
+Iteration: 72;  Base position: -777.3169026588419 mm; Feasibility: YES!;Manipulability: 7.099751508697196; Execution time: 9.13106 
+Iteration: 73;  Base position: 115.7641389573464 mm; Feasibility: YES!;Manipulability: 5.665401393688743; Execution time: 9.2753 
+Iteration 74; Item picked: Base position: 1210.3825988551607 mm; Feasibility: NO! 
+Iteration: 75;  Base position: 1087.7399997037687 mm; Feasibility: YES!;Manipulability: 6.351222610352493; Execution time: 9.08099 
+Iteration 76; Item picked: Base position: -1341.0180882109132 mm; Feasibility: NO! 
+Iteration 77; Item picked: Base position: -170.2518463114111 mm; Feasibility: NO! 
+Iteration 78; Item picked: Base position: 614.7167414057058 mm; Feasibility: NO! 
+Iteration 79; Item picked: Base position: -992.7708000499456 mm; Feasibility: NO! 
+Iteration 80; Item picked: Base position: -342.26844801007906 mm; Feasibility: NO! 
+Iteration: 81;  Base position: -626.3768724815213 mm; Feasibility: YES!;Manipulability: 8.67227473766369; Execution time: 9.80226 
+Iteration: 82;  Base position: 631.8035775127205 mm; Feasibility: YES!;Manipulability: 7.293946024799417; Execution time: 9.09031 
+Iteration 83; Item picked: Base position: 1137.995672553881 mm; Feasibility: NO! 
+Iteration 84; Item picked: Base position: -1034.1572270053225 mm; Feasibility: NO! 
+Iteration 85; Item picked: Base position: -674.8498266143355 mm; Feasibility: NO! 
+Iteration 86; Item picked: Base position: -1348.536828468372 mm; Feasibility: NO! 
+Iteration 87; Item picked: Base position: 57.97227880828609 mm; Feasibility: NO! 
+Iteration: 88;  Base position: 251.39972453216 mm; Feasibility: YES!;Manipulability: 4.381928925112835; Execution time: 8.55568 
+Iteration 89; Item picked: Base position: -941.2924019679983 mm; Feasibility: NO! 
+Iteration: 90;  Base position: -1126.4033545194277 mm; Feasibility: YES!;Manipulability: 8.881783462119193; Execution time: 9.08122 
+Iteration: 91;  Base position: 947.7474110677326 mm; Feasibility: YES!;Manipulability: 8.302889405513119; Execution time: 8.99464 
+Iteration 92; Item picked: Base position: -444.247483926144 mm; Feasibility: NO! 
+Iteration 93; Item picked: Base position: 1304.8383515955966 mm; Feasibility: NO! 
+Iteration 94; Item picked: Base position: 938.9293231551746 mm; Feasibility: NO! 
+Iteration 95; Item picked: Base position: -886.1013293297176 mm; Feasibility: NO! 
+Iteration 96; Item picked: Base position: 257.6063532065532 mm; Feasibility: NO! 
+Iteration 97; Item picked: Base position: -1462.2645214285083 mm; Feasibility: NO! 
+Iteration 98; Item picked: Base position: -327.7321075035384 mm; Feasibility: NO! 
+Iteration 99; Item picked: Base position: 218.397397990198 mm; Feasibility: NO! 
+Iteration 100; Item picked: Base position: 1223.5994334504858 mm; Feasibility: NO! 
+Iteration 101; Item picked: Base position: -287.7646457088513 mm; Feasibility: NO! 
+Iteration 102; Item picked: Base position: 1351.0353292456975 mm; Feasibility: NO! 
+Iteration 103; Item picked: Base position: -527.9219914512003 mm; Feasibility: NO! 
+Iteration: 104;  Base position: -1034.7461292671446 mm; Feasibility: YES!;Manipulability: 6.971556051310652; Execution time: 9.30045 
+Iteration 105; Item picked: Base position: 1185.749317896701 mm; Feasibility: NO! 
+Iteration 106; Item picked: Base position: -1400.3614920012883 mm; Feasibility: NO! 
+Iteration: 107;  Base position: -826.2949205385518 mm; Feasibility: YES!;Manipulability: 9.048136083966703; Execution time: 9.23223 
+Iteration: 108;  Base position: -1335.5592799951212 mm; Feasibility: YES!;Manipulability: 8.41892574507493; Execution time: 9.26437 
+Iteration 109; Item picked: Base position: 1128.2580535623015 mm; Feasibility: NO! 
+Iteration: 110;  Base position: -1027.9919961073008 mm; Feasibility: YES!;Manipulability: 9.169264624977076; Execution time: 9.15035 
+Iteration: 111;  Base position: -1364.614863227827 mm; Feasibility: YES!;Manipulability: 8.359806052499582; Execution time: 9.30062 
+Iteration 112; Item picked: Base position: 395.8687658817398 mm; Feasibility: NO! 
+Iteration 113; Item picked: Base position: -274.54325034159115 mm; Feasibility: NO! 
+Iteration 114; Item picked: Base position: 474.5919860717554 mm; Feasibility: NO! 
+Iteration: 115;  Base position: -1209.9868218327395 mm; Feasibility: YES!;Manipulability: 6.932889628397116; Execution time: 9.21767 
+Iteration 116; Item picked: Base position: -1036.6182313920428 mm; Feasibility: NO! 
+Iteration 117; Item picked: Base position: -1356.4641482835668 mm; Feasibility: NO! 
+Iteration 118; Item picked: Base position: -1129.8518116565047 mm; Feasibility: NO! 
+Iteration 119; Item picked: Base position: -661.2861208715742 mm; Feasibility: NO! 
+Iteration 120; Item picked: Base position: 175.86363963300278 mm; Feasibility: NO! 
+Iteration 121; Item picked: Base position: 597.6632355230336 mm; Feasibility: NO! 
+Iteration 122; Item picked: Base position: -452.1535810714529 mm; Feasibility: NO! 
+Iteration 123; Item picked: Base position: -418.48458648173846 mm; Feasibility: NO! 
+Iteration 124; Item picked: Base position: -661.0792675238629 mm; Feasibility: NO! 
+Iteration: 125;  Base position: -1089.7333978855713 mm; Feasibility: YES!;Manipulability: 4.609994468006638; Execution time: 8.51366 
+Iteration 126; Item picked: Base position: 1184.7748344693005 mm; Feasibility: NO! 
+Iteration 127; Item picked: Base position: 330.2650412966984 mm; Feasibility: NO! 
+Iteration 128; Item picked: Base position: 1036.332750129462 mm; Feasibility: NO! 
+Iteration: 129;  Base position: 31.266217900349147 mm; Feasibility: YES!;Manipulability: 8.902341315766046; Execution time: 9.04784 
+Iteration 130; Item picked: Base position: 1330.8875120785851 mm; Feasibility: NO! 
+Iteration 131; Item picked: Base position: 522.6051718472002 mm; Feasibility: NO! 
+Iteration 132; Item picked: Base position: 927.1300860478887 mm; Feasibility: NO! 
+Iteration 133; Item picked: Base position: -111.06241387595355 mm; Feasibility: NO! 
+Iteration 134; Item picked: Base position: -692.3811173827615 mm; Feasibility: NO! 
+Iteration 135; Item picked: Base position: -469.69346028807854 mm; Feasibility: NO! 
+Iteration 136; Item picked: Base position: 562.4509706690587 mm; Feasibility: NO! 
+Iteration 137; Item picked: Base position: -906.2937102633722 mm; Feasibility: NO! 
+Iteration 138; Item picked: Base position: 171.89803011168465 mm; Feasibility: NO! 
+Iteration: 139;  Base position: 630.7563635995389 mm; Feasibility: YES!;Manipulability: 4.735296903115826; Execution time: 8.56687 
+Iteration 140; Item picked: Base position: -1184.5534578344932 mm; Feasibility: NO! 
+Iteration: 141;  Base position: 745.984240413185 mm; Feasibility: YES!;Manipulability: 5.2938062466913705; Execution time: 9.14465 
+Iteration 142; Item picked: Base position: 121.68972025726248 mm; Feasibility: NO! 
+Iteration 143; Item picked: Base position: -544.7253344711872 mm; Feasibility: NO! 
+Iteration 144; Item picked: Base position: 231.54828569599272 mm; Feasibility: NO! 
+Iteration 145; Item picked: Base position: -553.7995534900602 mm; Feasibility: NO! 
+Iteration 146; Item picked: Base position: -507.39399433678034 mm; Feasibility: NO! 
+Iteration 147; Item picked: Base position: 289.7610027853616 mm; Feasibility: NO! 
+Iteration 148; Item picked: Base position: -1128.468430375919 mm; Feasibility: NO! 
+Iteration 149; Item picked: Base position: 615.7071530726835 mm; Feasibility: NO! 
+Iteration 150; Item picked: Base position: 959.8857685225394 mm; Feasibility: NO! 
+Iteration: 151;  Base position: 741.2021410850411 mm; Feasibility: YES!;Manipulability: 4.812551133355792; Execution time: 8.49728 
+Iteration 152; Item picked: Base position: 78.1045315536137 mm; Feasibility: NO! 
+Iteration 153; Item picked: Base position: -1441.3980996616249 mm; Feasibility: NO! 
+Iteration 154; Item picked: Base position: -957.1546247519473 mm; Feasibility: NO! 
+Iteration 155; Item picked: Base position: 1335.91291743506 mm; Feasibility: NO! 
+Iteration 156; Item picked: Base position: -1290.289801161186 mm; Feasibility: NO! 
+Iteration 157; Item picked: Base position: -1476.0028044332319 mm; Feasibility: NO! 
+Iteration 158; Item picked: Base position: 1076.7320952477767 mm; Feasibility: NO! 
+Iteration 159; Item picked: Base position: 1044.6666186142506 mm; Feasibility: NO! 
+Iteration 160; Item picked: Base position: 1275.3740980976695 mm; Feasibility: NO! 
+Iteration 161; Item picked: Base position: 1279.6434953226817 mm; Feasibility: NO! 
+Iteration 162; Item picked: Base position: 223.75604279932418 mm; Feasibility: NO! 
+Iteration 163; Item picked: Base position: 1302.7222004058162 mm; Feasibility: NO! 
+Iteration 164; Item picked: Base position: -541.4480100369507 mm; Feasibility: NO! 
+Iteration: 165;  Base position: 3.940680922719821 mm; Feasibility: YES!;Manipulability: 7.7363453504564434; Execution time: 9.36187 
+Iteration 166; Item picked: Base position: -981.1041810683088 mm; Feasibility: NO! 
+Iteration: 167;  Base position: 42.49683724269721 mm; Feasibility: YES!;Manipulability: 5.724098454493418; Execution time: 9.12044 
+Iteration 168; Item picked: Base position: -272.74307871175506 mm; Feasibility: NO! 
+Iteration: 169;  Base position: 895.9604867868316 mm; Feasibility: YES!;Manipulability: 7.632422530911311; Execution time: 9.25707 
+Iteration: 170;  Base position: -120.80161673641965 mm; Feasibility: YES!;Manipulability: 8.00384184408516; Execution time: 9.11106 
+Iteration 171; Item picked: Base position: 490.34043594473087 mm; Feasibility: NO! 
+Iteration 172; Item picked: Base position: -594.0678126255691 mm; Feasibility: NO! 
+Iteration: 173;  Base position: -206.24649814684358 mm; Feasibility: YES!;Manipulability: 8.91583452211127; Execution time: 9.05531 
+Iteration 174; Item picked: Base position: 1403.7216028200446 mm; Feasibility: NO! 
+Iteration 175; Item picked: Base position: 791.4132682087943 mm; Feasibility: NO! 
+Iteration 176; Item picked: Base position: 62.57985984941047 mm; Feasibility: NO! 
+Iteration: 177;  Base position: 1223.5233487147643 mm; Feasibility: YES!;Manipulability: 5.72442612628084; Execution time: 9.06026 
+Iteration: 178;  Base position: -402.5864641188616 mm; Feasibility: YES!;Manipulability: 6.512960791976032; Execution time: 9.17528 
+Iteration 179; Item picked: Base position: 22.970577673919706 mm; Feasibility: NO! 
+Iteration 180; Item picked: Base position: -1421.7611076936985 mm; Feasibility: NO! 
+Iteration 181; Item picked: Base position: -1485.1404111256218 mm; Feasibility: NO! 
+Iteration: 182;  Base position: -855.1931695033684 mm; Feasibility: YES!;Manipulability: 8.032773716764398; Execution time: 9.09903 
+Iteration 183; Item picked: Base position: -581.6609665238252 mm; Feasibility: NO! 
+Iteration: 184;  Base position: -1028.7646088123029 mm; Feasibility: YES!;Manipulability: 7.597052343690648; Execution time: 9.29141 
+Iteration: 185;  Base position: -1316.1489400263367 mm; Feasibility: YES!;Manipulability: 9.40114693992667; Execution time: 9.21992 
+Iteration 186; Item picked: Base position: 266.99635813218356 mm; Feasibility: NO! 
+Iteration 187; Item picked: Base position: 1440.1122950775712 mm; Feasibility: NO! 
+Iteration: 188;  Base position: -1172.3533863925932 mm; Feasibility: YES!;Manipulability: 8.278145695364238; Execution time: 8.98725 
+Iteration: 189;  Base position: -282.2216825465837 mm; Feasibility: YES!;Manipulability: 6.576351440220965; Execution time: 9.19177 
+Iteration 190; Item picked: Base position: 86.95717564286497 mm; Feasibility: NO! 
+Iteration 191; Item picked: Base position: 637.0038678584078 mm; Feasibility: NO! 
+Iteration: 192;  Base position: 383.3545811507927 mm; Feasibility: YES!;Manipulability: 7.8462142016477046; Execution time: 9.15251 
+Iteration 193; Item picked: Base position: -151.0260757119736 mm; Feasibility: NO! 
+Iteration 194; Item picked: Base position: 851.294792918598 mm; Feasibility: NO! 
+Iteration: 195;  Base position: -154.34186687881743 mm; Feasibility: YES!;Manipulability: 7.7441338186323865; Execution time: 9.21031 
+Iteration: 196;  Base position: -1138.2884871243318 mm; Feasibility: YES!;Manipulability: 7.602828252109784; Execution time: 9.28414 
+Iteration 197; Item picked: Base position: 453.23649042175566 mm; Feasibility: NO! 
+Iteration 198; Item picked: Base position: -660.9145153585906 mm; Feasibility: NO! 
+Iteration 199; Item picked: Base position: 730.3075915955046 mm; Feasibility: NO! 
+Iteration 200; Item picked: Base position: 1333.369089473481 mm; Feasibility: NO! 
+Iteration 201; Item picked: Base position: 36.929694533338534 mm; Feasibility: NO! 
+Iteration 202; Item picked: Base position: 672.3889729055818 mm; Feasibility: NO! 
+Iteration 203; Item picked: Base position: 276.3294041848285 mm; Feasibility: NO! 
+Iteration 204; Item picked: Base position: -418.3950557264013 mm; Feasibility: NO! 
+Iteration 205; Item picked: Base position: 352.50459671681756 mm; Feasibility: NO! 
+Iteration 206; Item picked: Base position: 521.657532402882 mm; Feasibility: NO! 
+Iteration 207; Item picked: Base position: 894.0816135124155 mm; Feasibility: NO! 
+Iteration 208; Item picked: Base position: 943.2247656085774 mm; Feasibility: NO! 
+Iteration 209; Item picked: Base position: -1438.4014515055005 mm; Feasibility: NO! 
+Iteration 210; Item picked: Base position: -1342.9038177805674 mm; Feasibility: NO! 
+Iteration: 211;  Base position: -413.12613098037355 mm; Feasibility: YES!;Manipulability: 8.540438978563499; Execution time: 9.24466 
+Iteration: 212;  Base position: -713.5986535123403 mm; Feasibility: YES!;Manipulability: 4.7614512903533; Execution time: 8.57229 
+Iteration: 213;  Base position: 1210.3825988551607 mm; Feasibility: YES!;Manipulability: 7.707129094412331; Execution time: 9.22461 
+Iteration 214; Item picked: Base position: 1016.0240164009078 mm; Feasibility: NO! 
+Iteration 215; Item picked: Base position: 1188.1680034536662 mm; Feasibility: NO! 
+Iteration: 216;  Base position: -1341.0180882109132 mm; Feasibility: YES!;Manipulability: 6.177033788374822; Execution time: 9.26229 
+Iteration 217; Item picked: Base position: -322.6578736048318 mm; Feasibility: NO! 
+Iteration 218; Item picked: Base position: -301.0011245296912 mm; Feasibility: NO! 
+Iteration 219; Item picked: Base position: 710.5479743734759 mm; Feasibility: NO! 
+Iteration 220; Item picked: Base position: -462.2410697068274 mm; Feasibility: NO! 
+Iteration 221; Item picked: Base position: 299.72361954654934 mm; Feasibility: NO! 
+Iteration 222; Item picked: Base position: 743.7863564640775 mm; Feasibility: NO! 
+Iteration: 223;  Base position: -170.2518463114111 mm; Feasibility: YES!;Manipulability: 7.674008134448622; Execution time: 9.23387 
+Iteration: 224;  Base position: 614.7167414057058 mm; Feasibility: YES!;Manipulability: 8.649022660439371; Execution time: 9.49762 
+Iteration 225; Item picked: Base position: 31.74054147726224 mm; Feasibility: NO! 
+Iteration 226; Item picked: Base position: 651.2541245201965 mm; Feasibility: NO! 
+Iteration 227; Item picked: Base position: 171.57794905319088 mm; Feasibility: NO! 
+Iteration 228; Item picked: Base position: -201.26899788750438 mm; Feasibility: NO! 
+Iteration: 229;  Base position: -992.7708000499456 mm; Feasibility: YES!;Manipulability: 6.899406651028011; Execution time: 9.18079 
+Iteration: 230;  Base position: -342.26844801007906 mm; Feasibility: YES!;Manipulability: 8.81678716275789; Execution time: 9.16344 
+Iteration 231; Item picked: Base position: 654.7481646247902 mm; Feasibility: NO! 
+Iteration 232; Item picked: Base position: -1003.1682379750266 mm; Feasibility: NO! 
+Iteration 233; Item picked: Base position: -262.3117860318223 mm; Feasibility: NO! 
+Iteration: 234;  Base position: 1137.995672553881 mm; Feasibility: YES!;Manipulability: 6.245316012990257; Execution time: 9.09329 
+Iteration: 235;  Base position: -1034.1572270053225 mm; Feasibility: YES!;Manipulability: 8.85269121813031; Execution time: 9.14418 
+Iteration 236; Item picked: Base position: -1468.744324073242 mm; Feasibility: NO! 
+Iteration 237; Item picked: Base position: 41.23677756444931 mm; Feasibility: NO! 
+Iteration 238; Item picked: Base position: 1166.0406170532797 mm; Feasibility: NO! 
+Iteration: 239;  Base position: -674.8498266143355 mm; Feasibility: YES!;Manipulability: 6.6229551625935486; Execution time: 9.3023 
+Iteration 240; Item picked: Base position: -269.15104530309804 mm; Feasibility: NO! 
+Iteration: 241;  Base position: -1348.536828468372 mm; Feasibility: YES!;Manipulability: 7.6347533974652615; Execution time: 9.25555 
+Iteration 242; Item picked: Base position: 203.7002261524833 mm; Feasibility: NO! 
+Iteration 243; Item picked: Base position: 502.3830142261311 mm; Feasibility: NO! 
+Iteration 244; Item picked: Base position: 658.392921525252 mm; Feasibility: NO! 
+Iteration 245; Item picked: Base position: -1163.1856210788396 mm; Feasibility: NO! 
+Iteration 246; Item picked: Base position: -227.97920954050164 mm; Feasibility: NO! 
+Iteration: 247;  Base position: 57.97227880828609 mm; Feasibility: YES!;Manipulability: 7.970032677133976; Execution time: 9.11944 
+Iteration 248; Item picked: Base position: 448.79685573778465 mm; Feasibility: NO! 
+Iteration 249; Item picked: Base position: 214.8407904137514 mm; Feasibility: NO! 
+Iteration 250; Item picked: Base position: -532.3331796834877 mm; Feasibility: NO! 
+Iteration 251; Item picked: Base position: 1191.2489370590138 mm; Feasibility: NO! 
+Iteration: 252;  Base position: -941.2924019679983 mm; Feasibility: YES!;Manipulability: 6.402458544080927; Execution time: 9.25553 
+Iteration: 253;  Base position: -444.247483926144 mm; Feasibility: YES!;Manipulability: 10.11326860841424; Execution time: 9.59385 
+Iteration: 254;  Base position: 1304.8383515955966 mm; Feasibility: YES!;Manipulability: 8.720676724513822; Execution time: 9.22364 
+Iteration 255; Item picked: Base position: -1102.3646994254536 mm; Feasibility: NO! 
+Iteration 256; Item picked: Base position: -401.05749118792437 mm; Feasibility: NO! 
+Iteration: 257;  Base position: 938.9293231551746 mm; Feasibility: YES!;Manipulability: 8.149959250203748; Execution time: 9.07229 
+Iteration 258; Item picked: Base position: 229.045234148816 mm; Feasibility: NO! 
+Iteration 259; Item picked: Base position: -656.0018650888517 mm; Feasibility: NO! 
+Iteration 260; Item picked: Base position: 1000.794720144751 mm; Feasibility: NO! 
+Iteration 261; Item picked: Base position: -99.16176518985753 mm; Feasibility: NO! 
+Iteration 262; Item picked: Base position: -332.2806833232935 mm; Feasibility: NO! 
+Iteration: 263;  Base position: -886.1013293297176 mm; Feasibility: YES!;Manipulability: 8.10307106393323; Execution time: 9.40562 
+Iteration: 264;  Base position: 257.6063532065532 mm; Feasibility: YES!;Manipulability: 7.6787222606158325; Execution time: 9.23159 
+Iteration 265; Item picked: Base position: 56.62337468894884 mm; Feasibility: NO! 
+Iteration 266; Item picked: Base position: 69.08815247743405 mm; Feasibility: NO! 
+Iteration 267; Item picked: Base position: 205.74739783516497 mm; Feasibility: NO! 
+Iteration: 268;  Base position: -1462.2645214285083 mm; Feasibility: YES!;Manipulability: 9.68429207824908; Execution time: 9.54883 
+Iteration 269; Item picked: Base position: -909.6255719324553 mm; Feasibility: NO! 
+Iteration 270; Item picked: Base position: 1318.2692245789572 mm; Feasibility: NO! 
+Iteration 271; Item picked: Base position: 814.791344953423 mm; Feasibility: NO! 
+Iteration 272; Item picked: Base position: 880.8784592076263 mm; Feasibility: NO! 
+Iteration: 273;  Base position: -327.7321075035384 mm; Feasibility: YES!;Manipulability: 8.9349535382416; Execution time: 9.0688 
+Iteration 274; Item picked: Base position: -577.3139000522243 mm; Feasibility: NO! 
+Iteration 275; Item picked: Base position: -1133.7198155185713 mm; Feasibility: NO! 
+Iteration 276; Item picked: Base position: -1084.4020542708822 mm; Feasibility: NO! 
+Iteration 277; Item picked: Base position: -738.4828299478262 mm; Feasibility: NO! 
+Iteration: 278;  Base position: 218.397397990198 mm; Feasibility: YES!;Manipulability: 6.181233774261342; Execution time: 9.04374 
+Iteration 279; Item picked: Base position: -724.0441076995527 mm; Feasibility: NO! 
+Iteration 280; Item picked: Base position: 1088.7918495622985 mm; Feasibility: NO! 
+Iteration 281; Item picked: Base position: -1364.667606438575 mm; Feasibility: NO! 
+Iteration 282; Item picked: Base position: 1014.6447186690557 mm; Feasibility: NO! 
+Iteration: 283;  Base position: 1223.5994334504858 mm; Feasibility: YES!;Manipulability: 7.994244144216164; Execution time: 8.97966 
+Iteration 284; Item picked: Base position: 744.2444925911445 mm; Feasibility: NO! 
+Iteration 285; Item picked: Base position: -828.7936980628742 mm; Feasibility: NO! 
+Iteration 286; Item picked: Base position: 177.14443534306952 mm; Feasibility: NO! 
+Iteration 287; Item picked: Base position: 269.7682132613238 mm; Feasibility: NO! 
+Iteration 288; Item picked: Base position: 115.01234388739431 mm; Feasibility: NO! 
+Iteration: 289;  Base position: -287.7646457088513 mm; Feasibility: YES!;Manipulability: 6.442053726728081; Execution time: 9.31619 
+Iteration 290; Item picked: Base position: -1204.5038973789378 mm; Feasibility: NO! 
+Iteration: 291;  Base position: 1351.0353292456975 mm; Feasibility: YES!;Manipulability: 8.41892574507493; Execution time: 9.37496 
+Iteration 292; Item picked: Base position: 582.4016880817776 mm; Feasibility: NO! 
+Iteration 293; Item picked: Base position: 258.06411192860014 mm; Feasibility: NO! 
+Iteration 294; Item picked: Base position: 371.9753554781821 mm; Feasibility: NO! 
+Iteration 295; Item picked: Base position: 64.87308174335385 mm; Feasibility: NO! 
+Iteration 296; Item picked: Base position: 742.7762621208426 mm; Feasibility: NO! 
+Iteration 297; Item picked: Base position: -1083.8734188028718 mm; Feasibility: NO! 
+Iteration 298; Item picked: Base position: -661.8344585712667 mm; Feasibility: NO! 
+Iteration: 299;  Base position: -527.9219914512003 mm; Feasibility: YES!;Manipulability: 7.357810315650062; Execution time: 9.08127 
+Iteration: 300;  Base position: 1185.749317896701 mm; Feasibility: YES!;Manipulability: 7.601672367920942; Execution time: 9.28503 
+Iteration: 301;  Base position: -1400.3614920012883 mm; Feasibility: YES!;Manipulability: 9.872642906506071; Execution time: 9.49056 
+Iteration 302; Item picked: Base position: 1369.962241220242 mm; Feasibility: NO! 
+Iteration 303; Item picked: Base position: 141.61794889356884 mm; Feasibility: NO! 
+Iteration 304; Item picked: Base position: 397.13785532964516 mm; Feasibility: NO! 
+Iteration 305; Item picked: Base position: 468.8616642939228 mm; Feasibility: NO! 
+Iteration 306; Item picked: Base position: 1324.3841406320257 mm; Feasibility: NO! 
+Iteration 307; Item picked: Base position: 971.4496832734562 mm; Feasibility: NO! 
+Iteration 308; Item picked: Base position: -460.9824517765801 mm; Feasibility: NO! 
+Iteration 309; Item picked: Base position: -13.23557999445552 mm; Feasibility: NO! 
+Iteration: 310;  Base position: 1128.2580535623015 mm; Feasibility: YES!;Manipulability: 6.930487213251092; Execution time: 9.16653 
+Iteration 311; Item picked: Base position: -63.920775620029644 mm; Feasibility: NO! 
+Iteration: 312;  Base position: 395.8687658817398 mm; Feasibility: YES!;Manipulability: 6.311139160618492; Execution time: 9.29402 
+Iteration 313; Item picked: Base position: 1333.5464302144583 mm; Feasibility: NO! 
+Iteration 314; Item picked: Base position: -1207.0194520337154 mm; Feasibility: NO! 
+Iteration 315; Item picked: Base position: 764.8121892511303 mm; Feasibility: NO! 
+Iteration 316; Item picked: Base position: -62.54763171102354 mm; Feasibility: NO! 
+Iteration 317; Item picked: Base position: -107.37360942015312 mm; Feasibility: NO! 
+Iteration: 318;  Base position: -274.54325034159115 mm; Feasibility: YES!;Manipulability: 8.411843876177658; Execution time: 9.26712 
+Iteration 319; Item picked: Base position: -1313.2538046176815 mm; Feasibility: NO! 
+Iteration 320; Item picked: Base position: -1299.1708459989795 mm; Feasibility: NO! 
+Iteration 321; Item picked: Base position: 1215.0995799529237 mm; Feasibility: NO! 
+Iteration 322; Item picked: Base position: -359.9393392344116 mm; Feasibility: NO! 
+Iteration 323; Item picked: Base position: -260.6799954248986 mm; Feasibility: NO! 
+Iteration: 324;  Base position: 474.5919860717554 mm; Feasibility: YES!;Manipulability: 5.716899153898925; Execution time: 9.10637 
+Iteration 325; Item picked: Base position: 169.72924838952986 mm; Feasibility: NO! 
+Iteration 326; Item picked: Base position: 529.8382891418987 mm; Feasibility: NO! 
+Iteration 327; Item picked: Base position: -1216.722265843474 mm; Feasibility: NO! 
+Iteration 328; Item picked: Base position: 629.5203611361362 mm; Feasibility: NO! 
+Iteration 329; Item picked: Base position: -671.2683014357326 mm; Feasibility: NO! 
+Iteration 330; Item picked: Base position: -794.8731598335297 mm; Feasibility: NO! 
+Iteration: 331;  Base position: -1036.6182313920428 mm; Feasibility: YES!;Manipulability: 6.982752601075344; Execution time: 9.3094 
+Iteration 332; Item picked: Base position: -182.41984648532434 mm; Feasibility: NO! 
+Iteration 333; Item picked: Base position: 838.5201805643424 mm; Feasibility: NO! 
+Iteration 334; Item picked: Base position: 82.77551471346692 mm; Feasibility: NO! 
+Iteration 335; Item picked: Base position: -443.8528551070899 mm; Feasibility: NO! 
+Iteration: 336;  Base position: -1356.4641482835668 mm; Feasibility: YES!;Manipulability: 6.423432682425488; Execution time: 9.04831 
+Iteration 337; Item picked: Base position: 50.07468652618945 mm; Feasibility: NO! 
+Iteration 338; Item picked: Base position: -346.4950599043516 mm; Feasibility: NO! 
+Iteration 339; Item picked: Base position: -581.6832738594406 mm; Feasibility: NO! 
+Iteration: 340;  Base position: -1129.8518116565047 mm; Feasibility: YES!;Manipulability: 6.019382411364594; Execution time: 9.21674 
+Iteration 341; Item picked: Base position: 102.04304748745017 mm; Feasibility: NO! 
+Iteration 342; Item picked: Base position: -1449.2864124961752 mm; Feasibility: NO! 
+Iteration: 343;  Base position: -661.2861208715742 mm; Feasibility: YES!;Manipulability: 5.752416014726185; Execution time: 9.08131 
+Iteration 344; Item picked: Base position: -598.6457512748286 mm; Feasibility: NO! 
+Iteration 345; Item picked: Base position: -279.2477004024511 mm; Feasibility: NO! 
+Iteration 346; Item picked: Base position: 1421.2528826087582 mm; Feasibility: NO! 
+Iteration 347; Item picked: Base position: 421.207932108696 mm; Feasibility: NO! 
+Iteration 348; Item picked: Base position: 1443.0918368788512 mm; Feasibility: NO! 
+Iteration: 349;  Base position: 175.86363963300278 mm; Feasibility: YES!;Manipulability: 4.588629376405268; Execution time: 8.5219 
+Iteration 350; Item picked: Base position: 897.6020648943004 mm; Feasibility: NO! 
+Iteration: 351;  Base position: 597.6632355230336 mm; Feasibility: YES!;Manipulability: 5.732301519059903; Execution time: 9.08578 
+Iteration 352; Item picked: Base position: 853.3588988614106 mm; Feasibility: NO! 
+Iteration 353; Item picked: Base position: -381.96310778787733 mm; Feasibility: NO! 
+Iteration 354; Item picked: Base position: 138.99836490625603 mm; Feasibility: NO! 
+Iteration 355; Item picked: Base position: -938.718548033962 mm; Feasibility: NO! 
+Iteration 356; Item picked: Base position: -65.36289036715016 mm; Feasibility: NO! 
+Iteration 357; Item picked: Base position: -894.7945351421521 mm; Feasibility: NO! 
+Iteration 358; Item picked: Base position: -602.3044133976996 mm; Feasibility: NO! 
+Iteration 359; Item picked: Base position: -1157.089194875191 mm; Feasibility: NO! 
+Iteration: 360;  Base position: -452.1535810714529 mm; Feasibility: YES!;Manipulability: 7.462686567164178; Execution time: 9.06706 
+Iteration: 361;  Base position: -418.48458648173846 mm; Feasibility: YES!;Manipulability: 6.899406651028011; Execution time: 9.08386 
+Iteration 362; Item picked: Base position: 1341.4193300256375 mm; Feasibility: NO! 
+Iteration 363; Item picked: Base position: -578.7513853433106 mm; Feasibility: NO! 
+Iteration 364; Item picked: Base position: -1421.2348721250612 mm; Feasibility: NO! 
+Iteration 365; Item picked: Base position: -243.41805669769633 mm; Feasibility: NO! 
+Iteration 366; Item picked: Base position: 511.09350145305734 mm; Feasibility: NO! 
+Iteration 367; Item picked: Base position: -1498.0521979625776 mm; Feasibility: NO! 
+Iteration 368; Item picked: Base position: 66.57043455209487 mm; Feasibility: NO! 
+Iteration: 369;  Base position: -661.0792675238629 mm; Feasibility: YES!;Manipulability: 6.271951831409935; Execution time: 9.11488 
+Iteration 370; Item picked: Base position: -926.4358165971516 mm; Feasibility: NO! 
+Iteration 371; Item picked: Base position: -258.30430058898037 mm; Feasibility: NO! 
+Iteration: 372;  Base position: 1184.7748344693005 mm; Feasibility: YES!;Manipulability: 7.641754546843955; Execution time: 9.25168 
+Iteration 373; Item picked: Base position: 1204.5566197975481 mm; Feasibility: NO! 
+Iteration 374; Item picked: Base position: 1138.1665674469923 mm; Feasibility: NO! 
+Iteration 375; Item picked: Base position: 1164.1657020028115 mm; Feasibility: NO! 
+Iteration 376; Item picked: Base position: -1218.4704294671606 mm; Feasibility: NO! 
+Iteration 377; Item picked: Base position: -477.7471735686174 mm; Feasibility: NO! 
+Iteration 378; Item picked: Base position: -462.1435400620305 mm; Feasibility: NO! 
+Iteration 379; Item picked: Base position: 627.0927524167728 mm; Feasibility: NO! 
+Iteration 380; Item picked: Base position: 420.55124590351693 mm; Feasibility: NO! 
+Iteration: 381;  Base position: 330.2650412966984 mm; Feasibility: YES!;Manipulability: 6.942034015966677; Execution time: 9.16263 
+Iteration 382; Item picked: Base position: 1471.322805123812 mm; Feasibility: NO! 
+Iteration: 383;  Base position: 1036.332750129462 mm; Feasibility: YES!;Manipulability: 7.4079561448996225; Execution time: 9.07431 
+Iteration: 384;  Base position: 1330.8875120785851 mm; Feasibility: YES!;Manipulability: 6.4053292339226235; Execution time: 9.15783 
+Iteration 385; Item picked: Base position: -979.031273465825 mm; Feasibility: NO! 
+Iteration 386; Item picked: Base position: 304.24785263279205 mm; Feasibility: NO! 
+Iteration: 387;  Base position: 522.6051718472002 mm; Feasibility: YES!;Manipulability: 8.861320336730172; Execution time: 9.14004 
+Iteration 388; Item picked: Base position: -356.174181681366 mm; Feasibility: NO! 
+Iteration: 389;  Base position: 927.1300860478887 mm; Feasibility: YES!;Manipulability: 7.669299792928905; Execution time: 9.38512 
+Iteration 390; Item picked: Base position: 352.0197125209411 mm; Feasibility: NO! 
+Iteration: 391;  Base position: -111.06241387595355 mm; Feasibility: YES!;Manipulability: 9.527439024390244; Execution time: 10.95532 
+Iteration 392; Item picked: Base position: 568.5755925925805 mm; Feasibility: NO! 
+Iteration 393; Item picked: Base position: -812.0995297369543 mm; Feasibility: NO! 
+Iteration: 394;  Base position: -692.3811173827615 mm; Feasibility: YES!;Manipulability: 7.261636772928618; Execution time: 9.37799 
+Iteration: 395;  Base position: -469.69346028807854 mm; Feasibility: YES!;Manipulability: 4.430856484558465; Execution time: 8.53687 
+Iteration 396; Item picked: Base position: 837.5009042019833 mm; Feasibility: NO! 
+Iteration 397; Item picked: Base position: 849.489937300059 mm; Feasibility: NO! 
+Iteration 398; Item picked: Base position: -530.0508614102027 mm; Feasibility: NO! 
+Iteration: 399;  Base position: 562.4509706690587 mm; Feasibility: YES!;Manipulability: 6.45244547683572; Execution time: 9.52359 
+Iteration 400; Item picked: Base position: 504.587385096444 mm; Feasibility: NO! 
+Iteration 401; Item picked: Base position: 635.3653183953747 mm; Feasibility: NO! 
+Iteration 402; Item picked: Base position: -296.615361525098 mm; Feasibility: NO! 
+Iteration 403; Item picked: Base position: 206.15088102236564 mm; Feasibility: NO! 
+Iteration 404; Item picked: Base position: -569.3689353153723 mm; Feasibility: NO! 
+Iteration 405; Item picked: Base position: 1107.1676033714557 mm; Feasibility: NO! 
+Iteration 406; Item picked: Base position: 1077.7271127250992 mm; Feasibility: NO! 
+Iteration 407; Item picked: Base position: 121.04588949204026 mm; Feasibility: NO! 
+Iteration: 408;  Base position: -906.2937102633722 mm; Feasibility: YES!;Manipulability: 8.837044892188052; Execution time: 9.07175 
+Iteration 409; Item picked: Base position: -1469.8311517287493 mm; Feasibility: NO! 
+Iteration 410; Item picked: Base position: -799.0326500025875 mm; Feasibility: NO! 
+Iteration 411; Item picked: Base position: -889.0754390508515 mm; Feasibility: NO! 
+Iteration 412; Item picked: Base position: 1145.6676878232447 mm; Feasibility: NO! 
+Iteration 413; Item picked: Base position: -68.94056206792516 mm; Feasibility: NO! 
+Iteration 414; Item picked: Base position: -57.18866817171829 mm; Feasibility: NO! 
+Iteration: 415;  Base position: 171.89803011168465 mm; Feasibility: YES!;Manipulability: 8.662508662508662; Execution time: 9.23157 
+Iteration: 416;  Base position: -1184.5534578344932 mm; Feasibility: YES!;Manipulability: 5.76036866359447; Execution time: 9.13543 
+Iteration 417; Item picked: Base position: -1098.3335813696424 mm; Feasibility: NO! 
+Iteration: 418;  Base position: 121.68972025726248 mm; Feasibility: YES!;Manipulability: 5.9073724007561434; Execution time: 9.11877 
+Iteration 419; Item picked: Base position: 286.39450222989717 mm; Feasibility: NO! 
+Iteration: 420;  Base position: -544.7253344711872 mm; Feasibility: YES!;Manipulability: 6.3803994130032535; Execution time: 9.055 
+Iteration 421; Item picked: Base position: 453.19153684956837 mm; Feasibility: NO! 
+Iteration 422; Item picked: Base position: 1306.2070912503568 mm; Feasibility: NO! 
+Iteration 423; Item picked: Base position: -575.9266532304632 mm; Feasibility: NO! 
+Iteration 424; Item picked: Base position: 947.3854879251976 mm; Feasibility: NO! 
+Iteration 425; Item picked: Base position: 412.94074928527357 mm; Feasibility: NO! 
+Iteration: 426;  Base position: 231.54828569599272 mm; Feasibility: YES!;Manipulability: 5.2876480541455155; Execution time: 9.07881 
+Iteration 427; Item picked: Base position: 235.30847468491152 mm; Feasibility: NO! 
+Iteration: 428;  Base position: -553.7995534900602 mm; Feasibility: YES!;Manipulability: 8.878629139660838; Execution time: 9.2827 
+Iteration 429; Item picked: Base position: -1100.4193057686343 mm; Feasibility: NO! 
+Iteration 430; Item picked: Base position: -609.8657176891767 mm; Feasibility: NO! 
+Iteration 431; Item picked: Base position: 824.7549643187099 mm; Feasibility: NO! 
+Iteration 432; Item picked: Base position: 1449.102319318963 mm; Feasibility: NO! 
+Iteration 433; Item picked: Base position: -374.1240696065106 mm; Feasibility: NO! 
+Iteration 434; Item picked: Base position: -21.973343100423108 mm; Feasibility: NO! 
+Iteration 435; Item picked: Base position: -612.5383458488413 mm; Feasibility: NO! 
+Iteration 436; Item picked: Base position: -789.020138071659 mm; Feasibility: NO! 
+Iteration 437; Item picked: Base position: -1088.846355038083 mm; Feasibility: NO! 
+Iteration 438; Item picked: Base position: 720.7606996305763 mm; Feasibility: NO! 
+Iteration 439; Item picked: Base position: 614.3998101809661 mm; Feasibility: NO! 
+Iteration 440; Item picked: Base position: -681.6993364027387 mm; Feasibility: NO! 
+Iteration 441; Item picked: Base position: 180.4298667279079 mm; Feasibility: NO! 
+Iteration 442; Item picked: Base position: -949.9342156227011 mm; Feasibility: NO! 
+Iteration: 443;  Base position: -507.39399433678034 mm; Feasibility: YES!;Manipulability: 8.90551251224508; Execution time: 9.11726 
+Iteration 444; Item picked: Base position: 585.5429369554927 mm; Feasibility: NO! 
+Iteration: 445;  Base position: 289.7610027853616 mm; Feasibility: YES!;Manipulability: 10.316723408645414; Execution time: 9.78497 
+Iteration: 446;  Base position: -1128.468430375919 mm; Feasibility: YES!;Manipulability: 7.864108210128972; Execution time: 9.14732 
+Iteration 447; Item picked: Base position: -1298.0453739671907 mm; Feasibility: NO! 
+Iteration 448; Item picked: Base position: -1331.2446350488713 mm; Feasibility: NO! 
+Iteration: 449;  Base position: 615.7071530726835 mm; Feasibility: YES!;Manipulability: 8.249463784853985; Execution time: 10.95072 
+Iteration: 450;  Base position: 959.8857685225394 mm; Feasibility: YES!;Manipulability: 7.633587786259541; Execution time: 9.32351 
+Iteration: 451;  Base position: 78.1045315536137 mm; Feasibility: YES!;Manipulability: 5.854800936768149; Execution time: 9.06644 
+Iteration 452; Item picked: Base position: -188.74270888398155 mm; Feasibility: NO! 
+Iteration 453; Item picked: Base position: -1030.3996770107217 mm; Feasibility: NO! 
+Iteration 454; Item picked: Base position: 1381.519510387563 mm; Feasibility: NO! 
+Iteration 455; Item picked: Base position: -801.2600754012027 mm; Feasibility: NO! 
+Iteration: 456;  Base position: -1441.3980996616249 mm; Feasibility: YES!;Manipulability: 5.774005427565101; Execution time: 9.13925 
+Iteration 457; Item picked: Base position: 213.46887331139123 mm; Feasibility: NO! 
+Iteration 458; Item picked: Base position: 714.4301302973281 mm; Feasibility: NO! 
+Iteration: 459;  Base position: -957.1546247519473 mm; Feasibility: YES!;Manipulability: 7.336757153338224; Execution time: 9.31666 
+Iteration 460; Item picked: Base position: -1407.0378357988077 mm; Feasibility: NO! 
+Iteration 461; Item picked: Base position: -116.61582296226584 mm; Feasibility: NO! 
+Iteration: 462;  Base position: 1335.91291743506 mm; Feasibility: YES!;Manipulability: 8.636324380343725; Execution time: 9.09 
+Iteration: 463;  Base position: -1290.289801161186 mm; Feasibility: YES!;Manipulability: 5.227938101212882; Execution time: 9.09 
+Iteration 464; Item picked: Base position: -1470.8619958775312 mm; Feasibility: NO! 
+Iteration: 465;  Base position: -1476.0028044332319 mm; Feasibility: YES!;Manipulability: 5.31632110579479; Execution time: 9.07535 
+Iteration: 466;  Base position: 1076.7320952477767 mm; Feasibility: YES!;Manipulability: 8.29462508294625; Execution time: 8.99039 
+Iteration 467; Item picked: Base position: 1281.529982452902 mm; Feasibility: NO! 
+Iteration: 468;  Base position: 1044.6666186142506 mm; Feasibility: YES!;Manipulability: 7.71366862079605; Execution time: 9.52364 
+Iteration 469; Item picked: Base position: -428.6771009938511 mm; Feasibility: NO! 
+Iteration 470; Item picked: Base position: 779.0530886072929 mm; Feasibility: NO! 
+Iteration 471; Item picked: Base position: 989.2630697493696 mm; Feasibility: NO! 
+Iteration: 472;  Base position: 1275.3740980976695 mm; Feasibility: YES!;Manipulability: 8.809796493700995; Execution time: 9.0128 
+Iteration 473; Item picked: Base position: 211.96164534858508 mm; Feasibility: NO! 
+Iteration: 474;  Base position: 1279.6434953226817 mm; Feasibility: YES!;Manipulability: 8.85269121813031; Execution time: 9.01493 
+Iteration: 475;  Base position: 223.75604279932418 mm; Feasibility: YES!;Manipulability: 6.422607578676943; Execution time: 9.16095 
+Iteration: 476;  Base position: 1302.7222004058162 mm; Feasibility: YES!;Manipulability: 6.589351607801792; Execution time: 9.19593 
+Iteration 477; Item picked: Base position: -1160.1973635438258 mm; Feasibility: NO! 
+Iteration 478; Item picked: Base position: -99.47307505338472 mm; Feasibility: NO! 
+Iteration 479; Item picked: Base position: 651.4418309148341 mm; Feasibility: NO! 
+Iteration 480; Item picked: Base position: 475.0627721565854 mm; Feasibility: NO! 
+Iteration 481; Item picked: Base position: -1305.4376719866152 mm; Feasibility: NO! 
+Iteration: 482;  Base position: -541.4480100369507 mm; Feasibility: YES!;Manipulability: 10.054293183189221; Execution time: 9.63831 
+Iteration 483; Item picked: Base position: 536.4136628380018 mm; Feasibility: NO! 
+Iteration 484; Item picked: Base position: 844.6197691260977 mm; Feasibility: NO! 
+Iteration 485; Item picked: Base position: -637.1116328441344 mm; Feasibility: NO! 
+Iteration: 486;  Base position: -981.1041810683088 mm; Feasibility: YES!;Manipulability: 8.749671887304226; Execution time: 9.21829 
+Iteration 487; Item picked: Base position: 342.9811060432671 mm; Feasibility: NO! 
+Iteration 488; Item picked: Base position: -746.7826069953129 mm; Feasibility: NO! 
+Iteration: 489;  Base position: -272.74307871175506 mm; Feasibility: YES!;Manipulability: 5.724098454493418; Execution time: 9.0879 
+Iteration 490; Item picked: Base position: -328.2846424870554 mm; Feasibility: NO! 
+Iteration 491; Item picked: Base position: -305.2926207011669 mm; Feasibility: NO! 
+Iteration 492; Item picked: Base position: -1141.7912876039973 mm; Feasibility: NO! 
+Iteration 493; Item picked: Base position: 767.9152424880413 mm; Feasibility: NO! 
+Iteration 494; Item picked: Base position: 1180.3856466178008 mm; Feasibility: NO! 
+Iteration 495; Item picked: Base position: 1278.862696056568 mm; Feasibility: NO! 
+Iteration 496; Item picked: Base position: 737.2790461920245 mm; Feasibility: NO! 
+Iteration 497; Item picked: Base position: 361.56255714722647 mm; Feasibility: NO! 
+Iteration 498; Item picked: Base position: -855.1323318615105 mm; Feasibility: NO! 
+Iteration 499; Item picked: Base position: 7.344066078373089 mm; Feasibility: NO! 
+Iteration 500; Item picked: Base position: 1327.5913769057938 mm; Feasibility: NO! 
+Iteration 501; Item picked: Base position: -1040.0493235880233 mm; Feasibility: NO! 
+Iteration 502; Item picked: Base position: 164.43680323351919 mm; Feasibility: NO! 
+Iteration 503; Item picked: Base position: -1069.381978081412 mm; Feasibility: NO! 
+Iteration 504; Item picked: Base position: -1021.4829653494289 mm; Feasibility: NO! 
+Iteration 505; Item picked: Base position: 1267.9863717671733 mm; Feasibility: NO! 
+Iteration 506; Item picked: Base position: -1152.3658730211346 mm; Feasibility: NO! 
+Iteration 507; Item picked: Base position: -508.5542726016181 mm; Feasibility: NO! 
+Iteration 508; Item picked: Base position: 722.1625100771234 mm; Feasibility: NO! 
+Iteration 509; Item picked: Base position: -719.8999206479517 mm; Feasibility: NO! 
+Iteration 510; Item picked: Base position: -1432.445847217275 mm; Feasibility: NO! 
+Iteration: 511;  Base position: 490.34043594473087 mm; Feasibility: YES!;Manipulability: 5.208333333333333; Execution time: 9.09806 
+Iteration 512; Item picked: Base position: -69.31520880637368 mm; Feasibility: NO! 
+Iteration 513; Item picked: Base position: 979.2773340248254 mm; Feasibility: NO! 
+Iteration 514; Item picked: Base position: -312.66771550107205 mm; Feasibility: NO! 
+Iteration 515; Item picked: Base position: 148.4343009655463 mm; Feasibility: NO! 
+Iteration: 516;  Base position: -594.0678126255691 mm; Feasibility: YES!;Manipulability: 5.3319114902692615; Execution time: 9.07376 
+Iteration 517; Item picked: Base position: 1332.8019042177475 mm; Feasibility: NO! 
+Iteration 518; Item picked: Base position: -1471.3826628881131 mm; Feasibility: NO! 
+Iteration 519; Item picked: Base position: -116.00210927935768 mm; Feasibility: NO! 
+Iteration 520; Item picked: Base position: -713.6421272305254 mm; Feasibility: NO! 
+Iteration 521; Item picked: Base position: -383.60748621398375 mm; Feasibility: NO! 
+Iteration 522; Item picked: Base position: 1068.4828257744362 mm; Feasibility: NO! 
+Iteration 523; Item picked: Base position: 330.6834815457569 mm; Feasibility: NO! 
+Iteration: 524;  Base position: 1403.7216028200446 mm; Feasibility: YES!;Manipulability: 6.222000995520159; Execution time: 9.0429 
+Iteration 525; Item picked: Base position: 598.7782447842733 mm; Feasibility: NO! 
+Iteration 526; Item picked: Base position: 1156.465400497928 mm; Feasibility: NO! 
+Iteration 527; Item picked: Base position: 398.978200426556 mm; Feasibility: NO! 
+Iteration: 528;  Base position: 791.4132682087943 mm; Feasibility: YES!;Manipulability: 8.392077878482713; Execution time: 9.27365 
+Iteration 529; Item picked: Base position: 205.17673029912544 mm; Feasibility: NO! 
+Iteration 530; Item picked: Base position: 1477.5090660930618 mm; Feasibility: NO! 
+Iteration 531; Item picked: Base position: 761.7794476353934 mm; Feasibility: NO! 
+Iteration 532; Item picked: Base position: 1390.5386109703022 mm; Feasibility: NO! 
+Iteration 533; Item picked: Base position: 310.7187894016513 mm; Feasibility: NO! 
+Iteration 534; Item picked: Base position: 1004.2435902496945 mm; Feasibility: NO! 
+Iteration 535; Item picked: Base position: 150.73636832911825 mm; Feasibility: NO! 
+Iteration: 536;  Base position: 62.57985984941047 mm; Feasibility: YES!;Manipulability: 7.688167909587146; Execution time: 9.22915 
+Iteration 537; Item picked: Base position: 835.417938478879 mm; Feasibility: NO! 
+Iteration 538; Item picked: Base position: 1192.4795366119133 mm; Feasibility: NO! 
+Iteration 539; Item picked: Base position: -193.87464866087043 mm; Feasibility: NO! 
+Iteration 540; Item picked: Base position: 1055.183482381387 mm; Feasibility: NO! 
+Iteration 541; Item picked: Base position: 1148.6674784727297 mm; Feasibility: NO! 
+Iteration 542; Item picked: Base position: 499.85449247456586 mm; Feasibility: NO! 
+Iteration: 543;  Base position: 22.970577673919706 mm; Feasibility: YES!;Manipulability: 11.352026336701101; Execution time: 9.99771 
+Iteration 544; Item picked: Base position: -435.26925191680584 mm; Feasibility: NO! 
+Iteration 545; Item picked: Base position: 1185.6709308411064 mm; Feasibility: NO! 
+Iteration 546; Item picked: Base position: 835.747065710344 mm; Feasibility: NO! 
+Iteration 547; Item picked: Base position: 1308.9334833195203 mm; Feasibility: NO! 
+Iteration: 548;  Base position: -1421.7611076936985 mm; Feasibility: YES!;Manipulability: 7.04324552753909; Execution time: 9.34217 
+Iteration 549; Item picked: Base position: -86.51194249355945 mm; Feasibility: NO! 
+Iteration 550; Item picked: Base position: -869.2172922074654 mm; Feasibility: NO! 
+Iteration: 551;  Base position: -1485.1404111256218 mm; Feasibility: YES!;Manipulability: 8.25218682950982; Execution time: 9.01662 
+Iteration 552; Item picked: Base position: 908.5252843200624 mm; Feasibility: NO! 
+Iteration 553; Item picked: Base position: 128.69641257702415 mm; Feasibility: NO! 
+Iteration 554; Item picked: Base position: 84.00941315993259 mm; Feasibility: NO! 
+Iteration: 555;  Base position: -581.6609665238252 mm; Feasibility: YES!;Manipulability: 6.292870178088227; Execution time: 9.07346 
+Iteration 556; Item picked: Base position: -834.1935851928209 mm; Feasibility: NO! 
+Iteration 557; Item picked: Base position: -296.4677106634581 mm; Feasibility: NO! 
+Iteration: 558;  Base position: 266.99635813218356 mm; Feasibility: YES!;Manipulability: 7.395355716609968; Execution time: 9.22636 
+Iteration 559; Item picked: Base position: 1408.027578388187 mm; Feasibility: NO! 
+Iteration 560; Item picked: Base position: -171.42712305815394 mm; Feasibility: NO! 
+Iteration: 561;  Base position: 1440.1122950775712 mm; Feasibility: YES!;Manipulability: 8.368901163277261; Execution time: 9.12447 
+Iteration 562; Item picked: Base position: 1126.8200458759238 mm; Feasibility: NO! 
+Iteration 563; Item picked: Base position: 380.21396523272756 mm; Feasibility: NO! 
+Iteration 564; Item picked: Base position: -1417.0752329563093 mm; Feasibility: NO! 
+Iteration 565; Item picked: Base position: 742.4672255743608 mm; Feasibility: NO! 
+Iteration 566; Item picked: Base position: 1365.1843741522675 mm; Feasibility: NO! 
+Iteration: 567;  Base position: 86.95717564286497 mm; Feasibility: YES!;Manipulability: 8.135372600065082; Execution time: 9.07565 
+Iteration 568; Item picked: Base position: -133.51403838175838 mm; Feasibility: NO! 
+Iteration 569; Item picked: Base position: -755.6444615355963 mm; Feasibility: NO! 
+Iteration 570; Item picked: Base position: -569.3690721975119 mm; Feasibility: NO! 
+Iteration: 571;  Base position: 637.0038678584078 mm; Feasibility: YES!;Manipulability: 7.057661091114404; Execution time: 9.314 
+Iteration 572; Item picked: Base position: 1436.173583160658 mm; Feasibility: NO! 
+Iteration 573; Item picked: Base position: -941.4498874126235 mm; Feasibility: NO! 
+Iteration 574; Item picked: Base position: 731.1952034681058 mm; Feasibility: NO! 
+Iteration 575; Item picked: Base position: 461.2393196578669 mm; Feasibility: NO! 
+Iteration 576; Item picked: Base position: -1182.827590928059 mm; Feasibility: NO! 
+Iteration 577; Item picked: Base position: 1155.6755848241614 mm; Feasibility: NO! 
+Iteration 578; Item picked: Base position: 1228.368976306555 mm; Feasibility: NO! 
+Iteration 579; Item picked: Base position: 1426.4148672100105 mm; Feasibility: NO! 
+Iteration 580; Item picked: Base position: -489.13770068343456 mm; Feasibility: NO! 
+Iteration 581; Item picked: Base position: -1155.4528580426759 mm; Feasibility: NO! 
+Iteration: 582;  Base position: -151.0260757119736 mm; Feasibility: YES!;Manipulability: 11.352026336701101; Execution time: 9.9977 
+Iteration 583; Item picked: Base position: 655.4736530292485 mm; Feasibility: NO! 
+Iteration 584; Item picked: Base position: -1006.1701915524118 mm; Feasibility: NO! 
+Iteration: 585;  Base position: 851.294792918598 mm; Feasibility: YES!;Manipulability: 4.845195988177722; Execution time: 8.51069 
+Iteration: 586;  Base position: 453.23649042175566 mm; Feasibility: YES!;Manipulability: 8.70852564660803; Execution time: 9.22559 
+Iteration 587; Item picked: Base position: 537.9030933858855 mm; Feasibility: NO! 
+Iteration 588; Item picked: Base position: -1301.202845335252 mm; Feasibility: NO! 
+Iteration 589; Item picked: Base position: -162.5746263488163 mm; Feasibility: NO! 
+Iteration 590; Item picked: Base position: 1262.9474625539128 mm; Feasibility: NO! 
+Iteration 591; Item picked: Base position: -617.5012908324193 mm; Feasibility: NO! 
+Iteration 592; Item picked: Base position: -113.54352928010121 mm; Feasibility: NO! 
+Iteration 593; Item picked: Base position: 36.30076062661601 mm; Feasibility: NO! 
+Iteration 594; Item picked: Base position: -1285.8242804586107 mm; Feasibility: NO! 
+Iteration 595; Item picked: Base position: 342.6382602865042 mm; Feasibility: NO! 
+Iteration 596; Item picked: Base position: 253.00248980151605 mm; Feasibility: NO! 
+Iteration 597; Item picked: Base position: -172.583426621861 mm; Feasibility: NO! 
+Iteration 598; Item picked: Base position: -816.3917332975698 mm; Feasibility: NO! 
+Iteration 599; Item picked: Base position: 575.7263391919405 mm; Feasibility: NO! 
+Iteration 600; Item picked: Base position: -1209.2889896043735 mm; Feasibility: NO! 
+Iteration 601; Item picked: Base position: -1043.532489722182 mm; Feasibility: NO! 
+Iteration: 602;  Base position: -660.9145153585906 mm; Feasibility: YES!;Manipulability: 6.4947717087744365; Execution time: 9.1727 
+Iteration: 603;  Base position: 730.3075915955046 mm; Feasibility: YES!;Manipulability: 6.364562118126273; Execution time: 9.0577 
+Iteration: 604;  Base position: 1333.369089473481 mm; Feasibility: YES!;Manipulability: 6.383657835939993; Execution time: 9.15349 
+Iteration: 605;  Base position: 36.929694533338534 mm; Feasibility: YES!;Manipulability: 8.79971840901091; Execution time: 9.17334 
+Iteration 606; Item picked: Base position: 97.81871024574252 mm; Feasibility: NO! 
+Iteration: 607;  Base position: 672.3889729055818 mm; Feasibility: YES!;Manipulability: 7.930843048616067; Execution time: 9.12956 
+Iteration 608; Item picked: Base position: 1448.9783779238223 mm; Feasibility: NO! 
+Iteration: 609;  Base position: 276.3294041848285 mm; Feasibility: YES!;Manipulability: 6.264094211976948; Execution time: 9.28349 
+Iteration 610; Item picked: Base position: -1396.950184605576 mm; Feasibility: NO! 
+Iteration: 611;  Base position: -418.3950557264013 mm; Feasibility: YES!;Manipulability: 7.555152614082804; Execution time: 9.05508 
+Iteration 612; Item picked: Base position: -370.9603270383086 mm; Feasibility: NO! 
+Iteration 613; Item picked: Base position: 728.7836258421548 mm; Feasibility: NO! 
+Iteration 614; Item picked: Base position: 545.7113117892638 mm; Feasibility: NO! 
+Iteration 615; Item picked: Base position: -500.3802917912052 mm; Feasibility: NO! 
+Iteration 616; Item picked: Base position: -81.64825912575793 mm; Feasibility: NO! 
+Iteration 617; Item picked: Base position: 1113.1995545410764 mm; Feasibility: NO! 
+Iteration 618; Item picked: Base position: -150.47936026858815 mm; Feasibility: NO! 
+Iteration 619; Item picked: Base position: -413.02648172548857 mm; Feasibility: NO! 
+Iteration 620; Item picked: Base position: -1148.6674734117898 mm; Feasibility: NO! 
+Iteration 621; Item picked: Base position: 448.39604460931696 mm; Feasibility: NO! 
+Iteration 622; Item picked: Base position: -1213.7423569926605 mm; Feasibility: NO! 
+Iteration: 623;  Base position: 352.50459671681756 mm; Feasibility: YES!;Manipulability: 5.698005698005699; Execution time: 9.05626 
+Iteration 624; Item picked: Base position: 1402.3983691841745 mm; Feasibility: NO! 
+Iteration 625; Item picked: Base position: -404.89368425534485 mm; Feasibility: NO! 
+Iteration: 626;  Base position: 521.657532402882 mm; Feasibility: YES!;Manipulability: 6.38814360546825; Execution time: 9.09364 
+Iteration: 627;  Base position: 894.0816135124155 mm; Feasibility: YES!;Manipulability: 9.69649956365752; Execution time: 11.00472 
+Iteration 628; Item picked: Base position: -349.9934465113579 mm; Feasibility: NO! 
+Iteration 629; Item picked: Base position: 951.1662110521611 mm; Feasibility: NO! 
+Iteration 630; Item picked: Base position: -312.8316454888636 mm; Feasibility: NO! 
+Iteration 631; Item picked: Base position: 158.44100301125377 mm; Feasibility: NO! 
+Iteration 632; Item picked: Base position: 234.51848261821715 mm; Feasibility: NO! 
+Iteration 633; Item picked: Base position: -819.3154810108376 mm; Feasibility: NO! 
+Iteration 634; Item picked: Base position: 451.4741575510702 mm; Feasibility: NO! 
+Iteration 635; Item picked: Base position: 505.78151093196857 mm; Feasibility: NO! 
+Iteration 636; Item picked: Base position: -185.75336894999327 mm; Feasibility: NO! 
+Iteration: 637;  Base position: 943.2247656085774 mm; Feasibility: YES!;Manipulability: 6.94637399277577; Execution time: 9.16137 
+Iteration 638; Item picked: Base position: 548.0632906434771 mm; Feasibility: NO! 
+Iteration 639; Item picked: Base position: -597.0562885438738 mm; Feasibility: NO! 
+Iteration: 640;  Base position: -1438.4014515055005 mm; Feasibility: YES!;Manipulability: 7.956082425013923; Execution time: 9.1229 
+Iteration: 641;  Base position: -1342.9038177805674 mm; Feasibility: YES!;Manipulability: 6.939625260235947; Execution time: 9.29297 
+Iteration 642; Item picked: Base position: 746.3762580856846 mm; Feasibility: NO! 
+Iteration 643; Item picked: Base position: -532.1655779556604 mm; Feasibility: NO! 
+Iteration 644; Item picked: Base position: -1426.4436552893012 mm; Feasibility: NO! 
+Iteration 645; Item picked: Base position: 85.87257288075284 mm; Feasibility: NO! 
+Iteration 646; Item picked: Base position: 703.0173485484152 mm; Feasibility: NO! 
+Iteration: 647;  Base position: 1016.0240164009078 mm; Feasibility: YES!;Manipulability: 5.433896647285769; Execution time: 9.20135 
+Iteration 648; Item picked: Base position: -984.8214583298168 mm; Feasibility: NO! 
+Iteration: 649;  Base position: 1188.1680034536662 mm; Feasibility: YES!;Manipulability: 8.14000814000814; Execution time: 9.02504 
+Iteration 650; Item picked: Base position: -91.79112668511607 mm; Feasibility: NO! 
+Iteration 651; Item picked: Base position: 1305.3484278992423 mm; Feasibility: NO! 
+Iteration 652; Item picked: Base position: -115.08251379610579 mm; Feasibility: NO! 
+Iteration: 653;  Base position: -322.6578736048318 mm; Feasibility: YES!;Manipulability: 7.81799702916113; Execution time: 9.16109 
+Iteration 654; Item picked: Base position: 1383.560999566177 mm; Feasibility: NO! 
+Iteration 655; Item picked: Base position: -468.86267088489535 mm; Feasibility: NO! 
+Iteration: 656;  Base position: -301.0011245296912 mm; Feasibility: YES!;Manipulability: 7.10580544304697; Execution time: 9.1252 
+Iteration 657; Item picked: Base position: -180.20245926629673 mm; Feasibility: NO! 
+Iteration 658; Item picked: Base position: 423.1693949017199 mm; Feasibility: NO! 
+Iteration 659; Item picked: Base position: -1337.7128630714085 mm; Feasibility: NO! 
+Iteration 660; Item picked: Base position: -1363.5370031745301 mm; Feasibility: NO! 
+Iteration 661; Item picked: Base position: 802.3692673638225 mm; Feasibility: NO! 
+Iteration 662; Item picked: Base position: 622.4859060925214 mm; Feasibility: NO! 
+Iteration 663; Item picked: Base position: 661.7516301060846 mm; Feasibility: NO! 
+Iteration: 664;  Base position: 710.5479743734759 mm; Feasibility: YES!;Manipulability: 7.238508867173363; Execution time: 9.51887 
+Iteration 665; Item picked: Base position: 1042.7307668779663 mm; Feasibility: NO! 
+Iteration 666; Item picked: Base position: 1359.2428447712841 mm; Feasibility: NO! 
+Iteration 667; Item picked: Base position: 675.109864898966 mm; Feasibility: NO! 
+Iteration 668; Item picked: Base position: -1017.6729883435532 mm; Feasibility: NO! 
+Iteration 669; Item picked: Base position: 331.41161661414685 mm; Feasibility: NO! 
+Iteration 670; Item picked: Base position: -1450.9096844939409 mm; Feasibility: NO! 
+Iteration: 671;  Base position: -462.2410697068274 mm; Feasibility: YES!;Manipulability: 7.626019980172348; Execution time: 9.26193 
+Iteration 672; Item picked: Base position: -1444.140383750569 mm; Feasibility: NO! 
+Iteration 673; Item picked: Base position: -1106.2825658789852 mm; Feasibility: NO! 
+Iteration 674; Item picked: Base position: 1026.867311643567 mm; Feasibility: NO! 
+Iteration 675; Item picked: Base position: -1167.8137989973175 mm; Feasibility: NO! 
+Iteration 676; Item picked: Base position: -46.12029841418848 mm; Feasibility: NO! 
+Iteration 677; Item picked: Base position: -1363.8242232736852 mm; Feasibility: NO! 
+Iteration 678; Item picked: Base position: -536.1820258957506 mm; Feasibility: NO! 
+Iteration 679; Item picked: Base position: -796.9030445322178 mm; Feasibility: NO! 
+Iteration 680; Item picked: Base position: -633.1597472029846 mm; Feasibility: NO! 
+Iteration 681; Item picked: Base position: -158.65512470836825 mm; Feasibility: NO! 
+Iteration: 682;  Base position: 299.72361954654934 mm; Feasibility: YES!;Manipulability: 8.0147471347279; Execution time: 9.45008 
+Iteration: 683;  Base position: 743.7863564640775 mm; Feasibility: YES!;Manipulability: 5.554321261941791; Execution time: 9.24382 
+Iteration: 684;  Base position: 31.74054147726224 mm; Feasibility: YES!;Manipulability: 9.569377990430622; Execution time: 9.32773 
+Iteration 685; Item picked: Base position: -148.84538660694943 mm; Feasibility: NO! 
+Iteration 686; Item picked: Base position: -906.7437137088617 mm; Feasibility: NO! 
+Iteration: 687;  Base position: 651.2541245201965 mm; Feasibility: YES!;Manipulability: 9.261831990367694; Execution time: 9.18318 
+Iteration 688; Item picked: Base position: 791.2501825066183 mm; Feasibility: NO! 
+Iteration: 689;  Base position: 171.57794905319088 mm; Feasibility: YES!;Manipulability: 8.281573498964804; Execution time: 8.98559 
+Iteration 690; Item picked: Base position: 1365.3833272241973 mm; Feasibility: NO! 
+Iteration 691; Item picked: Base position: -1041.332895627601 mm; Feasibility: NO! 
+Iteration 692; Item picked: Base position: -689.4140422874758 mm; Feasibility: NO! 
+Iteration: 693;  Base position: -201.26899788750438 mm; Feasibility: YES!;Manipulability: 6.885155604516662; Execution time: 9.27026 
+Iteration 694; Item picked: Base position: -419.8765688619885 mm; Feasibility: NO! 
+Iteration 695; Item picked: Base position: -265.5923976536669 mm; Feasibility: NO! 
+Iteration 696; Item picked: Base position: -1027.7199252791704 mm; Feasibility: NO! 
+Iteration: 697;  Base position: 654.7481646247902 mm; Feasibility: YES!;Manipulability: 5.540473156407557; Execution time: 9.23942 
+Iteration 698; Item picked: Base position: 641.0569661999289 mm; Feasibility: NO! 
+Iteration: 699;  Base position: -1003.1682379750266 mm; Feasibility: YES!;Manipulability: 7.23222680263253; Execution time: 9.41271 
+Iteration: 700;  Base position: -262.3117860318223 mm; Feasibility: YES!;Manipulability: 8.946144211844695; Execution time: 9.08075 
+Iteration 701; Item picked: Base position: -1078.5883742888427 mm; Feasibility: NO! 
+Iteration 702; Item picked: Base position: 245.4417093304903 mm; Feasibility: NO! 
+Iteration: 703;  Base position: -1468.744324073242 mm; Feasibility: YES!;Manipulability: 8.562376915831834; Execution time: 9.24255 
+Iteration 704; Item picked: Base position: 755.5559634258643 mm; Feasibility: NO! 
+Iteration 705; Item picked: Base position: 864.3453185725925 mm; Feasibility: NO! 
+Iteration: 706;  Base position: 41.23677756444931 mm; Feasibility: YES!;Manipulability: 11.652295502213937; Execution time: 11.56006 
+Iteration: 707;  Base position: 1166.0406170532797 mm; Feasibility: YES!;Manipulability: 8.263779852904719; Execution time: 9.00813 
+Iteration: 708;  Base position: -269.15104530309804 mm; Feasibility: YES!;Manipulability: 6.442053726728081; Execution time: 9.10225 
+Iteration: 709;  Base position: 203.7002261524833 mm; Feasibility: YES!;Manipulability: 6.803646754660498; Execution time: 9.24771 
+Iteration: 710;  Base position: 502.3830142261311 mm; Feasibility: YES!;Manipulability: 8.605851979345955; Execution time: 9.23811 
+Iteration 711; Item picked: Base position: 1029.7947921325672 mm; Feasibility: NO! 
+Iteration 712; Item picked: Base position: -1301.7742515919517 mm; Feasibility: NO! 
+Iteration 713; Item picked: Base position: -1153.7367389653555 mm; Feasibility: NO! 
+Iteration 714; Item picked: Base position: 793.038317563924 mm; Feasibility: NO! 
+Iteration 715; Item picked: Base position: 1328.3568362834158 mm; Feasibility: NO! 
+Iteration 716; Item picked: Base position: 130.24719129579466 mm; Feasibility: NO! 
+Iteration: 717;  Base position: 658.392921525252 mm; Feasibility: YES!;Manipulability: 5.401317921572864; Execution time: 9.06802 
+Iteration 718; Item picked: Base position: -670.4439104921062 mm; Feasibility: NO! 
+Iteration 719; Item picked: Base position: -887.5927256170648 mm; Feasibility: NO! 
+Iteration 720; Item picked: Base position: 591.3881716180081 mm; Feasibility: NO! 
+Iteration 721; Item picked: Base position: 977.6190808402653 mm; Feasibility: NO! 
+Iteration 722; Item picked: Base position: 993.4208527986452 mm; Feasibility: NO! 
+Iteration 723; Item picked: Base position: -1226.4919802512836 mm; Feasibility: NO! 
+Iteration: 724;  Base position: -1163.1856210788396 mm; Feasibility: YES!;Manipulability: 8.907892392659896; Execution time: 9.11622 
+Iteration: 725;  Base position: -227.97920954050164 mm; Feasibility: YES!;Manipulability: 8.912655971479502; Execution time: 9.11355 
+Iteration 726; Item picked: Base position: -615.2252415758553 mm; Feasibility: NO! 
+Iteration 727; Item picked: Base position: 905.3375042885955 mm; Feasibility: NO! 
+Iteration 728; Item picked: Base position: -790.9919255273876 mm; Feasibility: NO! 
+Iteration 729; Item picked: Base position: -609.8257363573963 mm; Feasibility: NO! 
+Iteration 730; Item picked: Base position: -1169.9499030234822 mm; Feasibility: NO! 
+Iteration: 731;  Base position: 448.79685573778465 mm; Feasibility: YES!;Manipulability: 7.165890361877463; Execution time: 9.49464 
+Iteration 732; Item picked: Base position: 212.6387962435133 mm; Feasibility: NO! 
+Iteration 733; Item picked: Base position: 1406.9884023835689 mm; Feasibility: NO! 
+Iteration 734; Item picked: Base position: -1279.2750227216563 mm; Feasibility: NO! 
+Iteration 735; Item picked: Base position: -365.20809240184644 mm; Feasibility: NO! 
+Iteration 736; Item picked: Base position: -975.1630137634318 mm; Feasibility: NO! 
+Iteration 737; Item picked: Base position: 1083.7585021275072 mm; Feasibility: NO! 
+Iteration 738; Item picked: Base position: -974.165585516435 mm; Feasibility: NO! 
+Iteration 739; Item picked: Base position: -121.2111042260467 mm; Feasibility: NO! 
+Iteration 740; Item picked: Base position: 50.548913114470906 mm; Feasibility: NO! 
+Iteration 741; Item picked: Base position: 384.9378056127837 mm; Feasibility: NO! 
+Iteration 742; Item picked: Base position: -350.84076405956216 mm; Feasibility: NO! 
+Iteration: 743;  Base position: 214.8407904137514 mm; Feasibility: YES!;Manipulability: 8.026970621287527; Execution time: 9.10571 
+Iteration 744; Item picked: Base position: -773.6929200580837 mm; Feasibility: NO! 
+Iteration: 745;  Base position: -532.3331796834877 mm; Feasibility: YES!;Manipulability: 6.746272684341901; Execution time: 9.1922 
+Iteration: 746;  Base position: 1191.2489370590138 mm; Feasibility: YES!;Manipulability: 5.206977349648529; Execution time: 9.099 
+Iteration 747; Item picked: Base position: -112.83853474858756 mm; Feasibility: NO! 
+Iteration 748; Item picked: Base position: -529.5360214948755 mm; Feasibility: NO! 
+Iteration 749; Item picked: Base position: 1028.037831015568 mm; Feasibility: NO! 
+Iteration 750; Item picked: Base position: 379.3926973664986 mm; Feasibility: NO! 
+Iteration 751; Item picked: Base position: 584.3628142315515 mm; Feasibility: NO! 
+Iteration: 752;  Base position: -1102.3646994254536 mm; Feasibility: YES!;Manipulability: 6.269985579033168; Execution time: 9.11274 
+Iteration 753; Item picked: Base position: 798.8997354397461 mm; Feasibility: NO! 
+Iteration 754; Item picked: Base position: -1380.406959839593 mm; Feasibility: NO! 
+Iteration 755; Item picked: Base position: -273.6516454184041 mm; Feasibility: NO! 
+Iteration 756; Item picked: Base position: -1491.887853738158 mm; Feasibility: NO! 
+Iteration 757; Item picked: Base position: 39.417489091981906 mm; Feasibility: NO! 
+Iteration 758; Item picked: Base position: -1080.8647478824787 mm; Feasibility: NO! 
+Iteration 759; Item picked: Base position: 356.54596398423473 mm; Feasibility: NO! 
+Iteration 760; Item picked: Base position: -107.58618538670521 mm; Feasibility: NO! 
+Iteration 761; Item picked: Base position: -1478.6873236608537 mm; Feasibility: NO! 
+Iteration: 762;  Base position: -401.05749118792437 mm; Feasibility: YES!;Manipulability: 5.840780328251855; Execution time: 9.06805 
+Iteration 763; Item picked: Base position: -1304.4341148752214 mm; Feasibility: NO! 
+Iteration 764; Item picked: Base position: -1366.998213483219 mm; Feasibility: NO! 
+Iteration 765; Item picked: Base position: 597.9038263118287 mm; Feasibility: NO! 
+Iteration 766; Item picked: Base position: 1378.670106005472 mm; Feasibility: NO! 
+Iteration 767; Item picked: Base position: -1302.6446833394602 mm; Feasibility: NO! 
+Iteration 768; Item picked: Base position: 443.81662150308034 mm; Feasibility: NO! 
+Iteration 769; Item picked: Base position: -1091.9556780287228 mm; Feasibility: NO! 
+Iteration 770; Item picked: Base position: -959.7196105158728 mm; Feasibility: NO! 
+Iteration 771; Item picked: Base position: -615.4862596335255 mm; Feasibility: NO! 
+Iteration: 772;  Base position: 229.045234148816 mm; Feasibility: YES!;Manipulability: 8.446659346228566; Execution time: 9.2561 
+Iteration 773; Item picked: Base position: -554.2354667078741 mm; Feasibility: NO! 
+Iteration 774; Item picked: Base position: 1219.4476030249652 mm; Feasibility: NO! 
+Iteration 775; Item picked: Base position: 232.1262872836719 mm; Feasibility: NO! 
+Iteration 776; Item picked: Base position: 108.47902673243311 mm; Feasibility: NO! 
+Iteration 777; Item picked: Base position: 822.2089387740507 mm; Feasibility: NO! 
+Iteration 778; Item picked: Base position: -500.63731479984585 mm; Feasibility: NO! 
+Iteration 779; Item picked: Base position: -435.24429217138186 mm; Feasibility: NO! 
+Iteration 780; Item picked: Base position: 1320.8860008861607 mm; Feasibility: NO! 
+Iteration 781; Item picked: Base position: -1256.4276834728869 mm; Feasibility: NO! 
+Iteration 782; Item picked: Base position: -417.35480080306934 mm; Feasibility: NO! 
+Iteration 783; Item picked: Base position: 1299.5303551267298 mm; Feasibility: NO! 
+Iteration 784; Item picked: Base position: -1443.6471455610877 mm; Feasibility: NO! 
+Iteration: 785;  Base position: -656.0018650888517 mm; Feasibility: YES!;Manipulability: 8.496176720475786; Execution time: 9.04113 
+Iteration 786; Item picked: Base position: -1436.7118436767314 mm; Feasibility: NO! 
+Iteration 787; Item picked: Base position: -1068.8941233434984 mm; Feasibility: NO! 
+Iteration: 788;  Base position: 1000.794720144751 mm; Feasibility: YES!;Manipulability: 8.840951286358411; Execution time: 9.00586 
+Iteration 789; Item picked: Base position: 645.8805966349419 mm; Feasibility: NO! 
+Iteration: 790;  Base position: -99.16176518985753 mm; Feasibility: YES!;Manipulability: 8.19940964250574; Execution time: 9.0561 
+Iteration: 791;  Base position: -332.2806833232935 mm; Feasibility: YES!;Manipulability: 5.3146258503401365; Execution time: 9.15789 
+Iteration 792; Item picked: Base position: 827.6742616576744 mm; Feasibility: NO! 
+Iteration 793; Item picked: Base position: 88.67946633686415 mm; Feasibility: NO! 
+Iteration 794; Item picked: Base position: 645.9906911184844 mm; Feasibility: NO! 
+Iteration 795; Item picked: Base position: 812.3929686420138 mm; Feasibility: NO! 
+Iteration 796; Item picked: Base position: 195.47928525338511 mm; Feasibility: NO! 
+Iteration 797; Item picked: Base position: -164.96379596926204 mm; Feasibility: NO! 
+Iteration: 798;  Base position: 56.62337468894884 mm; Feasibility: YES!;Manipulability: 6.837606837606838; Execution time: 9.25639 
+Iteration 799; Item picked: Base position: 134.67888219007045 mm; Feasibility: NO! 
+Iteration 800; Item picked: Base position: -39.21611570301684 mm; Feasibility: NO! 
+Iteration 801; Item picked: Base position: -649.6247490292714 mm; Feasibility: NO! 
+Iteration 802; Item picked: Base position: -158.20327345391524 mm; Feasibility: NO! 
+Iteration: 803;  Base position: 69.08815247743405 mm; Feasibility: YES!;Manipulability: 8.639308855291576; Execution time: 9.21498 
+Iteration: 804;  Base position: 205.74739783516497 mm; Feasibility: YES!;Manipulability: 5.8387341624335845; Execution time: 9.15588 
+Iteration: 805;  Base position: -909.6255719324553 mm; Feasibility: YES!;Manipulability: 5.635390250774866; Execution time: 9.05768 
+Iteration 806; Item picked: Base position: 5.904041720197256 mm; Feasibility: NO! 
+Iteration 807; Item picked: Base position: 277.3581416501602 mm; Feasibility: NO! 
+Iteration 808; Item picked: Base position: -1001.4706737854109 mm; Feasibility: NO! 
+Iteration 809; Item picked: Base position: -353.90852685850405 mm; Feasibility: NO! 
+Iteration: 810;  Base position: 1318.2692245789572 mm; Feasibility: YES!;Manipulability: 8.88494002665482; Execution time: 9.03462 
+Iteration 811; Item picked: Base position: -953.1595239822491 mm; Feasibility: NO! 
+Iteration 812; Item picked: Base position: -786.4134620031152 mm; Feasibility: NO! 
+Iteration 813; Item picked: Base position: 1104.5223554706845 mm; Feasibility: NO! 
+Iteration 814; Item picked: Base position: 1121.655075003137 mm; Feasibility: NO! 
+Iteration 815; Item picked: Base position: 1416.1740388507155 mm; Feasibility: NO! 
+Iteration 816; Item picked: Base position: -1345.4900196717767 mm; Feasibility: NO! 
+Iteration 817; Item picked: Base position: 939.2709216257222 mm; Feasibility: NO! 
+Iteration: 818;  Base position: 814.791344953423 mm; Feasibility: YES!;Manipulability: 7.834534628643058; Execution time: 9.15603 
+Iteration 819; Item picked: Base position: 1456.9242696760211 mm; Feasibility: NO! 
+Iteration 820; Item picked: Base position: -1111.3902589180718 mm; Feasibility: NO! 
+Iteration 821; Item picked: Base position: 22.153404412075815 mm; Feasibility: NO! 
+Iteration 822; Item picked: Base position: -959.0085136297508 mm; Feasibility: NO! 
+Iteration 823; Item picked: Base position: -264.90208142220877 mm; Feasibility: NO! 
+Iteration 824; Item picked: Base position: 850.7621417870896 mm; Feasibility: NO! 
+Iteration 825; Item picked: Base position: 1022.6083960511851 mm; Feasibility: NO! 
+Iteration 826; Item picked: Base position: -293.5706980312941 mm; Feasibility: NO! 
+Iteration 827; Item picked: Base position: 335.5279226537891 mm; Feasibility: NO! 
+Iteration 828; Item picked: Base position: -472.9760717854531 mm; Feasibility: NO! 
+Iteration 829; Item picked: Base position: -906.8755372131592 mm; Feasibility: NO! 
+Iteration 830; Item picked: Base position: -877.0484546224764 mm; Feasibility: NO! 
+Iteration 831; Item picked: Base position: -693.4542160925996 mm; Feasibility: NO! 
+Iteration 832; Item picked: Base position: -29.548673681716537 mm; Feasibility: NO! 
+Iteration 833; Item picked: Base position: 1418.568398804303 mm; Feasibility: NO! 
+Iteration 834; Item picked: Base position: -1150.6226567569515 mm; Feasibility: NO! 
+Iteration 835; Item picked: Base position: -360.48025179310594 mm; Feasibility: NO! 
+Iteration: 836;  Base position: 880.8784592076263 mm; Feasibility: YES!;Manipulability: 7.028888732691361; Execution time: 9.33595 
+Iteration: 837;  Base position: -577.3139000522243 mm; Feasibility: YES!;Manipulability: 8.836264027569143; Execution time: 9.1533 
+Iteration 838; Item picked: Base position: -1207.2156574341184 mm; Feasibility: NO! 
+Iteration: 839;  Base position: -1133.7198155185713 mm; Feasibility: YES!;Manipulability: 10.38961038961039; Execution time: 11.21647 
+Iteration 840; Item picked: Base position: -73.10312743514942 mm; Feasibility: NO! 
+Iteration 841; Item picked: Base position: 1149.5653344042526 mm; Feasibility: NO! 
+Iteration 842; Item picked: Base position: 769.6012648880651 mm; Feasibility: NO! 
+Iteration 843; Item picked: Base position: -174.53197668314738 mm; Feasibility: NO! 
+Iteration 844; Item picked: Base position: 163.50618600903636 mm; Feasibility: NO! 
+Iteration: 845;  Base position: -1084.4020542708822 mm; Feasibility: YES!;Manipulability: 11.860989206499823; Execution time: 10.21263 
+Iteration: 846;  Base position: -738.4828299478262 mm; Feasibility: YES!;Manipulability: 6.890848952590959; Execution time: 9.19619 
+Iteration 847; Item picked: Base position: 403.6126810162523 mm; Feasibility: NO! 
+Iteration 848; Item picked: Base position: -1149.5664206333809 mm; Feasibility: NO! 
+Iteration 849; Item picked: Base position: 731.0525871249838 mm; Feasibility: NO! 
+Iteration: 850;  Base position: -724.0441076995527 mm; Feasibility: YES!;Manipulability: 7.814331483941549; Execution time: 9.55123 
+Iteration 851; Item picked: Base position: -2.5683864930192613 mm; Feasibility: NO! 
+Iteration 852; Item picked: Base position: -1432.6407390866536 mm; Feasibility: NO! 
+Iteration 853; Item picked: Base position: 150.19247813974448 mm; Feasibility: NO! 
+Iteration 854; Item picked: Base position: 1340.4464072070236 mm; Feasibility: NO! 
+Iteration: 855;  Base position: 1088.7918495622985 mm; Feasibility: YES!;Manipulability: 7.42721330956625; Execution time: 9.33558 
+Iteration 856; Item picked: Base position: -500.20115631427154 mm; Feasibility: NO! 
+Iteration 857; Item picked: Base position: 623.774937105718 mm; Feasibility: NO! 
+Iteration: 858;  Base position: -1364.667606438575 mm; Feasibility: YES!;Manipulability: 6.255473539346928; Execution time: 9.08709 
+Iteration 859; Item picked: Base position: 1392.9088656994109 mm; Feasibility: NO! 
+Iteration 860; Item picked: Base position: -1083.1894136543176 mm; Feasibility: NO! 
+Iteration: 861;  Base position: 1014.6447186690557 mm; Feasibility: YES!;Manipulability: 7.821666014861166; Execution time: 9.41136 
+Iteration: 862;  Base position: 744.2444925911445 mm; Feasibility: YES!;Manipulability: 6.901311249137336; Execution time: 9.27534 
+Iteration: 863;  Base position: -828.7936980628742 mm; Feasibility: YES!;Manipulability: 6.216585851050603; Execution time: 9.04228 
+Iteration 864; Item picked: Base position: -76.7072516702051 mm; Feasibility: NO! 
+Iteration 865; Item picked: Base position: 533.261791155282 mm; Feasibility: NO! 
+Iteration 866; Item picked: Base position: 138.09900610165846 mm; Feasibility: NO! 
+Iteration 867; Item picked: Base position: -181.55160721733228 mm; Feasibility: NO! 
+Iteration 868; Item picked: Base position: -1418.629693085645 mm; Feasibility: NO! 
+Iteration 869; Item picked: Base position: -1001.538184150113 mm; Feasibility: NO! 
+Iteration 870; Item picked: Base position: 405.81564247314645 mm; Feasibility: NO! 
+Iteration 871; Item picked: Base position: -552.2579362207154 mm; Feasibility: NO! 
+Iteration: 872;  Base position: 177.14443534306952 mm; Feasibility: YES!;Manipulability: 4.9937578027465666; Execution time: 8.48813 
+Iteration 873; Item picked: Base position: 1140.904439980869 mm; Feasibility: NO! 
+Iteration 874; Item picked: Base position: 1314.9903782842953 mm; Feasibility: NO! 
+Iteration 875; Item picked: Base position: -324.30125270392455 mm; Feasibility: NO! 
+Iteration 876; Item picked: Base position: -406.71629929085543 mm; Feasibility: NO! 
+Iteration 877; Item picked: Base position: 34.05095102474843 mm; Feasibility: NO! 
+Iteration 878; Item picked: Base position: 424.0950176716326 mm; Feasibility: NO! 
+Iteration 879; Item picked: Base position: -492.43986394412605 mm; Feasibility: NO! 
+Iteration 880; Item picked: Base position: 885.9906071945256 mm; Feasibility: NO! 
+Iteration 881; Item picked: Base position: 934.9666620827643 mm; Feasibility: NO! 
+Iteration 882; Item picked: Base position: -1408.5211477289997 mm; Feasibility: NO! 
+Iteration 883; Item picked: Base position: 177.13709811492186 mm; Feasibility: NO! 
+Iteration 884; Item picked: Base position: -900.2271569647927 mm; Feasibility: NO! 
+Iteration: 885;  Base position: 269.7682132613238 mm; Feasibility: YES!;Manipulability: 7.7059412807274414; Execution time: 9.22512 
+Iteration 886; Item picked: Base position: 1033.384555334696 mm; Feasibility: NO! 
+Iteration 887; Item picked: Base position: -792.1918999109885 mm; Feasibility: NO! 
+Iteration 888; Item picked: Base position: 1208.9465820176924 mm; Feasibility: NO! 
+Iteration 889; Item picked: Base position: 1046.490702808896 mm; Feasibility: NO! 
+Iteration 890; Item picked: Base position: 411.5259100589294 mm; Feasibility: NO! 
+Iteration 891; Item picked: Base position: 917.7041687157484 mm; Feasibility: NO! 
+Iteration 892; Item picked: Base position: -344.12098635652933 mm; Feasibility: NO! 
+Iteration 893; Item picked: Base position: -1297.827874157284 mm; Feasibility: NO! 
+Iteration 894; Item picked: Base position: 1141.9706451080706 mm; Feasibility: NO! 
+Iteration 895; Item picked: Base position: -392.95005817434367 mm; Feasibility: NO! 
+Iteration 896; Item picked: Base position: 191.06452084020293 mm; Feasibility: NO! 
+Iteration: 897;  Base position: 115.01234388739431 mm; Feasibility: YES!;Manipulability: 4.491152429713464; Execution time: 8.52938 
+Iteration 898; Item picked: Base position: -548.0388516285909 mm; Feasibility: NO! 
+Iteration 899; Item picked: Base position: -350.8782348086788 mm; Feasibility: NO! 
+Iteration 900; Item picked: Base position: -811.862089963647 mm; Feasibility: NO! 
+Iteration: 901;  Base position: -1204.5038973789378 mm; Feasibility: YES!;Manipulability: 6.649820454847719; Execution time: 9.20611 
+Iteration 902; Item picked: Base position: -519.725618284659 mm; Feasibility: NO! 
+Iteration: 903;  Base position: 582.4016880817776 mm; Feasibility: YES!;Manipulability: 6.37795777791951; Execution time: 9.30246 
+Iteration 904; Item picked: Base position: 421.3204852511842 mm; Feasibility: NO! 
+Iteration 905; Item picked: Base position: -403.8548349875332 mm; Feasibility: NO! 
+Iteration 906; Item picked: Base position: -1034.192462603904 mm; Feasibility: NO! 
+Iteration 907; Item picked: Base position: -1375.0707481377767 mm; Feasibility: NO! 
+Iteration: 908;  Base position: 258.06411192860014 mm; Feasibility: YES!;Manipulability: 8.730574471800244; Execution time: 9.2223 
+Iteration 909; Item picked: Base position: -1414.509308444516 mm; Feasibility: NO! 
+Iteration 910; Item picked: Base position: 315.30271805583243 mm; Feasibility: NO! 
+Iteration: 911;  Base position: 371.9753554781821 mm; Feasibility: YES!;Manipulability: 8.816009873931058; Execution time: 9.16449 
+Iteration 912; Item picked: Base position: -681.4142537683063 mm; Feasibility: NO! 
+Iteration 913; Item picked: Base position: 793.9122271656256 mm; Feasibility: NO! 
+Iteration 914; Item picked: Base position: -935.9078435651189 mm; Feasibility: NO! 
+Iteration 915; Item picked: Base position: 187.9971798740046 mm; Feasibility: NO! 
+Iteration 916; Item picked: Base position: -230.67794551390375 mm; Feasibility: NO! 
+Iteration 917; Item picked: Base position: 255.84746421290993 mm; Feasibility: NO! 
+Iteration 918; Item picked: Base position: -225.13100195822653 mm; Feasibility: NO! 
+Iteration: 919;  Base position: 64.87308174335385 mm; Feasibility: YES!;Manipulability: 10.36591686534674; Execution time: 9.69009 
+Iteration: 920;  Base position: 742.7762621208426 mm; Feasibility: YES!;Manipulability: 5.602240896358544; Execution time: 9.05863 
+Iteration: 921;  Base position: -1083.8734188028718 mm; Feasibility: YES!;Manipulability: 7.788768595685022; Execution time: 9.17127 
+Iteration: 922;  Base position: -661.8344585712667 mm; Feasibility: YES!;Manipulability: 11.086474501108647; Execution time: 11.40423 
+Iteration: 923;  Base position: 1369.962241220242 mm; Feasibility: YES!;Manipulability: 6.30119722747322; Execution time: 9.13095 
+Iteration 924; Item picked: Base position: -469.1942113324051 mm; Feasibility: NO! 
+Iteration 925; Item picked: Base position: -929.043341991204 mm; Feasibility: NO! 
+Iteration 926; Item picked: Base position: 168.49813284674633 mm; Feasibility: NO! 
+Iteration 927; Item picked: Base position: 367.1965091329114 mm; Feasibility: NO! 
+Iteration 928; Item picked: Base position: 949.3402377834118 mm; Feasibility: NO! 
+Iteration 929; Item picked: Base position: 370.07012837544653 mm; Feasibility: NO! 
+Iteration 930; Item picked: Base position: -376.18628914432634 mm; Feasibility: NO! 
+Iteration 931; Item picked: Base position: -297.0224275753685 mm; Feasibility: NO! 
+Iteration: 932;  Base position: 141.61794889356884 mm; Feasibility: YES!;Manipulability: 7.6893502499038835; Execution time: 9.03402 
+Iteration 933; Item picked: Base position: 292.0341320029411 mm; Feasibility: NO! 
+Iteration 934; Item picked: Base position: 151.58224711030243 mm; Feasibility: NO! 
+Iteration 935; Item picked: Base position: -1453.1702043948833 mm; Feasibility: NO! 
+Iteration: 936;  Base position: 397.13785532964516 mm; Feasibility: YES!;Manipulability: 5.8750954703013925; Execution time: 9.17303 
+Iteration 937; Item picked: Base position: -1306.7592578513559 mm; Feasibility: NO! 
+Iteration 938; Item picked: Base position: 407.13234427357065 mm; Feasibility: NO! 
+Iteration: 939;  Base position: 468.8616642939228 mm; Feasibility: YES!;Manipulability: 7.251631617113851; Execution time: 9.09698 
+Iteration 940; Item picked: Base position: 929.576702387551 mm; Feasibility: NO! 
+Iteration 941; Item picked: Base position: -1161.5999632263854 mm; Feasibility: NO! 
+Iteration 942; Item picked: Base position: -598.7406115316116 mm; Feasibility: NO! 
+Iteration: 943;  Base position: 1324.3841406320257 mm; Feasibility: YES!;Manipulability: 10.253255408592228; Execution time: 9.7121 
+Iteration 944; Item picked: Base position: -188.26530007173255 mm; Feasibility: NO! 
+Iteration 945; Item picked: Base position: -1247.1246854733138 mm; Feasibility: NO! 
+Iteration 946; Item picked: Base position: 775.2842713444411 mm; Feasibility: NO! 
+Iteration 947; Item picked: Base position: -1414.9581188142083 mm; Feasibility: NO! 
+Iteration 948; Item picked: Base position: -1025.7787537484278 mm; Feasibility: NO! 
+Iteration 949; Item picked: Base position: 650.0403424284559 mm; Feasibility: NO! 
+Iteration: 950;  Base position: 971.4496832734562 mm; Feasibility: YES!;Manipulability: 8.183306055646481; Execution time: 9.04832 
+Iteration: 951;  Base position: -460.9824517765801 mm; Feasibility: YES!;Manipulability: 4.829051574270814; Execution time: 8.58604 
+Iteration: 952;  Base position: -13.23557999445552 mm; Feasibility: YES!;Manipulability: 7.475517679599312; Execution time: 9.45513 
+Iteration 953; Item picked: Base position: -1016.5814985045693 mm; Feasibility: NO! 
+Iteration 954; Item picked: Base position: -164.14740400322876 mm; Feasibility: NO! 
+Iteration 955; Item picked: Base position: -169.0386328992604 mm; Feasibility: NO! 
+Iteration 956; Item picked: Base position: -825.9745449334666 mm; Feasibility: NO! 
+Iteration 957; Item picked: Base position: -1068.4837557511928 mm; Feasibility: NO! 
+Iteration 958; Item picked: Base position: -263.56347888183336 mm; Feasibility: NO! 
+Iteration: 959;  Base position: -63.920775620029644 mm; Feasibility: YES!;Manipulability: 9.96810207336523; Execution time: 11.07735 
+Iteration: 960;  Base position: 1333.5464302144583 mm; Feasibility: YES!;Manipulability: 7.740537193281214; Execution time: 9.36312 
+Iteration: 961;  Base position: -1207.0194520337154 mm; Feasibility: YES!;Manipulability: 8.06842020332419; Execution time: 9.60854 
+Iteration 962; Item picked: Base position: 1031.2318143438056 mm; Feasibility: NO! 
+Iteration: 963;  Base position: 764.8121892511303 mm; Feasibility: YES!;Manipulability: 5.8031569173630455; Execution time: 9.14615 
+Iteration 964; Item picked: Base position: -721.5221008222525 mm; Feasibility: NO! 
+Iteration 965; Item picked: Base position: -405.6937974501659 mm; Feasibility: NO! 
+Iteration: 966;  Base position: -62.54763171102354 mm; Feasibility: YES!;Manipulability: 4.568922191255083; Execution time: 8.54368 
+Iteration 967; Item picked: Base position: -154.0213116404327 mm; Feasibility: NO! 
+Iteration 968; Item picked: Base position: 1130.8698040867466 mm; Feasibility: NO! 
+Iteration: 969;  Base position: -107.37360942015312 mm; Feasibility: YES!;Manipulability: 6.93000693000693; Execution time: 9.24498 
+Iteration 970; Item picked: Base position: -1403.295298779267 mm; Feasibility: NO! 
+Iteration 971; Item picked: Base position: 587.0674701725366 mm; Feasibility: NO! 
+Iteration 972; Item picked: Base position: 1294.7204200154065 mm; Feasibility: NO! 
+Iteration 973; Item picked: Base position: 931.7285714137583 mm; Feasibility: NO! 
+Iteration 974; Item picked: Base position: 592.8413962547515 mm; Feasibility: NO! 
+Iteration 975; Item picked: Base position: -1213.5773133853754 mm; Feasibility: NO! 
+Iteration 976; Item picked: Base position: -1124.9367671368714 mm; Feasibility: NO! 
+Iteration 977; Item picked: Base position: 878.9225218427832 mm; Feasibility: NO! 
+Iteration 978; Item picked: Base position: -1189.9583084927376 mm; Feasibility: NO! 
+Iteration: 979;  Base position: -1313.2538046176815 mm; Feasibility: YES!;Manipulability: 4.87044613286577; Execution time: 8.49679 
+Iteration 980; Item picked: Base position: -213.69024644140336 mm; Feasibility: NO! 
+Iteration 981; Item picked: Base position: -568.863667640921 mm; Feasibility: NO! 
+Iteration 982; Item picked: Base position: -334.0429647117712 mm; Feasibility: NO! 
+Iteration 983; Item picked: Base position: -42.47626525836995 mm; Feasibility: NO! 
+Iteration 984; Item picked: Base position: -592.9393138911158 mm; Feasibility: NO! 
+Iteration 985; Item picked: Base position: -1124.4442125265575 mm; Feasibility: NO! 
+Iteration 986; Item picked: Base position: 798.963376433107 mm; Feasibility: NO! 
+Iteration 987; Item picked: Base position: 609.2372964637511 mm; Feasibility: NO! 
+Iteration 988; Item picked: Base position: 468.59661493201133 mm; Feasibility: NO! 
+Iteration 989; Item picked: Base position: 0.7167685374852226 mm; Feasibility: NO! 
+Iteration 990; Item picked: Base position: 566.1990451120519 mm; Feasibility: NO! 
+Iteration 991; Item picked: Base position: 708.8638881238116 mm; Feasibility: NO! 
+Iteration: 992;  Base position: -1299.1708459989795 mm; Feasibility: YES!;Manipulability: 8.862105636299185; Execution time: 9.13974 
+Iteration 993; Item picked: Base position: 1486.2101575716515 mm; Feasibility: NO! 
+Iteration 994; Item picked: Base position: -690.4485382273147 mm; Feasibility: NO! 
+Iteration 995; Item picked: Base position: 797.4669227709614 mm; Feasibility: NO! 
+Iteration 996; Item picked: Base position: 701.0727750385163 mm; Feasibility: NO! 
+Iteration 997; Item picked: Base position: -1005.9502510572628 mm; Feasibility: NO! 
+Iteration 998; Item picked: Base position: -387.0572594533687 mm; Feasibility: NO! 
+Iteration 999; Item picked: Base position: -1192.557443957627 mm; Feasibility: NO! 
+Iteration 1000; Item picked: Base position: -166.84273075563942 mm; Feasibility: NO! 
+Iteration: 1001;  Base position: 1215.0995799529237 mm; Feasibility: YES!;Manipulability: 8.279516476237788; Execution time: 9.44461 
+Iteration 1002; Item picked: Base position: 1116.3316896197384 mm; Feasibility: NO! 
+Iteration 1003; Item picked: Base position: 844.2144903527173 mm; Feasibility: NO! 
+Iteration: 1004;  Base position: -359.9393392344116 mm; Feasibility: YES!;Manipulability: 7.741735697143299; Execution time: 9.19162 
+Iteration 1005; Item picked: Base position: 1316.676770836801 mm; Feasibility: NO! 
+Iteration 1006; Item picked: Base position: 949.6777280797219 mm; Feasibility: NO! 
+Iteration 1007; Item picked: Base position: 858.1952125765902 mm; Feasibility: NO! 
+Iteration: 1008;  Base position: -260.6799954248986 mm; Feasibility: YES!;Manipulability: 6.295643414756988; Execution time: 9.0626 
+Iteration 1009; Item picked: Base position: -1261.1687106956995 mm; Feasibility: NO! 
+Iteration: 1010;  Base position: 169.72924838952986 mm; Feasibility: YES!;Manipulability: 6.934331877123639; Execution time: 9.2205 
+Iteration 1011; Item picked: Base position: 817.6451142041351 mm; Feasibility: NO! 
+Iteration: 1012;  Base position: 529.8382891418987 mm; Feasibility: YES!;Manipulability: 6.705558908335009; Execution time: 9.01659 
+Iteration 1013; Item picked: Base position: -902.1477863262476 mm; Feasibility: NO! 
+Iteration: 1014;  Base position: -1216.722265843474 mm; Feasibility: YES!;Manipulability: 6.619886137958427; Execution time: 11.11664 
+Iteration 1015; Item picked: Base position: 1206.4363122510808 mm; Feasibility: NO! 
+Iteration 1016; Item picked: Base position: 218.0466619717415 mm; Feasibility: NO! 
+Iteration: 1017;  Base position: 629.5203611361362 mm; Feasibility: YES!;Manipulability: 4.856962455680218; Execution time: 8.49905 
+Iteration 1018; Item picked: Base position: 696.6725028889946 mm; Feasibility: NO! 
+Iteration: 1019;  Base position: -671.2683014357326 mm; Feasibility: YES!;Manipulability: 6.940588561910049; Execution time: 9.49755 
+Iteration: 1020;  Base position: -794.8731598335297 mm; Feasibility: YES!;Manipulability: 7.074136955291454; Execution time: 9.31855 
+Iteration: 1021;  Base position: -182.41984648532434 mm; Feasibility: YES!;Manipulability: 5.438625115570783; Execution time: 9.2033 
+Iteration: 1022;  Base position: 838.5201805643424 mm; Feasibility: YES!;Manipulability: 8.919810900008919; Execution time: 9.19801 
+Iteration 1023; Item picked: Base position: -695.8156328757549 mm; Feasibility: NO! 
+Iteration 1024; Item picked: Base position: -1442.674799872935 mm; Feasibility: NO! 
+Iteration 1025; Item picked: Base position: 1477.1686433260093 mm; Feasibility: NO! 
+Iteration: 1026;  Base position: 82.77551471346692 mm; Feasibility: YES!;Manipulability: 6.206168931918327; Execution time: 9.20318 
+Iteration: 1027;  Base position: -443.8528551070899 mm; Feasibility: YES!;Manipulability: 6.932889628397116; Execution time: 9.27999 
+Iteration 1028; Item picked: Base position: -1177.709740293729 mm; Feasibility: NO! 
+Iteration 1029; Item picked: Base position: 1332.015204454688 mm; Feasibility: NO! 
+Iteration 1030; Item picked: Base position: 1410.4836841084725 mm; Feasibility: NO! 
+Iteration 1031; Item picked: Base position: 1167.973913912815 mm; Feasibility: NO! 
+Iteration 1032; Item picked: Base position: 989.8369955745916 mm; Feasibility: NO! 
+Iteration: 1033;  Base position: 50.07468652618945 mm; Feasibility: YES!;Manipulability: 8.376612497905846; Execution time: 9.01465 
+Iteration 1034; Item picked: Base position: -680.004880024812 mm; Feasibility: NO! 
+Iteration 1035; Item picked: Base position: -1281.625264531492 mm; Feasibility: NO! 
+Iteration 1036; Item picked: Base position: -1365.567954611419 mm; Feasibility: NO! 
+Iteration 1037; Item picked: Base position: -473.3318388562859 mm; Feasibility: NO! 
+Iteration 1038; Item picked: Base position: 1374.8619887057994 mm; Feasibility: NO! 
+Iteration 1039; Item picked: Base position: 1325.226079979871 mm; Feasibility: NO! 
+Iteration: 1040;  Base position: -346.4950599043516 mm; Feasibility: YES!;Manipulability: 10.733068584308253; Execution time: 11.10505 
+Iteration 1041; Item picked: Base position: -322.5672238238026 mm; Feasibility: NO! 
+Iteration: 1042;  Base position: -581.6832738594406 mm; Feasibility: YES!;Manipulability: 7.747133560582585; Execution time: 9.20517 
+Iteration 1043; Item picked: Base position: 945.9122518896434 mm; Feasibility: NO! 
+Iteration 1044; Item picked: Base position: -307.1384043373664 mm; Feasibility: NO! 
+Iteration 1045; Item picked: Base position: 102.83210100818019 mm; Feasibility: NO! 
+Iteration: 1046;  Base position: 102.04304748745017 mm; Feasibility: YES!;Manipulability: 8.839388314328648; Execution time: 9.15206 
+Iteration 1047; Item picked: Base position: -1415.3164238721736 mm; Feasibility: NO! 
+Iteration 1048; Item picked: Base position: -1085.3498864361943 mm; Feasibility: NO! 
+Iteration 1049; Item picked: Base position: 1383.2390667357104 mm; Feasibility: NO! 
+Iteration 1050; Item picked: Base position: -1347.3920535404982 mm; Feasibility: NO! 
+Iteration 1051; Item picked: Base position: 813.8495440009774 mm; Feasibility: NO! 
+Iteration 1052; Item picked: Base position: -747.4651183855148 mm; Feasibility: NO! 
+Iteration: 1053;  Base position: -1449.2864124961752 mm; Feasibility: YES!;Manipulability: 7.094211123723042; Execution time: 9.35978 
+Iteration 1054; Item picked: Base position: 301.99706075648646 mm; Feasibility: NO! 
+Iteration 1055; Item picked: Base position: 506.6166019993998 mm; Feasibility: NO! 
+Iteration 1056; Item picked: Base position: -490.2840048015562 mm; Feasibility: NO! 
+Iteration 1057; Item picked: Base position: 370.03122063642263 mm; Feasibility: NO! 
+Iteration 1058; Item picked: Base position: -1440.256505197759 mm; Feasibility: NO! 
+Iteration 1059; Item picked: Base position: -553.7909079411172 mm; Feasibility: NO! 
+Iteration: 1060;  Base position: -598.6457512748286 mm; Feasibility: YES!;Manipulability: 7.8125; Execution time: 9.16311 
+Iteration 1061; Item picked: Base position: 143.97419800958596 mm; Feasibility: NO! 
+Iteration: 1062;  Base position: -279.2477004024511 mm; Feasibility: YES!;Manipulability: 7.892659826361483; Execution time: 9.13979 
+Iteration 1063; Item picked: Base position: -252.26417657993738 mm; Feasibility: NO! 
+Iteration 1064; Item picked: Base position: -214.33103148770624 mm; Feasibility: NO! 
+Iteration 1065; Item picked: Base position: 748.0693484044 mm; Feasibility: NO! 
+Iteration: 1066;  Base position: 1421.2528826087582 mm; Feasibility: YES!;Manipulability: 8.917424647761726; Execution time: 9.11159 
+Iteration 1067; Item picked: Base position: 740.9631976546743 mm; Feasibility: NO! 
+Iteration 1068; Item picked: Base position: -892.6781620558539 mm; Feasibility: NO! 
+Iteration: 1069;  Base position: 421.207932108696 mm; Feasibility: YES!;Manipulability: 7.635336336565626; Execution time: 9.25592 
+Iteration 1070; Item picked: Base position: -289.53373429586804 mm; Feasibility: NO! 
+Iteration: 1071;  Base position: 1443.0918368788512 mm; Feasibility: YES!;Manipulability: 5.290725358446643; Execution time: 9.0784 
+Iteration 1072; Item picked: Base position: -1069.2020857966252 mm; Feasibility: NO! 
+Iteration 1073; Item picked: Base position: 637.5963188911633 mm; Feasibility: NO! 
+Iteration 1074; Item picked: Base position: -692.0847561574471 mm; Feasibility: NO! 
+Iteration: 1075;  Base position: 897.6020648943004 mm; Feasibility: YES!;Manipulability: 8.23994726433751; Execution time: 9.02713 
+Iteration 1076; Item picked: Base position: 981.7596816825558 mm; Feasibility: NO! 
+Iteration 1077; Item picked: Base position: -864.8932370882377 mm; Feasibility: NO! 
+Iteration 1078; Item picked: Base position: -1056.8358651775877 mm; Feasibility: NO! 
+Iteration 1079; Item picked: Base position: 1221.0991866271584 mm; Feasibility: NO! 
+Iteration 1080; Item picked: Base position: -90.82524411697523 mm; Feasibility: NO! 
+Iteration: 1081;  Base position: 853.3588988614106 mm; Feasibility: YES!;Manipulability: 5.6993046848284505; Execution time: 9.28402 
+Iteration 1082; Item picked: Base position: 488.0763166017257 mm; Feasibility: NO! 
+Iteration 1083; Item picked: Base position: 1490.6275097310554 mm; Feasibility: NO! 
+Iteration 1084; Item picked: Base position: 1214.9728530432503 mm; Feasibility: NO! 
+Iteration 1085; Item picked: Base position: -830.1229865886104 mm; Feasibility: NO! 
+Iteration 1086; Item picked: Base position: 601.529547708677 mm; Feasibility: NO! 
+Iteration: 1087;  Base position: -381.96310778787733 mm; Feasibility: YES!;Manipulability: 8.421761832575374; Execution time: 9.26425 
+Iteration: 1088;  Base position: 138.99836490625603 mm; Feasibility: YES!;Manipulability: 4.579803068468056; Execution time: 8.53264 
+Iteration 1089; Item picked: Base position: 1170.2668407287874 mm; Feasibility: NO! 
+Iteration 1090; Item picked: Base position: -663.7341426515552 mm; Feasibility: NO! 
+Iteration 1091; Item picked: Base position: -608.8125980228727 mm; Feasibility: NO! 
+Iteration: 1092;  Base position: -938.718548033962 mm; Feasibility: YES!;Manipulability: 6.101281269066504; Execution time: 9.18106 
+Iteration 1093; Item picked: Base position: -1021.3511944048089 mm; Feasibility: NO! 
+Iteration 1094; Item picked: Base position: 572.7307868623475 mm; Feasibility: NO! 
+Iteration 1095; Item picked: Base position: -967.0572841431671 mm; Feasibility: NO! 
+Iteration 1096; Item picked: Base position: -1227.7274799074353 mm; Feasibility: NO! 
+Iteration 1097; Item picked: Base position: -1158.3644766239645 mm; Feasibility: NO! 
+Iteration 1098; Item picked: Base position: -520.9138353730941 mm; Feasibility: NO! 
+Iteration 1099; Item picked: Base position: -903.1205548035866 mm; Feasibility: NO! 
+Iteration 1100; Item picked: Base position: -886.4722092647579 mm; Feasibility: NO! 
+Iteration 1101; Item picked: Base position: 960.2363349578268 mm; Feasibility: NO! 
+Iteration 1102; Item picked: Base position: 206.08109199544265 mm; Feasibility: NO! 
+Iteration 1103; Item picked: Base position: -87.88901720663762 mm; Feasibility: NO! 
+Iteration: 1104;  Base position: -65.36289036715016 mm; Feasibility: YES!;Manipulability: 6.938662225922842; Execution time: 9.16421 
+Iteration 1105; Item picked: Base position: 1183.6855148029194 mm; Feasibility: NO! 
+Iteration: 1106;  Base position: -894.7945351421521 mm; Feasibility: YES!;Manipulability: 5.8132775258690845; Execution time: 9.14828 
+Iteration 1107; Item picked: Base position: 406.49711887539706 mm; Feasibility: NO! 
+Iteration 1108; Item picked: Base position: -1008.0812675753924 mm; Feasibility: NO! 
+Iteration: 1109;  Base position: -602.3044133976996 mm; Feasibility: YES!;Manipulability: 7.66753565404079; Execution time: 9.038 
+Iteration 1110; Item picked: Base position: 699.2393118789905 mm; Feasibility: NO! 
+Iteration: 1111;  Base position: -1157.089194875191 mm; Feasibility: YES!;Manipulability: 5.371723248818221; Execution time: 9.18712 
+Iteration: 1112;  Base position: 1341.4193300256375 mm; Feasibility: YES!;Manipulability: 6.890848952590959; Execution time: 9.19539 
+Iteration 1113; Item picked: Base position: 673.8890030796533 mm; Feasibility: NO! 
+Iteration 1114; Item picked: Base position: 66.65984807431505 mm; Feasibility: NO! 
+Iteration 1115; Item picked: Base position: 837.6793279025032 mm; Feasibility: NO! 
+Iteration 1116; Item picked: Base position: -628.0902609572056 mm; Feasibility: NO! 
+Iteration: 1117;  Base position: -578.7513853433106 mm; Feasibility: YES!;Manipulability: 7.500750075007501; Execution time: 9.35089 
+Iteration 1118; Item picked: Base position: 34.16237054285375 mm; Feasibility: NO! 
+Iteration 1119; Item picked: Base position: -669.9771764804302 mm; Feasibility: NO! 
+Iteration 1120; Item picked: Base position: 1281.927260648437 mm; Feasibility: NO! 
+Iteration 1121; Item picked: Base position: 936.9806579229053 mm; Feasibility: NO! 
+Iteration 1122; Item picked: Base position: 456.5091266908473 mm; Feasibility: NO! 
+Iteration 1123; Item picked: Base position: 1201.150940899961 mm; Feasibility: NO! 
+Iteration 1124; Item picked: Base position: 486.40064006487614 mm; Feasibility: NO! 
+Iteration 1125; Item picked: Base position: -1019.7063334509705 mm; Feasibility: NO! 
+Iteration: 1126;  Base position: -1421.2348721250612 mm; Feasibility: YES!;Manipulability: 6.364157067396424; Execution time: 9.14918 
+Iteration 1127; Item picked: Base position: -473.4677857499489 mm; Feasibility: NO! 
+Iteration: 1128;  Base position: -243.41805669769633 mm; Feasibility: YES!;Manipulability: 5.8830450641251915; Execution time: 9.0635 
+Iteration 1129; Item picked: Base position: -374.11170116665676 mm; Feasibility: NO! 
+Iteration 1130; Item picked: Base position: -1063.4359657541993 mm; Feasibility: NO! 
+Iteration 1131; Item picked: Base position: 1275.9657419204277 mm; Feasibility: NO! 
+Iteration 1132; Item picked: Base position: -81.15936456327086 mm; Feasibility: NO! 
+Iteration 1133; Item picked: Base position: 1485.7377470504844 mm; Feasibility: NO! 
+Iteration 1134; Item picked: Base position: 913.6390518891162 mm; Feasibility: NO! 
+Iteration 1135; Item picked: Base position: -387.90825698865774 mm; Feasibility: NO! 
+Iteration: 1136;  Base position: 511.09350145305734 mm; Feasibility: YES!;Manipulability: 5.236150382238978; Execution time: 9.11164 
+Iteration 1137; Item picked: Base position: 320.4328154041816 mm; Feasibility: NO! 
+Iteration 1138; Item picked: Base position: -264.41651215836123 mm; Feasibility: NO! 
+Iteration: 1139;  Base position: -1498.0521979625776 mm; Feasibility: YES!;Manipulability: 9.254974548819991; Execution time: 9.28673 
+Iteration 1140; Item picked: Base position: 596.3025694947064 mm; Feasibility: NO! 
+Iteration: 1141;  Base position: 66.57043455209487 mm; Feasibility: YES!;Manipulability: 8.807468733485996; Execution time: 9.06104 
+Iteration 1142; Item picked: Base position: 687.2237452577128 mm; Feasibility: NO! 
+Iteration: 1143;  Base position: -926.4358165971516 mm; Feasibility: YES!;Manipulability: 9.288500835965074; Execution time: 9.1915 
+Iteration 1144; Item picked: Base position: -765.5953770567447 mm; Feasibility: NO! 
+Iteration 1145; Item picked: Base position: -1226.0880827319834 mm; Feasibility: NO! 
+Iteration: 1146;  Base position: -258.30430058898037 mm; Feasibility: YES!;Manipulability: 8.775008775008775; Execution time: 9.18837 
+Iteration 1147; Item picked: Base position: 1248.3597220300976 mm; Feasibility: NO! 
+Iteration 1148; Item picked: Base position: 748.8620038531553 mm; Feasibility: NO! 
+Iteration 1149; Item picked: Base position: -560.8227796175578 mm; Feasibility: NO! 
+Iteration 1150; Item picked: Base position: 1188.4184358359576 mm; Feasibility: NO! 
+Iteration 1151; Item picked: Base position: 278.80017231439865 mm; Feasibility: NO! 
+Iteration: 1152;  Base position: 1204.5566197975481 mm; Feasibility: YES!;Manipulability: 6.038647342995169; Execution time: 9.0512 
+Iteration: 1153;  Base position: 1138.1665674469923 mm; Feasibility: YES!;Manipulability: 7.22908985758693; Execution time: 9.36247 
+Iteration 1154; Item picked: Base position: -811.4358911657683 mm; Feasibility: NO! 
+Iteration 1155; Item picked: Base position: 1313.4949682228548 mm; Feasibility: NO! 
+Iteration 1156; Item picked: Base position: 1204.5916898270752 mm; Feasibility: NO! 
+Iteration 1157; Item picked: Base position: -657.844954651838 mm; Feasibility: NO! 
+Iteration: 1158;  Base position: 1164.1657020028115 mm; Feasibility: YES!;Manipulability: 6.28456510809452; Execution time: 9.12369 
+Iteration 1159; Item picked: Base position: -816.0428944777325 mm; Feasibility: NO! 
+Iteration: 1160;  Base position: -1218.4704294671606 mm; Feasibility: YES!;Manipulability: 5.530667551573475; Execution time: 9.06114 
+Iteration 1161; Item picked: Base position: 283.70370119507106 mm; Feasibility: NO! 
+Iteration: 1162;  Base position: -477.7471735686174 mm; Feasibility: YES!;Manipulability: 7.743534148985597; Execution time: 9.19037 
+Iteration 1163; Item picked: Base position: 106.9847948365732 mm; Feasibility: NO! 
+Iteration 1164; Item picked: Base position: 901.4796821234945 mm; Feasibility: NO! 
+Iteration 1165; Item picked: Base position: 144.20985260210432 mm; Feasibility: NO! 
+Iteration 1166; Item picked: Base position: -266.42210121832545 mm; Feasibility: NO! 
+Iteration 1167; Item picked: Base position: 413.05529285769126 mm; Feasibility: NO! 
+Iteration: 1168;  Base position: -462.1435400620305 mm; Feasibility: YES!;Manipulability: 7.598206823189727; Execution time: 9.04972 
+Iteration: 1169;  Base position: 627.0927524167728 mm; Feasibility: YES!;Manipulability: 8.394895903290799; Execution time: 9.27336 
+Iteration 1170; Item picked: Base position: -937.836864106164 mm; Feasibility: NO! 
+Iteration 1171; Item picked: Base position: 116.27368526174337 mm; Feasibility: NO! 
+Iteration: 1172;  Base position: 420.55124590351693 mm; Feasibility: YES!;Manipulability: 6.938662225922842; Execution time: 9.29138 
+Iteration 1173; Item picked: Base position: 964.8521634223503 mm; Feasibility: NO! 
+Iteration 1174; Item picked: Base position: -885.2547595226785 mm; Feasibility: NO! 
+Iteration: 1175;  Base position: 1471.322805123812 mm; Feasibility: YES!;Manipulability: 8.550662676357417; Execution time: 9.24412 
+Iteration 1176; Item picked: Base position: -836.6866213955421 mm; Feasibility: NO! 
+Iteration 1177; Item picked: Base position: -710.9479293824162 mm; Feasibility: NO! 
+Iteration 1178; Item picked: Base position: -947.0697130325935 mm; Feasibility: NO! 
+Iteration 1179; Item picked: Base position: 1278.1219994823418 mm; Feasibility: NO! 
+Iteration 1180; Item picked: Base position: -755.6162109219551 mm; Feasibility: NO! 
+Iteration 1181; Item picked: Base position: -786.6058142812984 mm; Feasibility: NO! 
+Iteration 1182; Item picked: Base position: -1105.7970581805264 mm; Feasibility: NO! 
+Iteration 1183; Item picked: Base position: 748.8124190668154 mm; Feasibility: NO! 
+Iteration 1184; Item picked: Base position: 1088.036918321363 mm; Feasibility: NO! 
+Iteration: 1185;  Base position: -979.031273465825 mm; Feasibility: YES!;Manipulability: 7.381708127260648; Execution time: 9.61023 
+Iteration 1186; Item picked: Base position: 224.76396373945227 mm; Feasibility: NO! 
+Iteration 1187; Item picked: Base position: -566.4650196033592 mm; Feasibility: NO! 
+Iteration: 1188;  Base position: 304.24785263279205 mm; Feasibility: YES!;Manipulability: 7.613826709304096; Execution time: 9.2921 
+Iteration 1189; Item picked: Base position: -504.6848203266028 mm; Feasibility: NO! 
+Iteration 1190; Item picked: Base position: 536.8274815354655 mm; Feasibility: NO! 
+Iteration 1191; Item picked: Base position: 246.45772529645 mm; Feasibility: NO! 
+Iteration 1192; Item picked: Base position: -1462.415881255225 mm; Feasibility: NO! 
+Iteration 1193; Item picked: Base position: 293.93467371342376 mm; Feasibility: NO! 
+Iteration 1194; Item picked: Base position: 885.9531570700319 mm; Feasibility: NO! 
+Iteration: 1195;  Base position: -356.174181681366 mm; Feasibility: YES!;Manipulability: 5.779678649867067; Execution time: 9.14073 
+Iteration: 1196;  Base position: 352.0197125209411 mm; Feasibility: YES!;Manipulability: 7.256894049346879; Execution time: 9.37538 
+Iteration: 1197;  Base position: 568.5755925925805 mm; Feasibility: YES!;Manipulability: 8.760402978537012; Execution time: 9.21463 
+Iteration 1198; Item picked: Base position: 419.8504029120131 mm; Feasibility: NO! 
+Iteration 1199; Item picked: Base position: -505.47915345627337 mm; Feasibility: NO! 
+Iteration: 1200;  Base position: -812.0995297369543 mm; Feasibility: YES!;Manipulability: 7.091192738618635; Execution time: 9.35876 
+Iteration 1201; Item picked: Base position: 1293.1180075951206 mm; Feasibility: NO! 
+Iteration 1202; Item picked: Base position: 97.13887842816644 mm; Feasibility: NO! 
+Iteration 1203; Item picked: Base position: 1461.0334155781807 mm; Feasibility: NO! 
+Iteration 1204; Item picked: Base position: -603.1838038196383 mm; Feasibility: NO! 
+Iteration: 1205;  Base position: 837.5009042019833 mm; Feasibility: YES!;Manipulability: 9.71534052268532; Execution time: 9.56151 
+Iteration: 1206;  Base position: 849.489937300059 mm; Feasibility: YES!;Manipulability: 7.209285559801024; Execution time: 9.3523 
+Iteration 1207; Item picked: Base position: -61.38474885759683 mm; Feasibility: NO! 
+Iteration 1208; Item picked: Base position: -647.3811668674282 mm; Feasibility: NO! 
+Iteration 1209; Item picked: Base position: 473.06878758790435 mm; Feasibility: NO! 
+Iteration 1210; Item picked: Base position: 292.218038338538 mm; Feasibility: NO! 
+Iteration 1211; Item picked: Base position: -673.1287555219637 mm; Feasibility: NO! 
+Iteration: 1212;  Base position: -530.0508614102027 mm; Feasibility: YES!;Manipulability: 6.31352989456405; Execution time: 9.13549 
+Iteration 1213; Item picked: Base position: -149.75162384279133 mm; Feasibility: NO! 
+Iteration 1214; Item picked: Base position: 925.5054023546631 mm; Feasibility: NO! 
+Iteration 1215; Item picked: Base position: -671.412687178593 mm; Feasibility: NO! 
+Iteration: 1216;  Base position: 504.587385096444 mm; Feasibility: YES!;Manipulability: 8.821453775582215; Execution time: 9.06722 
+Iteration 1217; Item picked: Base position: -591.0591629135012 mm; Feasibility: NO! 
+Iteration: 1218;  Base position: 635.3653183953747 mm; Feasibility: YES!;Manipulability: 6.503642039542143; Execution time: 9.12228 
+Iteration 1219; Item picked: Base position: -245.1348825371017 mm; Feasibility: NO! 
+Iteration 1220; Item picked: Base position: -48.81175873286634 mm; Feasibility: NO! 
+Iteration 1221; Item picked: Base position: 423.588003898172 mm; Feasibility: NO! 
+Iteration 1222; Item picked: Base position: 60.30145638991826 mm; Feasibility: NO! 
+Iteration 1223; Item picked: Base position: 487.28716539138463 mm; Feasibility: NO! 
+Iteration: 1224;  Base position: -296.615361525098 mm; Feasibility: YES!;Manipulability: 5.703855806525211; Execution time: 9.09473 
+Iteration: 1225;  Base position: 206.15088102236564 mm; Feasibility: YES!;Manipulability: 5.2974519256237755; Execution time: 9.14709 
+Iteration 1226; Item picked: Base position: 1023.8961252617128 mm; Feasibility: NO! 
+Iteration 1227; Item picked: Base position: -1195.4154716409762 mm; Feasibility: NO! 
+Iteration 1228; Item picked: Base position: 1338.7373831730747 mm; Feasibility: NO! 
+Iteration: 1229;  Base position: -569.3689353153723 mm; Feasibility: YES!;Manipulability: 8.726764988218868; Execution time: 9.22308 
+Iteration 1230; Item picked: Base position: 1035.0065170803796 mm; Feasibility: NO! 
+Iteration 1231; Item picked: Base position: -902.0008765478469 mm; Feasibility: NO! 
+Iteration 1232; Item picked: Base position: -888.6928215164961 mm; Feasibility: NO! 
+Iteration 1233; Item picked: Base position: -910.354583776572 mm; Feasibility: NO! 
+Iteration: 1234;  Base position: 1107.1676033714557 mm; Feasibility: YES!;Manipulability: 7.686395080707149; Execution time: 9.34892 
+Iteration 1235; Item picked: Base position: -393.5915653502359 mm; Feasibility: NO! 
+Iteration 1236; Item picked: Base position: -1316.6359624636457 mm; Feasibility: NO! 
+Iteration 1237; Item picked: Base position: 850.5175776499459 mm; Feasibility: NO! 
+Iteration 1238; Item picked: Base position: 374.6802381173211 mm; Feasibility: NO! 
+Iteration 1239; Item picked: Base position: 164.1005430223147 mm; Feasibility: NO! 
+Iteration: 1240;  Base position: 1077.7271127250992 mm; Feasibility: YES!;Manipulability: 6.535520554212143; Execution time: 9.03379 
+Iteration 1241; Item picked: Base position: -1215.3154048813778 mm; Feasibility: NO! 
+Iteration 1242; Item picked: Base position: 1275.487833477348 mm; Feasibility: NO! 
+Iteration 1243; Item picked: Base position: -258.0548728227618 mm; Feasibility: NO! 
+Iteration 1244; Item picked: Base position: -572.6342956398239 mm; Feasibility: NO! 
+Iteration 1245; Item picked: Base position: 973.3803505936326 mm; Feasibility: NO! 
+Iteration 1246; Item picked: Base position: 1085.3387645520338 mm; Feasibility: NO! 
+Iteration 1247; Item picked: Base position: -603.4024585236275 mm; Feasibility: NO! 
+Iteration 1248; Item picked: Base position: -830.42891010584 mm; Feasibility: NO! 
+Iteration 1249; Item picked: Base position: -798.528145074511 mm; Feasibility: NO! 
+Iteration: 1250;  Base position: 121.04588949204026 mm; Feasibility: YES!;Manipulability: 7.009673349221925; Execution time: 9.14517 
+Iteration 1251; Item picked: Base position: -889.8796979561565 mm; Feasibility: NO! 
+Iteration 1252; Item picked: Base position: 884.1934400863847 mm; Feasibility: NO! 
+Iteration: 1253;  Base position: -1469.8311517287493 mm; Feasibility: YES!;Manipulability: 11.049723756906078; Execution time: 11.36198 
+Iteration 1254; Item picked: Base position: 1058.6798313304034 mm; Feasibility: NO! 
+Iteration 1255; Item picked: Base position: -1455.789728310676 mm; Feasibility: NO! 
+Iteration 1256; Item picked: Base position: -507.3151549403731 mm; Feasibility: NO! 
+Iteration 1257; Item picked: Base position: 276.8737698369723 mm; Feasibility: NO! 
+Iteration 1258; Item picked: Base position: 426.8187549141189 mm; Feasibility: NO! 
+Iteration: 1259;  Base position: -799.0326500025875 mm; Feasibility: YES!;Manipulability: 4.862630683199611; Execution time: 8.50483 
+Iteration 1260; Item picked: Base position: 1074.9896722692347 mm; Feasibility: NO! 
+Iteration 1261; Item picked: Base position: 526.1436811217113 mm; Feasibility: NO! 
+Iteration 1262; Item picked: Base position: -1379.4593781361916 mm; Feasibility: NO! 
+Iteration 1263; Item picked: Base position: 1367.7795950250652 mm; Feasibility: NO! 
+Iteration 1264; Item picked: Base position: 494.93376902541286 mm; Feasibility: NO! 
+Iteration 1265; Item picked: Base position: 1236.6704558559495 mm; Feasibility: NO! 
+Iteration: 1266;  Base position: -889.0754390508515 mm; Feasibility: YES!;Manipulability: 6.299609424215699; Execution time: 9.13035 
+Iteration 1267; Item picked: Base position: 435.68888691242273 mm; Feasibility: NO! 
+Iteration 1268; Item picked: Base position: 300.7151399566685 mm; Feasibility: NO! 
+Iteration 1269; Item picked: Base position: 471.223633955241 mm; Feasibility: NO! 
+Iteration: 1270;  Base position: 1145.6676878232447 mm; Feasibility: YES!;Manipulability: 9.197939661515822; Execution time: 9.79205 
+Iteration: 1271;  Base position: -68.94056206792516 mm; Feasibility: YES!;Manipulability: 8.663259118080221; Execution time: 9.23192 
+Iteration 1272; Item picked: Base position: -1220.788893000542 mm; Feasibility: NO! 
+Iteration 1273; Item picked: Base position: 120.0695517215463 mm; Feasibility: NO! 
+Iteration 1274; Item picked: Base position: 1405.1710269081514 mm; Feasibility: NO! 
+Iteration 1275; Item picked: Base position: -1191.742000403027 mm; Feasibility: NO! 
+Iteration: 1276;  Base position: -57.18866817171829 mm; Feasibility: YES!;Manipulability: 6.075334143377886; Execution time: 9.40753 
+Iteration: 1277;  Base position: -1098.3335813696424 mm; Feasibility: YES!;Manipulability: 9.007386056566386; Execution time: 9.72932 
+Iteration 1278; Item picked: Base position: 185.78918326024427 mm; Feasibility: NO! 
+Iteration 1279; Item picked: Base position: -570.5478259699219 mm; Feasibility: NO! 
+Iteration: 1280;  Base position: 286.39450222989717 mm; Feasibility: YES!;Manipulability: 8.869966294128082; Execution time: 9.02478 
+Iteration 1281; Item picked: Base position: 1082.9113649581004 mm; Feasibility: NO! 
+Iteration 1282; Item picked: Base position: 110.7156051080267 mm; Feasibility: NO! 
+Iteration 1283; Item picked: Base position: 1266.7165041888998 mm; Feasibility: NO! 
+Iteration: 1284;  Base position: 453.19153684956837 mm; Feasibility: YES!;Manipulability: 9.244707405010631; Execution time: 9.17761 
+Iteration 1285; Item picked: Base position: -542.1919205407432 mm; Feasibility: NO! 
+Iteration 1286; Item picked: Base position: 772.9730826686241 mm; Feasibility: NO! 
+Iteration 1287; Item picked: Base position: -861.3179987242481 mm; Feasibility: NO! 
+Iteration 1288; Item picked: Base position: -551.4798733960065 mm; Feasibility: NO! 
+Iteration 1289; Item picked: Base position: 1192.1864973819875 mm; Feasibility: NO! 
+Iteration 1290; Item picked: Base position: 1310.356231474931 mm; Feasibility: NO! 
+Iteration 1291; Item picked: Base position: 1426.6484674994522 mm; Feasibility: NO! 
+Iteration 1292; Item picked: Base position: -168.37318697751607 mm; Feasibility: NO! 
+Iteration: 1293;  Base position: 1306.2070912503568 mm; Feasibility: YES!;Manipulability: 7.20876585928489; Execution time: 9.10779 
+Iteration: 1294;  Base position: -575.9266532304632 mm; Feasibility: YES!;Manipulability: 7.117944337675279; Execution time: 9.12336 
+Iteration 1295; Item picked: Base position: 253.4568871706781 mm; Feasibility: NO! 
+Iteration 1296; Item picked: Base position: 894.222232928953 mm; Feasibility: NO! 
+Iteration: 1297;  Base position: 947.3854879251976 mm; Feasibility: YES!;Manipulability: 6.479621590099138; Execution time: 9.17045 
+Iteration 1298; Item picked: Base position: -940.255241025847 mm; Feasibility: NO! 
+Iteration 1299; Item picked: Base position: -1171.7254337218415 mm; Feasibility: NO! 
+Iteration 1300; Item picked: Base position: 1113.7169097299306 mm; Feasibility: NO! 
+Iteration 1301; Item picked: Base position: -660.8605557823194 mm; Feasibility: NO! 
+Iteration 1302; Item picked: Base position: -1277.6060768992043 mm; Feasibility: NO! 
+Iteration 1303; Item picked: Base position: 816.5600598555461 mm; Feasibility: NO! 
+Iteration: 1304;  Base position: 412.94074928527357 mm; Feasibility: YES!;Manipulability: 6.801333061280011; Execution time: 9.44888 
+Iteration 1305; Item picked: Base position: -53.46107583442699 mm; Feasibility: NO! 
+Iteration 1306; Item picked: Base position: -1486.297481712232 mm; Feasibility: NO! 
+Iteration: 1307;  Base position: 235.30847468491152 mm; Feasibility: YES!;Manipulability: 5.989458552946814; Execution time: 9.33295 
+Iteration 1308; Item picked: Base position: -1475.205098235304 mm; Feasibility: NO! 
+Iteration 1309; Item picked: Base position: 902.345748520017 mm; Feasibility: NO! 
+Iteration 1310; Item picked: Base position: -1136.0600271837327 mm; Feasibility: NO! 
+Iteration 1311; Item picked: Base position: -117.8292254403384 mm; Feasibility: NO! 
+Iteration 1312; Item picked: Base position: -1162.3933962812089 mm; Feasibility: NO! 
+Iteration 1313; Item picked: Base position: 953.5145550677335 mm; Feasibility: NO! 
+Iteration 1314; Item picked: Base position: 632.6854018781823 mm; Feasibility: NO! 
+Iteration 1315; Item picked: Base position: 713.0986220075247 mm; Feasibility: NO! 
+Iteration 1316; Item picked: Base position: 78.52694631270674 mm; Feasibility: NO! 
+Iteration 1317; Item picked: Base position: -6.980825556635182 mm; Feasibility: NO! 
+Iteration: 1318;  Base position: -1100.4193057686343 mm; Feasibility: YES!;Manipulability: 8.974243919949744; Execution time: 9.09334 
+Iteration 1319; Item picked: Base position: 1417.1160210080643 mm; Feasibility: NO! 
+Iteration 1320; Item picked: Base position: 634.2207012384729 mm; Feasibility: NO! 
+Iteration 1321; Item picked: Base position: -386.9702633947852 mm; Feasibility: NO! 
+Iteration 1322; Item picked: Base position: -893.5302195358063 mm; Feasibility: NO! 
+Iteration 1323; Item picked: Base position: 1375.4196273646098 mm; Feasibility: NO! 
+Iteration 1324; Item picked: Base position: 11.916613193507146 mm; Feasibility: NO! 
+Iteration 1325; Item picked: Base position: 1202.363747396822 mm; Feasibility: NO! 
+Iteration 1326; Item picked: Base position: -1134.8626991807785 mm; Feasibility: NO! 
+Iteration 1327; Item picked: Base position: 1304.210830771341 mm; Feasibility: NO! 
+Iteration: 1328;  Base position: -609.8657176891767 mm; Feasibility: YES!;Manipulability: 6.09942055504727; Execution time: 9.24131 
+Iteration 1329; Item picked: Base position: -278.6093806185895 mm; Feasibility: NO! 
+Iteration 1330; Item picked: Base position: -1379.4821384632064 mm; Feasibility: NO! 
+Iteration 1331; Item picked: Base position: 81.44337247491603 mm; Feasibility: NO! 
+Iteration 1332; Item picked: Base position: -930.9355444844955 mm; Feasibility: NO! 
+Iteration 1333; Item picked: Base position: -266.6624488969835 mm; Feasibility: NO! 
+Iteration 1334; Item picked: Base position: -1421.2334875260408 mm; Feasibility: NO! 
+Iteration 1335; Item picked: Base position: 308.34743058835465 mm; Feasibility: NO! 
+Iteration 1336; Item picked: Base position: -916.4670127993833 mm; Feasibility: NO! 
+Iteration 1337; Item picked: Base position: -173.18099048531758 mm; Feasibility: NO! 
+Iteration 1338; Item picked: Base position: 249.6709051479313 mm; Feasibility: NO! 
+Iteration 1339; Item picked: Base position: 1125.3080727200809 mm; Feasibility: NO! 
+Iteration 1340; Item picked: Base position: 371.2128704183997 mm; Feasibility: NO! 
+Iteration 1341; Item picked: Base position: 360.02033358453286 mm; Feasibility: NO! 
+Iteration 1342; Item picked: Base position: 152.65941308321317 mm; Feasibility: NO! 
+Iteration: 1343;  Base position: 824.7549643187099 mm; Feasibility: YES!;Manipulability: 10.932546190007653; Execution time: 11.36784 
+Iteration 1344; Item picked: Base position: -534.6835375574007 mm; Feasibility: NO! 
+Iteration 1345; Item picked: Base position: -210.85135361434845 mm; Feasibility: NO! 
+Iteration 1346; Item picked: Base position: -534.0928247208666 mm; Feasibility: NO! 
+Iteration 1347; Item picked: Base position: -1146.3103935903277 mm; Feasibility: NO! 
+Iteration 1348; Item picked: Base position: -329.19605141630177 mm; Feasibility: NO! 
+Iteration: 1349;  Base position: 1449.102319318963 mm; Feasibility: YES!;Manipulability: 6.233636703652911; Execution time: 9.04425 
+Iteration 1350; Item picked: Base position: 149.5508164203486 mm; Feasibility: NO! 
+Iteration 1351; Item picked: Base position: -10.13163310467553 mm; Feasibility: NO! 
+Iteration 1352; Item picked: Base position: -645.1486250938736 mm; Feasibility: NO! 
+Iteration: 1353;  Base position: -374.1240696065106 mm; Feasibility: YES!;Manipulability: 8.79971840901091; Execution time: 9.05598 
+Iteration 1354; Item picked: Base position: -754.9461997510062 mm; Feasibility: NO! 
+Iteration 1355; Item picked: Base position: 578.0389317329041 mm; Feasibility: NO! 
+Iteration 1356; Item picked: Base position: -1220.012893446933 mm; Feasibility: NO! 
+Iteration 1357; Item picked: Base position: -441.6043748902064 mm; Feasibility: NO! 
+Iteration 1358; Item picked: Base position: 650.8293884588716 mm; Feasibility: NO! 
+Iteration 1359; Item picked: Base position: 1032.6654597777724 mm; Feasibility: NO! 
+Iteration 1360; Item picked: Base position: -1026.0132774364001 mm; Feasibility: NO! 
+Iteration: 1361;  Base position: -21.973343100423108 mm; Feasibility: YES!;Manipulability: 8.936550491510276; Execution time: 9.1022 
+Iteration 1362; Item picked: Base position: -430.5843672560977 mm; Feasibility: NO! 
+Iteration 1363; Item picked: Base position: 755.8101630124138 mm; Feasibility: NO! 
+Iteration 1364; Item picked: Base position: 1053.836608804827 mm; Feasibility: NO! 
+Iteration 1365; Item picked: Base position: 506.8317288833921 mm; Feasibility: NO! 
+Iteration 1366; Item picked: Base position: -732.4561902104099 mm; Feasibility: NO! 
+Iteration 1367; Item picked: Base position: 52.21054530019728 mm; Feasibility: NO! 
+Iteration 1368; Item picked: Base position: 1174.5402633003428 mm; Feasibility: NO! 
+Iteration 1369; Item picked: Base position: -1007.1769419414145 mm; Feasibility: NO! 
+Iteration: 1370;  Base position: -612.5383458488413 mm; Feasibility: YES!;Manipulability: 5.386479935362241; Execution time: 9.19368 
+Iteration 1371; Item picked: Base position: 1400.2090052060398 mm; Feasibility: NO! 
+Iteration: 1372;  Base position: -789.020138071659 mm; Feasibility: YES!;Manipulability: 9.096697898662786; Execution time: 10.97306 
+Iteration 1373; Item picked: Base position: -90.30781241325212 mm; Feasibility: NO! 
+Iteration 1374; Item picked: Base position: 1429.3761109082789 mm; Feasibility: NO! 
+Iteration: 1375;  Base position: -1088.846355038083 mm; Feasibility: YES!;Manipulability: 5.717879810166391; Execution time: 9.08973 
+Iteration 1376; Item picked: Base position: 1367.8555181838246 mm; Feasibility: NO! 
+Iteration 1377; Item picked: Base position: 1265.742966288989 mm; Feasibility: NO! 
+Iteration 1378; Item picked: Base position: -1208.295129844228 mm; Feasibility: NO! 
+Iteration 1379; Item picked: Base position: 1464.4803705129739 mm; Feasibility: NO! 
+Iteration 1380; Item picked: Base position: -824.2381810358811 mm; Feasibility: NO! 
+Iteration: 1381;  Base position: 720.7606996305763 mm; Feasibility: YES!;Manipulability: 8.413967185527977; Execution time: 9.14251 
+Iteration 1382; Item picked: Base position: 228.67340567173392 mm; Feasibility: NO! 
+Iteration 1383; Item picked: Base position: 415.84091044571664 mm; Feasibility: NO! 
+Iteration 1384; Item picked: Base position: 1394.2625559161006 mm; Feasibility: NO! 
+Iteration 1385; Item picked: Base position: -701.5503487854342 mm; Feasibility: NO! 
+Iteration 1386; Item picked: Base position: 1311.8287146616804 mm; Feasibility: NO! 
+Iteration: 1387;  Base position: 614.3998101809661 mm; Feasibility: YES!;Manipulability: 8.609556607834696; Execution time: 10.91573 
+Iteration 1388; Item picked: Base position: -1300.9203012480737 mm; Feasibility: NO! 
+Iteration: 1389;  Base position: -681.6993364027387 mm; Feasibility: YES!;Manipulability: 9.82800982800983; Execution time: 9.54892 
+Iteration 1390; Item picked: Base position: 938.4657754436471 mm; Feasibility: NO! 
+Iteration 1391; Item picked: Base position: -71.44752325612808 mm; Feasibility: NO! 
+Iteration 1392; Item picked: Base position: 1209.5111994251279 mm; Feasibility: NO! 
+Iteration 1393; Item picked: Base position: -133.32451426937746 mm; Feasibility: NO! 
+Iteration: 1394;  Base position: 180.4298667279079 mm; Feasibility: YES!;Manipulability: 8.77808988764045; Execution time: 11.01917 
+Iteration 1395; Item picked: Base position: -537.4357618425611 mm; Feasibility: NO! 
+Iteration 1396; Item picked: Base position: -1100.0941956427862 mm; Feasibility: NO! 
+Iteration 1397; Item picked: Base position: 34.99892289953891 mm; Feasibility: NO! 
+Iteration: 1398;  Base position: -949.9342156227011 mm; Feasibility: YES!;Manipulability: 8.021819348628268; Execution time: 8.97934 
+Iteration 1399; Item picked: Base position: -173.7974835983282 mm; Feasibility: NO! 
+Iteration 1400; Item picked: Base position: -17.58087072553917 mm; Feasibility: NO! 
+Iteration 1401; Item picked: Base position: -660.5491956039721 mm; Feasibility: NO! 
+Iteration: 1402;  Base position: 585.5429369554927 mm; Feasibility: YES!;Manipulability: 5.905628063544557; Execution time: 9.18584 
+Iteration 1403; Item picked: Base position: 169.32731095052145 mm; Feasibility: NO! 
+Iteration 1404; Item picked: Base position: -1326.1639596045375 mm; Feasibility: NO! 
+Iteration 1405; Item picked: Base position: -135.23469866798223 mm; Feasibility: NO! 
+Iteration: 1406;  Base position: -1298.0453739671907 mm; Feasibility: YES!;Manipulability: 7.171543316121629; Execution time: 10.85046 
+Iteration: 1407;  Base position: -1331.2446350488713 mm; Feasibility: YES!;Manipulability: 9.122422915526364; Execution time: 9.25342 
+Iteration: 1408;  Base position: -188.74270888398155 mm; Feasibility: YES!;Manipulability: 8.945343948474818; Execution time: 9.20134 
+Iteration 1409; Item picked: Base position: 1388.4287983305653 mm; Feasibility: NO! 
+Iteration 1410; Item picked: Base position: 1400.5030223650933 mm; Feasibility: NO! 
+Iteration: 1411;  Base position: -1030.3996770107217 mm; Feasibility: YES!;Manipulability: 6.93000693000693; Execution time: 9.49415 
+Iteration: 1412;  Base position: 1381.519510387563 mm; Feasibility: YES!;Manipulability: 6.8115251004699955; Execution time: 9.24963 
+Iteration 1413; Item picked: Base position: 1365.867421736246 mm; Feasibility: NO! 
+Iteration 1414; Item picked: Base position: -351.64702888742 mm; Feasibility: NO! 
+Iteration 1415; Item picked: Base position: 1473.3555650575463 mm; Feasibility: NO! 
+Iteration: 1416;  Base position: -801.2600754012027 mm; Feasibility: YES!;Manipulability: 6.93000693000693; Execution time: 9.49415 
+Iteration 1417; Item picked: Base position: 1496.6892799640696 mm; Feasibility: NO! 
+Iteration 1418; Item picked: Base position: 901.2358330584129 mm; Feasibility: NO! 
+Iteration 1419; Item picked: Base position: -1412.4182217093344 mm; Feasibility: NO! 
+Iteration 1420; Item picked: Base position: 562.1465398186583 mm; Feasibility: NO! 
+Iteration 1421; Item picked: Base position: 225.9727742576954 mm; Feasibility: NO! 
+Iteration 1422; Item picked: Base position: 530.6112510020691 mm; Feasibility: NO! 
+Iteration 1423; Item picked: Base position: 1427.193715731818 mm; Feasibility: NO! 
+Iteration 1424; Item picked: Base position: -1345.5318950908718 mm; Feasibility: NO! 
+Iteration 1425; Item picked: Base position: -454.17961671998637 mm; Feasibility: NO! 
+Iteration: 1426;  Base position: 213.46887331139123 mm; Feasibility: YES!;Manipulability: 5.6554688383667004; Execution time: 9.05719 
+Iteration 1427; Item picked: Base position: -639.8908779804724 mm; Feasibility: NO! 
+Iteration: 1428;  Base position: 714.4301302973281 mm; Feasibility: YES!;Manipulability: 5.701904436081651; Execution time: 9.09552 
+Iteration 1429; Item picked: Base position: 230.17509656444258 mm; Feasibility: NO! 
+Iteration 1430; Item picked: Base position: 243.64983997361742 mm; Feasibility: NO! 
+Iteration 1431; Item picked: Base position: 861.4842001270449 mm; Feasibility: NO! 
+Iteration: 1432;  Base position: -1407.0378357988077 mm; Feasibility: YES!;Manipulability: 5.692491603574885; Execution time: 9.05636 
+Iteration 1433; Item picked: Base position: -974.6149784560384 mm; Feasibility: NO! 
+Iteration 1434; Item picked: Base position: 720.0405665922813 mm; Feasibility: NO! 
+Iteration 1435; Item picked: Base position: -321.20199279955364 mm; Feasibility: NO! 
+Iteration 1436; Item picked: Base position: -447.4538879519994 mm; Feasibility: NO! 
+Iteration 1437; Item picked: Base position: -41.133939347934756 mm; Feasibility: NO! 
+Iteration: 1438;  Base position: -116.61582296226584 mm; Feasibility: YES!;Manipulability: 8.446659346228566; Execution time: 9.39488 
+Iteration 1439; Item picked: Base position: -1269.160774692371 mm; Feasibility: NO! 
+Iteration: 1440;  Base position: -1470.8619958775312 mm; Feasibility: YES!;Manipulability: 7.829627309740056; Execution time: 9.15812 
+Iteration 1441; Item picked: Base position: -846.5534665617537 mm; Feasibility: NO! 
+Iteration 1442; Item picked: Base position: -33.74067948397919 mm; Feasibility: NO! 
+Iteration 1443; Item picked: Base position: -1151.4546681188701 mm; Feasibility: NO! 
+Iteration 1444; Item picked: Base position: -41.80675394920331 mm; Feasibility: NO! 
+Iteration 1445; Item picked: Base position: 682.9680104098093 mm; Feasibility: NO! 
+Iteration: 1446;  Base position: 1281.529982452902 mm; Feasibility: YES!;Manipulability: 7.356186552890981; Execution time: 9.08203 
+Iteration: 1447;  Base position: -428.6771009938511 mm; Feasibility: YES!;Manipulability: 8.06842020332419; Execution time: 9.60854 
+Iteration 1448; Item picked: Base position: 1459.2780521918176 mm; Feasibility: NO! 
+Iteration 1449; Item picked: Base position: 108.35217920264267 mm; Feasibility: NO! 
+Iteration 1450; Item picked: Base position: -1211.9007545987076 mm; Feasibility: NO! 
+Iteration 1451; Item picked: Base position: -65.83928357086302 mm; Feasibility: NO! 
+Iteration: 1452;  Base position: 779.0530886072929 mm; Feasibility: YES!;Manipulability: 7.102272727272727; Execution time: 11.10611 
+Iteration 1453; Item picked: Base position: -155.75661256692683 mm; Feasibility: NO! 
+Iteration: 1454;  Base position: 989.2630697493696 mm; Feasibility: YES!;Manipulability: 7.475517679599312; Execution time: 9.45513 
+Iteration 1455; Item picked: Base position: 127.28994189689092 mm; Feasibility: NO! 
+Iteration 1456; Item picked: Base position: 1475.0696052596786 mm; Feasibility: NO! 
+Iteration: 1457;  Base position: 211.96164534858508 mm; Feasibility: YES!;Manipulability: 8.022462896109106; Execution time: 11.42657 
+Iteration 1458; Item picked: Base position: -887.7621814421551 mm; Feasibility: NO! 
+Iteration 1459; Item picked: Base position: -386.75669571217645 mm; Feasibility: NO! 
+Iteration 1460; Item picked: Base position: 959.4752133637335 mm; Feasibility: NO! 
+Iteration: 1461;  Base position: -1160.1973635438258 mm; Feasibility: YES!;Manipulability: 7.295010213014298; Execution time: 9.09076 
+Iteration 1462; Item picked: Base position: 135.7943535854895 mm; Feasibility: NO! 
+Iteration 1463; Item picked: Base position: 31.1355690882026 mm; Feasibility: NO! 
+Iteration 1464; Item picked: Base position: 1113.1828288925758 mm; Feasibility: NO! 
+Iteration 1465; Item picked: Base position: 647.7042895473232 mm; Feasibility: NO! 
+Iteration 1466; Item picked: Base position: -381.354027051867 mm; Feasibility: NO! 
+Iteration: 1467;  Base position: -99.47307505338472 mm; Feasibility: YES!;Manipulability: 4.569548528605374; Execution time: 8.55333 
+Iteration: 1468;  Base position: 651.4418309148341 mm; Feasibility: YES!;Manipulability: 8.886519150448768; Execution time: 9.03567 
+Iteration 1469; Item picked: Base position: 1077.9480671269298 mm; Feasibility: NO! 
+Iteration 1470; Item picked: Base position: -377.9416197066996 mm; Feasibility: NO! 
+Iteration: 1471;  Base position: 475.0627721565854 mm; Feasibility: YES!;Manipulability: 8.433836552247618; Execution time: 9.2605 
+Iteration 1472; Item picked: Base position: -960.8163050241942 mm; Feasibility: NO! 
+Iteration 1473; Item picked: Base position: 1020.543469216952 mm; Feasibility: NO! 
+Iteration 1474; Item picked: Base position: 1342.8054653577515 mm; Feasibility: NO! 
+Iteration 1475; Item picked: Base position: 377.24187340466506 mm; Feasibility: NO! 
+Iteration 1476; Item picked: Base position: -780.440983605115 mm; Feasibility: NO! 
+Iteration 1477; Item picked: Base position: -658.0504525599977 mm; Feasibility: NO! 
+Iteration: 1478;  Base position: -1305.4376719866152 mm; Feasibility: YES!;Manipulability: 7.97702616464582; Execution time: 10.91562 
+Iteration 1479; Item picked: Base position: 1468.6173980947851 mm; Feasibility: NO! 
+Iteration 1480; Item picked: Base position: -734.9737906313239 mm; Feasibility: NO! 
+Iteration: 1481;  Base position: 536.4136628380018 mm; Feasibility: YES!;Manipulability: 7.381708127260648; Execution time: 9.61023 
+Iteration 1482; Item picked: Base position: 120.94950499558513 mm; Feasibility: NO! 
+Iteration 1483; Item picked: Base position: 664.9110025594427 mm; Feasibility: NO! 
+Iteration: 1484;  Base position: 844.6197691260977 mm; Feasibility: YES!;Manipulability: 7.750135627373479; Execution time: 9.18714 
+Iteration 1485; Item picked: Base position: -183.5182267374721 mm; Feasibility: NO! 
+Iteration 1486; Item picked: Base position: 1074.5600964916557 mm; Feasibility: NO! 
+Iteration 1487; Item picked: Base position: 1315.1495921606738 mm; Feasibility: NO! 
+Iteration: 1488;  Base position: -637.1116328441344 mm; Feasibility: YES!;Manipulability: 7.42555877329769; Execution time: 9.07245 
+Iteration: 1489;  Base position: 342.9811060432671 mm; Feasibility: YES!;Manipulability: 7.74233508826262; Execution time: 9.21503 
+Iteration 1490; Item picked: Base position: 768.2453424359733 mm; Feasibility: NO! 
+Iteration 1491; Item picked: Base position: 125.66565971215573 mm; Feasibility: NO! 
+Iteration: 1492;  Base position: -746.7826069953129 mm; Feasibility: YES!;Manipulability: 4.576240161083654; Execution time: 8.5305 
+Iteration 1493; Item picked: Base position: -1241.109980454938 mm; Feasibility: NO! 
+Iteration 1494; Item picked: Base position: -118.7732241088795 mm; Feasibility: NO! 
+Iteration: 1495;  Base position: -328.2846424870554 mm; Feasibility: YES!;Manipulability: 4.52059129334117; Execution time: 8.52768 
+Iteration 1496; Item picked: Base position: -579.2336271943768 mm; Feasibility: NO! 
+Iteration 1497; Item picked: Base position: 9.285984276863473 mm; Feasibility: NO! 
+Iteration: 1498;  Base position: -305.2926207011669 mm; Feasibility: YES!;Manipulability: 8.89284126278346; Execution time: 9.04052 
+Iteration: 1499;  Base position: -1141.7912876039973 mm; Feasibility: YES!;Manipulability: 8.8386070355312; Execution time: 9.00332 
+Iteration 1500; Item picked: Base position: -279.0714445046424 mm; Feasibility: NO! 
+Iteration 1501; Item picked: Base position: -1197.6676582663947 mm; Feasibility: NO! 
+Iteration 1502; Item picked: Base position: -559.8997741887266 mm; Feasibility: NO! 
+Iteration 1503; Item picked: Base position: 1405.2445204317341 mm; Feasibility: NO! 
+Iteration 1504; Item picked: Base position: -417.5180982617471 mm; Feasibility: NO! 
+Iteration 1505; Item picked: Base position: -1236.9100253459246 mm; Feasibility: NO! 
+Iteration 1506; Item picked: Base position: -522.2636643456757 mm; Feasibility: NO! 
+Iteration 1507; Item picked: Base position: 1372.916388523989 mm; Feasibility: NO! 
+Iteration 1508; Item picked: Base position: -462.930724906003 mm; Feasibility: NO! 
+Iteration 1509; Item picked: Base position: -1.2437204741945607 mm; Feasibility: NO! 
+Iteration 1510; Item picked: Base position: 85.43453245083106 mm; Feasibility: NO! 
+Iteration 1511; Item picked: Base position: -1177.4518863349217 mm; Feasibility: NO! 
+Iteration 1512; Item picked: Base position: 511.46395518045483 mm; Feasibility: NO! 
+Iteration 1513; Item picked: Base position: 305.04291156932163 mm; Feasibility: NO! 
+Iteration 1514; Item picked: Base position: -838.5792421664322 mm; Feasibility: NO! 
+Iteration 1515; Item picked: Base position: -229.16624278939184 mm; Feasibility: NO! 
+Iteration 1516; Item picked: Base position: 392.0031350563763 mm; Feasibility: NO! 
+Iteration 1517; Item picked: Base position: 1268.6741977269403 mm; Feasibility: NO! 
+Iteration 1518; Item picked: Base position: -833.5106585869262 mm; Feasibility: NO! 
+Iteration: 1519;  Base position: 767.9152424880413 mm; Feasibility: YES!;Manipulability: 5.875440658049354; Execution time: 9.10727 
+Iteration 1520; Item picked: Base position: 892.8458650934085 mm; Feasibility: NO! 
+Iteration 1521; Item picked: Base position: 965.4325706268405 mm; Feasibility: NO! 
+Iteration 1522; Item picked: Base position: 36.370925475090644 mm; Feasibility: NO! 
+Iteration 1523; Item picked: Base position: 663.4444099183065 mm; Feasibility: NO! 
+Iteration 1524; Item picked: Base position: -228.07620497110884 mm; Feasibility: NO! 
+Iteration 1525; Item picked: Base position: -931.9968834134897 mm; Feasibility: NO! 
+Iteration 1526; Item picked: Base position: 7.417628800866623 mm; Feasibility: NO! 
+Iteration 1527; Item picked: Base position: 948.1913951788433 mm; Feasibility: NO! 
+Iteration: 1528;  Base position: 1180.3856466178008 mm; Feasibility: YES!;Manipulability: 8.357011532675916; Execution time: 9.30554 
+Iteration 1529; Item picked: Base position: 907.3660269209904 mm; Feasibility: NO! 
+Iteration: 1530;  Base position: 1278.862696056568 mm; Feasibility: YES!;Manipulability: 8.023750300890637; Execution time: 9.10699 
+Iteration 1531; Item picked: Base position: 547.9760103877072 mm; Feasibility: NO! 
+Iteration 1532; Item picked: Base position: 1219.7821675150553 mm; Feasibility: NO! 
+Iteration 1533; Item picked: Base position: 969.3834540752041 mm; Feasibility: NO! 
+Iteration 1534; Item picked: Base position: -364.22552203730515 mm; Feasibility: NO! 
+Iteration 1535; Item picked: Base position: 244.2590726420608 mm; Feasibility: NO! 
+Iteration 1536; Item picked: Base position: 970.8522650073992 mm; Feasibility: NO! 
+Iteration 1537; Item picked: Base position: 1259.1941522124653 mm; Feasibility: NO! 
+Iteration 1538; Item picked: Base position: 161.81981426498328 mm; Feasibility: NO! 
+Iteration 1539; Item picked: Base position: 710.5111584754295 mm; Feasibility: NO! 
+Iteration 1540; Item picked: Base position: 724.1028903434285 mm; Feasibility: NO! 
+Iteration: 1541;  Base position: 737.2790461920245 mm; Feasibility: YES!;Manipulability: 8.795074758135444; Execution time: 9.0481 
+Iteration: 1542;  Base position: 361.56255714722647 mm; Feasibility: YES!;Manipulability: 4.379434177104319; Execution time: 8.55796 
+Iteration 1543; Item picked: Base position: 173.85876949443445 mm; Feasibility: NO! 
+Iteration 1544; Item picked: Base position: 843.4803665392051 mm; Feasibility: NO! 
+Iteration: 1545;  Base position: -855.1323318615105 mm; Feasibility: YES!;Manipulability: 7.810669374365383; Execution time: 9.1644 
+Iteration 1546; Item picked: Base position: -931.3500693016371 mm; Feasibility: NO! 
+Iteration 1547; Item picked: Base position: -244.3831932348744 mm; Feasibility: NO! 
+Iteration: 1548;  Base position: 7.344066078373089 mm; Feasibility: YES!;Manipulability: 10.13068584743187; Execution time: 11.25257 
+Iteration 1549; Item picked: Base position: 468.2899139836079 mm; Feasibility: NO! 
+Iteration 1550; Item picked: Base position: -965.1546389625533 mm; Feasibility: NO! 
+Iteration 1551; Item picked: Base position: -756.6085490678176 mm; Feasibility: NO! 
+Iteration 1552; Item picked: Base position: -1389.5279443310992 mm; Feasibility: NO! 
+Iteration 1553; Item picked: Base position: 1100.9122240441075 mm; Feasibility: NO! 
+Iteration 1554; Item picked: Base position: 1461.523709235512 mm; Feasibility: NO! 
+Iteration 1555; Item picked: Base position: 400.3271516332004 mm; Feasibility: NO! 
+Iteration 1556; Item picked: Base position: 409.98885520235376 mm; Feasibility: NO! 
+Iteration 1557; Item picked: Base position: -713.2970805529126 mm; Feasibility: NO! 
+Iteration 1558; Item picked: Base position: -363.00405037750716 mm; Feasibility: NO! 
+Iteration: 1559;  Base position: 1327.5913769057938 mm; Feasibility: YES!;Manipulability: 7.661661048115231; Execution time: 9.24139 
+Iteration 1560; Item picked: Base position: -660.1727745229238 mm; Feasibility: NO! 
+Iteration 1561; Item picked: Base position: 741.1739593858647 mm; Feasibility: NO! 
+Iteration 1562; Item picked: Base position: -1023.1614223448305 mm; Feasibility: NO! 
+Iteration: 1563;  Base position: -1040.0493235880233 mm; Feasibility: YES!;Manipulability: 7.070635650144948; Execution time: 9.1325 
+Iteration 1564; Item picked: Base position: -1047.338731949205 mm; Feasibility: NO! 
+Iteration 1565; Item picked: Base position: -1199.211517278898 mm; Feasibility: NO! 
+Iteration 1566; Item picked: Base position: 1368.4506542480767 mm; Feasibility: NO! 
+Iteration 1567; Item picked: Base position: 102.615627423354 mm; Feasibility: NO! 
+Iteration 1568; Item picked: Base position: 397.8340184003364 mm; Feasibility: NO! 
+Iteration: 1569;  Base position: 164.43680323351919 mm; Feasibility: YES!;Manipulability: 8.128759551292472; Execution time: 9.01843 
+Iteration 1570; Item picked: Base position: 73.67852471691003 mm; Feasibility: NO! 
+Iteration 1571; Item picked: Base position: -553.2089711448893 mm; Feasibility: NO! 
+Iteration 1572; Item picked: Base position: -522.1804335680785 mm; Feasibility: NO! 
+Iteration: 1573;  Base position: -1069.381978081412 mm; Feasibility: YES!;Manipulability: 6.900835001035125; Execution time: 9.18097 
+Iteration 1574; Item picked: Base position: 227.28929431908318 mm; Feasibility: NO! 
+Iteration 1575; Item picked: Base position: -479.4138406372997 mm; Feasibility: NO! 
+Iteration: 1576;  Base position: -1021.4829653494289 mm; Feasibility: YES!;Manipulability: 5.772672169947469; Execution time: 9.13895 
+Iteration 1577; Item picked: Base position: 1392.010257014802 mm; Feasibility: NO! 
+Iteration 1578; Item picked: Base position: 821.3312065179207 mm; Feasibility: NO! 
+Iteration 1579; Item picked: Base position: -668.3644113691031 mm; Feasibility: NO! 
+Iteration 1580; Item picked: Base position: -603.957069032152 mm; Feasibility: NO! 
+Iteration 1581; Item picked: Base position: 388.20352913912075 mm; Feasibility: NO! 
+Iteration 1582; Item picked: Base position: -814.2527866712484 mm; Feasibility: NO! 
+Iteration 1583; Item picked: Base position: -1144.8709220301166 mm; Feasibility: NO! 
+Iteration 1584; Item picked: Base position: 435.9563731955998 mm; Feasibility: NO! 
+Iteration 1585; Item picked: Base position: -1037.5321035994548 mm; Feasibility: NO! 
+Iteration 1586; Item picked: Base position: -1383.452770729276 mm; Feasibility: NO! 
+Iteration 1587; Item picked: Base position: 75.52643291147137 mm; Feasibility: NO! 
+Iteration: 1588;  Base position: 1267.9863717671733 mm; Feasibility: YES!;Manipulability: 7.154611146884166; Execution time: 9.1171 
+Iteration 1589; Item picked: Base position: -934.8904302498387 mm; Feasibility: NO! 
+Iteration 1590; Item picked: Base position: -1263.3267909543508 mm; Feasibility: NO! 
+Iteration 1591; Item picked: Base position: -1118.9025901428988 mm; Feasibility: NO! 
+Iteration 1592; Item picked: Base position: -427.67947812131547 mm; Feasibility: NO! 
+Iteration 1593; Item picked: Base position: 773.7079042496221 mm; Feasibility: NO! 
+Iteration 1594; Item picked: Base position: -306.56190823586667 mm; Feasibility: NO! 
+Iteration: 1595;  Base position: -1152.3658730211346 mm; Feasibility: YES!;Manipulability: 11.179429849077696; Execution time: 11.43028 
+Iteration 1596; Item picked: Base position: 552.2365313914579 mm; Feasibility: NO! 
+Iteration 1597; Item picked: Base position: -1275.3984147486792 mm; Feasibility: NO! 
+Iteration: 1598;  Base position: -508.5542726016181 mm; Feasibility: YES!;Manipulability: 7.42555877329769; Execution time: 9.07248 
+Iteration 1599; Item picked: Base position: 594.4284239567701 mm; Feasibility: NO! 
+Iteration 1600; Item picked: Base position: -895.8884582288714 mm; Feasibility: NO! 
+Iteration: 1601;  Base position: 722.1625100771234 mm; Feasibility: YES!;Manipulability: 7.473841554559043; Execution time: 9.25022 
+Iteration 1602; Item picked: Base position: 921.1124347351888 mm; Feasibility: NO! 
+Iteration: 1603;  Base position: -719.8999206479517 mm; Feasibility: YES!;Manipulability: 6.537229522128522; Execution time: 9.17874 
+Iteration 1604; Item picked: Base position: -65.1085246930179 mm; Feasibility: NO! 
+Iteration 1605; Item picked: Base position: 89.14319897139762 mm; Feasibility: NO! 
+Iteration: 1606;  Base position: -1432.445847217275 mm; Feasibility: YES!;Manipulability: 5.932957579353308; Execution time: 9.19644 
+Iteration 1607; Item picked: Base position: -122.99105127113648 mm; Feasibility: NO! 
+Iteration 1608; Item picked: Base position: 1441.4457135100802 mm; Feasibility: NO! 
+Iteration 1609; Item picked: Base position: -571.445408014732 mm; Feasibility: NO! 
+Iteration: 1610;  Base position: -69.31520880637368 mm; Feasibility: YES!;Manipulability: 8.929368693633359; Execution time: 9.06228 
+Iteration 1611; Item picked: Base position: 99.66168763848782 mm; Feasibility: NO! 
+Iteration: 1612;  Base position: 979.2773340248254 mm; Feasibility: YES!;Manipulability: 7.1622976650909616; Execution time: 9.34106 
+Iteration 1613; Item picked: Base position: -982.540583934583 mm; Feasibility: NO! 
+Iteration 1614; Item picked: Base position: 719.2750112599483 mm; Feasibility: NO! 
+Iteration: 1615;  Base position: -312.66771550107205 mm; Feasibility: YES!;Manipulability: 8.233163181294254; Execution time: 9.03295 
+Iteration 1616; Item picked: Base position: 524.3381666375942 mm; Feasibility: NO! 
+Iteration 1617; Item picked: Base position: -900.5760063320715 mm; Feasibility: NO! 
+Iteration 1618; Item picked: Base position: 283.1291685431627 mm; Feasibility: NO! 
+Iteration 1619; Item picked: Base position: -1438.5690233539192 mm; Feasibility: NO! 
+Iteration: 1620;  Base position: 148.4343009655463 mm; Feasibility: YES!;Manipulability: 6.925207756232687; Execution time: 9.1693 
+Iteration 1621; Item picked: Base position: -458.9508059855127 mm; Feasibility: NO! 
+Iteration: 1622;  Base position: 1332.8019042177475 mm; Feasibility: YES!;Manipulability: 6.075334143377886; Execution time: 9.23426 
+Iteration: 1623;  Base position: -1471.3826628881131 mm; Feasibility: YES!;Manipulability: 7.729767334003245; Execution time: 9.19992 
+Iteration: 1624;  Base position: -116.00210927935768 mm; Feasibility: YES!;Manipulability: 10.849517196484756; Execution time: 11.34464 
+Iteration 1625; Item picked: Base position: 540.0699849879472 mm; Feasibility: NO! 
+Iteration 1626; Item picked: Base position: 656.2301492464449 mm; Feasibility: NO! 
+Iteration 1627; Item picked: Base position: -356.97791646260316 mm; Feasibility: NO! 
+Iteration: 1628;  Base position: -713.6421272305254 mm; Feasibility: YES!;Manipulability: 4.400246413799173; Execution time: 8.54531 
+Iteration 1629; Item picked: Base position: -223.68943815819512 mm; Feasibility: NO! 
+Iteration 1630; Item picked: Base position: 668.8708538308942 mm; Feasibility: NO! 
+Iteration 1631; Item picked: Base position: -654.766557536649 mm; Feasibility: NO! 
+Iteration 1632; Item picked: Base position: 448.3521630161049 mm; Feasibility: NO! 
+Iteration 1633; Item picked: Base position: 943.7696622016247 mm; Feasibility: NO! 
+Iteration 1634; Item picked: Base position: -1053.8122540675972 mm; Feasibility: NO! 
+Iteration 1635; Item picked: Base position: 1153.0322504040232 mm; Feasibility: NO! 
+Iteration 1636; Item picked: Base position: 828.11285189193 mm; Feasibility: NO! 
+Iteration: 1637;  Base position: -383.60748621398375 mm; Feasibility: YES!;Manipulability: 6.296832693155342; Execution time: 9.48276 
+Iteration 1638; Item picked: Base position: -717.059773202445 mm; Feasibility: NO! 
+Iteration 1639; Item picked: Base position: -995.1161185327595 mm; Feasibility: NO! 
+Iteration 1640; Item picked: Base position: -123.2780020540315 mm; Feasibility: NO! 
+Iteration 1641; Item picked: Base position: 1025.7055888263785 mm; Feasibility: NO! 
+Iteration 1642; Item picked: Base position: 1362.5115954572466 mm; Feasibility: NO! 
+Iteration 1643; Item picked: Base position: 448.1060680509281 mm; Feasibility: NO! 
+Iteration 1644; Item picked: Base position: -1442.6731248529165 mm; Feasibility: NO! 
+Iteration 1645; Item picked: Base position: -1398.0901785009326 mm; Feasibility: NO! 
+Iteration: 1646;  Base position: 1068.4828257744362 mm; Feasibility: YES!;Manipulability: 10.764262648008613; Execution time: 9.82399 
+Iteration 1647; Item picked: Base position: 1367.845732284416 mm; Feasibility: NO! 
+Iteration 1648; Item picked: Base position: 380.6533106084555 mm; Feasibility: NO! 
+Iteration 1649; Item picked: Base position: -714.7316348825244 mm; Feasibility: NO! 
+Iteration 1650; Item picked: Base position: 240.92395473175657 mm; Feasibility: NO! 
+Iteration 1651; Item picked: Base position: 973.5879356697587 mm; Feasibility: NO! 
+Iteration 1652; Item picked: Base position: -1439.1227644682072 mm; Feasibility: NO! 
+Iteration 1653; Item picked: Base position: -1010.7914819440809 mm; Feasibility: NO! 
+Iteration 1654; Item picked: Base position: 128.92142537325867 mm; Feasibility: NO! 
+Iteration 1655; Item picked: Base position: -838.2561146931697 mm; Feasibility: NO! 
+Iteration 1656; Item picked: Base position: 1211.5558444603216 mm; Feasibility: NO! 
+Iteration 1657; Item picked: Base position: 58.50541341121493 mm; Feasibility: NO! 
+Iteration 1658; Item picked: Base position: -1057.6421546556182 mm; Feasibility: NO! 
+Iteration 1659; Item picked: Base position: 880.9948472747951 mm; Feasibility: NO! 
+Iteration 1660; Item picked: Base position: 1182.7793013705814 mm; Feasibility: NO! 
+Iteration 1661; Item picked: Base position: -404.3367299918598 mm; Feasibility: NO! 
+Iteration 1662; Item picked: Base position: 128.37556748179395 mm; Feasibility: NO! 
+Iteration 1663; Item picked: Base position: -892.9843458118245 mm; Feasibility: NO! 
+Iteration 1664; Item picked: Base position: 735.8876639032119 mm; Feasibility: NO! 
+Iteration 1665; Item picked: Base position: 758.2595287901918 mm; Feasibility: NO! 
+Iteration 1666; Item picked: Base position: -676.3418005542813 mm; Feasibility: NO! 
+Iteration 1667; Item picked: Base position: 276.848394148185 mm; Feasibility: NO! 
+Iteration 1668; Item picked: Base position: 436.42675829544396 mm; Feasibility: NO! 
+Iteration 1669; Item picked: Base position: -494.7835110815049 mm; Feasibility: NO! 
+Iteration: 1670;  Base position: 330.6834815457569 mm; Feasibility: YES!;Manipulability: 4.980823828261195; Execution time: 8.4884 
+Iteration 1671; Item picked: Base position: -1423.5316247204912 mm; Feasibility: NO! 
+Iteration: 1672;  Base position: 598.7782447842733 mm; Feasibility: YES!;Manipulability: 9.147457006952067; Execution time: 11.07434 
+Iteration 1673; Item picked: Base position: -301.4944815182016 mm; Feasibility: NO! 
+Iteration 1674; Item picked: Base position: 777.30248128735 mm; Feasibility: NO! 
+Iteration 1675; Item picked: Base position: -872.9923287559214 mm; Feasibility: NO! 
+Iteration 1676; Item picked: Base position: 63.844891416540804 mm; Feasibility: NO! 
+Iteration 1677; Item picked: Base position: -517.7863149824594 mm; Feasibility: NO! 
+Iteration 1678; Item picked: Base position: 1260.1089623200423 mm; Feasibility: NO! 
+Iteration 1679; Item picked: Base position: 1364.5448497062498 mm; Feasibility: NO! 
+Iteration: 1680;  Base position: 1156.465400497928 mm; Feasibility: YES!;Manipulability: 5.02108857200241; Execution time: 8.4879 
+Iteration 1681; Item picked: Base position: -1360.4389613788778 mm; Feasibility: NO! 
+Iteration 1682; Item picked: Base position: 1488.482476238763 mm; Feasibility: NO! 
+Iteration: 1683;  Base position: 398.978200426556 mm; Feasibility: YES!;Manipulability: 6.895125146521409; Execution time: 9.18556 
+Iteration 1684; Item picked: Base position: -1057.757822522527 mm; Feasibility: NO! 
+Iteration 1685; Item picked: Base position: -811.6403055465905 mm; Feasibility: NO! 
+Iteration 1686; Item picked: Base position: 932.0288418521013 mm; Feasibility: NO! 
+Iteration 1687; Item picked: Base position: -1393.0858933620075 mm; Feasibility: NO! 
+Iteration 1688; Item picked: Base position: -230.2875663958273 mm; Feasibility: NO! 
+Iteration: 1689;  Base position: 205.17673029912544 mm; Feasibility: YES!;Manipulability: 7.738141298460109; Execution time: 9.19394 
+Iteration 1690; Item picked: Base position: -187.94837210682 mm; Feasibility: NO! 
+Iteration 1691; Item picked: Base position: 1350.4471463503564 mm; Feasibility: NO! 
+Iteration 1692; Item picked: Base position: 1312.4268408314756 mm; Feasibility: NO! 
+Iteration: 1693;  Base position: 1477.5090660930618 mm; Feasibility: YES!;Manipulability: 8.865248226950355; Execution time: 9.02235 
+Iteration: 1694;  Base position: 761.7794476353934 mm; Feasibility: YES!;Manipulability: 6.3852882957665535; Execution time: 9.1538 
+Iteration 1695; Item picked: Base position: 188.98453918414384 mm; Feasibility: NO! 
+Iteration 1696; Item picked: Base position: -205.51338194722825 mm; Feasibility: NO! 
+Iteration 1697; Item picked: Base position: -1200.1495720840228 mm; Feasibility: NO! 
+Iteration 1698; Item picked: Base position: -10.675443819486418 mm; Feasibility: NO! 
+Iteration 1699; Item picked: Base position: 1233.1908483828734 mm; Feasibility: NO! 
+Iteration 1700; Item picked: Base position: -973.2283971903689 mm; Feasibility: NO! 
+Iteration 1701; Item picked: Base position: -1113.570104286565 mm; Feasibility: NO! 
+Iteration 1702; Item picked: Base position: 356.8943806140594 mm; Feasibility: NO! 
+Iteration 1703; Item picked: Base position: -947.1730784061267 mm; Feasibility: NO! 
+Iteration 1704; Item picked: Base position: 834.81625831973 mm; Feasibility: NO! 
+Iteration: 1705;  Base position: 1390.5386109703022 mm; Feasibility: YES!;Manipulability: 5.760700501180944; Execution time: 9.07973 
+Iteration: 1706;  Base position: 310.7187894016513 mm; Feasibility: YES!;Manipulability: 5.584096493187403; Execution time: 9.25282 
+Iteration 1707; Item picked: Base position: -390.5521619178521 mm; Feasibility: NO! 
+Iteration: 1708;  Base position: 1004.2435902496945 mm; Feasibility: YES!;Manipulability: 10.183299389002038; Execution time: 10.99825 
+Iteration: 1709;  Base position: 150.73636832911825 mm; Feasibility: YES!;Manipulability: 7.381708127260648; Execution time: 9.61023 
+Iteration: 1710;  Base position: 835.417938478879 mm; Feasibility: YES!;Manipulability: 6.05913717886573; Execution time: 9.40147 
+Iteration 1711; Item picked: Base position: -499.46841386394294 mm; Feasibility: NO! 
+Iteration 1712; Item picked: Base position: 709.5830178641577 mm; Feasibility: NO! 
+Iteration 1713; Item picked: Base position: 1367.210984642326 mm; Feasibility: NO! 
+Iteration 1714; Item picked: Base position: 760.5265003564296 mm; Feasibility: NO! 
+Iteration 1715; Item picked: Base position: 1374.636067883222 mm; Feasibility: NO! 
+Iteration: 1716;  Base position: 1192.4795366119133 mm; Feasibility: YES!;Manipulability: 7.681081496274675; Execution time: 9.23175 
+Iteration 1717; Item picked: Base position: 456.87471328216793 mm; Feasibility: NO! 
+Iteration 1718; Item picked: Base position: -796.4766555016901 mm; Feasibility: NO! 
+Iteration 1719; Item picked: Base position: -1420.0024707285932 mm; Feasibility: NO! 
+Iteration 1720; Item picked: Base position: 4.739923360747525 mm; Feasibility: NO! 
+Iteration 1721; Item picked: Base position: -899.8301950206916 mm; Feasibility: NO! 
+Iteration 1722; Item picked: Base position: -475.19032930188223 mm; Feasibility: NO! 
+Iteration 1723; Item picked: Base position: 1364.0779890039803 mm; Feasibility: NO! 
+Iteration 1724; Item picked: Base position: 737.8640395079465 mm; Feasibility: NO! 
+Iteration: 1725;  Base position: -193.87464866087043 mm; Feasibility: YES!;Manipulability: 6.920894179527995; Execution time: 9.20018 
+Iteration 1726; Item picked: Base position: 1345.508147438206 mm; Feasibility: NO! 
+Iteration 1727; Item picked: Base position: -1496.3001164872662 mm; Feasibility: NO! 
+Iteration 1728; Item picked: Base position: 1209.524350873884 mm; Feasibility: NO! 
+Iteration 1729; Item picked: Base position: -942.117990034803 mm; Feasibility: NO! 
+Iteration 1730; Item picked: Base position: 1406.9199842895955 mm; Feasibility: NO! 
+Iteration 1731; Item picked: Base position: 1315.4499825222101 mm; Feasibility: NO! 
+Iteration 1732; Item picked: Base position: 1034.2912752083998 mm; Feasibility: NO! 
+Iteration: 1733;  Base position: 1055.183482381387 mm; Feasibility: YES!;Manipulability: 6.404918977774932; Execution time: 9.0511 
+Iteration 1734; Item picked: Base position: 238.94641687444414 mm; Feasibility: NO! 
+Iteration 1735; Item picked: Base position: 727.9153895314303 mm; Feasibility: NO! 
+Iteration 1736; Item picked: Base position: 1357.2837540026349 mm; Feasibility: NO! 
+Iteration 1737; Item picked: Base position: 1109.8269474967442 mm; Feasibility: NO! 
+Iteration: 1738;  Base position: 1148.6674784727297 mm; Feasibility: YES!;Manipulability: 8.93734918223255; Execution time: 9.08953 
+Iteration 1739; Item picked: Base position: 1343.573869981677 mm; Feasibility: NO! 
+Iteration 1740; Item picked: Base position: 603.5760195796297 mm; Feasibility: NO! 
+Iteration 1741; Item picked: Base position: -75.80099909957812 mm; Feasibility: NO! 
+Iteration 1742; Item picked: Base position: -1210.0957156160725 mm; Feasibility: NO! 
+Iteration: 1743;  Base position: 499.85449247456586 mm; Feasibility: YES!;Manipulability: 8.316699933466401; Execution time: 9.10313 
+Iteration 1744; Item picked: Base position: -116.62666110213354 mm; Feasibility: NO! 
+Iteration: 1745;  Base position: -435.26925191680584 mm; Feasibility: YES!;Manipulability: 6.9949636261891435; Execution time: 9.24668 
+Iteration 1746; Item picked: Base position: -704.6017777107517 mm; Feasibility: NO! 
+Iteration 1747; Item picked: Base position: 1393.830045938299 mm; Feasibility: NO! 
+Iteration 1748; Item picked: Base position: -1183.4939547678093 mm; Feasibility: NO! 
+Iteration 1749; Item picked: Base position: 54.76090864200296 mm; Feasibility: NO! 
+Iteration 1750; Item picked: Base position: -1269.2435525399403 mm; Feasibility: NO! 
+Iteration: 1751;  Base position: 1185.6709308411064 mm; Feasibility: YES!;Manipulability: 5.49239303564563; Execution time: 9.22344 
+Iteration: 1752;  Base position: 835.747065710344 mm; Feasibility: YES!;Manipulability: 7.180297264306742; Execution time: 9.11279 
+Iteration 1753; Item picked: Base position: 683.6710535473185 mm; Feasibility: NO! 
+Iteration 1754; Item picked: Base position: 420.879802026843 mm; Feasibility: NO! 
+Iteration 1755; Item picked: Base position: 845.1507052948432 mm; Feasibility: NO! 
+Iteration 1756; Item picked: Base position: 1018.7372705208677 mm; Feasibility: NO! 
+Iteration 1757; Item picked: Base position: -551.7033883310712 mm; Feasibility: NO! 
+Iteration 1758; Item picked: Base position: 534.4956543644939 mm; Feasibility: NO! 
+Iteration 1759; Item picked: Base position: 1491.4166023023677 mm; Feasibility: NO! 
+Iteration 1760; Item picked: Base position: -267.86816666957475 mm; Feasibility: NO! 
+Iteration: 1761;  Base position: 1308.9334833195203 mm; Feasibility: YES!;Manipulability: 8.679802100512108; Execution time: 9.50604 
+Iteration: 1762;  Base position: -86.51194249355945 mm; Feasibility: YES!;Manipulability: 6.538511834706421; Execution time: 9.03337 
+Iteration 1763; Item picked: Base position: 937.1510294859509 mm; Feasibility: NO! 
+Iteration 1764; Item picked: Base position: -873.1600670035506 mm; Feasibility: NO! 
+Iteration 1765; Item picked: Base position: -783.5448802570368 mm; Feasibility: NO! 
+Iteration 1766; Item picked: Base position: -409.403045387156 mm; Feasibility: NO! 
+Iteration: 1767;  Base position: -869.2172922074654 mm; Feasibility: YES!;Manipulability: 8.026970621287527; Execution time: 8.98049 
+Iteration 1768; Item picked: Base position: 627.700151654325 mm; Feasibility: NO! 
+Iteration: 1769;  Base position: 908.5252843200624 mm; Feasibility: YES!;Manipulability: 5.863039399624766; Execution time: 9.10275 
+Iteration 1770; Item picked: Base position: -666.8820932546683 mm; Feasibility: NO! 
+Iteration 1771; Item picked: Base position: -1292.7089354627585 mm; Feasibility: NO! 
+Iteration 1772; Item picked: Base position: -420.15891254842927 mm; Feasibility: NO! 
+Iteration 1773; Item picked: Base position: -531.9074117200131 mm; Feasibility: NO! 
+Iteration 1774; Item picked: Base position: 1358.818029228939 mm; Feasibility: NO! 
+Iteration 1775; Item picked: Base position: 608.3758510007488 mm; Feasibility: NO! 
+Iteration: 1776;  Base position: 128.69641257702415 mm; Feasibility: YES!;Manipulability: 7.129108148570613; Execution time: 9.54815 
+Iteration 1777; Item picked: Base position: -190.86843886658153 mm; Feasibility: NO! 
+Iteration 1778; Item picked: Base position: -928.9538790041602 mm; Feasibility: NO! 
+Iteration 1779; Item picked: Base position: 844.4569987642749 mm; Feasibility: NO! 
+Iteration: 1780;  Base position: 84.00941315993259 mm; Feasibility: YES!;Manipulability: 4.568922191255083; Execution time: 8.54462 
+Iteration 1781; Item picked: Base position: 831.0473509001699 mm; Feasibility: NO! 
+Iteration 1782; Item picked: Base position: 889.3451228266608 mm; Feasibility: NO! 
+Iteration 1783; Item picked: Base position: -1277.574867803784 mm; Feasibility: NO! 
+Iteration 1784; Item picked: Base position: -550.1828460465243 mm; Feasibility: NO! 
+Iteration: 1785;  Base position: -834.1935851928209 mm; Feasibility: YES!;Manipulability: 8.411136344520145; Execution time: 9.36842 
+Iteration: 1786;  Base position: -296.4677106634581 mm; Feasibility: YES!;Manipulability: 8.619203585588691; Execution time: 9.7029 
+Iteration 1787; Item picked: Base position: 503.9722485351051 mm; Feasibility: NO! 
+Iteration 1788; Item picked: Base position: 1053.8890222172076 mm; Feasibility: NO! 
+Iteration 1789; Item picked: Base position: 142.36605295654772 mm; Feasibility: NO! 
+Iteration 1790; Item picked: Base position: 853.0732922562279 mm; Feasibility: NO! 
+Iteration 1791; Item picked: Base position: 417.07114571311695 mm; Feasibility: NO! 
+Iteration 1792; Item picked: Base position: -1301.8877084649553 mm; Feasibility: NO! 
+Iteration 1793; Item picked: Base position: -269.8458331818881 mm; Feasibility: NO! 
+Iteration 1794; Item picked: Base position: -84.64364286084947 mm; Feasibility: NO! 
+Iteration 1795; Item picked: Base position: -1487.6555156882646 mm; Feasibility: NO! 
+Iteration 1796; Item picked: Base position: -484.0947226100873 mm; Feasibility: NO! 
+Iteration 1797; Item picked: Base position: -1306.174236280762 mm; Feasibility: NO! 
+Iteration: 1798;  Base position: 1408.027578388187 mm; Feasibility: YES!;Manipulability: 4.554563672800145; Execution time: 8.52663 
+Iteration 1799; Item picked: Base position: -630.3153788047858 mm; Feasibility: NO! 
+Iteration 1800; Item picked: Base position: 593.7829536895142 mm; Feasibility: NO! 
+Iteration 1801; Item picked: Base position: -534.6687520201301 mm; Feasibility: NO! 
+Iteration: 1802;  Base position: -171.42712305815394 mm; Feasibility: YES!;Manipulability: 7.010164738871364; Execution time: 9.14537 
+Iteration 1803; Item picked: Base position: -1188.954496038366 mm; Feasibility: NO! 
+Iteration 1804; Item picked: Base position: -759.0340513302618 mm; Feasibility: NO! 
+Iteration 1805; Item picked: Base position: -1271.2974962763822 mm; Feasibility: NO! 
+Iteration 1806; Item picked: Base position: 716.9178216211344 mm; Feasibility: NO! 
+Iteration: 1807;  Base position: 1126.8200458759238 mm; Feasibility: YES!;Manipulability: 8.227067050596462; Execution time: 9.03913 
+Iteration 1808; Item picked: Base position: 976.1033341334073 mm; Feasibility: NO! 
+Iteration 1809; Item picked: Base position: 401.195842202774 mm; Feasibility: NO! 
+Iteration 1810; Item picked: Base position: 539.9766293529844 mm; Feasibility: NO! 
+Iteration 1811; Item picked: Base position: -589.8171925116127 mm; Feasibility: NO! 
+Iteration 1812; Item picked: Base position: -390.71903818558394 mm; Feasibility: NO! 
+Iteration: 1813;  Base position: 380.21396523272756 mm; Feasibility: YES!;Manipulability: 8.880994671403197; Execution time: 9.03168 
+Iteration 1814; Item picked: Base position: 572.0779547402408 mm; Feasibility: NO! 
+Iteration 1815; Item picked: Base position: 360.94112957052766 mm; Feasibility: NO! 
+Iteration: 1816;  Base position: -1417.0752329563093 mm; Feasibility: YES!;Manipulability: 6.269199423233653; Execution time: 9.11213 
+Iteration 1817; Item picked: Base position: 607.6205586994315 mm; Feasibility: NO! 
+Iteration: 1818;  Base position: 742.4672255743608 mm; Feasibility: YES!;Manipulability: 4.987282429804; Execution time: 8.48825 
+Iteration 1819; Item picked: Base position: 355.9385047637986 mm; Feasibility: NO! 
+Iteration: 1820;  Base position: 1365.1843741522675 mm; Feasibility: YES!;Manipulability: 7.01803635342831; Execution time: 9.30286 
+Iteration 1821; Item picked: Base position: -1077.9541245423102 mm; Feasibility: NO! 
+Iteration 1822; Item picked: Base position: 15.833331852382116 mm; Feasibility: NO! 
+Iteration 1823; Item picked: Base position: -1002.318240820007 mm; Feasibility: NO! 
+Iteration 1824; Item picked: Base position: -482.74618554755193 mm; Feasibility: NO! 
+Iteration: 1825;  Base position: -133.51403838175838 mm; Feasibility: YES!;Manipulability: 5.865446653762684; Execution time: 9.33287 
+Iteration 1826; Item picked: Base position: -1319.931723303056 mm; Feasibility: NO! 
+Iteration 1827; Item picked: Base position: -1433.2979521653133 mm; Feasibility: NO! 
+Iteration 1828; Item picked: Base position: -729.0615519841093 mm; Feasibility: NO! 
+Iteration 1829; Item picked: Base position: 179.22036817221806 mm; Feasibility: NO! 
+Iteration: 1830;  Base position: -755.6444615355963 mm; Feasibility: YES!;Manipulability: 5.9790732436472345; Execution time: 9.20278 
+Iteration 1831; Item picked: Base position: -761.187210449665 mm; Feasibility: NO! 
+Iteration: 1832;  Base position: -569.3690721975119 mm; Feasibility: YES!;Manipulability: 6.629980773055759; Execution time: 9.20013 
+Iteration 1833; Item picked: Base position: -921.0474525901191 mm; Feasibility: NO! 
+Iteration 1834; Item picked: Base position: 1459.9951488045226 mm; Feasibility: NO! 
+Iteration 1835; Item picked: Base position: 343.6433403357664 mm; Feasibility: NO! 
+Iteration 1836; Item picked: Base position: -550.0354104995843 mm; Feasibility: NO! 
+Iteration: 1837;  Base position: 1436.173583160658 mm; Feasibility: YES!;Manipulability: 9.138261902586128; Execution time: 9.13686 
+Iteration 1838; Item picked: Base position: -535.8113310583423 mm; Feasibility: NO! 
+Iteration: 1839;  Base position: -941.4498874126235 mm; Feasibility: YES!;Manipulability: 10.833062506770665; Execution time: 11.13388 
+Iteration 1840; Item picked: Base position: 1333.2841128809418 mm; Feasibility: NO! 
+Iteration 1841; Item picked: Base position: 597.4775780461596 mm; Feasibility: NO! 
+Iteration 1842; Item picked: Base position: 370.5446864972207 mm; Feasibility: NO! 
+Iteration 1843; Item picked: Base position: 294.7014302724174 mm; Feasibility: NO! 
+Iteration 1844; Item picked: Base position: 1136.2945516527352 mm; Feasibility: NO! 
+Iteration 1845; Item picked: Base position: 26.096090991059327 mm; Feasibility: NO! 
+Iteration: 1846;  Base position: 731.1952034681058 mm; Feasibility: YES!;Manipulability: 9.229349330872173; Execution time: 9.17209 
+Iteration 1847; Item picked: Base position: -487.9262606133767 mm; Feasibility: NO! 
+Iteration 1848; Item picked: Base position: 370.95137457980354 mm; Feasibility: NO! 
+Iteration: 1849;  Base position: 461.2393196578669 mm; Feasibility: YES!;Manipulability: 8.761170492377781; Execution time: 9.2146 
+Iteration: 1850;  Base position: -1182.827590928059 mm; Feasibility: YES!;Manipulability: 7.193209610128039; Execution time: 9.3485 
+Iteration 1851; Item picked: Base position: 1196.079948235721 mm; Feasibility: NO! 
+Iteration 1852; Item picked: Base position: -812.4422377888889 mm; Feasibility: NO! 
+Iteration 1853; Item picked: Base position: 891.2767579450383 mm; Feasibility: NO! 
+Iteration: 1854;  Base position: 1155.6755848241614 mm; Feasibility: YES!;Manipulability: 7.03135986499789; Execution time: 9.33758 
+Iteration 1855; Item picked: Base position: -1388.5049963002991 mm; Feasibility: NO! 
+Iteration 1856; Item picked: Base position: 541.9626890373459 mm; Feasibility: NO! 
+Iteration 1857; Item picked: Base position: 378.27826880865223 mm; Feasibility: NO! 
+Iteration: 1858;  Base position: 1228.368976306555 mm; Feasibility: YES!;Manipulability: 6.923769300006923; Execution time: 9.17001 
+Iteration 1859; Item picked: Base position: -1001.0276847849482 mm; Feasibility: NO! 
+Iteration 1860; Item picked: Base position: -1137.5974736870749 mm; Feasibility: NO! 
+Iteration 1861; Item picked: Base position: 1158.5921849389724 mm; Feasibility: NO! 
+Iteration 1862; Item picked: Base position: -256.200074030392 mm; Feasibility: NO! 
+Iteration: 1863;  Base position: 1426.4148672100105 mm; Feasibility: YES!;Manipulability: 7.530687551773477; Execution time: 11.11463 
+Iteration: 1864;  Base position: -489.13770068343456 mm; Feasibility: YES!;Manipulability: 8.449514152936207; Execution time: 9.25609 
+Iteration 1865; Item picked: Base position: -476.7494334722451 mm; Feasibility: NO! 
+Iteration 1866; Item picked: Base position: -62.919827001478325 mm; Feasibility: NO! 
+Iteration 1867; Item picked: Base position: 1188.470290359941 mm; Feasibility: NO! 
+Iteration 1868; Item picked: Base position: -226.72131896706605 mm; Feasibility: NO! 
+Iteration 1869; Item picked: Base position: -1217.1296631878813 mm; Feasibility: NO! 
+Iteration: 1870;  Base position: -1155.4528580426759 mm; Feasibility: YES!;Manipulability: 5.717552887364208; Execution time: 9.1053 
+Iteration 1871; Item picked: Base position: -263.90393577965847 mm; Feasibility: NO! 
+Iteration 1872; Item picked: Base position: 1301.0774443499454 mm; Feasibility: NO! 
+Iteration 1873; Item picked: Base position: 909.2643427825642 mm; Feasibility: NO! 
+Iteration 1874; Item picked: Base position: 865.5089370385881 mm; Feasibility: NO! 
+Iteration 1875; Item picked: Base position: 1140.5777326224143 mm; Feasibility: NO! 
+Iteration 1876; Item picked: Base position: -934.2848467228742 mm; Feasibility: NO! 
+Iteration 1877; Item picked: Base position: 360.3919232608164 mm; Feasibility: NO! 
+Iteration 1878; Item picked: Base position: -1047.4426853202024 mm; Feasibility: NO! 
+Iteration: 1879;  Base position: 655.4736530292485 mm; Feasibility: YES!;Manipulability: 7.386615452799528; Execution time: 9.07785 
+Iteration 1880; Item picked: Base position: -85.39358964425537 mm; Feasibility: NO! 
+Iteration 1881; Item picked: Base position: 1026.1533413989869 mm; Feasibility: NO! 
+Iteration 1882; Item picked: Base position: 607.1249706991352 mm; Feasibility: NO! 
+Iteration 1883; Item picked: Base position: 930.9612949024022 mm; Feasibility: NO! 
+Iteration 1884; Item picked: Base position: -1002.4744484179116 mm; Feasibility: NO! 
+Iteration: 1885;  Base position: -1006.1701915524118 mm; Feasibility: YES!;Manipulability: 7.605141075366948; Execution time: 9.28255 
+Iteration 1886; Item picked: Base position: 1316.5943767784033 mm; Feasibility: NO! 
+Iteration 1887; Item picked: Base position: -295.4787323447392 mm; Feasibility: NO! 
+Iteration 1888; Item picked: Base position: 471.9261467532101 mm; Feasibility: NO! 
+Iteration 1889; Item picked: Base position: -1081.5165173961652 mm; Feasibility: NO! 
+Iteration 1890; Item picked: Base position: 1473.9312428179942 mm; Feasibility: NO! 
+Iteration: 1891;  Base position: 537.9030933858855 mm; Feasibility: YES!;Manipulability: 8.917424647761726; Execution time: 9.11239 
+Iteration 1892; Item picked: Base position: 759.8530641418993 mm; Feasibility: NO! 
+Iteration: 1893;  Base position: -1301.202845335252 mm; Feasibility: YES!;Manipulability: 5.495411331538166; Execution time: 9.22448 
+Iteration 1894; Item picked: Base position: -707.6834984977577 mm; Feasibility: NO! 
+Iteration 1895; Item picked: Base position: 324.30068036913326 mm; Feasibility: NO! 
+Iteration 1896; Item picked: Base position: -1477.117840517353 mm; Feasibility: NO! 
+Iteration 1897; Item picked: Base position: 426.79932256306915 mm; Feasibility: NO! 
+Iteration 1898; Item picked: Base position: -1472.6098185411315 mm; Feasibility: NO! 
+Iteration 1899; Item picked: Base position: -654.2525550156123 mm; Feasibility: NO! 
+Iteration 1900; Item picked: Base position: 168.6334511688117 mm; Feasibility: NO! 
+Iteration 1901; Item picked: Base position: -465.669633428545 mm; Feasibility: NO! 
+Iteration: 1902;  Base position: -162.5746263488163 mm; Feasibility: YES!;Manipulability: 8.88336146397797; Execution time: 9.08175 
+Iteration 1903; Item picked: Base position: -832.3262419596228 mm; Feasibility: NO! 
+Iteration: 1904;  Base position: 1262.9474625539128 mm; Feasibility: YES!;Manipulability: 8.889679082585118; Execution time: 9.1265 
+Iteration 1905; Item picked: Base position: -884.7218854732964 mm; Feasibility: NO! 
+Iteration 1906; Item picked: Base position: -274.37512296806904 mm; Feasibility: NO! 
+Iteration: 1907;  Base position: -617.5012908324193 mm; Feasibility: YES!;Manipulability: 8.841732979664014; Execution time: 9.00623 
+Iteration 1908; Item picked: Base position: 1073.8874498531522 mm; Feasibility: NO! 
+Iteration 1909; Item picked: Base position: 684.1576950843405 mm; Feasibility: NO! 
+Iteration 1910; Item picked: Base position: 989.9899936884135 mm; Feasibility: NO! 
+Iteration 1911; Item picked: Base position: 635.0385557914083 mm; Feasibility: NO! 
+Iteration 1912; Item picked: Base position: 1376.6266287885392 mm; Feasibility: NO! 
+Iteration 1913; Item picked: Base position: 175.05401768334764 mm; Feasibility: NO! 
+Iteration: 1914;  Base position: -113.54352928010121 mm; Feasibility: YES!;Manipulability: 9.279881217520416; Execution time: 9.18868 
+Iteration 1915; Item picked: Base position: -288.8666528748313 mm; Feasibility: NO! 
+Iteration 1916; Item picked: Base position: 1031.4637696298105 mm; Feasibility: NO! 
+Iteration: 1917;  Base position: 36.30076062661601 mm; Feasibility: YES!;Manipulability: 4.392901071867861; Execution time: 8.54857 
+Iteration: 1918;  Base position: -1285.8242804586107 mm; Feasibility: YES!;Manipulability: 6.281407035175879; Execution time: 9.12188 
+Iteration 1919; Item picked: Base position: 1197.0383103034105 mm; Feasibility: NO! 
+Iteration 1920; Item picked: Base position: 224.5842484968157 mm; Feasibility: NO! 
+Iteration 1921; Item picked: Base position: -645.4258546152486 mm; Feasibility: NO! 
+Iteration 1922; Item picked: Base position: -1032.9156624179134 mm; Feasibility: NO! 
+Iteration 1923; Item picked: Base position: 108.75751685417777 mm; Feasibility: NO! 
+Iteration 1924; Item picked: Base position: 1359.8762735850232 mm; Feasibility: NO! 
+Iteration 1925; Item picked: Base position: -1352.633669127979 mm; Feasibility: NO! 
+Iteration: 1926;  Base position: 342.6382602865042 mm; Feasibility: YES!;Manipulability: 6.891798759476223; Execution time: 9.19055 
+Iteration 1927; Item picked: Base position: -1098.1575276677727 mm; Feasibility: NO! 
+Iteration: 1928;  Base position: 253.00248980151605 mm; Feasibility: YES!;Manipulability: 6.327512022272842; Execution time: 9.13974 
+Iteration 1929; Item picked: Base position: 333.17894770682597 mm; Feasibility: NO! 
+Iteration 1930; Item picked: Base position: -1012.2618695221795 mm; Feasibility: NO! 
+Iteration: 1931;  Base position: -172.583426621861 mm; Feasibility: YES!;Manipulability: 8.022462896109106; Execution time: 11.42657 
+Iteration: 1932;  Base position: -816.3917332975698 mm; Feasibility: YES!;Manipulability: 6.39467962655071; Execution time: 9.05268 
+Iteration 1933; Item picked: Base position: 1299.9649946146924 mm; Feasibility: NO! 
+Iteration: 1934;  Base position: 575.7263391919405 mm; Feasibility: YES!;Manipulability: 7.608612949859241; Execution time: 9.27779 
+Iteration 1935; Item picked: Base position: 400.1967619210302 mm; Feasibility: NO! 
+Iteration 1936; Item picked: Base position: -746.6157455517817 mm; Feasibility: NO! 
+Iteration 1937; Item picked: Base position: -1280.0224209358068 mm; Feasibility: NO! 
+Iteration 1938; Item picked: Base position: -3.210324457583283 mm; Feasibility: NO! 
+Iteration 1939; Item picked: Base position: 861.8727574847981 mm; Feasibility: NO! 
+Iteration 1940; Item picked: Base position: -1200.753089815576 mm; Feasibility: NO! 
+Iteration 1941; Item picked: Base position: -501.6607923910699 mm; Feasibility: NO! 
+Iteration 1942; Item picked: Base position: -317.72753424321945 mm; Feasibility: NO! 
+Iteration 1943; Item picked: Base position: 82.53694847000884 mm; Feasibility: NO! 
+Iteration 1944; Item picked: Base position: 1000.9828422900673 mm; Feasibility: NO! 
+Iteration 1945; Item picked: Base position: -1315.30745838727 mm; Feasibility: NO! 
+Iteration 1946; Item picked: Base position: 200.66410979568673 mm; Feasibility: NO! 
+Iteration 1947; Item picked: Base position: -1339.4796760196336 mm; Feasibility: NO! 
+Iteration: 1948;  Base position: -1209.2889896043735 mm; Feasibility: YES!;Manipulability: 7.968127490039841; Execution time: 9.12091 
+Iteration: 1949;  Base position: -1043.532489722182 mm; Feasibility: YES!;Manipulability: 4.582321404023278; Execution time: 8.52569 
+Iteration 1950; Item picked: Base position: -283.8997906835468 mm; Feasibility: NO! 
+Iteration 1951; Item picked: Base position: 231.4190315602625 mm; Feasibility: NO! 
+Iteration 1952; Item picked: Base position: -1061.8780386266317 mm; Feasibility: NO! 
+Iteration 1953; Item picked: Base position: 1481.797027434145 mm; Feasibility: NO! 
+Iteration: 1954;  Base position: 97.81871024574252 mm; Feasibility: YES!;Manipulability: 8.869966294128082; Execution time: 9.18136 
+Iteration 1955; Item picked: Base position: -282.49067110031183 mm; Feasibility: NO! 
+Iteration 1956; Item picked: Base position: -325.95860046452026 mm; Feasibility: NO! 
+Iteration 1957; Item picked: Base position: 903.1837430431247 mm; Feasibility: NO! 
+Iteration: 1958;  Base position: 1448.9783779238223 mm; Feasibility: YES!;Manipulability: 6.362942224484602; Execution time: 9.08517 
+Iteration 1959; Item picked: Base position: 1454.0828011731728 mm; Feasibility: NO! 
+Iteration 1960; Item picked: Base position: -885.348769654381 mm; Feasibility: NO! 
+Iteration 1961; Item picked: Base position: -128.62508632528693 mm; Feasibility: NO! 
+Iteration 1962; Item picked: Base position: -1312.1227513065808 mm; Feasibility: NO! 
+Iteration 1963; Item picked: Base position: 460.90593124633597 mm; Feasibility: NO! 
+Iteration 1964; Item picked: Base position: 859.4726289264918 mm; Feasibility: NO! 
+Iteration 1965; Item picked: Base position: 1434.6555587896273 mm; Feasibility: NO! 
+Iteration 1966; Item picked: Base position: -1251.1487205198137 mm; Feasibility: NO! 
+Iteration 1967; Item picked: Base position: -1355.9738741718347 mm; Feasibility: NO! 
+Iteration 1968; Item picked: Base position: -707.3885901015553 mm; Feasibility: NO! 
+Iteration: 1969;  Base position: -1396.950184605576 mm; Feasibility: YES!;Manipulability: 5.901445854234288; Execution time: 9.18411 
+Iteration 1970; Item picked: Base position: -868.7490341534219 mm; Feasibility: NO! 
+Iteration: 1971;  Base position: -370.9603270383086 mm; Feasibility: YES!;Manipulability: 7.808839606434484; Execution time: 9.77378 
+Iteration 1972; Item picked: Base position: -955.1424885130556 mm; Feasibility: NO! 
+Iteration: 1973;  Base position: 728.7836258421548 mm; Feasibility: YES!;Manipulability: 7.692307692307692; Execution time: 9.22929 
+Iteration: 1974;  Base position: 545.7113117892638 mm; Feasibility: YES!;Manipulability: 6.412311638345623; Execution time: 9.15909 
+Iteration: 1975;  Base position: -500.3802917912052 mm; Feasibility: YES!;Manipulability: 5.565449688334818; Execution time: 9.24717 
+Iteration 1976; Item picked: Base position: -1053.6148182696252 mm; Feasibility: NO! 
+Iteration 1977; Item picked: Base position: 1267.7973472464787 mm; Feasibility: NO! 
+Iteration 1978; Item picked: Base position: 1380.244009296705 mm; Feasibility: NO! 
+Iteration 1979; Item picked: Base position: 965.2387982215387 mm; Feasibility: NO! 
+Iteration 1980; Item picked: Base position: -498.65651383430327 mm; Feasibility: NO! 
+Iteration 1981; Item picked: Base position: 1018.9763581693796 mm; Feasibility: NO! 
+Iteration 1982; Item picked: Base position: -291.27663029445284 mm; Feasibility: NO! 
+Iteration 1983; Item picked: Base position: -852.9298192687016 mm; Feasibility: NO! 
+Iteration 1984; Item picked: Base position: 666.4970255478033 mm; Feasibility: NO! 
+Iteration 1985; Item picked: Base position: 1451.7544613413488 mm; Feasibility: NO! 
+Iteration 1986; Item picked: Base position: 1216.0988962235738 mm; Feasibility: NO! 
+Iteration 1987; Item picked: Base position: -1324.44438978688 mm; Feasibility: NO! 
+Iteration 1988; Item picked: Base position: -1135.2330857051998 mm; Feasibility: NO! 
+Iteration 1989; Item picked: Base position: 1178.6337215766207 mm; Feasibility: NO! 
+Iteration: 1990;  Base position: -81.64825912575793 mm; Feasibility: YES!;Manipulability: 6.12482391131255; Execution time: 9.37768 
+Iteration 1991; Item picked: Base position: -619.0044879485399 mm; Feasibility: NO! 
+Iteration 1992; Item picked: Base position: 296.6322256134374 mm; Feasibility: NO! 
+Iteration 1993; Item picked: Base position: -1126.0172586753647 mm; Feasibility: NO! 
+Iteration 1994; Item picked: Base position: -211.94175861176814 mm; Feasibility: NO! 
+Iteration: 1995;  Base position: 1113.1995545410764 mm; Feasibility: YES!;Manipulability: 6.556087327083197; Execution time: 11.44447 
+Iteration 1996; Item picked: Base position: -563.0496149002009 mm; Feasibility: NO! 
+Iteration 1997; Item picked: Base position: -1042.9250298293932 mm; Feasibility: NO! 
+Iteration: 1998;  Base position: -150.47936026858815 mm; Feasibility: YES!;Manipulability: 7.97702616464582; Execution time: 10.91563 
+
+********* Number of feasible solutions: 466/2000 ********* 
+********* Mean manipulability: 7.387128200984265; Standard deviation: 1.4844443595940602 ********* 
+********* Mean execution time: 9.289720901287554; Standard deviation: 0.5308538490814543 ********* 

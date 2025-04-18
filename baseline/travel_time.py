@@ -1,5 +1,5 @@
 ''' 
-What this code does.
+For how we implemented the fnal procedure, this code is not useful anymore.
 '''
 
 import random
