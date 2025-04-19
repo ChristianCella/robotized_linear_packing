@@ -1,0 +1,178 @@
+Manipulability trends 
+
+	 Considered bin number: 0 
+	 	 Considering the 'place-side' obejct number: 0/3 
+	 	 	 'Pick-side' obejct number: 0 
+	 	 	 	 Fitness: 3.80174031771941 
+	 	 	 	 Fitness: 3.7941721450943424 
+	 	 	 	 Fitness: 3.7941721450943424 
+	 	 	 	 Fitness: 3.7941721450943424 
+	 	 	 	 Fitness: 3.7941721450943424 
+	 	 	 	 Fitness: 3.7941721450943424 
+	 	 	 	 Fitness: 3.7941721450943424 
+	 	 	 	 Fitness: 3.7941721450943424 
+	 	 	 	 Fitness: 3.7941721450943424 
+	 	 	 	 Fitness: 3.7941721450943424 
+	 	 	 	 Fitness: 3.7941721450943424 
+	 	 	 	 Fitness: 3.7941721450943424 
+	 	 	 ***** PSO ended for 'Pick-side' object number  0 ***** 
+	 	 	 'Pick-side' obejct number: 1 
+	 	 	 	 Fitness: 3.183251084923769 
+	 	 	 	 Fitness: 3.1808176198462106 
+	 	 	 	 Fitness: 3.1616486054177253 
+	 	 	 	 Fitness: 3.1616486054177253 
+	 	 	 	 Fitness: 3.1616486054177253 
+	 	 	 	 Fitness: 3.1616486054177253 
+	 	 	 	 Fitness: 3.1616486054177253 
+	 	 	 	 Fitness: 3.1616486054177253 
+	 	 	 	 Fitness: 3.1616486054177253 
+	 	 	 	 Fitness: 3.1616486054177253 
+	 	 	 	 Fitness: 3.1616486054177253 
+	 	 	 	 Fitness: 3.1616486054177253 
+	 	 	 ***** PSO ended for 'Pick-side' object number  1 ***** 
+	 	 	 'Pick-side' obejct number: 2 
+	 	 	 	 Fitness: 17476898.193478856 
+	 	 	 	 Fitness: 17476898.193478856 
+	 	 	 	 Fitness: 17476898.193478856 
+	 	 	 	 Fitness: 17476898.193478856 
+	 	 	 	 Fitness: 17476898.193478856 
+	 	 	 	 Fitness: 17476898.193478856 
+	 	 	 	 Fitness: 17476898.193478856 
+	 	 	 	 Fitness: 9.036058245923002 
+	 	 	 	 Fitness: 8.34580835644196 
+	 	 	 	 Fitness: 2.029694793595433 
+	 	 	 	 Fitness: 2.029694793595433 
+	 	 	 	 Fitness: 2.029694793595433 
+	 	 	 ***** PSO ended for 'Pick-side' object number  2 ***** 
+	 	 Considering the 'place-side' obejct number: 1/3 
+	 	 	 'Pick-side' obejct number: 0 
+	 	 	 	 Fitness: 3.960313564064404 
+	 	 	 	 Fitness: 3.9593716852386875 
+	 	 	 	 Fitness: 3.9593716852386875 
+	 	 	 	 Fitness: 3.9593716852386875 
+	 	 	 	 Fitness: 3.9593716852386875 
+	 	 	 	 Fitness: 3.9593716852386875 
+	 	 	 	 Fitness: 3.9593716852386875 
+	 	 	 	 Fitness: 3.9593716852386875 
+	 	 	 	 Fitness: 3.9593716852386875 
+	 	 	 	 Fitness: 3.9593716852386875 
+	 	 	 	 Fitness: 3.9593716852386875 
+	 	 	 	 Fitness: 3.9593716852386875 
+	 	 	 ***** PSO ended for 'Pick-side' object number  0 ***** 
+	 	 	 'Pick-side' obejct number: 2 
+	 	 	 	 Fitness: 17476898.193478856 
+	 	 	 	 Fitness: 17476898.193478856 
+	 	 	 	 Fitness: 17476898.193478856 
+	 	 	 	 Fitness: 17476898.193478856 
+	 	 	 	 Fitness: 17476898.193478856 
+	 	 	 	 Fitness: 17476898.193478856 
+	 	 	 	 Fitness: 17476898.193478856 
+	 	 	 	 Fitness: 17476898.193478856 
+	 	 	 	 Fitness: 17476898.193478856 
+	 	 	 	 Fitness: -1.643917780083397 
+	 	 	 	 Fitness: -1.643917780083397 
+	 	 	 	 Fitness: -1.6534821389279064 
+	 	 	 ***** PSO ended for 'Pick-side' object number  2 ***** 
+	 	 Considering the 'place-side' obejct number: 2/3 
+	 	 	 'Pick-side' obejct number: 2 
+	 	 	 	 Fitness: -1.5052053201766893 
+	 	 	 	 Fitness: -1.5052053201766893 
+	 	 	 	 Fitness: -1.5203386782867876 
+	 	 	 	 Fitness: -1.5259899512410877 
+	 	 	 	 Fitness: -1.5298752718121478 
+	 	 	 	 Fitness: -1.531799559766201 
+	 	 	 	 Fitness: -1.531799559766201 
+	 	 	 	 Fitness: -1.531799559766201 
+	 	 	 	 Fitness: -1.531799559766201 
+	 	 	 	 Fitness: -1.531799559766201 
+	 	 	 	 Fitness: -1.531799559766201 
+	 	 	 	 Fitness: -1.531799559766201 
+	 	 	 ***** PSO ended for 'Pick-side' object number  2 ***** 
+	 Considered bin number: 0 
+	 	 Considering the 'place-side' obejct number: 0/3 
+	 	 	 'Pick-side' obejct number: 0 
+	 	 	 	 Fitness: -0.4245654289989259 
+	 	 	 	 Fitness: -0.4245654289989259 
+	 	 	 	 Fitness: -0.4245654289989259 
+	 	 	 	 Fitness: -0.4707186797257893 
+	 	 	 	 Fitness: -0.4707186797257893 
+	 	 	 	 Fitness: -0.4707186797257893 
+	 	 	 	 Fitness: -0.4839002088980975 
+	 	 	 	 Fitness: -0.4839002088980975 
+	 	 	 	 Fitness: -0.4839002088980975 
+	 	 	 	 Fitness: -0.4839002088980975 
+	 	 	 	 Fitness: -0.4839002088980975 
+	 	 	 	 Fitness: -0.4839002088980975 
+	 	 	 ***** PSO ended for 'Pick-side' object number  0 ***** 
+	 	 	 'Pick-side' obejct number: 1 
+	 	 	 	 Fitness: -0.758551117682783 
+	 	 	 	 Fitness: -0.7862166263851955 
+	 	 	 	 Fitness: -0.7862166263851955 
+	 	 	 	 Fitness: -0.7862166263851955 
+	 	 	 	 Fitness: -0.7862166263851955 
+	 	 	 	 Fitness: -0.7862166263851955 
+	 	 	 	 Fitness: -0.7862166263851955 
+	 	 	 	 Fitness: -0.7862166263851955 
+	 	 	 	 Fitness: -0.7862166263851955 
+	 	 	 	 Fitness: -0.7862166263851955 
+	 	 	 	 Fitness: -0.7862166263851955 
+	 	 	 	 Fitness: -0.7862166263851955 
+	 	 	 ***** PSO ended for 'Pick-side' object number  1 ***** 
+	 	 	 'Pick-side' obejct number: 2 
+	 	 	 	 Fitness: -0.9892002751359185 
+	 	 	 	 Fitness: -1.024290354784391 
+	 	 	 	 Fitness: -1.024290354784391 
+	 	 	 	 Fitness: -1.024290354784391 
+	 	 	 	 Fitness: -1.024290354784391 
+	 	 	 	 Fitness: -1.024290354784391 
+	 	 	 	 Fitness: -1.024290354784391 
+	 	 	 	 Fitness: -1.024290354784391 
+	 	 	 	 Fitness: -1.024290354784391 
+	 	 	 	 Fitness: -1.024290354784391 
+	 	 	 	 Fitness: -1.024290354784391 
+	 	 	 	 Fitness: -1.024290354784391 
+	 	 	 ***** PSO ended for 'Pick-side' object number  2 ***** 
+	 	 Considering the 'place-side' obejct number: 1/3 
+	 	 	 'Pick-side' obejct number: 0 
+	 	 	 	 Fitness: -0.3984261786237031 
+	 	 	 	 Fitness: -0.5131023809353482 
+	 	 	 	 Fitness: -0.5131023809353482 
+	 	 	 	 Fitness: -0.5131023809353482 
+	 	 	 	 Fitness: -0.5131023809353482 
+	 	 	 	 Fitness: -0.5131023809353482 
+	 	 	 	 Fitness: -0.5150064014070981 
+	 	 	 	 Fitness: -0.5150064014070981 
+	 	 	 	 Fitness: -0.5150064014070981 
+	 	 	 	 Fitness: -0.5150064014070981 
+	 	 	 	 Fitness: -0.5150064014070981 
+	 	 	 	 Fitness: -0.5150064014070981 
+	 	 	 ***** PSO ended for 'Pick-side' object number  0 ***** 
+	 	 	 'Pick-side' obejct number: 1 
+	 	 	 	 Fitness: -0.6444559037733948 
+	 	 	 	 Fitness: -0.6652962847780509 
+	 	 	 	 Fitness: -0.6652962847780509 
+	 	 	 	 Fitness: -0.6652962847780509 
+	 	 	 	 Fitness: -0.6652962847780509 
+	 	 	 	 Fitness: -0.6652962847780509 
+	 	 	 	 Fitness: -0.6652962847780509 
+	 	 	 	 Fitness: -0.6652962847780509 
+	 	 	 	 Fitness: -0.6652962847780509 
+	 	 	 	 Fitness: -0.6652962847780509 
+	 	 	 	 Fitness: -0.6652962847780509 
+	 	 	 	 Fitness: -0.6652962847780509 
+	 	 	 ***** PSO ended for 'Pick-side' object number  1 ***** 
+	 	 Considering the 'place-side' obejct number: 2/3 
+	 	 	 'Pick-side' obejct number: 0 
+	 	 	 	 Fitness: -0.07580037245895549 
+	 	 	 	 Fitness: -0.07580037245895549 
+	 	 	 	 Fitness: -0.07580037245895549 
+	 	 	 	 Fitness: -0.07580037245895549 
+	 	 	 	 Fitness: -0.07580037245895549 
+	 	 	 	 Fitness: -0.07580037245895549 
+	 	 	 	 Fitness: -0.07580037245895549 
+	 	 	 	 Fitness: -0.07580037245895549 
+	 	 	 	 Fitness: -0.07580037245895549 
+	 	 	 	 Fitness: -0.07580037245895549 
+	 	 	 	 Fitness: -0.07580037245895549 
+	 	 	 	 Fitness: -0.07675238269483214 
+	 	 	 ***** PSO ended for 'Pick-side' object number  0 ***** 

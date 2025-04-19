@@ -1,0 +1,176 @@
+	 Considered bin number: 0 
+	 	 Considering the 'place-side' obejct number: 0/3 
+	 	 	 'Pick-side' obejct number: 0 
+	 	 	 	 Manipulability: 0.143 
+	 	 	 	 Manipulability: 0.139 
+	 	 	 	 Manipulability: 0.139 
+	 	 	 	 Manipulability: 0.139 
+	 	 	 	 Manipulability: 0.142 
+	 	 	 	 Manipulability: 0.143 
+	 	 	 	 Manipulability: 0.142 
+	 	 	 	 Manipulability: 0.141 
+	 	 	 	 Manipulability: 0.139 
+	 	 	 	 Manipulability: 0.119 
+	 	 	 	 Manipulability: 0.142 
+	 	 	 	 Manipulability: 0.138 
+	 	 	 ***** PSO ended for 'Pick-side' object number  0 ***** 
+	 	 	 'Pick-side' obejct number: 1 
+	 	 	 	 Manipulability: 0.189 
+	 	 	 	 Manipulability: 0.184 
+	 	 	 	 Manipulability: 0.188 
+	 	 	 	 Manipulability: 0.185 
+	 	 	 	 Manipulability: 0.187 
+	 	 	 	 Manipulability: 0.189 
+	 	 	 	 Manipulability: 0.188 
+	 	 	 	 Manipulability: 0.188 
+	 	 	 	 Manipulability: 0.189 
+	 	 	 	 Manipulability: 0.188 
+	 	 	 	 Manipulability: 0.189 
+	 	 	 	 Manipulability: 0.188 
+	 	 	 ***** PSO ended for 'Pick-side' object number  1 ***** 
+	 	 	 'Pick-side' obejct number: 2 
+	 	 	 	 Manipulability: 9000000 
+	 	 	 	 Manipulability: 9000000 
+	 	 	 	 Manipulability: 9000000 
+	 	 	 	 Manipulability: 9000000 
+	 	 	 	 Manipulability: 9000000 
+	 	 	 	 Manipulability: 9000000 
+	 	 	 	 Manipulability: 9000000 
+	 	 	 	 Manipulability: 0.12 
+	 	 	 	 Manipulability: 0.141 
+	 	 	 	 Manipulability: 0.225 
+	 	 	 	 Manipulability: 9000000 
+	 	 	 	 Manipulability: 9000000 
+	 	 	 ***** PSO ended for 'Pick-side' object number  2 ***** 
+	 	 Considering the 'place-side' obejct number: 1/3 
+	 	 	 'Pick-side' obejct number: 0 
+	 	 	 	 Manipulability: 0.119 
+	 	 	 	 Manipulability: 0.119 
+	 	 	 	 Manipulability: 0.119 
+	 	 	 	 Manipulability: 0.119 
+	 	 	 	 Manipulability: 0.119 
+	 	 	 	 Manipulability: 0.119 
+	 	 	 	 Manipulability: 0.119 
+	 	 	 	 Manipulability: 0.119 
+	 	 	 	 Manipulability: 0.119 
+	 	 	 	 Manipulability: 0.119 
+	 	 	 	 Manipulability: 0.119 
+	 	 	 	 Manipulability: 0.119 
+	 	 	 ***** PSO ended for 'Pick-side' object number  0 ***** 
+	 	 	 'Pick-side' obejct number: 2 
+	 	 	 	 Manipulability: 9000000 
+	 	 	 	 Manipulability: 9000000 
+	 	 	 	 Manipulability: 9000000 
+	 	 	 	 Manipulability: 9000000 
+	 	 	 	 Manipulability: 9000000 
+	 	 	 	 Manipulability: 9000000 
+	 	 	 	 Manipulability: 9000000 
+	 	 	 	 Manipulability: 9000000 
+	 	 	 	 Manipulability: 9000000 
+	 	 	 	 Manipulability: 0.214 
+	 	 	 	 Manipulability: 9000000 
+	 	 	 	 Manipulability: 0.213 
+	 	 	 ***** PSO ended for 'Pick-side' object number  2 ***** 
+	 	 Considering the 'place-side' obejct number: 2/3 
+	 	 	 'Pick-side' obejct number: 2 
+	 	 	 	 Manipulability: 0.202 
+	 	 	 	 Manipulability: 0.202 
+	 	 	 	 Manipulability: 0.197 
+	 	 	 	 Manipulability: 0.197 
+	 	 	 	 Manipulability: 0.201 
+	 	 	 	 Manipulability: 0.198 
+	 	 	 	 Manipulability: 0.201 
+	 	 	 	 Manipulability: 0.2 
+	 	 	 	 Manipulability: 9000000 
+	 	 	 	 Manipulability: 0.198 
+	 	 	 	 Manipulability: 9000000 
+	 	 	 	 Manipulability: 0.197 
+	 	 	 ***** PSO ended for 'Pick-side' object number  2 ***** 
+	 Considered bin number: 0 
+	 	 Considering the 'place-side' obejct number: 0/3 
+	 	 	 'Pick-side' obejct number: 0 
+	 	 	 	 Manipulability: 0.104 
+	 	 	 	 Manipulability: 0.104 
+	 	 	 	 Manipulability: 0.104 
+	 	 	 	 Manipulability: 0.11 
+	 	 	 	 Manipulability: 0.106 
+	 	 	 	 Manipulability: 0.11 
+	 	 	 	 Manipulability: 0.108 
+	 	 	 	 Manipulability: 0.107 
+	 	 	 	 Manipulability: 0.1 
+	 	 	 	 Manipulability: 0.104 
+	 	 	 	 Manipulability: 0.107 
+	 	 	 	 Manipulability: 0.111 
+	 	 	 ***** PSO ended for 'Pick-side' object number  0 ***** 
+	 	 	 'Pick-side' obejct number: 1 
+	 	 	 	 Manipulability: 0.126 
+	 	 	 	 Manipulability: 0.131 
+	 	 	 	 Manipulability: 0.127 
+	 	 	 	 Manipulability: 0.133 
+	 	 	 	 Manipulability: 0.134 
+	 	 	 	 Manipulability: 0.127 
+	 	 	 	 Manipulability: 0.119 
+	 	 	 	 Manipulability: 0.134 
+	 	 	 	 Manipulability: 0.136 
+	 	 	 	 Manipulability: 0.131 
+	 	 	 	 Manipulability: 0.121 
+	 	 	 	 Manipulability: 0.132 
+	 	 	 ***** PSO ended for 'Pick-side' object number  1 ***** 
+	 	 	 'Pick-side' obejct number: 2 
+	 	 	 	 Manipulability: 0.15 
+	 	 	 	 Manipulability: 0.151 
+	 	 	 	 Manipulability: 0.151 
+	 	 	 	 Manipulability: 0.15 
+	 	 	 	 Manipulability: 0.151 
+	 	 	 	 Manipulability: 0.148 
+	 	 	 	 Manipulability: 0.152 
+	 	 	 	 Manipulability: 0.152 
+	 	 	 	 Manipulability: 0.152 
+	 	 	 	 Manipulability: 0.15 
+	 	 	 	 Manipulability: 0.15 
+	 	 	 	 Manipulability: 0.152 
+	 	 	 ***** PSO ended for 'Pick-side' object number  2 ***** 
+	 	 Considering the 'place-side' obejct number: 1/3 
+	 	 	 'Pick-side' obejct number: 0 
+	 	 	 	 Manipulability: 0.098 
+	 	 	 	 Manipulability: 0.104 
+	 	 	 	 Manipulability: 0.106 
+	 	 	 	 Manipulability: 0.104 
+	 	 	 	 Manipulability: 0.101 
+	 	 	 	 Manipulability: 0.109 
+	 	 	 	 Manipulability: 0.104 
+	 	 	 	 Manipulability: 0.109 
+	 	 	 	 Manipulability: 0.101 
+	 	 	 	 Manipulability: 0.11 
+	 	 	 	 Manipulability: 0.102 
+	 	 	 	 Manipulability: 0.11 
+	 	 	 ***** PSO ended for 'Pick-side' object number  0 ***** 
+	 	 	 'Pick-side' obejct number: 1 
+	 	 	 	 Manipulability: 0.113 
+	 	 	 	 Manipulability: 0.132 
+	 	 	 	 Manipulability: 0.12 
+	 	 	 	 Manipulability: 0.132 
+	 	 	 	 Manipulability: 0.131 
+	 	 	 	 Manipulability: 0.128 
+	 	 	 	 Manipulability: 0.132 
+	 	 	 	 Manipulability: 0.113 
+	 	 	 	 Manipulability: 0.111 
+	 	 	 	 Manipulability: 0.128 
+	 	 	 	 Manipulability: 0.127 
+	 	 	 	 Manipulability: 0.132 
+	 	 	 ***** PSO ended for 'Pick-side' object number  1 ***** 
+	 	 Considering the 'place-side' obejct number: 2/3 
+	 	 	 'Pick-side' obejct number: 0 
+	 	 	 	 Manipulability: 0.076 
+	 	 	 	 Manipulability: 0.076 
+	 	 	 	 Manipulability: 0.076 
+	 	 	 	 Manipulability: 0.076 
+	 	 	 	 Manipulability: 0.076 
+	 	 	 	 Manipulability: 0.076 
+	 	 	 	 Manipulability: 0.076 
+	 	 	 	 Manipulability: 0.076 
+	 	 	 	 Manipulability: 0.076 
+	 	 	 	 Manipulability: 0.076 
+	 	 	 	 Manipulability: 0.076 
+	 	 	 	 Manipulability: 0.076 
+	 	 	 ***** PSO ended for 'Pick-side' object number  0 ***** 

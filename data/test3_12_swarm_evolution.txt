@@ -1,0 +1,178 @@
+Evolution of the swarm 
+
+	 Considered bin number: 0 
+	 	 Considering the 'place-side' obejct number: 0/3 
+	 	 	 'Pick-side' obejct number: 0 
+	 	 	 	 Iteration 0 for item of type 0 number 0 considering place_side object 0. The layout is: [[ -10  930 -802 -935 -341 -610 1006 -955 -756 1294]] 
+	 	 	 	 Iteration 1 for item of type 0 number 0 considering place_side object 0. The layout is: [[  -11   848   687  -216  -191   113  -498  -572   669 -1022]] 
+	 	 	 	 Iteration 2 for item of type 0 number 0 considering place_side object 0. The layout is: [[ -348  -594 -1070   490   -49   260 -1315   142  -170 -1381]] 
+	 	 	 	 Iteration 3 for item of type 0 number 0 considering place_side object 0. The layout is: [[ -168 -1500 -1047   549  -180  -467   827   296 -1003   792]] 
+	 	 	 	 Iteration 4 for item of type 0 number 0 considering place_side object 0. The layout is: [[ 149  125   78 -908 -346 -800  781  -58 -906 1500]] 
+	 	 	 	 Iteration 5 for item of type 0 number 0 considering place_side object 0. The layout is: [[  -10  1481   846   262  -285   127 -1068  -467    75  1500]] 
+	 	 	 	 Iteration 6 for item of type 0 number 0 considering place_side object 0. The layout is: [[ -468 -1469  1451  1222   110   -45 -1500  -479   689  1500]] 
+	 	 	 	 Iteration 7 for item of type 0 number 0 considering place_side object 0. The layout is: [[  -52 -1500 -1008   107   520  -476 -1500   -98  -868  -993]] 
+	 	 	 	 Iteration 8 for item of type 0 number 0 considering place_side object 0. The layout is: [[  229   814 -1500 -1500  -183   -16   475   229  -681 -1500]] 
+	 	 	 	 Iteration 9 for item of type 0 number 0 considering place_side object 0. The layout is: [[ -580  1500 -1500  -610 -1068   507  1229  -539   762  1500]] 
+	 	 	 	 Iteration 10 for item of type 0 number 0 considering place_side object 0. The layout is: [[ -901    68  1500  1500   -77     2 -1500  -950   -45  1500]] 
+	 	 	 	 Iteration 11 for item of type 0 number 0 considering place_side object 0. The layout is: [[ -192 -1500  1500   977  1198 -1041 -1500  1429 -1500  1500]] 
+	 	 	 ***** PSO ended for 'Pick-side' object number  0 ***** 
+	 	 	 'Pick-side' obejct number: 1 
+	 	 	 	 Iteration 0 for item of type 0 number 1 considering place_side object 0. The layout is: [[ 1045 -1462  -358   391   134   573   255   -36   187  1490]] 
+	 	 	 	 Iteration 1 for item of type 0 number 1 considering place_side object 0. The layout is: [[ -281 -1347  -270   147  -174  -543   -32   -37    71  -424]] 
+	 	 	 	 Iteration 2 for item of type 0 number 1 considering place_side object 0. The layout is: [[-1320   988     2  -460  -464  -352  -451  -122  -240 -1500]] 
+	 	 	 	 Iteration 3 for item of type 0 number 1 considering place_side object 0. The layout is: [[ 711 -169   23 -329 -455   98  171 -205 -345 1500]] 
+	 	 	 	 Iteration 4 for item of type 0 number 1 considering place_side object 0. The layout is: [[  623 -1275  -142   243   336   234   290  -128  -303  1500]] 
+	 	 	 	 Iteration 5 for item of type 0 number 1 considering place_side object 0. The layout is: [[-1263 -1058  -314   297    91   207  -552   -38  -189  1500]] 
+	 	 	 	 Iteration 6 for item of type 0 number 1 considering place_side object 0. The layout is: [[-1309  1500   -63  -116  -751    99  -862  -140   -52   250]] 
+	 	 	 	 Iteration 7 for item of type 0 number 1 considering place_side object 0. The layout is: [[ 1500  1500     6  -598 -1248  -112  -413  -224    86 -1500]] 
+	 	 	 	 Iteration 8 for item of type 0 number 1 considering place_side object 0. The layout is: [[ 1500   -53  -402   262  1105  -380  1003  -295    64 -1500]] 
+	 	 	 	 Iteration 9 for item of type 0 number 1 considering place_side object 0. The layout is: [[ 1500 -1500  -261   139  -198  -118  1500    -8   -87   -35]] 
+	 	 	 	 Iteration 10 for item of type 0 number 1 considering place_side object 0. The layout is: [[ -676   881   242  -910 -1500   209   -33    83  -305  1500]] 
+	 	 	 	 Iteration 11 for item of type 0 number 1 considering place_side object 0. The layout is: [[-1500  1500   561  -452  1484  -223 -1500  -120    18  1500]] 
+	 	 	 ***** PSO ended for 'Pick-side' object number  1 ***** 
+	 	 	 'Pick-side' obejct number: 2 
+	 	 	 	 Iteration 0 for item of type 0 number 2 considering place_side object 0. The layout is: [[ -852  1409  -278 -1088  1189 -1275  1201 -1190  -813  -512]] 
+	 	 	 	 Iteration 1 for item of type 0 number 2 considering place_side object 0. The layout is: [[ -853   879  -704  -904  1039  -978 -1500  -977  -876  -803]] 
+	 	 	 	 Iteration 2 for item of type 0 number 2 considering place_side object 0. The layout is: [[ -853 -1500 -1091  -746 -1500  -973 -1500 -1004  -784  -764]] 
+	 	 	 	 Iteration 3 for item of type 0 number 2 considering place_side object 0. The layout is: [[ -852  -451  -372 -1107  -697 -1112   802  -959  -797  -370]] 
+	 	 	 	 Iteration 4 for item of type 0 number 2 considering place_side object 0. The layout is: [[ -852   417   -61 -1206  1500  -903   888  -998  -871  -872]] 
+	 	 	 	 Iteration 5 for item of type 0 number 2 considering place_side object 0. The layout is: [[ -855  1500  -962  -640  -326 -1243   943 -1300  -856 -1299]] 
+	 	 	 	 Iteration 6 for item of type 0 number 2 considering place_side object 0. The layout is: [[ -850  1170  -494  -515 -1500 -1016 -1500  -910  -810  -345]] 
+	 	 	 	 Iteration 7 for item of type 0 number 2 considering place_side object 0. The layout is: [[ -856   550  -148 -1143  1436  -910   168  -682  -839   -89]] 
+	 	 	 	 Iteration 8 for item of type 0 number 2 considering place_side object 0. The layout is: [[ 1055   469   158 -1500  1500   970  1500   -25   955   509]] 
+	 	 	 	 Iteration 9 for item of type 0 number 2 considering place_side object 0. The layout is: [[-1308  1109   536  -686  1319   -31  1500  -554   191   797]] 
+	 	 	 	 Iteration 10 for item of type 0 number 2 considering place_side object 0. The layout is: [[-1500  1500    46  1257  -376 -1500  1411   -95  -781   545]] 
+	 	 	 	 Iteration 11 for item of type 0 number 2 considering place_side object 0. The layout is: [[ -104  1500  -525  -659   483 -1500  -979  -919 -1452 -1456]] 
+	 	 	 ***** PSO ended for 'Pick-side' object number  2 ***** 
+	 	 Considering the 'place-side' obejct number: 1/3 
+	 	 	 'Pick-side' obejct number: 0 
+	 	 	 	 Iteration 0 for item of type 0 number 0 considering place_side object 1. The layout is: [[  -62  -530 -1219  -940 -1249  -392  1297  -771   -17  -892]] 
+	 	 	 	 Iteration 1 for item of type 0 number 0 considering place_side object 1. The layout is: [[ -605  -313  -410  -906  -705  -391 -1471  -353  -101  -547]] 
+	 	 	 	 Iteration 2 for item of type 0 number 0 considering place_side object 1. The layout is: [[ -140  -160   370  -304  -473  -390 -1500    36  -657    28]] 
+	 	 	 	 Iteration 3 for item of type 0 number 0 considering place_side object 1. The layout is: [[-168 -269 -934  272 -194 -390 1500 -310  -68  517]] 
+	 	 	 	 Iteration 4 for item of type 0 number 0 considering place_side object 1. The layout is: [[ -177  -473 -1500   561  -402  -393  1500  -714   287   219]] 
+	 	 	 	 Iteration 5 for item of type 0 number 0 considering place_side object 1. The layout is: [[ -309  -473  -170 -1401  -611  -396  1500  -137  -842 -1173]] 
+	 	 	 	 Iteration 6 for item of type 0 number 0 considering place_side object 1. The layout is: [[ -492  -116   775 -1500  -523  -396  1500    55  -287   521]] 
+	 	 	 	 Iteration 7 for item of type 0 number 0 considering place_side object 1. The layout is: [[ -578  -285 -1067  -794    -9  -379  -648 -1258   237  1500]] 
+	 	 	 	 Iteration 8 for item of type 0 number 0 considering place_side object 1. The layout is: [[ -231  -590 -1500   982  -324  -391   -63 -1500  -334  -899]] 
+	 	 	 	 Iteration 9 for item of type 0 number 0 considering place_side object 1. The layout is: [[ -164  -503  -793  1100  -837  -406   353  -155 -1111  -753]] 
+	 	 	 	 Iteration 10 for item of type 0 number 0 considering place_side object 1. The layout is: [[ -436  -251  1004 -1500  -194  -380  -294  1414  -898  1004]] 
+	 	 	 	 Iteration 11 for item of type 0 number 0 considering place_side object 1. The layout is: [[ -786  -228  1498 -1500   -75  -372 -1271   618   965  1500]] 
+	 	 	 ***** PSO ended for 'Pick-side' object number  0 ***** 
+	 	 	 'Pick-side' obejct number: 2 
+	 	 	 	 Iteration 0 for item of type 0 number 2 considering place_side object 1. The layout is: [[ -875 -1478  -336  1100  1380  1230  -730  1317   729   867]] 
+	 	 	 	 Iteration 1 for item of type 0 number 2 considering place_side object 1. The layout is: [[ -875  -614 -1203 -1273 -1500 -1500  -992  1036 -1341   612]] 
+	 	 	 	 Iteration 2 for item of type 0 number 2 considering place_side object 1. The layout is: [[ -874  -902 -1018  1444 -1500 -1249  -774  -699 -1343  -823]] 
+	 	 	 	 Iteration 3 for item of type 0 number 2 considering place_side object 1. The layout is: [[ -878 -1500  -405  1453 -1442  1500  -656   847  -385 -1500]] 
+	 	 	 	 Iteration 4 for item of type 0 number 2 considering place_side object 1. The layout is: [[ -877 -1500   -27   -24  1500  1500  -677   495  1500  -236]] 
+	 	 	 	 Iteration 5 for item of type 0 number 2 considering place_side object 1. The layout is: [[ -872 -1079  -693  -470  1500  1500 -1125 -1005  -401  1022]] 
+	 	 	 	 Iteration 6 for item of type 0 number 2 considering place_side object 1. The layout is: [[ -876 -1163 -1500   -91  -324  1478 -1021  1237 -1500  -115]] 
+	 	 	 	 Iteration 7 for item of type 0 number 2 considering place_side object 1. The layout is: [[ -879 -1454  -387   -56  -294 -1500  -542    49 -1500  -903]] 
+	 	 	 	 Iteration 8 for item of type 0 number 2 considering place_side object 1. The layout is: [[ -880 -1392   673  1162   941 -1500  -311  -234  1500   -46]] 
+	 	 	 	 Iteration 9 for item of type 0 number 2 considering place_side object 1. The layout is: [[ -879  -496 -1500  -504   -65  1500  -523   214  1500  1311]] 
+	 	 	 	 Iteration 10 for item of type 0 number 2 considering place_side object 1. The layout is: [[ 1186  1223 -1496   619  1268  1500 -1003   786  1500  1500]] 
+	 	 	 	 Iteration 11 for item of type 0 number 2 considering place_side object 1. The layout is: [[   65 -1085  1500  1500  1500  1500   244  -122  1409   875]] 
+	 	 	 ***** PSO ended for 'Pick-side' object number  2 ***** 
+	 	 Considering the 'place-side' obejct number: 2/3 
+	 	 	 'Pick-side' obejct number: 2 
+	 	 	 	 Iteration 0 for item of type 0 number 2 considering place_side object 2. The layout is: [[-1266  -770   722  1072  1472  1137   213   477   739  -158]] 
+	 	 	 	 Iteration 1 for item of type 0 number 2 considering place_side object 2. The layout is: [[ 419 -329  594  852 -552 -258  213  475  -34  -52]] 
+	 	 	 	 Iteration 2 for item of type 0 number 2 considering place_side object 2. The layout is: [[-1500   406   344   142  1474  1346   213   103   779   262]] 
+	 	 	 	 Iteration 3 for item of type 0 number 2 considering place_side object 2. The layout is: [[-1315   -36    12  -303  1500  1500   268   142  1236   571]] 
+	 	 	 	 Iteration 4 for item of type 0 number 2 considering place_side object 2. The layout is: [[  239 -1275   561   -61  1500  1500   324   625  1450   464]] 
+	 	 	 	 Iteration 5 for item of type 0 number 2 considering place_side object 2. The layout is: [[1500 -980  383  458  944  209  255  265 -290 -153]] 
+	 	 	 	 Iteration 6 for item of type 0 number 2 considering place_side object 2. The layout is: [[ 1500  -242    24  1500   481 -1140   186  -133  -916  -749]] 
+	 	 	 	 Iteration 7 for item of type 0 number 2 considering place_side object 2. The layout is: [[-1363   221   359  1500  1056   707   247   -27  1500   691]] 
+	 	 	 	 Iteration 8 for item of type 0 number 2 considering place_side object 2. The layout is: [[-1500   827   695  -712   404  1500   338   766  1500  1481]] 
+	 	 	 	 Iteration 9 for item of type 0 number 2 considering place_side object 2. The layout is: [[ 1351   218   577   470   157   988   259  1383  1500 -1500]] 
+	 	 	 	 Iteration 10 for item of type 0 number 2 considering place_side object 2. The layout is: [[1500 -533 -318 1500  971 -958  162  157 1500 -364]] 
+	 	 	 	 Iteration 11 for item of type 0 number 2 considering place_side object 2. The layout is: [[ -167   568  -405  1500  1325 -1500   272 -1215  -775  1500]] 
+	 	 	 ***** PSO ended for 'Pick-side' object number  2 ***** 
+	 Considered bin number: 0 
+	 	 Considering the 'place-side' obejct number: 0/3 
+	 	 	 'Pick-side' obejct number: 0 
+	 	 	 	 Iteration 0 for item of type 1 number 0 considering place_side object 0. The layout is: [[  653  -203    94  1058  -711   586  -909 -1094   454   -25]] 
+	 	 	 	 Iteration 1 for item of type 1 number 0 considering place_side object 0. The layout is: [[-366 -203 -177  688  -25 -494  142  236 -411 -167]] 
+	 	 	 	 Iteration 2 for item of type 1 number 0 considering place_side object 0. The layout is: [[-1242  -203  -453 -1419   361  -556  1092   708  -873  -333]] 
+	 	 	 	 Iteration 3 for item of type 1 number 0 considering place_side object 0. The layout is: [[-1093  -203  -303    67  -106   847  -940   936    21   -74]] 
+	 	 	 	 Iteration 4 for item of type 1 number 0 considering place_side object 0. The layout is: [[ 1500  -228  -150  1169  -958  1410 -1500 -1500   745   -15]] 
+	 	 	 	 Iteration 5 for item of type 1 number 0 considering place_side object 0. The layout is: [[ 1500  -311  -387     0   685    80  1106 -1500  -957  -515]] 
+	 	 	 	 Iteration 6 for item of type 1 number 0 considering place_side object 0. The layout is: [[-1500  -400  -355 -1500   702 -1500   280  1245  -521  -264]] 
+	 	 	 	 Iteration 7 for item of type 1 number 0 considering place_side object 0. The layout is: [[-1500  -238  -132 -1500  -850 -1500 -1111  1500   856    24]] 
+	 	 	 	 Iteration 8 for item of type 1 number 0 considering place_side object 0. The layout is: [[-1500   -49    -5   746  -776  1500  -775 -1500   584  -143]] 
+	 	 	 	 Iteration 9 for item of type 1 number 0 considering place_side object 0. The layout is: [[ -790  -360  -194   225   428  1500   823 -1500 -1246  -613]] 
+	 	 	 	 Iteration 10 for item of type 1 number 0 considering place_side object 0. The layout is: [[ 1500  -469  -668 -1500  1123  1126  1500 -1500 -1500  -596]] 
+	 	 	 	 Iteration 11 for item of type 1 number 0 considering place_side object 0. The layout is: [[ 1500  -476  -537 -1500   368 -1370  -417  1500  -345   -18]] 
+	 	 	 ***** PSO ended for 'Pick-side' object number  0 ***** 
+	 	 	 'Pick-side' obejct number: 1 
+	 	 	 	 Iteration 0 for item of type 1 number 1 considering place_side object 0. The layout is: [[  315   469 -1175  -169  -483   759   424  -195    74   922]] 
+	 	 	 	 Iteration 1 for item of type 1 number 1 considering place_side object 0. The layout is: [[134 313 512  18 109 470 -85 286  74 811]] 
+	 	 	 	 Iteration 2 for item of type 1 number 1 considering place_side object 0. The layout is: [[-243 -216 1500  194  653 -271 -372  259   62 -326]] 
+	 	 	 	 Iteration 3 for item of type 1 number 1 considering place_side object 0. The layout is: [[  457   205   237   -23  -821  -577  -133  -142   -25 -1203]] 
+	 	 	 	 Iteration 4 for item of type 1 number 1 considering place_side object 0. The layout is: [[ -232   308 -1375  -127   277   744   376  -506   -39  1500]] 
+	 	 	 	 Iteration 5 for item of type 1 number 1 considering place_side object 0. The layout is: [[-263 -136 1500  105 1028  975  444  -36   68 1500]] 
+	 	 	 	 Iteration 6 for item of type 1 number 1 considering place_side object 0. The layout is: [[  378  -613  1500   188  -172  -760   403   493   176 -1173]] 
+	 	 	 	 Iteration 7 for item of type 1 number 1 considering place_side object 0. The layout is: [[  520  -337 -1316   -36 -1392 -1500   309   -91  -187  -857]] 
+	 	 	 	 Iteration 8 for item of type 1 number 1 considering place_side object 0. The layout is: [[ -184   630 -1500  -226   930   718  -473  -602  -435  1500]] 
+	 	 	 	 Iteration 9 for item of type 1 number 1 considering place_side object 0. The layout is: [[  -68   625  1500   195  1500  1500 -1107  -695     5  1500]] 
+	 	 	 	 Iteration 10 for item of type 1 number 1 considering place_side object 0. The layout is: [[  239 -1298  1500   151  1500   681  -253  1057   590  1500]] 
+	 	 	 	 Iteration 11 for item of type 1 number 1 considering place_side object 0. The layout is: [[  391   144  1500  -261  -910 -1397  1390  1393   472    -7]] 
+	 	 	 ***** PSO ended for 'Pick-side' object number  1 ***** 
+	 	 	 'Pick-side' obejct number: 2 
+	 	 	 	 Iteration 0 for item of type 1 number 2 considering place_side object 0. The layout is: [[ -942   111    64  -546  -897   242   327   -34   107 -1229]] 
+	 	 	 	 Iteration 1 for item of type 1 number 2 considering place_side object 0. The layout is: [[ 262  245   78 -384  238  242  322  372  256  759]] 
+	 	 	 	 Iteration 2 for item of type 1 number 2 considering place_side object 0. The layout is: [[ 1396   400   431  -173  1339   274   244   745   407 -1256]] 
+	 	 	 	 Iteration 3 for item of type 1 number 2 considering place_side object 0. The layout is: [[ -447   251   359   654  1500   299   174   -14   131 -1500]] 
+	 	 	 	 Iteration 4 for item of type 1 number 2 considering place_side object 0. The layout is: [[-632  110  188 -376 -955  267  256  -51   21  646]] 
+	 	 	 	 Iteration 5 for item of type 1 number 2 considering place_side object 0. The layout is: [[ 1223   223    17  -540 -1500   228   350   578   460 -1333]] 
+	 	 	 	 Iteration 6 for item of type 1 number 2 considering place_side object 0. The layout is: [[ 1319   414   341   242  1500   280   224   392   332 -1500]] 
+	 	 	 	 Iteration 7 for item of type 1 number 2 considering place_side object 0. The layout is: [[-1500   472   566  1180  1500   303   198   -54    16 -1500]] 
+	 	 	 	 Iteration 8 for item of type 1 number 2 considering place_side object 0. The layout is: [[-1500    78    88  -151  1500   288   314    77   292 -1500]] 
+	 	 	 	 Iteration 9 for item of type 1 number 2 considering place_side object 0. The layout is: [[  997   -73   143 -1457 -1118   241   379   763   592   393]] 
+	 	 	 	 Iteration 10 for item of type 1 number 2 considering place_side object 0. The layout is: [[ 1500   510   488  1206 -1500   243   202   861   718  1500]] 
+	 	 	 	 Iteration 11 for item of type 1 number 2 considering place_side object 0. The layout is: [[ 1500   830   703  1500 -1273   291    83  -164  -879  1500]] 
+	 	 	 ***** PSO ended for 'Pick-side' object number  2 ***** 
+	 	 Considering the 'place-side' obejct number: 1/3 
+	 	 	 'Pick-side' obejct number: 0 
+	 	 	 	 Iteration 0 for item of type 1 number 0 considering place_side object 1. The layout is: [[ 1048  1172  1339  -163    69 -1402  -970  -531  -755   898]] 
+	 	 	 	 Iteration 1 for item of type 1 number 0 considering place_side object 1. The layout is: [[ -877   366   215  -164   -80 -1233    87  -234   -41   658]] 
+	 	 	 	 Iteration 2 for item of type 1 number 0 considering place_side object 1. The layout is: [[ 1045  -973 -1416  -198  -341  -302   568    45   355  -275]] 
+	 	 	 	 Iteration 3 for item of type 1 number 0 considering place_side object 1. The layout is: [[ 1500   894 -1462  -291  -418   642  -244   -59  -891 -1141]] 
+	 	 	 	 Iteration 4 for item of type 1 number 0 considering place_side object 1. The layout is: [[ 1500  1500  1500  -363  -204  -385 -1076  -465 -1035  -504]] 
+	 	 	 	 Iteration 5 for item of type 1 number 0 considering place_side object 1. The layout is: [[   62 -1425  1500  -158    -5 -1355   633  -335  1500  1067]] 
+	 	 	 	 Iteration 6 for item of type 1 number 0 considering place_side object 1. The layout is: [[-1500 -1500  1497  -233   -79  1049   409    39  1020  1500]] 
+	 	 	 	 Iteration 7 for item of type 1 number 0 considering place_side object 1. The layout is: [[-1500  -628 -1500  -320  -536  1042  -752   -53 -1176  -421]] 
+	 	 	 	 Iteration 8 for item of type 1 number 0 considering place_side object 1. The layout is: [[ 1500  1500 -1500  -192  -146   369  -576  -313  -849 -1500]] 
+	 	 	 	 Iteration 9 for item of type 1 number 0 considering place_side object 1. The layout is: [[ 1500  1500 -1500  -132    84 -1413    96  -374   683 -1286]] 
+	 	 	 	 Iteration 10 for item of type 1 number 0 considering place_side object 1. The layout is: [[1500  367 -662 -271  141 -835  290 -208 1500 1500]] 
+	 	 	 	 Iteration 11 for item of type 1 number 0 considering place_side object 1. The layout is: [[ 1500 -1500   655  -417 -1009   519  -675   -20 -1143  1471]] 
+	 	 	 ***** PSO ended for 'Pick-side' object number  0 ***** 
+	 	 	 'Pick-side' obejct number: 1 
+	 	 	 	 Iteration 0 for item of type 1 number 1 considering place_side object 1. The layout is: [[ -944   990  -722 -1172   135  -781   742   786  -311  -906]] 
+	 	 	 	 Iteration 1 for item of type 1 number 1 considering place_side object 1. The layout is: [[-316 -532  547 -230  136 -428   11 -433  -93 1032]] 
+	 	 	 	 Iteration 2 for item of type 1 number 1 considering place_side object 1. The layout is: [[ 310 -563 1500  794 -157   63 -724  801  112   28]] 
+	 	 	 	 Iteration 3 for item of type 1 number 1 considering place_side object 1. The layout is: [[  716   183 -1135  1103  -118   460  -559  1460  -339 -1130]] 
+	 	 	 	 Iteration 4 for item of type 1 number 1 considering place_side object 1. The layout is: [[ -446   552 -1500 -1500   -73   268   169   133  -531  -594]] 
+	 	 	 	 Iteration 5 for item of type 1 number 1 considering place_side object 1. The layout is: [[ -267   519  -717 -1500   -39  -951   759 -1406   160   362]] 
+	 	 	 	 Iteration 6 for item of type 1 number 1 considering place_side object 1. The layout is: [[  488   403  1500 -1220  -104  -324 -1004  1500   228  1123]] 
+	 	 	 	 Iteration 7 for item of type 1 number 1 considering place_side object 1. The layout is: [[  128  -641  1500  1500  -150   720  -884  1046  -282 -1252]] 
+	 	 	 	 Iteration 8 for item of type 1 number 1 considering place_side object 1. The layout is: [[-427  442  155 1500 -150  446 1500 -655 -304  185]] 
+	 	 	 	 Iteration 9 for item of type 1 number 1 considering place_side object 1. The layout is: [[ -698  1125 -1500   523   -30  -742  1004 -1500   265  1448]] 
+	 	 	 	 Iteration 10 for item of type 1 number 1 considering place_side object 1. The layout is: [[  554  1032  -676 -1500   -15 -1155  -871     3   -25  -450]] 
+	 	 	 	 Iteration 11 for item of type 1 number 1 considering place_side object 1. The layout is: [[ 1314  -246  1337 -1500  -134   773 -1500  1500  -485 -1500]] 
+	 	 	 ***** PSO ended for 'Pick-side' object number  1 ***** 
+	 	 Considering the 'place-side' obejct number: 2/3 
+	 	 	 'Pick-side' obejct number: 0 
+	 	 	 	 Iteration 0 for item of type 1 number 0 considering place_side object 2. The layout is: [[  724   674   898  -582  -323   135  1402 -1337  1231   500]] 
+	 	 	 	 Iteration 1 for item of type 1 number 0 considering place_side object 2. The layout is: [[ 676  675  877 -455  614  641  813 1500 1231  784]] 
+	 	 	 	 Iteration 2 for item of type 1 number 0 considering place_side object 2. The layout is: [[ 630  675  717 1308 1500 1148  118 1500  583  423]] 
+	 	 	 	 Iteration 3 for item of type 1 number 0 considering place_side object 2. The layout is: [[  649   675   550  1168   165   881  -189 -1500   -41   216]] 
+	 	 	 	 Iteration 4 for item of type 1 number 0 considering place_side object 2. The layout is: [[  683   675   892    63     5   427   674 -1500  1038   288]] 
+	 	 	 	 Iteration 5 for item of type 1 number 0 considering place_side object 2. The layout is: [[  708   674   741  -367  1177   318  1500 -1500  1500  1163]] 
+	 	 	 	 Iteration 6 for item of type 1 number 0 considering place_side object 2. The layout is: [[ 693  675  467  -75 1500  476 1399  403  466  787]] 
+	 	 	 	 Iteration 7 for item of type 1 number 0 considering place_side object 2. The layout is: [[ 628  676  815  517 1433 1018 -479 1500 -641 -146]] 
+	 	 	 	 Iteration 8 for item of type 1 number 0 considering place_side object 2. The layout is: [[  608   675   997   444 -1303   707  1400  1500 -1020  -480]] 
+	 	 	 	 Iteration 9 for item of type 1 number 0 considering place_side object 2. The layout is: [[  747   674   603   199 -1500   245  1500  -251  -621  1500]] 
+	 	 	 	 Iteration 10 for item of type 1 number 0 considering place_side object 2. The layout is: [[ 866  675  304  654 1500  394  948 -745 1500 1095]] 
+	 	 	 	 Iteration 11 for item of type 1 number 0 considering place_side object 2. The layout is: [[ 335  677  673 1273 1500  770 -225 1004 1500  300]] 
+	 	 	 ***** PSO ended for 'Pick-side' object number  0 ***** 

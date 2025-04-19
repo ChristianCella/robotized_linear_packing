@@ -17,11 +17,11 @@ from utils.socket_manager import send_array, send_strings, recv_msg
 params = RealSimulationParameters()
 
 # Get the full path to the text file
-save_history = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../data", params.file_prefix + params.history_file) # History
-save_fitness = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../data", params.file_prefix + params.fitness_file) # fitness
-save_pp_time = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../data", params.file_prefix + params.pp_time_file) # time for P&P
-save_manip = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../data", params.file_prefix + params.manip_file) # manipulability
-save_swarm = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../data", params.file_prefix + params.swarm_file) # swarm evolution
+save_history = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../data", params.file_prefix + str(params.N_sim_pso) + "_" + params.history_file) # History
+save_fitness = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../data", params.file_prefix + str(params.N_sim_pso) + "_" + params.fitness_file) # fitness
+save_pp_time = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../data", params.file_prefix + str(params.N_sim_pso) + "_" + params.pp_time_file) # time for P&P
+save_manip = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../data", params.file_prefix + str(params.N_sim_pso) + "_" + params.manip_file) # manipulability
+save_swarm = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../data", params.file_prefix + str(params.N_sim_pso) + "_" + params.swarm_file) # swarm evolution
 
 def main():
 
