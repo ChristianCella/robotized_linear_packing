@@ -12,6 +12,7 @@ import time
 # Choose the type of objects you want to test
 selected_type = 0
 file_name = f"manipulability_and_time_type{selected_type}.txt"
+# file_name = "test.txt"
 
 # Set the path to the 3D bin packing library
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..', '3dbinpacking'))
@@ -21,7 +22,7 @@ from py3dbp import Packer, Bin, Item
 # Get the full path to the text file
 script_dir = os.path.dirname(os.path.realpath(__file__)) # Get absolute path of the current script
 project_root = os.path.abspath(os.path.join(script_dir, "..")) # Go up one folder to "robotized_linear_packing"
-save_path = os.path.join(project_root, "data", file_name) # Build full path to bounds_experiment.txt
+save_path = os.path.join(project_root, "find_datasets", file_name) # Build full path to bounds_experiment.txt
 
 # Append the path for utils
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))

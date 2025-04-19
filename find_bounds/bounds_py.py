@@ -17,14 +17,16 @@ project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..', 
 sys.path.append(project_root)
 from py3dbp import Packer, Bin, Item
 
-# Get the full path to the text file
-script_dir = os.path.dirname(os.path.realpath(__file__)) # Get absolute path of the current script
-project_root = os.path.abspath(os.path.join(script_dir, "..")) # Go up one folder to "robotized_linear_packing"
-save_path = os.path.join(project_root, "boundaries", "bounds_experiment.txt") # Build full path to bounds_experiment.txt
-
 # Append the path for utils
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from utils.parameters import BoundarySimulationParameters
+# Import the simulation parameters
+params = BoundarySimulationParameters()
+
+# Get the full path to the text file
+script_dir = os.path.dirname(os.path.realpath(__file__)) # Get absolute path of the current script
+project_root = os.path.abspath(os.path.join(script_dir, "..")) # Go up one folder to "robotized_linear_packing"
+save_path = os.path.join(project_root, "find_bounds", params.file_name) # Build full path to bounds_experiment.txt
 
 def send_array(sock, array):
     # Send the shape and type of the array first
@@ -43,9 +45,6 @@ def send_strings(sock, strings):
         sock.sendall(encoded)
 
 def main():
-
-    # Import the simulation parameters
-    params = BoundarySimulationParameters()
 
     # Create a socket connection to the server
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -91,7 +90,7 @@ def main():
     place_points = packers[0].items[0].get_center() # => [37, 75, 40]
     rotation = packers[0].items[0].rotation_type # => 0
     #item_name = packers[0].items[0].name # => 'Item_00'
-    item_name = 'Cube_02' # I am forcing it (look at bounds.drawio inside images)
+    item_name = 'Cube_01' # I am forcing it (look at bounds.drawio inside images)
     box_name = packers[0].bins[0].name # => 'Bin_00'
 
     # Send the shared numbers

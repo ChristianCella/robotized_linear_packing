@@ -23,11 +23,11 @@ class Program
     static double determinantCounter = 0;
     static int fitness_int = 0;
 
-    static string ip_address = "127.0.0.1";
-    static int port = 12345;
+    static string ip_address = "127.0.0.2";
+    static int port = 102;
 
     static TxRobot Robot = GetRobot("GoFa12");
-    static ITxObject tool = GetGripper("Suction cup");
+    static ITxObject tool = GetGripper("Suction_cup");
     static ITxLocatableObject robot = Robot as ITxLocatableObject;
 
     static string tcp_ee_name = "tgripper_tf";

@@ -1,0 +1,334 @@
+Pick&Place time trends 
+
+	 Considered bin number: 0 
+	 	 Considering the 'place-side' obejct number: 0/3 
+	 	 	 'Pick-side' obejct number: 0 
+	 	 	 	 Pick&Place time: 13.342 
+	 	 	 	 Pick&Place time: 13.452 
+	 	 	 	 Pick&Place time: 13.439 
+	 	 	 	 Pick&Place time: 13.385 
+	 	 	 	 Pick&Place time: 13.425 
+	 	 	 	 Pick&Place time: 13.356 
+	 	 	 	 Pick&Place time: 13.425 
+	 	 	 	 Pick&Place time: 13.479 
+	 	 	 	 Pick&Place time: 13.447 
+	 	 	 	 Pick&Place time: 13.278 
+	 	 	 	 Pick&Place time: 13.455 
+	 	 	 	 Pick&Place time: 13.631 
+	 	 	 	 Pick&Place time: 13.398 
+	 	 	 	 Pick&Place time: 13.16 
+	 	 	 	 Pick&Place time: 13.483 
+	 	 	 	 Pick&Place time: 13.302 
+	 	 	 	 Pick&Place time: 13.802 
+	 	 	 	 Pick&Place time: 13.18 
+	 	 	 	 Pick&Place time: 13.454 
+	 	 	 	 Pick&Place time: 13.459 
+	 	 	 	 Pick&Place time: 13.49 
+	 	 	 	 Pick&Place time: 13.679 
+	 	 	 	 Pick&Place time: 13.626 
+	 	 	 	 Pick&Place time: 13.255 
+	 	 	 	 Pick&Place time: 13.566 
+	 	 	 ***** PSO ended for 'Pick-side' object number  0 ***** 
+	 	 	 'Pick-side' obejct number: 1 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 13.447 
+	 	 	 	 Pick&Place time: 13.408 
+	 	 	 	 Pick&Place time: 13.411 
+	 	 	 	 Pick&Place time: 13.434 
+	 	 	 	 Pick&Place time: 13.392 
+	 	 	 	 Pick&Place time: 13.454 
+	 	 	 	 Pick&Place time: 13.486 
+	 	 	 	 Pick&Place time: 13.425 
+	 	 	 	 Pick&Place time: 13.391 
+	 	 	 	 Pick&Place time: 13.424 
+	 	 	 	 Pick&Place time: 13.399 
+	 	 	 	 Pick&Place time: 13.351 
+	 	 	 	 Pick&Place time: 13.379 
+	 	 	 	 Pick&Place time: 13.63 
+	 	 	 	 Pick&Place time: 13.375 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 13.493 
+	 	 	 	 Pick&Place time: 13.493 
+	 	 	 	 Pick&Place time: 13.456 
+	 	 	 	 Pick&Place time: 13.36 
+	 	 	 	 Pick&Place time: 13.467 
+	 	 	 ***** PSO ended for 'Pick-side' object number  1 ***** 
+	 	 	 'Pick-side' obejct number: 2 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 12.51 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 12.482 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 12.496 
+	 	 	 	 Pick&Place time: 17.259 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 12.496 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 12.489 
+	 	 	 	 Pick&Place time: 12.487 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 17.737 
+	 	 	 	 Pick&Place time: 17.762 
+	 	 	 	 Pick&Place time: 18.263 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 12.502 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 ***** PSO ended for 'Pick-side' object number  2 ***** 
+	 	 Considering the 'place-side' obejct number: 1/3 
+	 	 	 'Pick-side' obejct number: 0 
+	 	 	 	 Pick&Place time: 13.258 
+	 	 	 	 Pick&Place time: 13.223 
+	 	 	 	 Pick&Place time: 13.162 
+	 	 	 	 Pick&Place time: 13.192 
+	 	 	 	 Pick&Place time: 13.174 
+	 	 	 	 Pick&Place time: 13.154 
+	 	 	 	 Pick&Place time: 13.132 
+	 	 	 	 Pick&Place time: 13.139 
+	 	 	 	 Pick&Place time: 13.2 
+	 	 	 	 Pick&Place time: 13.182 
+	 	 	 	 Pick&Place time: 13.131 
+	 	 	 	 Pick&Place time: 13.155 
+	 	 	 	 Pick&Place time: 13.165 
+	 	 	 	 Pick&Place time: 13.205 
+	 	 	 	 Pick&Place time: 13.163 
+	 	 	 	 Pick&Place time: 13.162 
+	 	 	 	 Pick&Place time: 13.288 
+	 	 	 	 Pick&Place time: 13.311 
+	 	 	 	 Pick&Place time: 13.182 
+	 	 	 	 Pick&Place time: 13.542 
+	 	 	 	 Pick&Place time: 13.188 
+	 	 	 	 Pick&Place time: 13.417 
+	 	 	 	 Pick&Place time: 13.381 
+	 	 	 	 Pick&Place time: 13.54 
+	 	 	 	 Pick&Place time: 13.311 
+	 	 	 ***** PSO ended for 'Pick-side' object number  0 ***** 
+	 	 	 'Pick-side' obejct number: 2 
+	 	 	 	 Pick&Place time: 8.531 
+	 	 	 	 Pick&Place time: 8.53 
+	 	 	 	 Pick&Place time: 8.512 
+	 	 	 	 Pick&Place time: 8.498 
+	 	 	 	 Pick&Place time: 8.512 
+	 	 	 	 Pick&Place time: 8.499 
+	 	 	 	 Pick&Place time: 8.521 
+	 	 	 	 Pick&Place time: 8.499 
+	 	 	 	 Pick&Place time: 8.491 
+	 	 	 	 Pick&Place time: 8.503 
+	 	 	 	 Pick&Place time: 8.545 
+	 	 	 	 Pick&Place time: 8.501 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 8.493 
+	 	 	 	 Pick&Place time: 8.494 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 8.506 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 8.517 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 ***** PSO ended for 'Pick-side' object number  2 ***** 
+	 	 Considering the 'place-side' obejct number: 2/3 
+	 	 	 'Pick-side' obejct number: 2 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 8.591 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 8.529 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 10.846 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 8.615 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 ***** PSO ended for 'Pick-side' object number  2 ***** 
+	 Considered bin number: 0 
+	 	 Considering the 'place-side' obejct number: 0/3 
+	 	 	 'Pick-side' obejct number: 0 
+	 	 	 	 Pick&Place time: 8.633 
+	 	 	 	 Pick&Place time: 8.727 
+	 	 	 	 Pick&Place time: 8.76 
+	 	 	 	 Pick&Place time: 8.586 
+	 	 	 	 Pick&Place time: 8.716 
+	 	 	 	 Pick&Place time: 8.712 
+	 	 	 	 Pick&Place time: 8.723 
+	 	 	 	 Pick&Place time: 9.01 
+	 	 	 	 Pick&Place time: 8.715 
+	 	 	 	 Pick&Place time: 8.656 
+	 	 	 	 Pick&Place time: 8.723 
+	 	 	 	 Pick&Place time: 8.936 
+	 	 	 	 Pick&Place time: 8.85 
+	 	 	 	 Pick&Place time: 8.72 
+	 	 	 	 Pick&Place time: 8.688 
+	 	 	 	 Pick&Place time: 8.579 
+	 	 	 	 Pick&Place time: 8.657 
+	 	 	 	 Pick&Place time: 8.585 
+	 	 	 	 Pick&Place time: 8.877 
+	 	 	 	 Pick&Place time: 8.728 
+	 	 	 	 Pick&Place time: 8.575 
+	 	 	 	 Pick&Place time: 8.725 
+	 	 	 	 Pick&Place time: 10.475 
+	 	 	 	 Pick&Place time: 8.738 
+	 	 	 	 Pick&Place time: 8.572 
+	 	 	 ***** PSO ended for 'Pick-side' object number  0 ***** 
+	 	 	 'Pick-side' obejct number: 1 
+	 	 	 	 Pick&Place time: 8.669 
+	 	 	 	 Pick&Place time: 8.638 
+	 	 	 	 Pick&Place time: 8.637 
+	 	 	 	 Pick&Place time: 8.725 
+	 	 	 	 Pick&Place time: 8.766 
+	 	 	 	 Pick&Place time: 8.734 
+	 	 	 	 Pick&Place time: 8.669 
+	 	 	 	 Pick&Place time: 8.666 
+	 	 	 	 Pick&Place time: 8.639 
+	 	 	 	 Pick&Place time: 8.767 
+	 	 	 	 Pick&Place time: 8.651 
+	 	 	 	 Pick&Place time: 8.66 
+	 	 	 	 Pick&Place time: 8.714 
+	 	 	 	 Pick&Place time: 8.645 
+	 	 	 	 Pick&Place time: 8.649 
+	 	 	 	 Pick&Place time: 8.643 
+	 	 	 	 Pick&Place time: 8.725 
+	 	 	 	 Pick&Place time: 8.643 
+	 	 	 	 Pick&Place time: 8.856 
+	 	 	 	 Pick&Place time: 8.657 
+	 	 	 	 Pick&Place time: 8.73 
+	 	 	 	 Pick&Place time: 8.639 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 8.646 
+	 	 	 	 Pick&Place time: 8.667 
+	 	 	 ***** PSO ended for 'Pick-side' object number  1 ***** 
+	 	 	 'Pick-side' obejct number: 2 
+	 	 	 	 Pick&Place time: 8.563 
+	 	 	 	 Pick&Place time: 8.563 
+	 	 	 	 Pick&Place time: 8.564 
+	 	 	 	 Pick&Place time: 8.564 
+	 	 	 	 Pick&Place time: 8.564 
+	 	 	 	 Pick&Place time: 8.562 
+	 	 	 	 Pick&Place time: 8.561 
+	 	 	 	 Pick&Place time: 8.56 
+	 	 	 	 Pick&Place time: 8.56 
+	 	 	 	 Pick&Place time: 8.561 
+	 	 	 	 Pick&Place time: 8.563 
+	 	 	 	 Pick&Place time: 8.567 
+	 	 	 	 Pick&Place time: 8.56 
+	 	 	 	 Pick&Place time: 8.564 
+	 	 	 	 Pick&Place time: 8.566 
+	 	 	 	 Pick&Place time: 8.559 
+	 	 	 	 Pick&Place time: 8.577 
+	 	 	 	 Pick&Place time: 8.559 
+	 	 	 	 Pick&Place time: 8.569 
+	 	 	 	 Pick&Place time: 8.562 
+	 	 	 	 Pick&Place time: 8.584 
+	 	 	 	 Pick&Place time: 8.587 
+	 	 	 	 Pick&Place time: 8.567 
+	 	 	 	 Pick&Place time: 8.584 
+	 	 	 	 Pick&Place time: 8.564 
+	 	 	 ***** PSO ended for 'Pick-side' object number  2 ***** 
+	 	 Considering the 'place-side' obejct number: 1/3 
+	 	 	 'Pick-side' obejct number: 0 
+	 	 	 	 Pick&Place time: 8.847 
+	 	 	 	 Pick&Place time: 8.649 
+	 	 	 	 Pick&Place time: 8.631 
+	 	 	 	 Pick&Place time: 8.682 
+	 	 	 	 Pick&Place time: 8.824 
+	 	 	 	 Pick&Place time: 8.723 
+	 	 	 	 Pick&Place time: 8.665 
+	 	 	 	 Pick&Place time: 8.802 
+	 	 	 	 Pick&Place time: 8.836 
+	 	 	 	 Pick&Place time: 8.638 
+	 	 	 	 Pick&Place time: 8.675 
+	 	 	 	 Pick&Place time: 8.622 
+	 	 	 	 Pick&Place time: 9.058 
+	 	 	 	 Pick&Place time: 8.735 
+	 	 	 	 Pick&Place time: 8.986 
+	 	 	 	 Pick&Place time: 8.669 
+	 	 	 	 Pick&Place time: 8.545 
+	 	 	 	 Pick&Place time: 8.657 
+	 	 	 	 Pick&Place time: 9.183 
+	 	 	 	 Pick&Place time: 8.775 
+	 	 	 	 Pick&Place time: 9.16 
+	 	 	 	 Pick&Place time: 8.872 
+	 	 	 	 Pick&Place time: 8.491 
+	 	 	 	 Pick&Place time: 8.604 
+	 	 	 	 Pick&Place time: 8.726 
+	 	 	 ***** PSO ended for 'Pick-side' object number  0 ***** 
+	 	 	 'Pick-side' obejct number: 1 
+	 	 	 	 Pick&Place time: 8.777 
+	 	 	 	 Pick&Place time: 8.688 
+	 	 	 	 Pick&Place time: 8.766 
+	 	 	 	 Pick&Place time: 8.766 
+	 	 	 	 Pick&Place time: 8.782 
+	 	 	 	 Pick&Place time: 8.811 
+	 	 	 	 Pick&Place time: 8.776 
+	 	 	 	 Pick&Place time: 8.68 
+	 	 	 	 Pick&Place time: 8.788 
+	 	 	 	 Pick&Place time: 9.015 
+	 	 	 	 Pick&Place time: 8.788 
+	 	 	 	 Pick&Place time: 8.649 
+	 	 	 	 Pick&Place time: 9.12 
+	 	 	 	 Pick&Place time: 8.831 
+	 	 	 	 Pick&Place time: 8.771 
+	 	 	 	 Pick&Place time: 8.615 
+	 	 	 	 Pick&Place time: 8.668 
+	 	 	 	 Pick&Place time: 8.615 
+	 	 	 	 Pick&Place time: 8.797 
+	 	 	 	 Pick&Place time: 8.615 
+	 	 	 	 Pick&Place time: 8.74 
+	 	 	 	 Pick&Place time: 8.613 
+	 	 	 	 Pick&Place time: 8.617 
+	 	 	 	 Pick&Place time: 8.597 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 ***** PSO ended for 'Pick-side' object number  1 ***** 
+	 	 Considering the 'place-side' obejct number: 2/3 
+	 	 	 'Pick-side' obejct number: 0 
+	 	 	 	 Pick&Place time: 8.767 
+	 	 	 	 Pick&Place time: 8.829 
+	 	 	 	 Pick&Place time: 9.068 
+	 	 	 	 Pick&Place time: 8.537 
+	 	 	 	 Pick&Place time: 8.681 
+	 	 	 	 Pick&Place time: 8.826 
+	 	 	 	 Pick&Place time: 8.615 
+	 	 	 	 Pick&Place time: 9.046 
+	 	 	 	 Pick&Place time: 8.913 
+	 	 	 	 Pick&Place time: 8.608 
+	 	 	 	 Pick&Place time: 9.613 
+	 	 	 	 Pick&Place time: 8.66 
+	 	 	 	 Pick&Place time: 9.09 
+	 	 	 	 Pick&Place time: 8.586 
+	 	 	 	 Pick&Place time: 8.828 
+	 	 	 	 Pick&Place time: 8.541 
+	 	 	 	 Pick&Place time: 9.067 
+	 	 	 	 Pick&Place time: 9.191 
+	 	 	 	 Pick&Place time: 8.932 
+	 	 	 	 Pick&Place time: 8.874 
+	 	 	 	 Pick&Place time: 8.826 
+	 	 	 	 Pick&Place time: 9000000 
+	 	 	 	 Pick&Place time: 9.075 
+	 	 	 	 Pick&Place time: 8.992 
+	 	 	 	 Pick&Place time: 8.54 
+	 	 	 ***** PSO ended for 'Pick-side' object number  0 ***** 

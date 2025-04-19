@@ -6,8 +6,10 @@ import os
 import socket
 import numpy as np
 import os
+import sys
 import time
 
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from utils.motion_planning import MotionPlanner 
 from utils.parameters import RealSimulationParameters
 from utils.packing import PackingListCreator
@@ -15,7 +17,11 @@ from utils.socket_manager import send_array, send_strings, recv_msg
 params = RealSimulationParameters()
 
 # Get the full path to the text file
-save_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "data", params.file_name)
+save_history = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../data", params.file_prefix + params.history_file) # History
+save_fitness = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../data", params.file_prefix + params.fitness_file) # fitness
+save_pp_time = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../data", params.file_prefix + params.pp_time_file) # time for P&P
+save_manip = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../data", params.file_prefix + params.manip_file) # manipulability
+save_swarm = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../data", params.file_prefix + params.swarm_file) # swarm evolution
 
 def main():
 
@@ -24,7 +30,11 @@ def main():
     s.connect((params.host, params.port))
     s.settimeout(params.timeout) # if nothing is received within 60 seconds => timeout
 
-    with open(save_path, 'w') as f: f.write(f"Data of the complete use case \n\n")
+    with open(save_history, 'w') as f: f.write(f"Data of the complete use case \n\n")
+    with open(save_fitness, 'w') as f: f.write(f"Fitness trends \n\n")
+    with open(save_pp_time, 'w') as f: f.write(f"Pick&Place time trends \n\n")
+    with open(save_fitness, 'w') as f: f.write(f"Manipulability trends \n\n")
+    with open(save_swarm, 'w') as f: f.write(f"Evolution of the swarm \n\n")
 
     # Create the packing scenario
     packing_creator = PackingListCreator(params)
@@ -52,12 +62,15 @@ def main():
     motion_planner = MotionPlanner(params.v_max, params.a_max)
 
     # Send a cascade of messages to the C# side
-    send_array(s, np.array([[params.N_sim_pso, params.N_particles, params.pre_post_height, params.n_decimals, params.mean_travel_time]], dtype = np.int32))
+    send_array(s, np.array([[params.N_sim_pso, params.N_particles, params.pre_post_height, params.n_decimals, params.mean_travel_time, params.only_robot, params.human_schedule]], dtype = np.int32))
     send_array(s, np.array([params.mean_time_pp], dtype = np.int32))
     send_array(s, np.array([params.items_of_each_type], dtype = np.int32))
     send_array(s, np.array([params.bins_of_each_type], dtype = np.int32))
     send_strings(s, [params.items_root_name, params.robot_program_name, params.robot_name,
                       params.tool_name, params.tcp_ee_name, params.tcp_flange_name, params.human_name])
+
+    # Keep tarck of the time
+    start_time = time.time()
 
     # * STEP 1 => for all the types of objects you have ...
     while type_obj < len(params.items_of_each_type):
@@ -65,7 +78,7 @@ def main():
         # Get iteration specific parameters
         bin = 0
         pick_objects = [] # array containing the index of objects (pick side) already picked and placed
-        with open (save_path, 'a') as f: f.write(f"********* Type of item: {type_obj} \n")
+        with open (save_history, 'a') as f: f.write(f"********* Type of item: {type_obj} \n")
 
         # * STEP 2 => for all the bins available for a specific type of object ...
         while bin < params.bins_of_each_type[type_obj]: 
@@ -86,14 +99,24 @@ def main():
                 k += 1
 
             num_objects = k # number of objects inside the bin ('spots' available for objects in a bin)
-            send_array(s, np.array([[num_objects]], dtype = np.int32))           
-            with open (save_path, 'a') as f: f.write(f"\t Considered bin number: {bin} \n")
+            send_array(s, np.array([[num_objects]], dtype = np.int32)) 
+
+            with open (save_history, 'a') as f: f.write(f"\t Considered bin number: {bin} \n")
+            with open (save_fitness, 'a') as f: f.write(f"\t Considered bin number: {bin} \n")
+            with open (save_pp_time, 'a') as f: f.write(f"\t Considered bin number: {bin} \n")
+            with open (save_manip, 'a') as f: f.write(f"\t Considered bin number: {bin} \n")
+            with open (save_swarm, 'a') as f: f.write(f"\t Considered bin number: {bin} \n")
 
             # * STEP 3 => for all the objects ('place-side') that can be packed in a specific bin ...            
             while i < num_objects:
 
-                with open (save_path, 'a') as f: f.write(f"\t \t Considering the 'place-side' obejct number: {i}/{k} \n")
-                with open (save_path, 'a') as f: f.write(f"\t \t Cumulative total time: {cumulative_total_time}, of which: {cumulative_pick_and_place_time} for the P&P, while {cumulative_travel_time} for the travel.\n")
+                with open (save_history, 'a') as f: f.write(f"\t \t Considering the 'place-side' obejct number: {i}/{k} \n")
+                with open (save_fitness, 'a') as f: f.write(f"\t \t Considering the 'place-side' obejct number: {i}/{k} \n")
+                with open (save_pp_time, 'a') as f: f.write(f"\t \t Considering the 'place-side' obejct number: {i}/{k} \n")
+                with open (save_manip, 'a') as f: f.write(f"\t \t Considering the 'place-side' obejct number: {i}/{k} \n")
+                with open (save_swarm, 'a') as f: f.write(f"\t \t Considering the 'place-side' obejct number: {i}/{k} \n")
+
+                with open (save_history, 'a') as f: f.write(f"\t \t Cumulative total time: {cumulative_total_time}, of which: {cumulative_pick_and_place_time} for the P&P, while {cumulative_travel_time} for the travel.\n")
 
                 # send the 'absolute' coordinates of the 'place position' associated to the item to be packed (assume all items identical)
                 place_x = place_points[i][0] + x_offset_box
@@ -129,8 +152,13 @@ def main():
                         particle_positions = np.random.uniform(params.base_lower_bound, params.base_upper_bound, params.N_particles)
                         particle_velocities = np.random.uniform(params.vel_lower_bound, params.vel_upper_bound, params.N_particles) 
                                               
-                        with open(save_path, 'a') as f: f.write(f"\t \t \t 'Pick-side' obejct number: {c} \n")
-                        with open(save_path, 'a') as f: f.write(f"\t \t \t ***** Starting the PSO ***** \n")
+                        with open(save_history, 'a') as f: f.write(f"\t \t \t 'Pick-side' obejct number: {c} \n")
+                        with open(save_fitness, 'a') as f: f.write(f"\t \t \t 'Pick-side' obejct number: {c} \n")
+                        with open(save_pp_time, 'a') as f: f.write(f"\t \t \t 'Pick-side' obejct number: {c} \n")
+                        with open(save_manip, 'a') as f: f.write(f"\t \t \t 'Pick-side' obejct number: {c} \n")
+                        with open(save_swarm, 'a') as f: f.write(f"\t \t \t 'Pick-side' obejct number: {c} \n")
+                        
+                        with open(save_history, 'a') as f: f.write(f"\t \t \t ***** Starting the PSO ***** \n")
                         
                         '''
                         PSO algorithm => Find the robot base for each object to be picked
@@ -140,6 +168,8 @@ def main():
                             # * Update inertia and layout
                             inertia_weight = params.w0 + params.delta_w * trigger_end
                             send_array(s, np.array([[int(particle_positions[q]) for q in range(params.N_particles)]], dtype = np.int32))
+
+                            with open (save_swarm, 'a') as f: f.write(f"\t \t \t \t Iteration {trigger_end} for item of type {type_obj} number {c} considering place_side object {i}. The layout is: {np.array([[int(particle_positions[q]) for q in range(params.N_particles)]], dtype = np.int32)} \n")
 
                             # ! TPS is evaluating manipulability, time, feasibility for each particle
 
@@ -173,7 +203,7 @@ def main():
 
                             except socket.timeout: # ? TPS did not compute a response within the timeout period => break
                                 print("Timeout waiting for simulator response. Breaking PSO loop.")
-                                with open(save_path, 'a') as f: f.write("Timeout during the receptiojn of data. \n")
+                                with open(save_history, 'a') as f: f.write("Timeout during the receptiojn of data. \n")
                                 break 
 
                             # Compute the Z-scores
@@ -198,7 +228,10 @@ def main():
 
                             # Update the counter for the PSO iteration
                             trigger_end += 1
-                            with open (save_path, 'a') as f: f.write(f"\t \t \t \t PSO iteration: {trigger_end}; the fitness values are: {fitness} \n")
+                            with open (save_history, 'a') as f: f.write(f"\t \t \t \t PSO iteration: {trigger_end}; the fitness values are: {fitness} \n")
+
+                            # Save the minimum
+                            min_index = np.argmin(fitness)
 
                             # * Set personal best and global best (the mask allows to remove a for loop)
                             if trigger_end == 1:
@@ -206,7 +239,7 @@ def main():
                                 personal_best_positions = particle_positions.copy()
                                 personal_best_scores = fitness.copy()
 
-                                global_best_position = personal_best_positions[np.argmin(personal_best_scores)]                               
+                                global_best_position = personal_best_positions[min_index]                               
                                 global_best_score = np.min(personal_best_scores)
 
                             else :
@@ -217,18 +250,21 @@ def main():
                                 personal_best_scores[better_mask] = fitness[better_mask]
 
                                 # Update global best
-                                min_index = np.argmin(fitness)
-                                print(f"The minimum index is: {min_index} and it corresponds to the fitness value {fitness[min_index]}") # ! REMOVE
                                 if fitness[min_index] < global_best_score:
                                     global_best_position = particle_positions[min_index]
                                     global_best_score = fitness[min_index]
                                     pp_time = execution_time[min_index] # Time associated to the best position found
                                     best_parameters_pp = parameters_pp[min_index]
-                                    print(f"The parameter pp_time is: {pp_time}") # ! REMOVE
-                                    with open (save_path, 'a') as f: f.write(f"\t \t \t \t \t New global best score found. Base position: {global_best_position} \n")
-                                    with open (save_path, 'a') as f: f.write(f"\t \t \t \t \t Fitness value: {global_best_score} \n")
-                                    with open (save_path, 'a') as f: f.write(f"\t \t \t \t \t Pick&Place time: {pp_time} \n")
-                                    with open (save_path, 'a') as f: f.write(f"\t \t \t \t \t Parameters set: {best_parameters_pp} \n")
+                                    with open (save_history, 'a') as f: f.write(f"\t \t \t \t \t New global best score found. Base position: {global_best_position} \n")
+                                    with open (save_history, 'a') as f: f.write(f"\t \t \t \t \t Fitness value: {global_best_score} \n")
+                                    with open (save_history, 'a') as f: f.write(f"\t \t \t \t \t Pick&Place time: {pp_time} \n")
+                                    with open (save_history, 'a') as f: f.write(f"\t \t \t \t \t Parameters set: {best_parameters_pp} \n")
+
+                            # Regardless of the result, store the best fitness
+                            with open (save_fitness, 'a') as f: f.write(f"\t \t \t \t Fitness: {global_best_score} \n")
+                            with open (save_pp_time, 'a') as f: f.write(f"\t \t \t \t Pick&Place time: {execution_time[min_index]} \n")
+                            with open (save_manip, 'a') as f: f.write(f"\t \t \t \t Manipulability: {mean_determinant[min_index]} \n")
+                                
 
                             # * Update particles
                             # Random vectors for cognitive and social components
@@ -239,7 +275,12 @@ def main():
                             inertia = inertia_weight * particle_velocities
                             cognitive = params.c1 * r1 * (personal_best_positions - particle_positions)
                             social = params.c2 * r2 * (global_best_position - particle_positions)
-                            particle_velocities = inertia + cognitive + social
+
+                            # NOTE: the velocity update depends on the test you are performing
+                            if params.random_test == 0: # Random test (No more cognitive or social component)
+                                particle_velocities = inertia + np.random.uniform(params.vel_lower_bound, params.vel_upper_bound, params.N_particles)
+                            else: # Real PSO
+                                particle_velocities = inertia + cognitive + social
 
                             # Update positions (convertion to float needed for the velocities)
                             particle_positions = particle_positions.astype(float)
@@ -248,11 +289,15 @@ def main():
                             # Convert back to int
                             particle_positions = particle_positions.astype(int)
 
-                            # Clip positions within bounds
+                            # Clip positions within bounds (safety measure)
                             particle_positions = np.clip(particle_positions, params.base_lower_bound, params.base_upper_bound)
 
                         # The PSO for a specific 'pick-side' object is over                       
-                        with open(save_path, 'a') as f: f.write(f"\t \t \t ***** PSO ended for 'Pick-side' object number  {c} ***** \n")
+                        with open(save_history, 'a') as f: f.write(f"\t \t \t ***** PSO ended for 'Pick-side' object number  {c} ***** \n")
+                        with open(save_fitness, 'a') as f: f.write(f"\t \t \t ***** PSO ended for 'Pick-side' object number  {c} ***** \n")
+                        with open(save_pp_time, 'a') as f: f.write(f"\t \t \t ***** PSO ended for 'Pick-side' object number  {c} ***** \n")
+                        with open(save_manip, 'a') as f: f.write(f"\t \t \t ***** PSO ended for 'Pick-side' object number  {c} ***** \n")
+                        with open(save_swarm, 'a') as f: f.write(f"\t \t \t ***** PSO ended for 'Pick-side' object number  {c} ***** \n")
                         
                         # ? Time-manipulability trade-off for the sequence update                                               
                         travel_time = motion_planner.trapezoidal_velocity_profile(current_base_pos, global_best_position)  
@@ -297,34 +342,39 @@ def main():
                 print(f"The cumulative time for the travel is: {cumulative_travel_time} \n")
                 print(f"The cumulative time for the total is: {cumulative_total_time} \n")
 
-                with open(save_path, 'a') as f: f.write(f"\t \t All 'Pick-side' objects scanned. The best one is: {next_item} \n")
-                with open(save_path, 'a') as f: f.write(f"\t \t The robot is moved to: {current_base_pos} mm wrt the center \n")
-                with open(save_path, 'a') as f: f.write(f"\t \t The optimal set of parameters is: {optimal_set} \n")
+                with open(save_history, 'a') as f: f.write(f"\t \t All 'Pick-side' objects scanned. The best one is: {next_item} \n")
+                with open(save_history, 'a') as f: f.write(f"\t \t The robot is moved to: {current_base_pos} mm wrt the center \n")
+                with open(save_history, 'a') as f: f.write(f"\t \t The optimal set of parameters is: {optimal_set} \n")
                 if params.verbose: print(f"Checkpoint: Pick-side objects scanned")
                 
                 # * Update the counter of objects packed so far inside the bin-th box
                 i = i + 1
-                with open(save_path, 'a') as f: f.write(f"\t \t Still need to pack {k-i} objects in the bin {bin} \n")
+                with open(save_history, 'a') as f: f.write(f"\t \t Still need to pack {k-i} objects in the bin {bin} \n")
                 if params.verbose: print(f"Checkpoint: Still need to pack {k-i} objects in the bin number {bin}")
 
             # * A box for a specific type of object is full: I go to the next one available
-            with open(save_path, 'a') as f: f.write(f"\t All objects packed in the bin number {bin} \n") 
+            with open(save_history, 'a') as f: f.write(f"\t All objects packed in the bin number {bin} \n") 
             bin = bin + 1   
             if params.verbose: print(f"Checkpoint: All objects packed in the bin {bin}")
             
         # * All items of a specific type are packed: I go to the next type of object
-        with open(save_path, 'a') as f: f.write(f"All objects of type {type_obj} have been packed \n")
+        with open(save_history, 'a') as f: f.write(f"All objects of type {type_obj} have been packed \n")
         type_obj = type_obj + 1
         if params.verbose: print(f"Checkpoint: All objects of type {type_obj} have been packed")
 
     # Close the connection
     s.close()
 
+    # Stop the time
+    end_time = time.time()
+    elapsed_time = end_time - start_time
+
     # Save the results in a text file
-    with open(save_path, 'a') as f: f.write(f"********** Results ************ \n")
-    with open(save_path, 'a') as f: f.write(f"The optimal sequence is: {optimal_sequence} \n")
-    with open(save_path, 'a') as f: f.write(f"The optimal base positions are: {base_position_sequence} \n")
-    with open(save_path, 'a') as f: f.write(f"The optimal set of robot parameters is: {optimal_set} \n")
+    with open(save_history, 'a') as f: f.write(f"********** Results ************ \n")
+    with open(save_history, 'a') as f: f.write(f"The optimal sequence is: {optimal_sequence} \n")
+    with open(save_history, 'a') as f: f.write(f"The optimal base positions are: {base_position_sequence} \n")
+    with open(save_history, 'a') as f: f.write(f"The optimal set of robot parameters is: {optimal_set} \n")
+    with open(save_history, 'a') as f: f.write(f"the complete optimization was executed in {elapsed_time} seconds ({elapsed_time/60} minutes). \n")
 
 # Run the code
 if __name__ == "__main__":

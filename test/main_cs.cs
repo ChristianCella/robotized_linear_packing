@@ -27,8 +27,8 @@ class Program
     static int collision_flag = 0;
 
     // socket variables
-    static string ip_address = "127.0.0.3";
-    static int port = 103;
+    static string ip_address = "127.0.0.31";
+    static int port = 131;
 
     // Static variables to create the robot program
     static string type_of_motion = "PTP";
@@ -89,6 +89,8 @@ class Program
             int pre_post_height = shared_data[0, 2];
             int n_decimals = shared_data[0, 3];
             int mean_travel_time = shared_data[0, 4];
+            int only_robot = shared_data[0, 5];
+            int human_schedule = shared_data[0, 6];
 
             // Get the mean time for the pick and place of the objects
             var mean_pp_times = ReceiveNumpyArray(stream);
@@ -173,8 +175,8 @@ class Program
                         // Place the humans (main one and proxy), as scheduled by the ERP
                         bool apply_transformation = true;
                         int useless_block = 100; // DO not enter the 'if's with the second condition
-                        int useless_result1 = ERP(cumulative_time, apply_transformation, human, useless_block); 
-                        int useless_result2 = ERP(cumulative_time, apply_transformation, human_proxy, useless_block); 
+                        int useless_result1 = ERP(cumulative_time, apply_transformation, human, useless_block, human_schedule); // ! Add an entry here 
+                        int useless_result2 = ERP(cumulative_time, apply_transformation, human_proxy, useless_block, human_schedule); // ! Add an entry here 
 						
                         // * STEP 4 =>  for all the items that can be picked (pick side) after knowing a specific 'place-side' spot ...
                         int c = 0;
@@ -197,7 +199,13 @@ class Program
 
                                 // Here you decide the set of parameters based on the 'receding horizon approach'
                                 double time_window = mean_travel_time + mean_pp_times[0, type_obj];
-                                int set_of_parameters = RecedingHorizon(human, human_proxy, considered_item, place_pose, cumulative_time, time_window);
+                                int set_of_parameters = RecedingHorizon(human, human_proxy, considered_item, place_pose, cumulative_time, time_window, human_schedule);
+
+                                // Check if only the robot is needed => impose the maximum velocity and acceleration
+                                if (only_robot == 0)
+                                {
+                                    set_of_parameters = 0; // No human in the area
+                                }
 
                                 // Initialize the counter for the PSO
                                 int ii = 0;
@@ -455,64 +463,122 @@ class Program
         Methods concerning the presence of the human
     */
 
-    private static int ERP(double cumulative_time, bool apply_transformation, ITxLocatableObject human, int block)
+    private static int ERP(double cumulative_time, bool apply_transformation, ITxLocatableObject human, int block, int human_schedule)
     {
         // Initialize variables
         TxVector translation = new TxVector(0, 0, 0);
         TxVector orientation = new TxVector(0, 0, 0);
         int k = 0;
 
-        // Human in station A
-        if ((cumulative_time >= 0.0 && cumulative_time <= 10.0) || block == 0)
+        if (human_schedule == 1) // ! Plan ERP1
         {
-            translation = new TxVector(human_x_A, human_y_A, human_z);
-            orientation = new TxVector(0, 0, human_rotz_A);
-            k = 0;
+            // Human in station A
+            if ((cumulative_time >= 0.0 && cumulative_time <= 10.0) || block == 0)
+            {
+                translation = new TxVector(human_x_A, human_y_A, human_z);
+                orientation = new TxVector(0, 0, human_rotz_A);
+                k = 0;
+            }
+            // Human away from the line
+            else if ((cumulative_time > 10.0 && cumulative_time <= 25.0) || block == 1)
+            {
+                translation = new TxVector(human_safety_x, human_safety_y, human_z);
+                orientation = new TxVector(0, 0, human_safety_rotz);
+                k = 1;
+            }
+            // Human in station B
+            else if ((cumulative_time > 25.0 && cumulative_time <= 35.0) || block == 2)
+            {
+                translation = new TxVector(human_x_B, human_y_B, human_z);
+                orientation = new TxVector(0, 0, human_rotz_B);
+                k = 2;
+            }
+            // Human in station C
+            else if ((cumulative_time > 35.0 && cumulative_time <= 45.0) || block == 3)
+            {
+                translation = new TxVector(human_x_C, human_y_C, human_z);
+                orientation = new TxVector(0, 0, human_rotz_C);
+                k = 3;
+            }
+            // Human away from the line
+            else if ((cumulative_time > 45.0 && cumulative_time <= 60.0) || block == 4)
+            {
+                translation = new TxVector(human_safety_x, human_safety_y, human_z);
+                orientation = new TxVector(0, 0, human_safety_rotz);
+                k = 4;
+            }
+            // Human in station D
+            else if ((cumulative_time > 60.0 && cumulative_time <= 70.0) || block == 5)
+            {
+                translation = new TxVector(human_x_D, human_y_D, human_z);
+                orientation = new TxVector(0, 0, human_rotz_D);
+                k = 5;
+            }
+            // Human away from the line 
+            else if (cumulative_time > 70.0 || block == 6)
+            {
+                translation = new TxVector(human_safety_x, human_safety_y, human_z);
+                orientation = new TxVector(0, 0, human_safety_rotz);
+                k = 6;
+            }
         }
-        // Human away from the line
-        else if ((cumulative_time > 10.0 && cumulative_time <= 25.0) || block == 1)
+        else if (human_schedule == 2) // ! Plan ERP2
         {
-            translation = new TxVector(human_safety_x, human_safety_y, human_z);
-            orientation = new TxVector(0, 0, human_safety_rotz);
-            k = 1;
+            // Human away from the line
+            if ((cumulative_time >= 0.0 && cumulative_time <= 15.0) || block == 0)
+            {
+                translation = new TxVector(human_safety_x, human_safety_y, human_z);
+                orientation = new TxVector(0, 0, human_safety_rotz);
+                k = 0;
+            }           
+            // Human in station A
+            else if ((cumulative_time > 15.0 && cumulative_time <= 25.0) || block == 1)
+            {
+                translation = new TxVector(human_x_A, human_y_A, human_z);
+                orientation = new TxVector(0, 0, human_rotz_A);
+                k = 1;
+            }
+            // Human away from the line
+            else if ((cumulative_time > 25.0 && cumulative_time <= 40.0) || block == 2)
+            {
+                translation = new TxVector(human_safety_x, human_safety_y, human_z);
+                orientation = new TxVector(0, 0, human_safety_rotz);
+                k = 2;
+            }
+            // Human in station B
+            else if ((cumulative_time > 40.0 && cumulative_time <= 50.0) || block == 3)
+            {
+                translation = new TxVector(human_x_B, human_y_B, human_z);
+                orientation = new TxVector(0, 0, human_rotz_B);
+                k = 3;
+            }
+            // Human in station C
+            else if ((cumulative_time > 50.0 && cumulative_time <= 60.0) || block == 4)
+            {
+                translation = new TxVector(human_x_C, human_y_C, human_z);
+                orientation = new TxVector(0, 0, human_rotz_C);
+                k = 4;
+            }
+            // Human in station D
+            else if ((cumulative_time > 60.0 && cumulative_time <= 70.0) || block == 5)
+            {
+                translation = new TxVector(human_x_D, human_y_D, human_z);
+                orientation = new TxVector(0, 0, human_rotz_D);
+                k = 5;
+            }
+            // Human away from the line 
+            else if (cumulative_time > 70.0 || block == 6)
+            {
+                translation = new TxVector(human_safety_x, human_safety_y, human_z);
+                orientation = new TxVector(0, 0, human_safety_rotz);
+                k = 6;
+            }   
         }
-        // Human in station B
-        else if ((cumulative_time > 25.0 && cumulative_time <= 35.0) || block == 2)
-        {
-            translation = new TxVector(human_x_B, human_y_B, human_z);
-            orientation = new TxVector(0, 0, human_rotz_B);
-            k = 2;
-        }
-        // Human in station C
-        else if ((cumulative_time > 35.0 && cumulative_time <= 45.0) || block == 3)
-        {
-            translation = new TxVector(human_x_C, human_y_C, human_z);
-            orientation = new TxVector(0, 0, human_rotz_C);
-            k = 3;
-        }
-        // Human away from the line
-        else if ((cumulative_time > 45.0 && cumulative_time <= 60.0) || block == 4)
-        {
-            translation = new TxVector(human_safety_x, human_safety_y, human_z);
-            orientation = new TxVector(0, 0, human_safety_rotz);
-            k = 4;
-        }
-        // Human in station D
-        else if ((cumulative_time > 60.0 && cumulative_time <= 70.0) || block == 5)
-        {
-            translation = new TxVector(human_x_D, human_y_D, human_z);
-            orientation = new TxVector(0, 0, human_rotz_D);
-            k = 5;
-        }
-        // Human away from the line 
-        else if (cumulative_time > 70.0 || block == 6)
-        {
-            translation = new TxVector(human_safety_x, human_safety_y, human_z);
-            orientation = new TxVector(0, 0, human_safety_rotz);
-            k = 6;
-        }
+        
 
-        // Check if the human msut be moved
+        // ! This is plan B => To be done
+
+        // Check if the human must be moved
         if (apply_transformation)
         {
             TransformPose(human, translation, orientation);
@@ -528,7 +594,8 @@ class Program
         ITxLocatableObject considered_item, 
         double[] place_pose, 
         double cumulative_time, 
-        double time_window)
+        double time_window,
+        int human_schedule) 
     {
         // Variables
         bool apply_transformation = false;
@@ -543,16 +610,16 @@ class Program
         int param_set = 0;
 
         // Get index of the current time instant
-        int first_block = ERP(cumulative_time, apply_transformation, human, fake_block);
+        int first_block = ERP(cumulative_time, apply_transformation, human, fake_block, human_schedule);
 
         // Get index of the final time instant
-        int final_block = ERP(total_time, apply_transformation, human, fake_block);
+        int final_block = ERP(total_time, apply_transformation, human, fake_block, human_schedule);
 
         // Evaluate the worst condition: when the human is closer to the instances
         for (int ii = first_block; ii <= final_block; ii++)
         {
             double fake_time = -1.0;
-            ERP(fake_time, true, human_proxy, ii);
+            ERP(fake_time, true, human_proxy, ii, human_schedule);
             TxTransformation human_pose = GetHumanPose(human_proxy);
             double x_hum = human_pose[0, 3];
             double y_hum = human_pose[1, 3];

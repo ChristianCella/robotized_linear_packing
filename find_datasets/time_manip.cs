@@ -24,8 +24,8 @@ class Program
     static int fitness_int = 0;
     static int collision_flag = 0;
 
-    static string ip_address = "127.0.0.3";
-    static int port = 103;
+    static string ip_address = "127.0.0.10";
+    static int port = 110;
 
     static TxRobot Robot = GetRobot("GoFa12");
     static ITxObject tool = GetGripper("Suction_cup");
