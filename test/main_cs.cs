@@ -27,8 +27,8 @@ class Program
     static int collision_flag = 0;
 
     // socket variables
-    static string ip_address = "127.0.0.33";
-    static int port = 133;
+    static string ip_address = "127.0.0.40";
+    static int port = 140;
 
     // Static variables to create the robot program
     static string type_of_motion = "PTP";

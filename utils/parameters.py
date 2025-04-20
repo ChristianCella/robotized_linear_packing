@@ -88,16 +88,16 @@ class PackingSimulationParameters:
 @dataclass
 class RealSimulationParameters:
     verbose : bool = False
-    timeout: int = 60 # [s] timeout for the socket connection
-    host: str = '127.0.0.33' # socket address
-    port : int = 133 # socket port
+    timeout: int = 240 # [s] timeout for the socket connection
+    host: str = '127.0.0.40' # socket address
+    port : int = 140 # socket port
     v_max: int = 700 # [mm / s] => for the line
     a_max: int = 500 # [mm / s^2] => for the line (this is very small)
     base_upper_bound: int = 1500 # [mm] for the robot base (NOT taken from /data/bounds_experiment.txt)
     base_lower_bound: int = -1500 # [mm] for the robot base (NOT taken from /data/bounds_experiment.txt)
     vel_upper_bound: int = 1 # Upper bound for particle velocity
     vel_lower_bound: int = -1 # Lower bound for particle velocity
-    N_sim_pso: int = 37 # N simulations for the pso
+    N_sim_pso: int = 50 # N simulations for the pso
     N_particles: int = 10 # N particles for the pso
 
     only_robot: int = 1 # 0 for the robot only, 1 for the robot and the human
