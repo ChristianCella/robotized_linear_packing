@@ -276,21 +276,20 @@ def main():
                             cognitive = params.c1 * r1 * (personal_best_positions - particle_positions)
                             social = params.c2 * r2 * (global_best_position - particle_positions)
 
-                            # NOTE: the velocity update depends on the test you are performing
-                            if params.random_test == 0: # Random test (No more cognitive or social component)
-                                particle_velocities = inertia + np.random.uniform(params.vel_lower_bound, params.vel_upper_bound, params.N_particles)
+                            # Velocity update
+                            particle_velocities = inertia + cognitive + social
+
+                            # NOTE: the position update depends on the test to be performed
+                            if params.random_test: # Random test
+                                particle_positions = np.random.uniform(params.base_lower_bound, params.base_upper_bound, params.N_particles) 
+                                particle_positions = particle_positions.astype(int)
                             else: # Real PSO
-                                particle_velocities = inertia + cognitive + social
+                                particle_positions = particle_positions.astype(float)
+                                particle_positions += particle_velocities
+                                particle_positions = particle_positions.astype(int)
 
-                            # Update positions (convertion to float needed for the velocities)
-                            particle_positions = particle_positions.astype(float)
-                            particle_positions += particle_velocities
-
-                            # Convert back to int
-                            particle_positions = particle_positions.astype(int)
-
-                            # Clip positions within bounds (safety measure)
-                            particle_positions = np.clip(particle_positions, params.base_lower_bound, params.base_upper_bound)
+                                # Clip positions within bounds (safety measure)
+                                particle_positions = np.clip(particle_positions, params.base_lower_bound, params.base_upper_bound)
 
                         # The PSO for a specific 'pick-side' object is over                       
                         with open(save_history, 'a') as f: f.write(f"\t \t \t ***** PSO ended for 'Pick-side' object number  {c} ***** \n")
