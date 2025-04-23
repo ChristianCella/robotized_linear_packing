@@ -89,8 +89,8 @@ class PackingSimulationParameters:
 class RealSimulationParameters:
     verbose : bool = False
     timeout: int = 240 # [s] timeout for the socket connection
-    host: str = '127.0.0.47' # socket address
-    port : int = 147 # socket port
+    host: str = '127.0.0.48' # socket address
+    port : int = 148 # socket port
     v_max: int = 700 # [mm / s] => for the line
     a_max: int = 500 # [mm / s^2] => for the line (this is very small)
     base_upper_bound: int = 1500 # [mm] for the robot base (NOT taken from /data/bounds_experiment.txt)
@@ -100,10 +100,10 @@ class RealSimulationParameters:
     N_sim_pso: int = 50 # N simulations for the pso
     N_particles: int = 10 # N particles for the pso
 
-    only_robot: int = 1 # 0 for the robot only, 1 for the robot and the human
+    only_robot: int = 0 # 0 for the robot only, 1 for the robot and the human
     human_schedule: int = 1 # 1 = ERP1, 2 = ERP2
-    random_test: int = 0 # 0 for the random test, 1 for the real test
-    file_prefix: str = 'test4_' 
+    random_test: int = 1 # 0 for the random test, 1 for the real test
+    file_prefix: str = 'test1_' 
 
     w0: float = 0.9 # upper bound on inertia
     wN: float = 0.4 # lower bound on inertia
