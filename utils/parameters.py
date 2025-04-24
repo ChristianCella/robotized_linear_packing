@@ -89,21 +89,21 @@ class PackingSimulationParameters:
 class RealSimulationParameters:
     verbose : bool = False
     timeout: int = 240 # [s] timeout for the socket connection
-    host: str = '127.0.0.50' # socket address
-    port : int = 150 # socket port
+    host: str = '127.0.0.155' # socket address
+    port : int = 155 # socket port
     v_max: int = 700 # [mm / s] => for the line
     a_max: int = 500 # [mm / s^2] => for the line (this is very small)
     base_upper_bound: int = 1500 # [mm] for the robot base (NOT taken from /data/bounds_experiment.txt)
     base_lower_bound: int = -1500 # [mm] for the robot base (NOT taken from /data/bounds_experiment.txt)
     vel_upper_bound: int = 1 # Upper bound for particle velocity
     vel_lower_bound: int = -1 # Lower bound for particle velocity
-    N_sim_pso: int = 50 # N simulations for the pso
+    N_sim_pso: int = 25 # N simulations for the pso
     N_particles: int = 10 # N particles for the pso
 
-    only_robot: int = 0 # 0 for the robot only, 1 for the robot and the human
-    human_schedule: int = 1 # 1 = ERP1, 2 = ERP2
-    random_test: int = 0 # 0 for the random test, 1 for the real test
-    file_prefix: str = 'test2_' 
+    only_robot: int = 1 # 0 for the robot only, 1 for the robot and the human
+    human_schedule: int = 2 # 1 = ERP1, 2 = ERP2
+    random_test: int = 1 # 0 for the random test, 1 for the real test
+    file_prefix: str = 'test3_ERP2_time_' 
 
     w0: float = 0.9 # upper bound on inertia
     wN: float = 0.4 # lower bound on inertia
@@ -132,8 +132,8 @@ class RealSimulationParameters:
     swarm_file: str = 'swarm_evolution.txt'
     pre_post_height: int = 200 # [mm] height of the pre and post pick and place
     n_decimals: int = 3 # number of decimals for the results
-    alpha_fitness: float = 0.5 # weight for the fitness function (fitness of each particle)   
-    beta_fitness: float = 0.5 # weight for the fitness function (fitness of each particle)
+    alpha_fitness: float = 1.0 # weight for the fitness function (fitness of each particle)   
+    beta_fitness: float = 0.0 # weight for the fitness function (fitness of each particle) #! Change here!
     items_of_each_type: List[int] = field(default_factory = lambda: [3, 3])
     items_sizes_and_weight: List[List[float]] = field(default_factory = lambda: [[85, 155, 85, 1], [105, 80, 85, 1]]) # all meaasures increased of 5 mm
     bins_of_each_type: List[int] = field(default_factory = lambda: [1, 1])

@@ -20,20 +20,26 @@ public class MainScript
     // General variables
     static string robot_name = "GoFa12";
     static string gripper_name = "Suction_cup";
-    static string item_name = "Cube_03";
-    static string program_name = "Proxy_program";
+    static string program_name = "P&P";
     static string tcp_flange_name = "TOOLFRAME";
     static string tcp_ee_name = "tgripper_tf";
-    static bool impose_configuration = true;
+    static bool impose_configuration = false;
 
 	// Variables to create the robot program
     static string new_motion_type = "PTP";
-    static string new_speed = "100%";
-    static string new_accel = "100%";
     static string new_blend = "fine";
 
     // Variable for the print
     static StringWriter m_output;
+
+    // Define the vectors
+    static double[] base_poses = new double[] { -158.0, -396.0, 250.0, 22.0, 248.0, 676.0 }; // x^*
+    static string[] item_names = new string[] { "Cube_01", "Cube_00", "Cube_02", "Cube_11", "Cube_12", "Cube_10" }; // theta^*
+    static string[] vel_scaled = new string[] { "50%", "50%", "100%", "100%", "100%", "100%" }; // v^*
+    static string[] acc_scaled = new string[] { "50%", "50%", "100%", "100%", "100%", "100%" }; // a^*
+    static double[] place_poses_x = new double[] { -850.0, -765, -680, -340, -235, -340 };
+    static double[] place_poses_y = new double[] { -447.5, -447.5, -447.5, -485.0, -485.0, -405.0 };
+    static double[] place_poses_z = new double[] { -22.14, -22.14, -22.14, -22.14, -22.14, -22.14 };
 
     public static void Main(ref StringWriter output)
     {
@@ -41,33 +47,61 @@ public class MainScript
     	// Get robot and gripper
     	TxRobot Robot = GetRobot(robot_name);
         ITxObject tool = GetGripper(gripper_name);
-        
-        // Define the place pose (manually, center of the box)
-        double[] place_pose = new double[4];
-        place_pose[0] = -787.5;
-        place_pose[1] = -455;
-        place_pose[2] = -7.14;
-        place_pose[3] = 0;
-        
-    	// Instantiate the item to be picked
-        ITxObject considered_item = GetItem(item_name);
-           
-        // Create the robotc operation
-        TxContinuousRoboticOperation MyOp = RobotPickPlace(
-            Robot, 
-            considered_item, 
-            tool, 
-            program_name, 
-            item_name, 
-            tcp_flange_name, 
-            tcp_ee_name, 
-            200.0, 
-            place_pose);       
+
+        // Loop through all the items
+        for (int i = 0; i < item_names.Length; i++)
+        {
+            // Move the robot in position
+            TxVector translation = new TxVector(base_poses[i], 0, 1); // 1mm of offset to avoid collisions
+            TxVector orientation = new TxVector(0, 0, 0);
+            TransformPose(Robot, translation, orientation);
+
+            TxApplication.RefreshDisplay();
+
+            // Define the place pose
+            double[] place_pose = new double[4];
+            place_pose[0] = place_poses_x[i]; // X coordinate
+            place_pose[1] = place_poses_y[i]; // Y coordinate
+            place_pose[2] = place_poses_z[i]; // Z coordinate
+            place_pose[3] = 0; // Rotation (0 degrees)
+
+            // Instantiate the item to be picked
+            ITxObject considered_item = GetItem(item_names[i]);
+
+            // Create the robotc operation
+            TxContinuousRoboticOperation MyOp = RobotPickPlace(
+                Robot, 
+                considered_item, 
+                tool, 
+                program_name + "_" + item_names[i], 
+                item_names[i], 
+                tcp_flange_name, 
+                tcp_ee_name, 
+                200.0, 
+                place_pose,
+                i); 
+        }        
+              
     }
     
     /*
     User-defined methods
     */
+
+    // Object transformation
+    private static void TransformPose(ITxObject item, TxVector translation, TxVector orientation)
+    {
+        // Make sure the item is an ITxLocatableObject
+        ITxLocatableObject locatableItem = item as ITxLocatableObject;
+
+        // Move the base of a certain quantity		
+        var pose = new TxTransformation(locatableItem.LocationRelativeToWorkingFrame);
+        pose.Translation = translation;
+        pose.RotationRPY_XYZ = orientation;
+        locatableItem.LocationRelativeToWorkingFrame = pose;
+
+        TxApplication.RefreshDisplay();
+    }
 
     // Get the manipulator
     private static TxRobot GetRobot(string robotName)
@@ -123,7 +157,8 @@ public class MainScript
         string tcp_flange_name,
         string tcp_ee_name,
         double z_offset,
-        double[] place_pose_received)
+        double[] place_pose_received,
+        int iter)
     {
         // Initialize operation
         TxContinuousRoboticOperation MyOp = InitializeRoboticOperation(robot, op_name);
@@ -145,7 +180,7 @@ public class MainScript
 
         for (int ii = 0; ii < points.Count; ii++)
         {
-            SetWaypointValues(points[ii].Name.ToString(), paramHandler, tcp_ee_name);
+            SetWaypointValues(points[ii].Name.ToString(), paramHandler, tcp_ee_name, iter);
             if (ii == 1 && impose_configuration == true)
             {
                 TxObjectList start_poses = TxApplication.ActiveDocument.GetObjectsByName("UserDefined2");
@@ -319,7 +354,8 @@ public class MainScript
     private static void SetWaypointValues(
         string point_name, 
         ITxOlpRobotControllerParametersHandler paramHandler, 
-        string tcp
+        string tcp,
+        int iter
         )
     {
         TxRoboticViaLocationOperation Point = TxApplication.ActiveDocument.
@@ -327,8 +363,8 @@ public class MainScript
 
         paramHandler.OnComplexValueChanged("Tool", tcp, Point);
         paramHandler.OnComplexValueChanged("Motion Type", new_motion_type, Point);
-        paramHandler.OnComplexValueChanged("Speed", new_speed, Point);
-        paramHandler.OnComplexValueChanged("Acc", new_accel, Point);
+        paramHandler.OnComplexValueChanged("Speed", vel_scaled[iter], Point);
+        paramHandler.OnComplexValueChanged("Acc", acc_scaled[iter], Point);
         paramHandler.OnComplexValueChanged("Blend", new_blend, Point);
 
     }

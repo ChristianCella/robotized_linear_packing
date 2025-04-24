@@ -27,8 +27,8 @@ class Program
     static int collision_flag = 0;
 
     // socket variables
-    static string ip_address = "127.0.0.50";
-    static int port = 150;
+    static string ip_address = "127.0.0.155";
+    static int port = 155;
 
     // Static variables to create the robot program
     static string type_of_motion = "PTP";
@@ -524,59 +524,56 @@ class Program
         }
         else if (human_schedule == 2) // ! Plan ERP2
         {
-            // Human away from the line
-            if ((cumulative_time >= 0.0 && cumulative_time <= 15.0) || block == 0)
-            {
-                translation = new TxVector(human_safety_x, human_safety_y, human_z);
-                orientation = new TxVector(0, 0, human_safety_rotz);
-                k = 0;
-            }           
-            // Human in station A
-            else if ((cumulative_time > 15.0 && cumulative_time <= 25.0) || block == 1)
-            {
-                translation = new TxVector(human_x_A, human_y_A, human_z);
-                orientation = new TxVector(0, 0, human_rotz_A);
-                k = 1;
-            }
-            // Human away from the line
-            else if ((cumulative_time > 25.0 && cumulative_time <= 40.0) || block == 2)
-            {
-                translation = new TxVector(human_safety_x, human_safety_y, human_z);
-                orientation = new TxVector(0, 0, human_safety_rotz);
-                k = 2;
-            }
             // Human in station B
-            else if ((cumulative_time > 40.0 && cumulative_time <= 50.0) || block == 3)
+            if ((cumulative_time >= 0.0 && cumulative_time <= 8.0) || block == 0)
             {
                 translation = new TxVector(human_x_B, human_y_B, human_z);
                 orientation = new TxVector(0, 0, human_rotz_B);
+                k = 0;
+            }
+            // Human away from the line
+            else if ((cumulative_time > 8.0 && cumulative_time <= 15.0) || block == 1)
+            {
+                translation = new TxVector(human_safety_x, human_safety_y, human_z);
+                orientation = new TxVector(0, 0, human_safety_rotz);
+                k = 1;
+            }           
+            // Human in station D
+            else if ((cumulative_time > 15.0 && cumulative_time <= 25.0) || block == 2)
+            {
+                translation = new TxVector(human_x_D, human_y_D, human_z);
+                orientation = new TxVector(0, 0, human_rotz_D);
+                k = 2;
+            }
+            // Human away from the line
+            else if ((cumulative_time > 25.0 && cumulative_time <= 40.0) || block == 3)
+            {
+                translation = new TxVector(human_safety_x, human_safety_y, human_z);
+                orientation = new TxVector(0, 0, human_safety_rotz);
                 k = 3;
             }
             // Human in station C
-            else if ((cumulative_time > 50.0 && cumulative_time <= 60.0) || block == 4)
+            else if ((cumulative_time > 40.0 && cumulative_time <= 50.0) || block == 4)
             {
                 translation = new TxVector(human_x_C, human_y_C, human_z);
                 orientation = new TxVector(0, 0, human_rotz_C);
                 k = 4;
             }
             // Human in station D
-            else if ((cumulative_time > 60.0 && cumulative_time <= 70.0) || block == 5)
+            else if ((cumulative_time > 50.0 && cumulative_time <= 60.0) || block == 5)
             {
                 translation = new TxVector(human_x_D, human_y_D, human_z);
                 orientation = new TxVector(0, 0, human_rotz_D);
                 k = 5;
             }
             // Human away from the line 
-            else if (cumulative_time > 70.0 || block == 6)
+            else if (cumulative_time > 60.0 || block == 6)
             {
                 translation = new TxVector(human_safety_x, human_safety_y, human_z);
                 orientation = new TxVector(0, 0, human_safety_rotz);
                 k = 6;
             }   
         }
-        
-
-        // ! This is plan B => To be done
 
         // Check if the human must be moved
         if (apply_transformation)
@@ -635,6 +632,8 @@ class Program
                 min_ref_distance = min_distance;
             }
         }
+
+        m_output.WriteLine("Minimum distance: " + min_ref_distance.ToString());
 
         // Analyze min_ref_distance to set the parameters
         if(min_ref_distance > 1500.0)
