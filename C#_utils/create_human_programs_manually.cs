@@ -11,12 +11,21 @@ using Tecnomatix.Engineering.ModelObjects;
 
 public class MainScript
 {
-    // Define the vectors
+    // Define the vectors for ERP1
+    /*
     static double[] poses_x = new double[] { -1248.0, 3000.0, 1248.0, 1248.0, 3000.0, -1248.0, 3000.0 }; 
     static double[] poses_y = new double[] { -940.0, 3000.0, -940.0, 940.0, 3000.0, 940.0, 3000.0 }; 
     static double[] rot_z = new double[] { Math.PI / 2, Math.PI / 2, Math.PI / 2, -Math.PI / 2, Math.PI / 2, -Math.PI / 2, Math.PI / 2 }; 
     static double[] durations = new double[] { 10.0, 15.0, 10.0, 10.0, 15.0, 10.0, 15.0 }; 
     static string[] op_names = new string[] { "A", "safe1", "B", "C", "safe2", "D", "safe3" };
+    */
+
+    // Define the vectors for ERP2
+    static double[] poses_x = new double[] { 1248.0, 3000.0, -1248.0, 3000.0, 1248.0, -1248.0, 3000.0 }; 
+    static double[] poses_y = new double[] { -940.0, 3000.0, 940.0, 3000.0, 940.0, 940.0, 3000.0 }; 
+    static double[] rot_z = new double[] { Math.PI / 2, Math.PI / 2, -Math.PI / 2, Math.PI / 2, -Math.PI / 2, -Math.PI / 2, Math.PI / 2 }; 
+    static double[] durations = new double[] { 8.0, 7.0, 10.0, 15.0, 10.0, 10.0, 15.0 }; 
+    static string[] op_names = new string[] { "B", "safe1", "D", "safe2", "C", "D", "safe3" }; // No station A
 
     public static void MainWithOutput(ref StringWriter output)
     {

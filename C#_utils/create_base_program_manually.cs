@@ -11,7 +11,7 @@ public class MainScript
     {
 
         // Define the vector
-        string[] item_names = new string[] { "Cube_01", "Cube_00", "Cube_02", "Cube_11", "Cube_12", "Cube_10" };
+        string[] item_names = new string[] { "Cube_02", "Cube_01", "Cube_00", "Cube_12", "Cube_11", "Cube_10" };
         string pose_root = "BasePose";
         string op_name = "MoveBase";
 

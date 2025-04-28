@@ -31,7 +31,7 @@ public class MainScript
         string pose_root = "BasePose";
 
         // Define the vector of names
-        string[] item_names = new string[] { "Cube_01", "Cube_00", "Cube_02", "Cube_11", "Cube_12", "Cube_10" };
+        string[] item_names = new string[] { "Cube_02", "Cube_01", "Cube_00", "Cube_12", "Cube_11", "Cube_10" };
 
         // Create the compound operation and save it in a variable
         TxCompoundOperationCreationData dat = new TxCompoundOperationCreationData(comp_op_name);

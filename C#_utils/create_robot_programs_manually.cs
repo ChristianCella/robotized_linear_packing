@@ -33,10 +33,10 @@ public class MainScript
     static StringWriter m_output;
 
     // Define the vectors
-    static double[] base_poses = new double[] { -158.0, -396.0, 250.0, 22.0, 248.0, 676.0 }; // x^*
-    static string[] item_names = new string[] { "Cube_01", "Cube_00", "Cube_02", "Cube_11", "Cube_12", "Cube_10" }; // theta^*
-    static string[] vel_scaled = new string[] { "50%", "50%", "100%", "100%", "100%", "100%" }; // v^*
-    static string[] acc_scaled = new string[] { "50%", "50%", "100%", "100%", "100%", "100%" }; // a^*
+    static double[] base_poses = new double[] { 214.0, -257.0, -307.0, 259.0, 589.0, 666.0 }; // x^*
+    static string[] item_names = new string[] { "Cube_02", "Cube_01", "Cube_00", "Cube_12", "Cube_11", "Cube_10" }; // theta^*
+    static string[] vel_scaled = new string[] { "100%", "75%", "75%", "100%", "100%", "100%" }; // v^*
+    static string[] acc_scaled = new string[] { "100%", "75%", "75%", "100%", "100%", "100%" }; // a^*
     static double[] place_poses_x = new double[] { -850.0, -765, -680, -340, -235, -340 };
     static double[] place_poses_y = new double[] { -447.5, -447.5, -447.5, -485.0, -485.0, -405.0 };
     static double[] place_poses_z = new double[] { -22.14, -22.14, -22.14, -22.14, -22.14, -22.14 };

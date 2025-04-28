@@ -19,8 +19,8 @@ public class MainScript
     public static void Main(ref StringWriter output)
     {
         // Define the vectors
-    	double[] base_poses = new double[] { -158.0, -396.0, 250.0, 22.0, 248.0, 676.0 }; // With respect to the line center
-    	string[] item_names = new string[] { "Cube_01", "Cube_00", "Cube_02", "Cube_11", "Cube_12", "Cube_10" };
+    	double[] base_poses = new double[] { 214.0, -257.0, -307.0, 259.0, 589.0, 666.0 }; // With respect to the line center
+    	string[] item_names = new string[] { "Cube_02", "Cube_01", "Cube_00", "Cube_12", "Cube_11", "Cube_10" };
         
         // Define parameters
         string device_name = "Line";
